@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /analytics.html
+Disallow: /analytics
+Disallow: /api/
+
+Sitemap: https://avclockapp.com/sitemap.xml
