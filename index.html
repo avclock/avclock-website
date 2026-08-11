@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- SEO — exact copy from SEO_Metadata.txt -->
+<title>AvClock — The World Clock Built for Aviation</title>
+<meta name="description" content="Track local time, UTC/Zulu, live weather, and airport status for any airport worldwide. Free download for iPhone, iPad, and Mac. Premium unlocks aviation weather.">
+<link rel="canonical" href="https://avclockapp.com/">
+
+<!-- Open Graph — reuses the same title/description per SEO_Metadata.txt -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="AvClock — The World Clock Built for Aviation">
+<meta property="og:description" content="Track local time, UTC/Zulu, live weather, and airport status for any airport worldwide. Free download for iPhone, iPad, and Mac.">
+<meta property="og:image" content="https://avclockapp.com/images/app-icon.png">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="images/app-icon.png">
+<link rel="apple-touch-icon" href="images/app-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="images/app-icon.png" alt="AvClock app icon">
+      AvClock
+    </a>
+    <div class="nav-links">
+      <a href="index.html#free">Free</a>
+      <a href="index.html#premium">Premium</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="support.html">Support</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- SECTION 1 — HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-icon">
+        <img src="images/app-icon.png" alt="AvClock app icon — a chrome airplane monogram">
+      </div>
+      <div>
+        <div class="label-caps">DEP / ARR &middot; ALL AIRPORTS &middot; WORLDWIDE</div>
+        <h1>The World Clock Built for Aviation</h1>
+        <p class="subhead">Track local time, UTC/Zulu, live weather, and airport status for any airport on Earth — beautifully, and at a glance.</p>
+        <div class="badge-row">
+          <!-- Real App Store URL (both buttons point at the same
+               universal listing -- one URL serves iPhone/iPad/Mac
+               visitors correctly). Optionally swap these for Apple's
+               official badge artwork from
+               developer.apple.com/app-store/marketing/guidelines/#app-store-badges
+               -- current ones are on-brand text-styled buttons, just
+               not pixel-identical to Apple's. -->
+          <a class="store-badge" href="https://apps.apple.com/us/app/avclock-global-airport-times/id6780675251" target="_blank" rel="noopener">
+            <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            Download on the App Store
+          </a>
+          <a class="store-badge secondary" href="https://apps.apple.com/us/app/avclock-global-airport-times/id6780675251" target="_blank" rel="noopener">
+            <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            Download on the Mac App Store
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative departure-board strip — same codes ringing the app
+         icon (KJFK/EGLL/KLAX/ELFK), status colors are the app's real
+         VFR/MVFR/IFR flight categories. Purely ornamental, not a
+         claim about live data. -->
+    <div class="board" aria-hidden="true">
+      <div class="board-row">
+        <span class="code">KJFK</span>
+        <span class="city">New York</span>
+        <span class="time">19:51Z</span>
+        <span class="status vfr">VFR</span>
+      </div>
+      <div class="board-row">
+        <span class="code">EGLL</span>
+        <span class="city">London Heathrow</span>
+        <span class="time">14:22Z</span>
+        <span class="status mvfr">MVFR</span>
+      </div>
+      <div class="board-row">
+        <span class="code">KLAX</span>
+        <span class="city">Los Angeles</span>
+        <span class="time">11:51Z</span>
+        <span class="status vfr">VFR</span>
+      </div>
+      <div class="board-row">
+        <span class="code">RJTT</span>
+        <span class="city">Tokyo Haneda</span>
+        <span class="time">04:51Z</span>
+        <span class="status ifr">IFR</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SECTION 1.5 — SCREENSHOTS (combined — was 3 scattered single shots
+     plus a separate placeholder device-tabs section) -->
+<section id="screenshots">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Screenshots</div>
+      <h2>One app, every screen you own</h2>
+      <p>Real screenshots from the App Store listing — swipe through, or pick your device.</p>
+    </div>
+
+    <div class="device-tabs" role="tablist" aria-label="Choose a device">
+      <button class="device-tab" role="tab" data-gallery-tab="iphone" aria-selected="true">iPhone</button>
+      <button class="device-tab" role="tab" data-gallery-tab="ipad" aria-selected="false">iPad</button>
+      <button class="device-tab" role="tab" data-gallery-tab="mac" aria-selected="false">Mac Menu Bar</button>
+      <button class="device-tab" role="tab" data-gallery-tab="watch" aria-selected="false">Apple Watch</button>
+    </div>
+
+    <div class="shot-gallery" data-gallery="iphone" data-active>
+      <img src="images/screenshots/iphone/01.png" alt="AvClock iPhone: your favorite airports at a glance, LOCAL and Zulu rows pinned" loading="lazy">
+      <img src="images/screenshots/iphone/02.png" alt="AvClock iPhone: search over 8,000+ airports worldwide on the interactive map" loading="lazy">
+      <img src="images/screenshots/iphone/03.png" alt="AvClock iPhone: live METAR weather with color-coded VFR/MVFR/IFR/LIFR badges" loading="lazy">
+      <img src="images/screenshots/iphone/04.png" alt="AvClock iPhone: Home Screen widgets with live airport weather" loading="lazy">
+      <img src="images/screenshots/iphone/05.png" alt="AvClock iPhone: airport detail view with map, IATA/ICAO, and local time" loading="lazy">
+      <img src="images/screenshots/iphone/06.png" alt="AvClock iPhone: deeper customization settings" loading="lazy">
+      <img src="images/screenshots/iphone/07.png" alt="AvClock iPhone: Live Activity on the Lock Screen" loading="lazy">
+      <img src="images/screenshots/iphone/08.png" alt="AvClock iPhone: thousands of heliports and helipads" loading="lazy">
+      <img src="images/screenshots/iphone/09.png" alt="AvClock iPhone: Lock Screen and Home Screen widgets together" loading="lazy">
+      <img src="images/screenshots/iphone/10.png" alt="AvClock iPhone: dark mode Airports list with seconds ticking" loading="lazy">
+    </div>
+
+    <div class="shot-gallery" data-gallery="ipad">
+      <img src="images/screenshots/ipad/01.png" alt="AvClock iPad: your favorite airports at a glance" loading="lazy">
+      <img src="images/screenshots/ipad/02.png" alt="AvClock iPad: search over 8,000+ airports worldwide on the interactive map" loading="lazy">
+      <img src="images/screenshots/ipad/03.png" alt="AvClock iPad: live METAR weather with color-coded flight-category badges" loading="lazy">
+      <img src="images/screenshots/ipad/04.png" alt="AvClock iPad: Home Screen widgets with live airport weather" loading="lazy">
+      <img src="images/screenshots/ipad/05.png" alt="AvClock iPad: airport detail view with map and local time" loading="lazy">
+      <img src="images/screenshots/ipad/06.png" alt="AvClock iPad: deeper customization settings" loading="lazy">
+      <img src="images/screenshots/ipad/07.png" alt="AvClock iPad: Live Activity and widgets" loading="lazy">
+      <img src="images/screenshots/ipad/08.png" alt="AvClock iPad: thousands of heliports and helipads" loading="lazy">
+      <img src="images/screenshots/ipad/09.png" alt="AvClock iPad: widgets on the Home Screen" loading="lazy">
+      <img src="images/screenshots/ipad/10.png" alt="AvClock iPad: Airports list with seconds ticking" loading="lazy">
+    </div>
+
+    <div class="shot-gallery mac" data-gallery="mac">
+      <img src="images/screenshots/mac/01.png" alt="AvClock Mac: search and add 8,000+ airports from the menu bar, with weather support" loading="lazy">
+      <img src="images/screenshots/mac/02.png" alt="AvClock Mac: find your favorite airport with Map View" loading="lazy">
+      <img src="images/screenshots/mac/03.png" alt="AvClock Mac: widget customization for your Desktop" loading="lazy">
+      <img src="images/screenshots/mac/04.png" alt="AvClock Mac: a deeper look into every airport's detail" loading="lazy">
+      <img src="images/screenshots/mac/05.png" alt="AvClock Mac: settings, your way" loading="lazy">
+    </div>
+
+    <div class="shot-gallery watch" data-gallery="watch">
+      <img src="images/screenshots/watch/01.jpg" alt="AvClock Apple Watch: live watch face complication showing your airport's local time" loading="lazy">
+      <img src="images/screenshots/watch/02.jpg" alt="AvClock Apple Watch: your favorite airports with LOCAL and Zulu/UTC rows pinned" loading="lazy">
+      <img src="images/screenshots/watch/03.jpg" alt="AvClock Apple Watch: adding the AvClock complication to your watch face" loading="lazy">
+      <img src="images/screenshots/watch/04.jpg" alt="AvClock Apple Watch: Favorites Rotation complication cycling through your saved airports with live weather" loading="lazy">
+      <img src="images/screenshots/watch/05.jpg" alt="AvClock Apple Watch: choose from Favorite Airport, Quick Launch, or Favorites Rotation complications" loading="lazy">
+      <img src="images/screenshots/watch/06.jpg" alt="AvClock Apple Watch: airport detail with one-tap Open in Apple Maps" loading="lazy">
+      <img src="images/screenshots/watch/07.jpg" alt="AvClock Apple Watch: add any airport worldwide right from your wrist" loading="lazy">
+      <img src="images/screenshots/watch/08.jpg" alt="AvClock Apple Watch: installing the companion app from the Watch's own App Store" loading="lazy">
+    </div>
+    <p class="gallery-hint">Scroll to see more &rarr;</p>
+  </div>
+</section>
+
+<!-- SECTION 2 — THE PROBLEM / WHY THIS EXISTS -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Why AvClock exists</div>
+      <h2>Built by someone who needed it</h2>
+      <p>Every timezone converter treats the world the same — cities, not airports. AvClock was built differently from day one: real ICAO/IATA codes, real aviation weather, real FAA status, because "what time is it in London" and "what time is it at Heathrow, and is it VFR right now" are genuinely different questions. <a href="blog/how-avclock-started.html">Read the full story on the blog &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2.5 — SEE IT IN ACTION -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">See it in action</div>
+      <h2>Not a mockup — this clock is actually ticking</h2>
+      <p>A live look at how AvClock thinks: real local time in real time zones, and every airport on Earth is one tap away.</p>
+    </div>
+
+    <div class="demo-grid">
+      <div class="demo-panel">
+        <div class="demo-panel-head">
+          <div class="label-caps">Live board</div>
+          <span class="live-dot">LIVE</span>
+        </div>
+        <div class="live-board board" id="live-board" aria-label="Live local time at several airports">
+          <div class="board-row">
+            <span class="code">KJFK</span>
+            <span class="city">New York</span>
+            <span class="time" data-tz="America/New_York">--:--:--</span>
+          </div>
+          <div class="board-row">
+            <span class="code">KLAX</span>
+            <span class="city">Los Angeles</span>
+            <span class="time" data-tz="America/Los_Angeles">--:--:--</span>
+          </div>
+          <div class="board-row">
+            <span class="code">EGLL</span>
+            <span class="city">London</span>
+            <span class="time" data-tz="Europe/London">--:--:--</span>
+          </div>
+          <div class="board-row">
+            <span class="code">RJTT</span>
+            <span class="city">Tokyo</span>
+            <span class="time" data-tz="Asia/Tokyo">--:--:--</span>
+          </div>
+          <div class="board-row">
+            <span class="code">YSSY</span>
+            <span class="city">Sydney</span>
+            <span class="time" data-tz="Australia/Sydney">--:--:--</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="demo-panel">
+        <div class="demo-panel-head">
+          <div class="label-caps">World map</div>
+          <span class="live-dot" style="color:var(--beacon-strong);">TAP A PIN</span>
+        </div>
+        <div class="map-demo" id="map-demo">
+          <svg id="map-svg" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid meet"></svg>
+          <div class="map-popup" id="map-popup"></div>
+        </div>
+        <div class="map-hint">Illustrative — a stylized navigation chart, not the in-app map. Every real airport is searchable in AvClock itself.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3 — FEATURES, FREE TIER -->
+<section id="free">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Free tier</div>
+      <h2>Free. Genuinely.</h2>
+      <p>A complete airport world clock, with no account, no ads, no data collection — ever.</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-item"><span class="tag">WW</span><span class="label">Any airport, worldwide</span></div>
+      <div class="feature-item"><span class="tag">LCL/Z</span><span class="label">Pinned LOCAL &amp; Zulu rows</span></div>
+      <div class="feature-item"><span class="tag">MAP</span><span class="label">Interactive world map</span></div>
+      <div class="feature-item"><span class="tag">NRBY</span><span class="label">Nearby airports, on-device only</span></div>
+      <div class="feature-item"><span class="tag">WX</span><span class="label">Local weather, plain English</span></div>
+      <div class="feature-item"><span class="tag">AMN</span><span class="label">Amenities — TSA PreCheck, CLEAR, lounges</span></div>
+      <div class="feature-item"><span class="tag">FX</span><span class="label">Live currency converter</span></div>
+      <div class="feature-item"><span class="tag">INTL</span><span class="label">Plug type, driving side, emergency numbers</span></div>
+      <div class="feature-item"><span class="tag">NAV</span><span class="label">One-tap directions — Maps, Uber, Lyft</span></div>
+      <div class="feature-item"><span class="tag">WDGT</span><span class="label">Home Screen &amp; Lock Screen widgets</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 4 — FEATURES, PREMIUM -->
+<section id="premium">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Premium</div>
+      <h2>For frequent flyers and aviation pros</h2>
+      <p>One simple, one-time unlock. No subscription, ever.</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-item premium"><span class="tag">METAR</span><span class="label">Live METAR &amp; TAF, color-coded VFR/IFR</span></div>
+      <div class="feature-item premium"><span class="tag">NAS</span><span class="label">FAA ground stops, delays &amp; closures</span></div>
+      <div class="feature-item premium"><span class="tag">ALRT</span><span class="label">Weather &amp; delay alerts</span></div>
+      <div class="feature-item premium"><span class="tag">LOG</span><span class="label">My Flights — log flights, custom calendar reminders</span></div>
+      <div class="feature-item premium"><span class="tag">UTC</span><span class="label">Time Converter — shift every clock together</span></div>
+      <div class="feature-item premium"><span class="tag">CFG</span><span class="label">Customize every section of your airport view</span></div>
+      <div class="feature-item premium"><span class="tag">HEL</span><span class="label">Heliports &amp; hospital helipads</span></div>
+      <div class="feature-item premium"><span class="tag">SKIN</span><span class="label">Aviation themes, custom app icons</span></div>
+      <div class="feature-item premium"><span class="tag">LIVE</span><span class="label">Live Activities — flight category, temp &amp; wind on your Lock Screen and Dynamic Island</span></div>
+    </div>
+
+    <p style="margin-top:24px;">
+      <span class="cat-chip vfr">VFR</span>
+      <span class="cat-chip mvfr">MVFR</span>
+      <span class="cat-chip ifr">IFR</span>
+      <span class="cat-chip lifr">LIFR</span>
+    </p>
+
+    <div class="price-callout">$4.99 once. Not a subscription. Universal — works on iPhone, iPad, and Mac.</div>
+  </div>
+</section>
+
+<!-- SECTION 5 — SOCIAL PROOF / WHO IT'S FOR -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <h2>Built for two kinds of people who turn out to want the same thing</h2>
+    </div>
+    <div class="two-col">
+      <div class="who-card">
+        <h3>AvGeeks &amp; Aviation Enthusiasts</h3>
+        <p>AvGeeks and aviation enthusiasts who need real METAR/TAF, not a toy weather icon.</p>
+      </div>
+      <div class="who-card">
+        <h3>Frequent Travelers</h3>
+        <p>Anyone who's ever needed to know the time, the weather, and the currency at their connection, all at once, without three separate apps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 6 — FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head">
+      <h2>Frequently asked questions</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Is AvClock free?</summary>
+        <p>Yes — the core app is completely free, with no ads and no account required. A one-time Premium unlock adds live aviation weather, FAA status alerts, My Flights, and more.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is this a subscription?</summary>
+        <p>No. Premium is a single one-time purchase. No recurring charges, ever.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I use this for actual flight planning?</summary>
+        <p>No — AvClock is a reference and informational tool only. Always use official sources (FAA, NOTAMs, charts, ATC) for navigation or flight planning.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Does AvClock track my location?</summary>
+        <p>Your location is used only to find nearby airports, entirely on your device. It's never transmitted or stored anywhere.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is there a Mac version?</summary>
+        <p>Yes — a Universal Purchase unlocks Premium on iPhone, iPad, and Mac.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 7 — FOOTER CTA -->
+<section style="padding-bottom:64px;">
+  <div class="container" style="text-align:center;">
+    <h2>Download AvClock</h2>
+    <div class="badge-row" style="justify-content:center;">
+      <a class="store-badge" href="https://apps.apple.com/us/app/avclock-global-airport-times/id6780675251" target="_blank" rel="noopener">
+        <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        Download on the App Store
+      </a>
+      <a class="store-badge secondary" href="https://apps.apple.com/us/app/avclock-global-airport-times/id6780675251" target="_blank" rel="noopener">
+        <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        Download on the Mac App Store
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <a class="brand" href="index.html">
+        <img src="images/app-icon.png" alt="AvClock app icon">
+        AvClock
+      </a>
+      <div class="footer-links">
+        <a href="blog/index.html">Blog</a>
+        <a href="support.html">Support</a>
+        <a href="credits.html">Credits</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="mailto:avclock@protonmail.com">Contact</a>
+      </div>
+    </div>
+    <p class="footer-note">AvClock is for reference only — not for navigation, pilotage, or flight planning. Data and weather may be inaccurate or delayed; always confirm with official sources before any aviation decision. Not affiliated with, endorsed by, or sponsored by the FAA, NOAA, Uber Technologies, or Lyft.</p>
+  </div>
+</footer>
+
+<script>
+// ============================================================
+// Homepage "See it in action" demos — original vanilla JS written
+// for this site. Not a port of any app code: real time-zone math via
+// Intl.DateTimeFormat, and an equirectangular lat/lon projection for
+// pin placement, same technique any map library uses under the hood.
+// ============================================================
+(function () {
+  "use strict";
+
+  // ---- Live board: real ticking local time per row, seconds visible
+  // so the "live" part is actually obvious at a glance instead of a
+  // once-per-15s jump nobody would notice. ----
+  function updateLiveBoard() {
+    var rows = document.querySelectorAll("#live-board [data-tz]");
+    rows.forEach(function (el) {
+      try {
+        var fmt = new Intl.DateTimeFormat("en-US", {
+          hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false,
+          timeZone: el.getAttribute("data-tz")
+        });
+        el.textContent = fmt.format(new Date());
+      } catch (e) { /* unsupported tz — leave placeholder */ }
+    });
+  }
+  updateLiveBoard();
+  setInterval(updateLiveBoard, 1000);
+
+  // ---- World map: graticule dots + real airport pins ----
+  var AIRPORTS = [
+    { code: "KJFK", city: "New York",     lat: 40.64,  lon: -73.78,  tz: "America/New_York" },
+    { code: "KLAX", city: "Los Angeles",  lat: 33.94,  lon: -118.41, tz: "America/Los_Angeles" },
+    { code: "EGLL", city: "London",       lat: 51.47,  lon: -0.45,   tz: "Europe/London" },
+    { code: "LFPG", city: "Paris",        lat: 49.01,  lon: 2.55,    tz: "Europe/Paris" },
+    { code: "OMDB", city: "Dubai",        lat: 25.25,  lon: 55.36,   tz: "Asia/Dubai" },
+    { code: "WSSS", city: "Singapore",    lat: 1.36,   lon: 103.99,  tz: "Asia/Singapore" },
+    { code: "RJTT", city: "Tokyo",        lat: 35.55,  lon: 139.78,  tz: "Asia/Tokyo" },
+    { code: "YSSY", city: "Sydney",       lat: -33.95, lon: 151.18,  tz: "Australia/Sydney" },
+    { code: "SBGR", city: "São Paulo", lat: -23.43, lon: -46.47,  tz: "America/Sao_Paulo" },
+    { code: "FAOR", city: "Johannesburg", lat: -26.13, lon: 28.24,   tz: "Africa/Johannesburg" }
+  ];
+  var VBW = 1000, VBH = 620;
+
+  function project(lat, lon) {
+    return {
+      x: (lon + 180) / 360 * VBW,
+      y: (90 - lat) / 180 * VBH
+    };
+  }
+
+  // Low-poly continent outlines (roughly a dozen points each, not
+  // traced coastline data) so the map reads as an actual world map
+  // instead of dots floating on nothing. Coordinates are [lat, lon]
+  // pairs run through the same project() function as the airport
+  // pins, so everything stays consistent with one projection.
+  var CONTINENTS = {
+    "North America": [[71,-156],[68,-166],[65,-168],[60,-165],[58,-157],[55,-162],[54,-130],[49,-125.7],[46,-124],[40,-124],[34.4,-120.5],[32.5,-117.1],[22.9,-109.9],[27,-111.5],[23.2,-106.4],[20.6,-105.2],[16.8,-99.9],[15.2,-92.2],[15.5,-88],[12,-83.5],[9,-79.5],[9,-77.3],[16,-88],[21.5,-87.1],[26,-97.1],[29,-93.8],[29,-89.3],[30,-85.5],[27.9,-82.6],[24.5,-81.8],[25.8,-80.1],[28.4,-80.6],[32,-80.9],[35.2,-75.5],[37.2,-76],[40.7,-74],[41.7,-70],[44.8,-66.9],[45.5,-61],[49,-64],[49,-55],[55,-60],[62,-70],[66,-70],[62,-80],[58,-94],[58.8,-95],[65,-95],[68,-100],[70,-125],[70,-140],[71,-156]],
+    "South America": [[8,-77.3],[4,-77.5],[0,-80.3],[-4,-81],[-6,-81],[-14,-76.2],[-18,-70.3],[-24,-70.4],[-30,-71.5],[-33,-71.6],[-38,-73.4],[-42,-73.8],[-45,-73.5],[-50,-75],[-53,-74],[-55.9,-67.3],[-54.5,-65],[-52,-69],[-50,-68.5],[-45,-67],[-41,-65],[-38.7,-62.2],[-34.6,-57.5],[-34.9,-55],[-32,-52.1],[-28,-48.6],[-24,-46.5],[-22.9,-43.2],[-16,-39],[-13,-38.5],[-8,-34.9],[-5.8,-35.2],[-1,-49],[2,-50.5],[5.8,-53],[8.6,-60.7],[10.5,-66.9],[11.2,-74.2],[8,-77.3]],
+    "Africa": [[35.9,-5.4],[33.5,-7.6],[30.4,-9.6],[27,-13],[21,-17],[16,-16.5],[14.7,-17.5],[10,-15],[6.5,-11.5],[5,-3],[5.3,2.7],[4.4,7.5],[4,9.7],[0.4,9.4],[-0.7,8.8],[-4,11.6],[-6,12],[-8.8,13.4],[-12.6,13.4],[-17.9,11.7],[-22.9,14.5],[-28.6,16.4],[-34.4,18.5],[-34.8,20],[-33.9,25.6],[-29.9,31],[-26.8,32.9],[-23.9,35.4],[-20,35],[-16,39.5],[-11,40.5],[-6.8,39.3],[-4.7,39.3],[0,42.5],[5,48.5],[11.8,51.3],[10,45],[12,43.5],[15.6,39.4],[19.6,37.2],[22,36.9],[27.8,34.3],[29.5,32.6],[31.5,30],[31.9,25.2],[32.9,13.2],[33,11.1],[37,10.2],[36.8,7.8],[37,3],[35.9,-5.4]],
+    "Europe": [[37,-9],[41.1,-8.7],[43.5,-8.2],[43.3,-1.8],[47.3,-2.8],[48.4,-4.8],[49.3,0.3],[51.9,4.5],[53.5,8.6],[54.3,13.6],[54.7,20.5],[57.5,24.1],[60.2,27.7],[65.8,24.1],[69.9,27],[71,25.8],[70,20],[68,14.7],[62,5],[58,6.5],[57.7,10.6],[59,10.7],[58,7.9],[54.9,8.3],[51.4,3.6],[49.4,-0.2],[47.2,-2.4],[45,29],[41,24],[39,26],[36.5,23],[40,18],[40.6,17.9],[38.1,15.6],[37.5,13],[41,9],[43.3,5.4],[36.7,-4.4],[37,-9]],
+    "Asia": [[41,29],[36.8,34.6],[33.3,35.2],[31.3,34.3],[20,40],[12.8,45],[17,54.5],[25.3,55.3],[27,51],[30,48.5],[25.6,61.8],[24.8,66.9],[19,72.8],[8.1,77.5],[13,80.3],[22,91],[16,94.5],[7,100.4],[1.3,103.8],[10.3,106.7],[21,107.9],[22.3,114.2],[25,119.5],[31.2,121.5],[37.5,126.6],[40,124.4],[39,119],[43.1,131.9],[55,140],[60,163],[65,180],[70,170],[72,140],[73,100],[75,80],[70,60],[68,60],[60.2,27.7],[54.7,20.5],[45,29],[41,29]],
+    "Australia": [[-10.7,142.5],[-12,136.7],[-14.9,135.4],[-12,131],[-15,128],[-18,122],[-21,114.2],[-26,113.4],[-31.9,115.7],[-35,117.9],[-34.9,138.6],[-38.4,140.8],[-38.1,144.5],[-37.5,149.9],[-30,153.1],[-23,151.2],[-16.9,145.8],[-10.7,142.5]],
+    "United Kingdom & Ireland": [[58.6,-4.4],[57.6,-3.1],[54.6,-5.9],[53.4,-6.2],[52,-10.2],[51.5,-9.4],[51.5,-5.5],[50,-5.5],[50.8,-1.5],[51.5,1.3],[52.9,1.7],[53.7,0.1],[54.9,-1.4],[57.7,-2],[58.6,-4.4]],
+    "Japan": [[45.4,141.9],[43.3,145.8],[41.8,140.9],[40,140],[38.3,141.5],[35.6,140.9],[34.6,135.4],[33.3,129.7],[31.4,131.4],[33,130],[35.5,133],[37.9,138.9],[41,140],[45.4,141.9]],
+    "Madagascar": [[-12,49.3],[-15.4,50.2],[-19.7,48.9],[-25.2,47],[-23.6,43.7],[-18.5,44.1],[-15,46.3],[-12,49.3]]
+  };
+
+  var svg = document.getElementById("map-svg");
+  var popup = document.getElementById("map-popup");
+  var mapDemo = document.getElementById("map-demo");
+  var svgns = "http://www.w3.org/2000/svg";
+
+  if (svg && popup && mapDemo) {
+    Object.keys(CONTINENTS).forEach(function (name) {
+      var points = CONTINENTS[name].map(function (pt) {
+        var p = project(pt[0], pt[1]);
+        return p.x.toFixed(1) + "," + p.y.toFixed(1);
+      }).join(" ");
+      var poly = document.createElementNS(svgns, "polygon");
+      poly.setAttribute("points", points);
+      poly.setAttribute("class", "map-continent");
+      svg.appendChild(poly);
+    });
+
+    // Graticule: a faint dot grid every 20deg of lat/lon — a nod to
+    // sectional-chart aesthetics rather than a traced coastline.
+    for (var lat = -80; lat <= 80; lat += 20) {
+      for (var lon = -180; lon < 180; lon += 20) {
+        var p = project(lat, lon);
+        var dot = document.createElementNS(svgns, "circle");
+        dot.setAttribute("cx", p.x);
+        dot.setAttribute("cy", p.y);
+        dot.setAttribute("r", 1.4);
+        dot.setAttribute("class", "map-grid-dot");
+        svg.appendChild(dot);
+      }
+    }
+
+    var activePin = null;
+
+    AIRPORTS.forEach(function (a) {
+      var p = project(a.lat, a.lon);
+      var g = document.createElementNS(svgns, "g");
+      g.setAttribute("class", "map-pin");
+      g.setAttribute("tabindex", "0");
+      g.setAttribute("role", "button");
+      g.setAttribute("aria-label", a.code + " " + a.city);
+
+      var ring = document.createElementNS(svgns, "circle");
+      ring.setAttribute("cx", p.x); ring.setAttribute("cy", p.y);
+      ring.setAttribute("r", 9); ring.setAttribute("class", "ring");
+      var core = document.createElementNS(svgns, "circle");
+      core.setAttribute("cx", p.x); core.setAttribute("cy", p.y);
+      core.setAttribute("r", 3.5); core.setAttribute("class", "core");
+      g.appendChild(ring); g.appendChild(core);
+      svg.appendChild(g);
+
+      function showPopup() {
+        if (activePin) activePin.classList.remove("active");
+        g.classList.add("active");
+        activePin = g;
+
+        var timeStr = "--:--";
+        try {
+          timeStr = new Intl.DateTimeFormat("en-US", {
+            hour: "2-digit", minute: "2-digit", hour12: false, timeZone: a.tz
+          }).format(new Date());
+        } catch (e) { /* leave placeholder */ }
+
+        popup.innerHTML = '<span class="code">' + a.code + '</span> · ' + a.city +
+          '<br><span class="time">' + timeStr + ' local</span>';
+        var pct = { left: (p.x / VBW * 100) + "%", top: (p.y / VBH * 100) + "%" };
+        popup.style.left = pct.left;
+        popup.style.top = pct.top;
+        popup.classList.add("visible");
+      }
+
+      g.addEventListener("click", showPopup);
+      g.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); showPopup(); }
+      });
+    });
+
+    // Show one by default so the panel isn't empty on load.
+    var firstPin = svg.querySelector(".map-pin");
+    if (firstPin) firstPin.dispatchEvent(new Event("click"));
+  }
+
+  // ---- Screenshot gallery device tabs ----
+  var galleryTabs = document.querySelectorAll("[data-gallery-tab]");
+  var galleries = document.querySelectorAll("[data-gallery]");
+
+  galleryTabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      var device = tab.getAttribute("data-gallery-tab");
+      galleryTabs.forEach(function (t) { t.setAttribute("aria-selected", t === tab ? "true" : "false"); });
+      galleries.forEach(function (g) {
+        if (g.getAttribute("data-gallery") === device) g.setAttribute("data-active", "");
+        else g.removeAttribute("data-active");
+      });
+    });
+  });
+})();
+</script>
+<script src="js/nav.js" defer></script>
+<script src="js/track.js" defer></script>
+
+</body>
+</html>
