@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "avclock-website",
+  "compatibility_date": "2026-08-11",
+  "main": "src/index.js",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "ANALYTICS_KV",
+      "id": "168ad92aa481453689d445039cdf40e1"
+    }
+  ]
+}
