@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Zulu Time Explained: Why Aviation Runs on UTC Instead of Local Time</title>
+<meta name="description" content="Why aviation runs on one global clock instead of local time zones, and how to read a Zulu timestamp in under a minute.">
+<link rel="canonical" href="https://avclockapp.com/blog/zulu-time-explained.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Zulu Time Explained: Why Aviation Runs on UTC Instead of Local Time">
+<meta property="og:description" content="Why aviation runs on one global clock instead of local time zones, and how to read a Zulu timestamp in under a minute.">
+<meta property="og:image" content="https://avclockapp.com/images/app-icon.png">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="../images/app-icon.png">
+<link rel="apple-touch-icon" href="../images/app-icon.png">
+<link rel="stylesheet" href="../css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Zulu Time Explained: Why Aviation Runs on UTC Instead of Local Time",
+  "description": "Why aviation runs on one global clock instead of local time zones, and how to read a Zulu timestamp in under a minute.",
+  "publisher": { "@type": "Organization", "name": "AvClock" },
+  "mainEntityOfPage": "https://avclockapp.com/blog/zulu-time-explained.html"
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="../index.html">
+      <img src="../images/app-icon.png" alt="AvClock app icon">
+      AvClock
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#free">Free</a>
+      <a href="../index.html#premium">Premium</a>
+      <a href="index.html">Blog</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../support.html">Support</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <article class="post">
+      <p><a href="index.html">&larr; Back to Blog</a></p>
+      <div class="label-caps" style="color:var(--amber);margin-bottom:14px;">GUIDES &amp; GLOSSARY &middot; TIME ZONES</div>
+      <h1>Zulu Time Explained: Why Aviation Runs on UTC Instead of Local Time</h1>
+      <div class="post-meta">3 min read <button class="share-btn" data-track="share">Share</button></div>
+
+      <p>Pull up any METAR, flight plan, or air traffic clearance and the time on it won't match your watch. It's written in "Zulu time," and once you know what that means, it's actually simpler than juggling time zones ever was.</p>
+
+      <h2>What "Zulu Time" Actually Means</h2>
+      <p>Zulu time is aviation's name for UTC, Coordinated Universal Time: one single clock used everywhere on Earth, regardless of local time zone. "Zulu" comes from the military phonetic alphabet for the letter Z, which is the zone designator for UTC on nautical and aviation charts. So when a pilot says "1951 Zulu," they mean 19:51 UTC, full stop, no time zone conversion needed.</p>
+
+      <h2>Why Aviation Doesn't Use Local Time</h2>
+      <p>A single flight can cross a dozen time zones in a few hours, and every airport, dispatcher, and air traffic controller along the way needs to agree on exactly when something happened without doing math first. "Departed at 2pm" means something different in New York, London, and Tokyo. "Departed at 1900Z" means exactly one moment, everywhere, for everyone reading it. That's the entire point: one global reference so schedules, weather reports, and clearances never have to be translated between zones.</p>
+
+      <h2>How to Read a Zulu Timestamp</h2>
+      <p>Aviation timestamps are usually written as a 4-digit 24-hour time followed by a "Z," like <code>1951Z</code>. That's 19:51 in 24-hour format, in UTC. A full METAR timestamp like <code>221951Z</code> adds the day of the month first: "22" is the 22nd, "1951Z" is the time. No AM/PM, no time zone abbreviation to look up, just one consistent format used worldwide.</p>
+
+      <h2>Zulu, UTC, and GMT: Are They the Same Thing?</h2>
+      <p>For nearly all practical purposes, yes. UTC is the modern scientific time standard, GMT (Greenwich Mean Time) is the older civil time standard it effectively replaced, and Zulu is simply aviation's radio call sign for UTC. All three read the same clock. Charts, METARs, and flight plans use "Z" or "UTC" interchangeably, and you'll rarely see "GMT" in an aviation context anymore.</p>
+
+      <div class="callout">
+        <p style="margin:0;">This is exactly why AvClock pins a Zulu row right alongside your own LOCAL time for every saved airport, so the conversion is always sitting there instead of something you calculate in your head.</p>
+      </div>
+
+      <p class="disclaimer">AvClock is reference and informational only, not for actual flight planning or navigation. Always use official sources (FAA, NOTAMs, charts, ATC) for that.</p>
+
+      <div class="more-posts">
+        <div class="label-caps">More from the blog</div>
+        <div class="blog-board">
+          <a class="blog-row" href="how-to-read-metar-taf-reports.html">
+            <span class="tag">TAF</span>
+            <span class="row-main">
+              <span class="row-title">How to Read METAR and TAF Reports</span>
+              <span class="row-excerpt">A plain-English breakdown of METAR and TAF reports, including how they use Zulu time.</span>
+            </span>
+            <span class="row-status live">LIVE</span>
+          </a>
+          <a class="blog-row" href="how-avclock-started.html">
+            <span class="tag">ORGN</span>
+            <span class="row-main">
+              <span class="row-title">How AvClock Started</span>
+              <span class="row-excerpt">Why AvClock treats airports, not cities, as the unit of time.</span>
+            </span>
+            <span class="row-status live">LIVE</span>
+          </a>
+          <a class="blog-row" href="index.html">
+            <span class="tag">ALL</span>
+            <span class="row-main">
+              <span class="row-title">See every guide</span>
+              <span class="row-excerpt">Back to the full blog index.</span>
+            </span>
+            <span class="row-status live">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <a class="brand" href="../index.html">
+        <img src="../images/app-icon.png" alt="AvClock app icon">
+        AvClock
+      </a>
+      <div class="footer-links">
+        <a href="index.html">Blog</a>
+        <a href="../support.html">Support</a>
+        <a href="../credits.html">Credits</a>
+        <a href="../privacy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Use</a>
+        <a href="mailto:avclock@protonmail.com">Contact</a>
+      </div>
+    </div>
+    <p class="footer-note">AvClock is for reference only, not for navigation, pilotage, or flight planning. Data and weather may be inaccurate or delayed; always confirm with official sources before any aviation decision.</p>
+  </div>
+</footer>
+
+<script src="../js/nav.js" defer></script>
+<script src="../js/track.js" defer></script>
+</body>
+</html>
