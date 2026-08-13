@@ -1,0 +1,4 @@
+Contact: mailto:avclock@protonmail.com
+Expires: 2027-08-13T00:00:00.000Z
+Canonical: https://avclockapp.com/.well-known/security.txt
+Preferred-Languages: en
