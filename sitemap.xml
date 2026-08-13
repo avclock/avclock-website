@@ -15,6 +15,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://avclockapp.com/blog/why-united-airlines-is-my-favorite.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/blog/favorite-travel-apps-frequent-flyer.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://avclockapp.com/blog/how-avclock-started.html</loc>
     <priority>0.6</priority>
   </url>
