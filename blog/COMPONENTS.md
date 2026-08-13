@@ -126,6 +126,27 @@ an icon inline in body text:
 <img src="../images/app-icon.png" alt="AvClock app icon" style="width:20px;height:20px;border-radius:5px;vertical-align:-4px;">
 ```
 
+## Third-party app icon chip
+
+For Travel Life posts mentioning a specific app, use this instead of
+downloading/hosting a copy of their icon (real trademark/copyright
+risk to store someone else's app icon in this repo). Pulls the icon
+live from Google's public favicon service, same technique browsers and
+bookmark managers use, so we're referencing their own icon, not
+storing one.
+
+```html
+<div style="display:flex;align-items:center;gap:12px;margin:4px 0 18px;">
+  <img src="https://www.google.com/s2/favicons?sz=128&domain=EXAMPLE.com" alt="EXAMPLE app icon" width="44" height="44" style="border-radius:11px;box-shadow:0 4px 14px -6px rgba(0,0,0,0.4);">
+  <a class="store-badge secondary" href="https://EXAMPLE.com/" target="_blank" rel="noopener">Get EXAMPLE</a>
+</div>
+```
+
+Swap `rel="noopener"` for `rel="sponsored noopener"` if the link is an
+affiliate/referral link. For AvClock itself, use the local
+`../images/app-icon.png` instead of the favicon service (it's our own
+asset).
+
 ## House rules (non-negotiable, every post)
 
 - **Never name AvClock's data providers or pipeline in body copy** (no
