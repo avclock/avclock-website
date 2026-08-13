@@ -126,6 +126,31 @@ an icon inline in body text:
 <img src="../images/app-icon.png" alt="AvClock app icon" style="width:20px;height:20px;border-radius:5px;vertical-align:-4px;">
 ```
 
+## House rules (non-negotiable, every post)
+
+- **Never name AvClock's data providers or pipeline in body copy** (no
+  "OurAirports," "NOAA," "data pipeline," etc.). That attribution lives
+  only on `credits.html`, where it's legally required. Vague phrasing
+  like "the underlying database" is fine if needed at all.
+- **No em-dash as a mid-sentence pause or aside.** Reads as an AI
+  writing tell. Use a colon, a comma, or break into two sentences. The
+  only exception is the consistent "Page — AvClock" title pattern.
+- **Every how-to/informational post** (anything explaining aviation
+  weather, codes, procedures, etc.) needs the standard in-body
+  disclaimer (see "Reference disclaimer" above) in addition to the
+  site-wide footer note. Release-note/changelog posts and Travel Life
+  opinion posts don't need the in-body one unless they're making a
+  specific weather/flight-planning claim, but every page still carries
+  the footer-wide disclaimer automatically.
+- **Affiliate/referral links** need a short disclosure near the top of
+  the post (see the Travel Life posts for the exact wording) — this is
+  an FTC requirement, not optional styling.
+- **Never publish anything that identifies the person behind AvClock**
+  by name, personal email, or other personal-identifying detail. Use
+  `avclock@protonmail.com` for any contact reference. If a referral
+  code or similar happens to contain a name, flag it and ask rather
+  than publishing it silently.
+
 ## What NOT to build a snippet for
 
 Live/interactive things (the ticking board, the world map) only exist
