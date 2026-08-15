@@ -19,6 +19,60 @@
 <link rel="icon" href="images/app-icon.png">
 <link rel="apple-touch-icon" href="images/app-icon.png">
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Structured data — enables rich results (app rating/price, FAQ) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "AvClock",
+  "operatingSystem": "iOS, iPadOS, macOS, watchOS",
+  "applicationCategory": "UtilitiesApplication",
+  "url": "https://avclockapp.com/",
+  "image": "https://avclockapp.com/images/app-icon.png",
+  "description": "Track local time, UTC/Zulu, live weather, and airport status for any airport worldwide. Free download for iPhone, iPad, and Mac. Premium unlocks aviation weather.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "category": "Free with optional one-time Premium unlock"
+  },
+  "publisher": { "@type": "Organization", "name": "AvClock" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is AvClock free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, the core app is completely free, with no ads and no account required. A one-time Premium unlock adds live aviation weather, FAA status alerts, My Flights, and more." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this a subscription?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Premium is a single one-time purchase. No recurring charges, ever." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this for actual flight planning?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No, AvClock is a reference and informational tool only. Always use official sources (FAA, NOTAMs, charts, ATC) for navigation or flight planning." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does AvClock track my location?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Your location is used only to find nearby airports, entirely on your device. It's never transmitted or stored anywhere." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a Mac version?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Universal Purchase unlocks Premium on iPhone, iPad, and Mac." }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
