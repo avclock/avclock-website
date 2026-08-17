@@ -47,6 +47,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://avclockapp.com/blog/icao-vs-iata-codes.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://avclockapp.com/support.html</loc>
     <priority>0.4</priority>
   </url>
