@@ -22,7 +22,23 @@
     } catch (e) { /* analytics should never break the page */ }
   }
 
-  send("view");
+  // First-party traffic source: the referrer's domain (google.com,
+  // reddit.com, etc.), "direct" if there's no referrer, or omitted
+  // entirely for same-site navigation (that's not a traffic source,
+  // just clicking around the site). Browsers stopped forwarding actual
+  // search query terms in referrers years ago for privacy reasons, so
+  // domain-level is the most this can ever show; real query-level data
+  // only lives in Google Search Console.
+  var referrerSource = null;
+  if (!document.referrer) {
+    referrerSource = "direct";
+  } else {
+    try {
+      var refHost = new URL(document.referrer).hostname;
+      if (refHost !== location.hostname) referrerSource = refHost;
+    } catch (e) { /* malformed referrer, leave as null */ }
+  }
+  send("view", referrerSource);
 
   // Scroll-depth milestones, each fired at most once per page load.
   var milestones = [25, 50, 75, 100];
