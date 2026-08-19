@@ -7,7 +7,7 @@
 
 <title>Heliports, the Mac Menu Bar App, and Smarter Search: What's New in AvClock</title>
 <meta name="description" content="AvClock added heliports and hospital helipads, a native Mac menu bar app, and city/state search: here's what changed and why.">
-<link rel="canonical" href="https://avclockapp.com/blog/heliports-mac-app-and-smarter-search.html">
+<link rel="canonical" href="https://avclockapp.com/blog/heliports-mac-app-and-smarter-search">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="Heliports, the Mac Menu Bar App, and Smarter Search: What's New in AvClock">
@@ -28,7 +28,7 @@
   "description": "AvClock added heliports and hospital helipads, a native Mac menu bar app, and city/state search: here's what changed and why.",
   "datePublished": "2026-06-24",
   "publisher": { "@type": "Organization", "name": "AvClock" },
-  "mainEntityOfPage": "https://avclockapp.com/blog/heliports-mac-app-and-smarter-search.html"
+  "mainEntityOfPage": "https://avclockapp.com/blog/heliports-mac-app-and-smarter-search"
 }
 </script>
 </head>
@@ -36,16 +36,16 @@
 
 <nav class="site-nav">
   <div class="container">
-    <a class="brand" href="../index.html">
+    <a class="brand" href="../">
       <img src="../images/app-icon.png" alt="AvClock app icon">
       AvClock
     </a>
     <div class="nav-links">
-      <a href="../index.html#free">Free</a>
-      <a href="../index.html#premium">Premium</a>
-      <a href="index.html">Blog</a>
-      <a href="../index.html#faq">FAQ</a>
-      <a href="../support.html">Support</a>
+      <a href="../#free">Free</a>
+      <a href="../#premium">Premium</a>
+      <a href="./">Blog</a>
+      <a href="../#faq">FAQ</a>
+      <a href="../support">Support</a>
     </div>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
@@ -54,18 +54,18 @@
 <section>
   <div class="container">
     <article class="post">
-      <p><a href="index.html">&larr; Back to Blog</a></p>
+      <p><a href="./">&larr; Back to Blog</a></p>
       <div class="label-caps" style="color:var(--amber);margin-bottom:14px;">RELEASE NOTES &middot; JUNE 2026</div>
       <h1>Heliports, the Mac Menu Bar App, and Smarter Search</h1>
       <div class="post-meta">4 min read <button class="share-btn" data-track="share">Share</button></div>
 
-      <p>A few weeks after <a href="how-avclock-started.html">AvClock's first release</a>, three changes landed that pushed it well past "airport clock": heliports joined airports as a trackable location, the Mac app stopped being an afterthought and became a real menu bar utility of its own, and search got noticeably smarter about how people actually look for a place.</p>
+      <p>A few weeks after <a href="how-avclock-started">AvClock's first release</a>, three changes landed that pushed it well past "airport clock": heliports joined airports as a trackable location, the Mac app stopped being an afterthought and became a real menu bar utility of its own, and search got noticeably smarter about how people actually look for a place.</p>
 
       <h2>Heliports and hospital helipads</h2>
       <p>Airports aren't the only places that matter for time and weather. Hospital helipads and EMS pads have real operational relevance too, and they'd never fit the ICAO/IATA-code model AvClock started with. Heliports shipped as a Premium-included feature: searchable, saveable, and viewable exactly like airports, with an Airports/Heliports switch right in the list header instead of a separate app to juggle.</p>
 
       <h2>AvClock, now on your Mac menu bar</h2>
-      <p>The Mac app isn't a scaled-down port of the iPhone version sitting in a window. It lives in the menu bar itself. Your top favorite airport's code and live local time sit right there at all times; click it for the full list, live VFR/IFR weather, and an airport detail view with sunrise/sunset and full location info. It shares AvClock Premium as a <a href="../index.html#premium">Universal Purchase</a>: unlock it once, and it's unlocked on iPhone, iPad, and Mac alike.</p>
+      <p>The Mac app isn't a scaled-down port of the iPhone version sitting in a window. It lives in the menu bar itself. Your top favorite airport's code and live local time sit right there at all times; click it for the full list, live VFR/IFR weather, and an airport detail view with sunrise/sunset and full location info. It shares AvClock Premium as a <a href="../#premium">Universal Purchase</a>: unlock it once, and it's unlocked on iPhone, iPad, and Mac alike.</p>
 
       <div class="callout">
         <p style="margin:0;">Building the Mac app surfaced a real lesson worth naming: a menu bar app can't assume it's always foreground and always fast. Getting the timer-driven clock right (instead of a naive per-second full-window redraw) and loading airport data off the main thread were both necessary before the app felt native rather than like a web view wearing a menu bar icon.</p>
@@ -74,7 +74,7 @@
       <h2>Search that understands cities and states</h2>
       <p>Typing "Utah" or "Orlando" now actually finds the right airports: city and U.S. state fields were added to the underlying data pipeline and wired into search on both iPhone and Mac, alongside an in-app "Update Airport Data" button so the database stays current without waiting on an app update.</p>
 
-      <p class="disclaimer">AvClock is reference and informational only, not for actual flight planning or navigation. Always use official sources (FAA, NOTAMs, charts, ATC) for that. See <a href="../credits.html">Data Credits</a> for where AvClock's airport and weather data actually comes from.</p>
+      <p class="disclaimer">AvClock is reference and informational only, not for actual flight planning or navigation. Always use official sources (FAA, NOTAMs, charts, ATC) for that. See <a href="../credits">Data Credits</a> for where AvClock's airport and weather data actually comes from.</p>
 
       <div style="text-align:center;margin:40px 0;">
         <div class="label-caps" style="margin-bottom:14px;">Like what you read?</div>
@@ -89,7 +89,7 @@
       <div class="more-posts">
         <div class="label-caps">More from the blog</div>
         <div class="blog-board">
-          <a class="blog-row" href="menu-bar-weather-alerts-and-map.html">
+          <a class="blog-row" href="menu-bar-weather-alerts-and-map">
             <span class="tag">MBAR</span>
             <span class="row-main">
               <span class="row-title">What's New in the Menu Bar: Weather Alerts, a Better First Run, and a Built-In Map</span>
@@ -97,7 +97,7 @@
             </span>
             <span class="row-status live">LIVE</span>
           </a>
-          <a class="blog-row" href="how-avclock-started.html">
+          <a class="blog-row" href="how-avclock-started">
             <span class="tag">HIST</span>
             <span class="row-main">
               <span class="row-title">How AvClock Started: A World Clock Built Around Airports, Not Cities</span>
@@ -105,7 +105,7 @@
             </span>
             <span class="row-status live">LIVE</span>
           </a>
-          <a class="blog-row" href="index.html">
+          <a class="blog-row" href="./">
             <span class="tag">ALL</span>
             <span class="row-main">
               <span class="row-title">See every guide</span>
@@ -122,16 +122,16 @@
 <footer>
   <div class="container">
     <div class="footer-grid">
-      <a class="brand" href="../index.html">
+      <a class="brand" href="../">
         <img src="../images/app-icon.png" alt="AvClock app icon">
         AvClock
       </a>
       <div class="footer-links">
-        <a href="index.html">Blog</a>
-        <a href="../support.html">Support</a>
-        <a href="../credits.html">Credits</a>
-        <a href="../privacy.html">Privacy Policy</a>
-        <a href="../terms.html">Terms of Use</a>
+        <a href="./">Blog</a>
+        <a href="../support">Support</a>
+        <a href="../credits">Credits</a>
+        <a href="../privacy">Privacy Policy</a>
+        <a href="../terms">Terms of Use</a>
         <a href="mailto:avclock@protonmail.com">Contact</a>
       </div>
     </div>
