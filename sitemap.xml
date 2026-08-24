@@ -51,6 +51,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://avclockapp.com/blog/vfr-mvfr-ifr-lifr-explained.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://avclockapp.com/support.html</loc>
     <priority>0.4</priority>
   </url>
