@@ -8,7 +8,17 @@
   },
   "assets": {
     "directory": ".",
-    "binding": "ASSETS"
+    "binding": "ASSETS",
+    // Default ("auto-trailing-slash") was silently 307-redirecting
+    // every /page.html to an extension-less /page URL that's never
+    // in sitemap.xml, never linked internally, and has no canonical
+    // tag -- Google was discovering both forms per page and treating
+    // most of them as unindexable duplicates ("Discovered - currently
+    // not indexed" for /support, /credits; noindex confusion on
+    // /terms vs /terms.html). "none" serves every page at exactly
+    // the .html URL the site's own sitemap and links already declare
+    // as canonical -- no phantom duplicate ever gets created again.
+    "html_handling": "none"
   },
   "kv_namespaces": [
     {
