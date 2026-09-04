@@ -25,7 +25,14 @@
   send("view");
 
   // Scroll-depth milestones, each fired at most once per page load.
-  var milestones = [25, 50, 75, 100];
+  // Trimmed from [25, 50, 75, 100] to just 100 (2026-09-04, real KV
+  // write-quota pressure): four milestones meant up to four extra
+  // tracked events per pageview on top of the initial "view", each one
+  // a KV get-then-put -- by far the largest share of daily writes
+  // against Cloudflare's KV quota. Whether someone scrolled to the
+  // bottom is the one milestone actually worth a counter; 25/50/75
+  // were graph detail this blog never used anywhere.
+  var milestones = [100];
   var fired = {};
   function checkScroll() {
     var doc = document.documentElement;

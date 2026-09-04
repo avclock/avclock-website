@@ -39,11 +39,21 @@ export async function onRequestPost({ request, env }) {
   const current = parseInt((await kv.get(counterKey)) || "0", 10);
   await kv.put(counterKey, String(current + 1));
 
-  // Rolling recent-activity log for the dashboard's live feed.
-  const recentRaw = await kv.get(RECENT_KEY);
-  const recent = recentRaw ? JSON.parse(recentRaw) : [];
-  recent.unshift({ type, path, detail, t: Date.now() });
-  await kv.put(RECENT_KEY, JSON.stringify(recent.slice(0, RECENT_LIMIT)));
+  // Rolling recent-activity log for the dashboard's live feed. Skipped
+  // for "scroll" specifically (2026-09-04, real KV write-quota
+  // pressure): scroll is by far the highest-frequency event type, and
+  // this get-then-put pair on the SAME shared key across every
+  // visitor's every scroll milestone was most of the account's daily
+  // KV write volume for a feed entry nobody reads scroll rows off of
+  // anyway (view/outbound/share are what the live feed is actually
+  // for). The per-page/per-day COUNTER above is unaffected -- scroll
+  // milestones still count correctly, this only trims the live feed.
+  if (type !== "scroll") {
+    const recentRaw = await kv.get(RECENT_KEY);
+    const recent = recentRaw ? JSON.parse(recentRaw) : [];
+    recent.unshift({ type, path, detail, t: Date.now() });
+    await kv.put(RECENT_KEY, JSON.stringify(recent.slice(0, RECENT_LIMIT)));
+  }
 
   return new Response(null, { status: 204 });
 }
