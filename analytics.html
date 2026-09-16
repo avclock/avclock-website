@@ -64,7 +64,19 @@
     </div>
 
     <div class="panel-block">
-      <div class="label-caps">Backlink / outbound clicks</div>
+      <div class="label-caps">App Store clicks by page</div>
+      <p style="color:var(--muted-2);font-size:12.5px;margin:0 0 4px;">Which blog post or page a visitor was on when they clicked through to the App Store &mdash; the closest first-party signal for "did this post's subject drive the download click."</p>
+      <table class="data-table" id="appstore-table"><tbody></tbody></table>
+    </div>
+
+    <div class="panel-block">
+      <div class="label-caps">Traffic sources</div>
+      <p style="color:var(--muted-2);font-size:12.5px;margin:0 0 4px;">Referrer domain per pageview (google.com, reddit.com, direct, etc.). Browsers no longer forward actual search query terms in referrers &mdash; for real query-level data (what people searched to find you), use Google Search Console's Performance report.</p>
+      <table class="data-table" id="sources-table"><tbody></tbody></table>
+    </div>
+
+    <div class="panel-block">
+      <div class="label-caps">Backlink / outbound clicks (all destinations)</div>
       <table class="data-table" id="outbound-table"><tbody></tbody></table>
     </div>
 
@@ -115,19 +127,24 @@
     var totals = data.totals || {};
     document.getElementById("kv-warning").style.display = data.error ? "block" : "none";
 
-    var views = {}, scroll = {}, outbound = {}, share = {};
+    var views = {}, scroll = {}, outbound = {}, share = {}, sources = {}, appStoreByPage = {};
     var totalViews = 0, totalShares = 0, totalOutbound = 0;
 
     Object.keys(totals).forEach(function (key) {
       var parts = key.split("|");
       var type = parts[0], path = parts[1], detail = parts[2];
       var n = totals[key];
-      if (type === "view") { views[path] = (views[path] || 0) + n; totalViews += n; }
+      if (type === "view") {
+        views[path] = (views[path] || 0) + n; totalViews += n;
+        if (detail) sources[detail] = (sources[detail] || 0) + n;
+      }
       else if (type === "scroll") {
         scroll[path] = scroll[path] || {};
         scroll[path][detail] = (scroll[path][detail] || 0) + n;
-      } else if (type === "outbound") { outbound[detail] = (outbound[detail] || 0) + n; totalOutbound += n; }
-      else if (type === "share") { share[path] = (share[path] || 0) + n; totalShares += n; }
+      } else if (type === "outbound") {
+        outbound[detail] = (outbound[detail] || 0) + n; totalOutbound += n;
+        if (detail === "apps.apple.com") appStoreByPage[path] = (appStoreByPage[path] || 0) + n;
+      } else if (type === "share") { share[path] = (share[path] || 0) + n; totalShares += n; }
     });
 
     var tiles = document.getElementById("totals-tiles");
@@ -151,6 +168,20 @@
       st.appendChild(row([p, s["25"] || 0, s["50"] || 0, s["75"] || 0, s["100"] || 0]));
     });
     if (!Object.keys(scroll).length) st.appendChild(row(["No scroll data yet", "", "", "", ""]));
+
+    var ast = document.querySelector("#appstore-table tbody");
+    ast.innerHTML = "";
+    Object.keys(appStoreByPage).sort(function (a, b) { return appStoreByPage[b] - appStoreByPage[a]; }).forEach(function (p) {
+      ast.appendChild(row([p, appStoreByPage[p]]));
+    });
+    if (!Object.keys(appStoreByPage).length) ast.appendChild(row(["No App Store click-throughs logged yet", ""]));
+
+    var srt = document.querySelector("#sources-table tbody");
+    srt.innerHTML = "";
+    Object.keys(sources).sort(function (a, b) { return sources[b] - sources[a]; }).forEach(function (h) {
+      srt.appendChild(row([h, sources[h]]));
+    });
+    if (!Object.keys(sources).length) srt.appendChild(row(["No traffic-source data yet (new tracking, needs fresh visits)", ""]));
 
     var ot = document.querySelector("#outbound-table tbody");
     ot.innerHTML = "";

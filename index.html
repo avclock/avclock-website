@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-itunes-app" content="app-id=6780675251">
 
 <!-- SEO — exact copy from SEO_Metadata.txt -->
 <title>AvClock — The World Clock Built for Aviation</title>
@@ -17,23 +18,95 @@
 <meta name="twitter:card" content="summary">
 
 <link rel="icon" type="image/png" href="images/app-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="images/app-icon.png">
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Structured data — enables rich results (app rating/price, FAQ) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "AvClock",
+  "operatingSystem": "iOS, iPadOS, macOS, watchOS",
+  "applicationCategory": "UtilitiesApplication",
+  "url": "https://avclockapp.com/",
+  "image": "https://avclockapp.com/images/app-icon.png",
+  "description": "Track local time, UTC/Zulu, live weather, and airport status for any airport worldwide. Free download for iPhone, iPad, and Mac. Premium unlocks aviation weather.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "category": "Free with optional one-time Premium unlock"
+  },
+  "publisher": { "@type": "Organization", "name": "AvClock" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AvClock",
+  "url": "https://avclockapp.com/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AvClock",
+    "url": "https://avclockapp.com/",
+    "logo": "https://avclockapp.com/images/app-icon.png",
+    "sameAs": [
+      "https://apps.apple.com/us/app/avclock-global-airport-times/id6780675251"
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is AvClock free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, the core app is completely free, with no ads and no account required. A one-time Premium unlock adds live aviation weather, FAA status alerts, My Flights, and more." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this a subscription?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Premium is a single one-time purchase. No recurring charges, ever." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this for actual flight planning?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No, AvClock is a reference and informational tool only. Always use official sources (FAA, NOTAMs, charts, ATC) for navigation or flight planning." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does AvClock track my location?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Your location is used only to find nearby airports, entirely on your device. It's never transmitted or stored anywhere." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a Mac version?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Universal Purchase unlocks Premium on iPhone, iPad, and Mac." }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
 <nav class="site-nav">
   <div class="container">
-    <a class="brand" href="index.html">
+    <a class="brand" href="./">
       <img src="images/app-icon.png" alt="AvClock app icon">
       AvClock
     </a>
     <div class="nav-links">
-      <a href="index.html#free">Free</a>
-      <a href="index.html#premium">Premium</a>
-      <a href="blog/index.html">Blog</a>
-      <a href="index.html#faq">FAQ</a>
-      <a href="support.html">Support</a>
+      <a href="./#free">Free</a>
+      <a href="./#premium">Premium</a>
+      <a href="blog/">Blog</a>
+      <a href="./#faq">FAQ</a>
+      <a href="support">Support</a>
       <a href="avgrav.html">AvGrav</a>
     </div>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -181,7 +254,7 @@
     <div class="section-head">
       <div class="section-eyebrow">Why AvClock exists</div>
       <h2>Built by someone who needed it</h2>
-      <p>Every timezone converter treats the world the same: cities, not airports. AvClock was built differently from day one: real ICAO/IATA codes, real aviation weather, real FAA status, because "what time is it in London" and "what time is it at Heathrow, and is it VFR right now" are genuinely different questions. <a href="blog/how-avclock-started.html">Read the full story on the blog &rarr;</a></p>
+      <p>Every timezone converter treats the world the same: cities, not airports. AvClock was built differently from day one: real ICAO/IATA codes, real aviation weather, real FAA status, because "what time is it in London" and "what time is it at Heathrow, and is it VFR right now" are genuinely different questions. <a href="blog/how-avclock-started">Read the full story on the blog &rarr;</a></p>
     </div>
   </div>
 </section>
@@ -397,17 +470,17 @@
 <footer>
   <div class="container">
     <div class="footer-grid">
-      <a class="brand" href="index.html">
+      <a class="brand" href="./">
         <img src="images/app-icon.png" alt="AvClock app icon">
         AvClock
       </a>
       <div class="footer-links">
-        <a href="blog/index.html">Blog</a>
-        <a href="support.html">Support</a>
-        <a href="credits.html">Credits</a>
+        <a href="blog/">Blog</a>
+        <a href="support">Support</a>
+        <a href="credits">Credits</a>
         <a href="avgrav.html">AvGrav</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Use</a>
+        <a href="privacy">Privacy Policy</a>
+        <a href="terms">Terms of Use</a>
         <a href="mailto:avclock@protonmail.com">Contact</a>
       </div>
     </div>
