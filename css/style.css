@@ -221,13 +221,21 @@ section:last-of-type { border-bottom: none; }
 }
 
 /* Eyebrow-label marquee -- a slow, continuous horizontal scroll of the
-   yellow eyebrow line, sitting below the (static) app name. Content is
-   duplicated back-to-back so the loop is seamless and marked
+   yellow eyebrow line, sitting below the (static) app name. The HTML
+   repeats the span SIX times (not just twice) -- with only two
+   copies, a wide hero column leaves a visible blank gap after the
+   text scrolls off before the next copy "arrives," which reads as a
+   stutter rather than a continuous ticker. Six repeats keeps the
+   track comfortably wider than any hero-column width so there's
+   always text on screen. The whole repeated run is marked
    aria-hidden; a .sr-only copy right before it keeps the text
-   available to screen readers. The global prefers-reduced-motion rule
-   at the top of this file already forces all animation durations
-   near-zero, which freezes this in place for anyone who's asked for
-   reduced motion, without extra rules here. */
+   available to screen readers. translateX(-50%) shifts by exactly
+   half the track's width -- since all six copies are identical, that
+   lands the animation back in a visually identical position, so the
+   0s->40s loop repeats seamlessly. The global prefers-reduced-motion
+   rule at the top of this file already forces all animation
+   durations near-zero, which freezes this in place for anyone who's
+   asked for reduced motion, without extra rules here. */
 .marquee {
   overflow: hidden;
   margin-bottom: 16px;
@@ -238,7 +246,7 @@ section:last-of-type { border-bottom: none; }
   display: flex;
   width: max-content;
   gap: 3em;
-  animation: marquee-scroll 14s linear infinite;
+  animation: marquee-scroll 40s linear infinite;
 }
 .marquee-track span.label-caps {
   margin-bottom: 0;
