@@ -32,6 +32,13 @@
   .refresh-note { color: var(--muted-2); font-size: 12.5px; font-family: var(--mono); margin-top: 6px; }
   .setup-note { border-left: 3px solid var(--amber); background: var(--panel); border-radius: var(--radius-sm); padding: 16px 18px; margin-top: 20px; font-size: 13.5px; color: var(--muted); }
   .setup-note code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-family: var(--mono); font-size: 0.92em; }
+  .app-tabs { display: flex; gap: 8px; margin-top: 20px; }
+  .app-tab {
+    font-family: var(--mono); font-size: 13px; font-weight: 700;
+    padding: 8px 16px; border-radius: var(--radius); cursor: pointer;
+    background: var(--panel); border: 1px solid var(--hairline); color: var(--muted-2);
+  }
+  .app-tab.active { background: var(--beacon-strong); border-color: var(--beacon-strong); color: var(--ink); }
 </style>
 </head>
 <body>
@@ -40,8 +47,14 @@
   <div class="container">
     <div class="section-head">
       <div class="section-eyebrow">Private &middot; noindex</div>
-      <h2>AvClock Site Analytics</h2>
+      <h2>Site Analytics</h2>
       <p>Live pageviews, scroll depth, backlink clicks, and shares — reads directly from <code>/api/stats</code>, refreshes every 10 seconds.</p>
+    </div>
+
+    <div class="app-tabs" id="app-tabs">
+      <div class="app-tab active" data-app="all">All Sites</div>
+      <div class="app-tab" data-app="avclock">AvClock</div>
+      <div class="app-tab" data-app="avgrav">AvGrav</div>
     </div>
 
     <div id="kv-warning" class="setup-note" style="display:none;">
@@ -123,7 +136,20 @@
     return d;
   }
 
+  function isAvgravPath(path) {
+    return /^\/avgrav(\.|-|\/|$)/.test(path || "");
+  }
+  function matchesApp(path, app) {
+    if (app === "all") return true;
+    var isGrav = isAvgravPath(path);
+    return app === "avgrav" ? isGrav : !isGrav;
+  }
+
+  var currentApp = "all";
+  var lastData = null;
+
   function render(data) {
+    lastData = data;
     var totals = data.totals || {};
     document.getElementById("kv-warning").style.display = data.error ? "block" : "none";
 
@@ -133,6 +159,7 @@
     Object.keys(totals).forEach(function (key) {
       var parts = key.split("|");
       var type = parts[0], path = parts[1], detail = parts[2];
+      if (!matchesApp(path, currentApp)) return;
       var n = totals[key];
       if (type === "view") {
         views[path] = (views[path] || 0) + n; totalViews += n;
@@ -148,11 +175,13 @@
     });
 
     var tiles = document.getElementById("totals-tiles");
+    var recent = (data.recent || []).filter(function (ev) { return matchesApp(ev.path, currentApp); });
+
     tiles.innerHTML = "";
     tiles.appendChild(tile(totalViews, "Total pageviews"));
     tiles.appendChild(tile(totalShares, "Total shares"));
     tiles.appendChild(tile(totalOutbound, "Backlink clicks"));
-    tiles.appendChild(tile((data.recent || []).length, "Recent events tracked"));
+    tiles.appendChild(tile(recent.length, "Recent events tracked"));
 
     var vt = document.querySelector("#views-table tbody");
     vt.innerHTML = "";
@@ -199,13 +228,13 @@
 
     var feed = document.getElementById("live-feed");
     feed.innerHTML = "";
-    (data.recent || []).forEach(function (ev) {
+    recent.forEach(function (ev) {
       var d = document.createElement("div");
       d.className = "live-row";
       d.innerHTML = '<span class="kind">' + ev.type + '</span><span>' + ev.path + (ev.detail ? " &rarr; " + ev.detail : "") + '</span><span class="when">' + relTime(ev.t) + '</span>';
       feed.appendChild(d);
     });
-    if (!(data.recent || []).length) feed.innerHTML = '<div class="live-row"><span>Nothing tracked yet — visit the site to generate activity.</span></div>';
+    if (!recent.length) feed.innerHTML = '<div class="live-row"><span>Nothing tracked yet — visit the site to generate activity.</span></div>';
 
     document.getElementById("refresh-note").textContent = "last updated " + new Date().toLocaleTimeString() + " · auto-refreshes every 10s";
   }
@@ -218,6 +247,15 @@
         document.getElementById("refresh-note").textContent = "couldn't reach /api/stats — this page only works once deployed on Cloudflare Pages with Functions enabled.";
       });
   }
+
+  document.getElementById("app-tabs").addEventListener("click", function (e) {
+    var tab = e.target.closest(".app-tab");
+    if (!tab) return;
+    document.querySelectorAll(".app-tab").forEach(function (t) { t.classList.remove("active"); });
+    tab.classList.add("active");
+    currentApp = tab.getAttribute("data-app");
+    if (lastData) render(lastData);
+  });
 
   load();
   setInterval(load, 10000);

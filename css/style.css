@@ -190,6 +190,14 @@ section:last-of-type { border-bottom: none; }
   box-shadow: 0 24px 70px -18px rgba(44, 140, 255, 0.4), 0 0 0 1px var(--hairline-strong);
 }
 .hero .label-caps { color: var(--amber); margin-bottom: 16px; }
+.hero .app-title {
+  color: var(--paper);
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
 .hero h1 {
   font-size: clamp(32px, 4.6vw, 50px);
   max-width: 15ch;
@@ -202,15 +210,27 @@ section:last-of-type { border-bottom: none; }
 }
 .badge-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
 
-/* App name marquee -- a slow, continuous horizontal scroll of the
-   app's full store name, sitting above the eyebrow label. Content is
-   duplicated back-to-back so the loop is seamless; the global
-   prefers-reduced-motion rule at the top of this file already forces
-   all animation durations near-zero, which freezes this in place for
-   anyone who's asked for reduced motion, without extra rules here. */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Eyebrow-label marquee -- a slow, continuous horizontal scroll of the
+   yellow eyebrow line, sitting below the (static) app name. Content is
+   duplicated back-to-back so the loop is seamless and marked
+   aria-hidden; a .sr-only copy right before it keeps the text
+   available to screen readers. The global prefers-reduced-motion rule
+   at the top of this file already forces all animation durations
+   near-zero, which freezes this in place for anyone who's asked for
+   reduced motion, without extra rules here. */
 .marquee {
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
 }
@@ -220,12 +240,8 @@ section:last-of-type { border-bottom: none; }
   gap: 3em;
   animation: marquee-scroll 14s linear infinite;
 }
-.marquee-track span {
-  font-family: var(--mono);
-  font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 0.04em;
-  color: var(--muted-2);
+.marquee-track span.label-caps {
+  margin-bottom: 0;
   white-space: nowrap;
 }
 @keyframes marquee-scroll {
