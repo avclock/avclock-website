@@ -818,7 +818,7 @@ article.legal p { font-size: 15.5px; max-width: none; }
 
 /* Responsive */
 @media (max-width: 860px) {
-  .hero-grid { grid-template-columns: 1fr; text-align: center; }
+  .hero-grid { grid-template-columns: minmax(0, 1fr); text-align: center; }
   .hero-icon { justify-self: center; }
   .hero-icon img { width: 132px; height: 132px; }
   .hero .subhead { margin-left: auto; margin-right: auto; }
