@@ -66,6 +66,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   font-variant-numeric: tabular-nums;
+  overflow-x: hidden; /* safety net: the page itself should never scroll
+    horizontally, even if something nested miscalculates its width */
 }
 
 h1, h2, h3, h4 {
@@ -179,10 +181,18 @@ section:last-of-type { border-bottom: none; }
 .hero { padding-top: 56px; padding-bottom: 64px; }
 .hero-grid {
   display: grid;
-  grid-template-columns: 224px 1fr;
+  grid-template-columns: 224px minmax(0, 1fr);
   gap: 44px;
   align-items: center;
 }
+/* Both grid items need an explicit min-width:0 -- without it, a grid
+   item's automatic minimum size is based on its content's intrinsic
+   (min-content) size, and the wide .marquee-track (width:max-content,
+   six repeated copies) can force the whole column, and therefore the
+   grid, wider than the viewport -- overflowing the page and pushing/
+   clipping the icon column, instead of being contained by .marquee's
+   own overflow:hidden like it looks like it should. */
+.hero-grid > div { min-width: 0; }
 .hero-icon img {
   width: 184px;
   height: 184px;
@@ -238,6 +248,7 @@ section:last-of-type { border-bottom: none; }
    asked for reduced motion, without extra rules here. */
 .marquee {
   overflow: hidden;
+  min-width: 0;
   margin-bottom: 16px;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
