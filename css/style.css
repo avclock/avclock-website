@@ -55,6 +55,12 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  /* The marquee's animation-iteration-count is `infinite` -- shrinking
+     just its duration above doesn't freeze it, it makes the full
+     translateX(0) -> translateX(-50%) cycle repeat every 0.001ms
+     forever, which reads as violent flickering/jumping instead of a
+     calm static state. Needs its own explicit stop. */
+  .marquee-track { animation: none !important; }
 }
 
 body {
@@ -258,14 +264,23 @@ section:last-of-type { border-bottom: none; }
   width: max-content;
   gap: 3em;
   animation: marquee-scroll 40s linear infinite;
+  /* Promotes the track to its own GPU compositor layer -- without
+     this, mobile Safari has been seen re-computing the translateX(%)
+     against layout on every frame instead of just compositing it,
+     which shows up as jittery/erratic motion rather than a smooth
+     scroll, especially once the dynamic address bar resizes the
+     viewport mid-animation. translate3d over translateX for the same
+     reason -- it's the form Safari reliably hands to the GPU. */
+  will-change: transform;
+  backface-visibility: hidden;
 }
 .marquee-track span.label-caps {
   margin-bottom: 0;
   white-space: nowrap;
 }
 @keyframes marquee-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
 }
 
 .store-badge {
