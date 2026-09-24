@@ -8,18 +8,18 @@
   },
   "assets": {
     "directory": ".",
-    "binding": "ASSETS"
-    // REVERTED "html_handling": "none" -- it caused a full site
-    // outage (confirmed live: "/" started 404ing, only "/index.html"
-    // still served). "none" turns off ALL automatic URL resolution,
-    // including "/" -> "/index.html", not just the .html-to-
-    // extensionless redirect it was meant to stop. Back on the
-    // Cloudflare default ("auto-trailing-slash") for now. The real
-    // indexing-duplicate problem (Google discovering both /page.html
-    // and /page) still needs a fix, but it has to be one that keeps
-    // "/" itself working -- e.g. canonical tags pointing at the
-    // .html URL, not a global html_handling override. Don't
-    // re-apply "none" without testing "/" locally first.
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+    // NOTE: "html_handling": "none" was tried and reverted -- it
+    // caused a full site outage (confirmed live: "/" started
+    // 404ing, only "/index.html" still served). "none" turns off
+    // ALL automatic URL resolution, including "/" -> "/index.html",
+    // not just the .html-to-extensionless redirect it was meant to
+    // stop. Staying on the Cloudflare default ("auto-trailing-slash")
+    // for html_handling -- the duplicate-URL/indexing problem is
+    // instead fixed via canonical tags pointing at the extensionless
+    // URL Cloudflare actually serves (see canonical tags site-wide).
+    // Don't re-apply "none" without testing "/" locally first.
   },
   "kv_namespaces": [
     {
