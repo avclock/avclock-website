@@ -113,6 +113,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://avclockapp.com/blog/how-to-beat-jet-lag</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://avclockapp.com/avgrav.html</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -127,6 +132,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/press-release-avgrav-launch.html</loc>
     <lastmod>2026-09-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/how-to-correct-api-gravity-to-60f</loc>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
