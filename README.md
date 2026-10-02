@@ -254,3 +254,22 @@ you.
   The dashboard polls once a minute and only while visible. Free tier:
   1,000 KV writes/day, so roughly 400-700 visits a day before counts
   stop for the rest of that UTC day; the site itself is unaffected.
+
+## AvGrav screenshots
+
+`avgrav.html` has an empty gallery slot (the `AVGRAV-GALLERY` markers,
+right under the calculator) that fills in from the App Store
+screenshot exports:
+
+```
+python3 tools/avgrav-screenshots.py --iphone ~/Desktop/AvGrav/iPhone \
+    --ipad ~/Desktop/AvGrav/iPad --watch ~/Desktop/AvGrav/Watch
+```
+
+Leave out any device you don't have; only the ones given get a tab.
+Put a `captions.txt` (one line per screenshot, in file-name order) in
+each folder for real alt text. The script resizes to the same sizes as
+AvClock's gallery into `images/screenshots/avgrav/`, rewrites the
+slot, and can be rerun any time. Then commit and push. `tools/` is in
+`.assetsignore`, so the script itself isn't published. Tabs for both
+galleries are `js/shot-gallery.js`.
