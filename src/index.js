@@ -4,7 +4,7 @@
 // serves the static site (functions/api/*.js is dead code kept only
 // for reference; this file supersedes it).
 
-const ALLOWED_TYPES = new Set(["view", "scroll", "outbound", "share"]);
+const ALLOWED_TYPES = new Set(["view", "scroll", "outbound", "share", "demo"]);
 const RECENT_KEY = "recent";
 const RECENT_LIMIT = 50;
 

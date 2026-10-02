@@ -14,8 +14,11 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="AvClock — The World Clock Built for Aviation">
 <meta property="og:description" content="Track local time, UTC/Zulu, live weather, and airport status for any airport worldwide. Free download for iPhone, iPad, and Mac.">
-<meta property="og:image" content="https://avclockapp.com/images/app-icon.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://avclockapp.com/images/og-avclock.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://avclockapp.com/images/og-avclock.png">
 
 <link rel="icon" type="image/png" href="images/app-icon.png">
 <link rel="shortcut icon" href="favicon.ico">
@@ -192,7 +195,7 @@
      plus a separate placeholder device-tabs section) -->
 <section id="screenshots">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">Screenshots</div>
       <h2>One app, every screen you own</h2>
       <p>Real screenshots from the App Store listing. Swipe through, or pick your device.</p>
@@ -256,7 +259,7 @@
 <!-- SECTION 2 — THE PROBLEM / WHY THIS EXISTS -->
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">Why AvClock exists</div>
       <h2>Built by someone who needed it</h2>
       <p>Every timezone converter treats the world the same: cities, not airports. AvClock was built differently from day one: real ICAO/IATA codes, real aviation weather, real FAA status, because "what time is it in London" and "what time is it at Heathrow, and is it VFR right now" are genuinely different questions. <a href="blog/how-avclock-started">Read the full story on the blog &rarr;</a></p>
@@ -267,13 +270,13 @@
 <!-- SECTION 2.5 — SEE IT IN ACTION -->
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">See it in action</div>
       <h2>Not a mockup: this clock is actually ticking</h2>
       <p>A live look at how AvClock thinks: real local time in real time zones, and every airport on Earth is one tap away.</p>
     </div>
 
-    <div class="demo-grid">
+    <div class="demo-grid reveal">
       <div class="demo-panel">
         <div class="demo-panel-head">
           <div class="label-caps">Live board</div>
@@ -323,10 +326,118 @@
   </div>
 </section>
 
+<!-- SECTION 2.5 — TRY ANY AIRPORT (js/avclock-demos.js) -->
+<section id="try">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">Try it</div>
+      <h2>Any airport, right now</h2>
+      <p>Type a code, a city, or an airport name. This uses the same public airport list the app ships with, right here in your browser.</p>
+    </div>
+    <div class="try-panel reveal">
+      <div class="try-search">
+        <label class="label-caps" for="try-input">Airport</label>
+        <input id="try-input" type="search" placeholder="LHR, Denver, Haneda&hellip;" autocomplete="off" spellcheck="false"
+               role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="try-results">
+        <ul id="try-results" class="try-results" role="listbox" hidden></ul>
+        <p id="try-status" class="try-status" aria-live="polite">Scroll here or tap the box to load the airport list.</p>
+      </div>
+      <div id="try-card" class="try-card" hidden aria-live="polite">
+        <div class="try-head">
+          <span class="try-code" data-f="code"></span>
+          <span class="try-name" data-f="name"></span>
+        </div>
+        <div class="try-time" data-f="time"></div>
+        <div class="try-date" data-f="date"></div>
+        <dl class="try-facts">
+          <div><dt>Time zone</dt><dd data-f="utc"></dd></div>
+          <div><dt>From you</dt><dd data-f="diff"></dd></div>
+          <div><dt>Zulu now</dt><dd data-f="zulu"></dd></div>
+          <div><dt>Sunrise / sunset</dt><dd data-f="sun"></dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2.6 — NEW IN AVCLOCK (js/avclock-demos.js) -->
+<section id="new">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">New in AvClock</div>
+      <h2>Plan around time zones, not just read them</h2>
+      <p>Three of the newest features, working right here. The app does the same with your own saved airports and flights.</p>
+    </div>
+    <div class="new-grid">
+      <div class="demo-panel reveal" id="overlap-demo">
+        <div class="demo-panel-head">
+          <div class="label-caps">Overlap</div>
+          <span class="new-tag">Free</span>
+        </div>
+        <div class="new-body">
+          <p class="new-lede">When is everyone awake? Pick up to four airports, then tap any hour.</p>
+          <div class="ov-chips" role="group" aria-label="Airports to compare"></div>
+          <label class="ov-window-label">Window
+            <select class="ov-window">
+              <option value="awake">Awake, 8 AM to 10 PM</option>
+              <option value="business">Business, 9 AM to 5 PM</option>
+            </select>
+          </label>
+          <div class="ov-grid"></div>
+          <p class="ov-result"></p>
+          <p class="ov-detail"></p>
+        </div>
+      </div>
+      <div class="demo-panel reveal" id="jetlag-demo">
+        <div class="demo-panel-head">
+          <div class="label-caps">Jet lag plan</div>
+          <span class="new-tag premium">Premium</span>
+        </div>
+        <div class="new-body">
+          <p class="new-lede">From your logged flight, a day-by-day plan for light and sleep. Here's day 1.</p>
+          <div class="jl-pickers">
+            <label>From <select class="jl-from"></select></label>
+            <label>To <select class="jl-to"></select></label>
+            <label>I wake at
+              <select class="jl-wake">
+                <option value="5">5 AM</option><option value="6">6 AM</option><option value="7" selected>7 AM</option><option value="8">8 AM</option><option value="9">9 AM</option>
+              </select>
+            </label>
+          </div>
+          <div class="jl-out" aria-live="polite"></div>
+        </div>
+      </div>
+      <div class="demo-panel reveal" id="bigclock-demo">
+        <div class="demo-panel-head">
+          <div class="label-caps">Big Clock widget</div>
+          <span class="new-tag">Free</span>
+        </div>
+        <div class="new-body">
+          <p class="new-lede">Made for StandBy. Tap the arrow to step through your airports, right on the widget.</p>
+          <div class="bc-stage">
+            <div class="bc-widget" aria-live="polite">
+              <div class="bc-top">
+                <span class="bc-code"></span>
+                <button type="button" class="bc-next" aria-label="Next airport">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M10 7l5 5-5 5" fill="none" stroke="#000" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+              <div class="bc-city"></div>
+              <div class="bc-time"></div>
+              <div class="bc-bottom"><span class="bc-date"></span><span class="bc-off"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="new-more reveal">Also new: a departure countdown on your Lock Screen, every airport in iPhone Spotlight search, and a choice of what the Mac menu bar shows.</p>
+  </div>
+</section>
+
 <!-- SECTION 3 — FEATURES, FREE TIER -->
 <section id="free">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">Free tier</div>
       <h2>Free. Genuinely.</h2>
       <p>A complete airport world clock, with no account, no ads, no data collection, ever.</p>
@@ -339,13 +450,19 @@
       <div class="feature-item"><span class="tag">NRBY</span><span class="label">Nearby airports, on-device only</span></div>
       <div class="feature-item"><span class="tag">WX</span><span class="label">Local weather, plain English</span></div>
       <div class="feature-item"><span class="tag">AMN</span><span class="label">Amenities: TSA PreCheck, CLEAR, lounges</span></div>
-      <div class="feature-item"><span class="tag">FX</span><span class="label">Live currency converter</span></div>
-      <div class="feature-item"><span class="tag">INTL</span><span class="label">Plug type, driving side, emergency numbers</span></div>
-      <div class="feature-item"><span class="tag">NAV</span><span class="label">One-tap directions: Maps, Uber, Lyft</span></div>
-      <div class="feature-item"><span class="tag">WDGT</span><span class="label">Home Screen &amp; Lock Screen widgets</span></div>
-      <div class="feature-item"><span class="tag">BIG</span><span class="label">Big Clock widget for StandBy, tap to switch airports</span></div>
-      <div class="feature-item"><span class="tag">OVLP</span><span class="label">Overlap: the hours every saved airport is awake</span></div>
-      <div class="feature-item"><span class="tag">SRCH</span><span class="label">Find any airport from iPhone Spotlight search</span></div>
+    </div>
+    <details class="more-features">
+      <summary>See all 13 free features</summary>
+      <div class="feature-grid">
+        <div class="feature-item"><span class="tag">FX</span><span class="label">Live currency converter</span></div>
+        <div class="feature-item"><span class="tag">INTL</span><span class="label">Plug type, driving side, emergency numbers</span></div>
+        <div class="feature-item"><span class="tag">NAV</span><span class="label">One-tap directions: Maps, Uber, Lyft</span></div>
+        <div class="feature-item"><span class="tag">WDGT</span><span class="label">Home Screen &amp; Lock Screen widgets</span></div>
+        <div class="feature-item"><span class="tag">BIG</span><span class="label">Big Clock widget for StandBy, tap to switch airports</span></div>
+        <div class="feature-item"><span class="tag">OVLP</span><span class="label">Overlap: the hours every saved airport is awake</span></div>
+        <div class="feature-item"><span class="tag">SRCH</span><span class="label">Find any airport from iPhone Spotlight search</span></div>
+      </div>
+    </details>
     </div>
 
   </div>
@@ -354,7 +471,7 @@
 <!-- SECTION 4 — FEATURES, PREMIUM -->
 <section id="premium">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">Premium</div>
       <h2>For frequent flyers and aviation pros</h2>
       <p>One simple, one-time unlock. No subscription, ever.</p>
@@ -367,11 +484,17 @@
       <div class="feature-item premium"><span class="tag">LOG</span><span class="label">My Flights: log flights, custom calendar reminders</span></div>
       <div class="feature-item premium"><span class="tag">JET</span><span class="label">Jet lag plan: when to get light and sleep, day by day</span></div>
       <div class="feature-item premium"><span class="tag">CNTD</span><span class="label">Departure countdown on your Lock Screen and Dynamic Island</span></div>
-      <div class="feature-item premium"><span class="tag">UTC</span><span class="label">Time Converter: shift every clock together</span></div>
-      <div class="feature-item premium"><span class="tag">CFG</span><span class="label">Customize every section of your airport view</span></div>
-      <div class="feature-item premium"><span class="tag">HEL</span><span class="label">Heliports &amp; hospital helipads</span></div>
-      <div class="feature-item premium"><span class="tag">SKIN</span><span class="label">Aviation themes, custom app icons</span></div>
-      <div class="feature-item premium"><span class="tag">LIVE</span><span class="label">Live Activities: flight category, temp &amp; wind on your Lock Screen and Dynamic Island</span></div>
+    </div>
+    <details class="more-features">
+      <summary>See all 11 Premium features</summary>
+      <div class="feature-grid">
+        <div class="feature-item premium"><span class="tag">UTC</span><span class="label">Time Converter: shift every clock together</span></div>
+        <div class="feature-item premium"><span class="tag">CFG</span><span class="label">Customize every section of your airport view</span></div>
+        <div class="feature-item premium"><span class="tag">HEL</span><span class="label">Heliports &amp; hospital helipads</span></div>
+        <div class="feature-item premium"><span class="tag">SKIN</span><span class="label">Aviation themes, custom app icons</span></div>
+        <div class="feature-item premium"><span class="tag">LIVE</span><span class="label">Live Activities: flight category, temp &amp; wind on your Lock Screen and Dynamic Island</span></div>
+      </div>
+    </details>
     </div>
 
     <p style="margin-top:24px;">
@@ -388,7 +511,7 @@
 <!-- SECTION 5 — SOCIAL PROOF / WHO IT'S FOR -->
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <h2>Built for two kinds of people who turn out to want the same thing</h2>
     </div>
     <div class="two-col">
@@ -407,10 +530,10 @@
 <!-- SECTION 5.5 — ALSO BY THE SAME DEVELOPER -->
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <h2>Also by the same developer</h2>
     </div>
-    <div class="app-promo-card">
+    <div class="app-promo-card reveal">
       <img src="images/avgrav-icon.png" alt="AvGrav app icon">
       <div>
         <div class="label-caps">FOR FUELERS &middot; FBOs &middot; AIRPORTS</div>
@@ -431,7 +554,7 @@
 <!-- SECTION 6 — FAQ -->
 <section id="faq">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <h2>Frequently asked questions</h2>
     </div>
 
@@ -494,6 +617,15 @@
         <a href="mailto:avclock@protonmail.com">Contact</a>
       </div>
     </div>
+    <div class="more-apps">
+      <div class="label-caps">More apps from the same developer</div>
+      <div class="more-apps-row">
+        <a class="more-app" href="./"><img src="images/app-icon.png" alt="" width="40" height="40"><span><strong>AvClock</strong><small>Airport world clock</small></span></a>
+        <a class="more-app" href="avgrav"><img src="images/avgrav-icon.png" alt="" width="40" height="40"><span><strong>AvGrav</strong><small>API fuel gravity</small></span></a>
+        <a class="more-app" href="https://notyetcb.com/" target="_blank" rel="noopener"><img src="images/notyet-icon.png" alt="" width="40" height="40"><span><strong>Not Yet</strong><small>Checkout blocker</small></span></a>
+        <a class="more-app" href="https://notyetcb.com/shotstand/" target="_blank" rel="noopener"><img src="images/shotstand-icon.png" alt="" width="40" height="40"><span><strong>Shotstand</strong><small>App Store screenshots, coming soon</small></span></a>
+      </div>
+    </div>
     <p class="footer-note">AvClock is for reference only, not for navigation, pilotage, or flight planning. Data and weather may be inaccurate or delayed; always confirm with official sources before any aviation decision. Not affiliated with, endorsed by, or sponsored by the FAA, NOAA, Uber Technologies, or Lyft.</p>
   </div>
 </footer>
@@ -511,15 +643,44 @@
   // ---- Live board: real ticking local time per row, seconds visible
   // so the "live" part is actually obvious at a glance instead of a
   // once-per-15s jump nobody would notice. ----
+  // Split-flap: each character is its own cell, and only the cells
+  // whose character changed flip (CSS .flap.flip), like a real
+  // departure board. Reduced motion: plain text swap, no flip.
+  var flipOK = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var boardFormats = {};
   function updateLiveBoard() {
     var rows = document.querySelectorAll("#live-board [data-tz]");
     rows.forEach(function (el) {
       try {
-        var fmt = new Intl.DateTimeFormat("en-US", {
-          hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false,
-          timeZone: el.getAttribute("data-tz")
-        });
-        el.textContent = fmt.format(new Date());
+        var tz = el.getAttribute("data-tz");
+        var fmt = boardFormats[tz] || (boardFormats[tz] = new Intl.DateTimeFormat("en-US", {
+          hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23",
+          timeZone: tz
+        }));
+        var text = fmt.format(new Date());
+        var cells = el.querySelectorAll(".flap");
+        if (cells.length !== text.length) {
+          el.textContent = "";
+          el.setAttribute("aria-label", text);
+          for (var i = 0; i < text.length; i++) {
+            var c = document.createElement("span");
+            c.className = "flap" + (text[i] === ":" ? " sep" : "");
+            c.setAttribute("aria-hidden", "true");
+            c.textContent = text[i];
+            el.appendChild(c);
+          }
+          return;
+        }
+        for (var j = 0; j < text.length; j++) {
+          if (cells[j].textContent === text[j]) continue;
+          cells[j].textContent = text[j];
+          if (flipOK) {
+            cells[j].classList.remove("flip");
+            void cells[j].offsetWidth;
+            cells[j].classList.add("flip");
+          }
+        }
+        el.setAttribute("aria-label", text);
       } catch (e) { /* unsupported tz — leave placeholder */ }
     });
   }
@@ -673,6 +834,8 @@
 </script>
 <script src="js/nav.js" defer></script>
 <script src="js/track.js" defer></script>
+<script src="js/reveal.js" defer></script>
+<script src="js/avclock-demos.js" defer></script>
 
 </body>
 </html>

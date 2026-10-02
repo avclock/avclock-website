@@ -11,8 +11,11 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="AvGrav — API Fuel Gravity Calc.">
 <meta property="og:description" content="The premier API fuel gravity calculator and tool for fuelers, technicians, and FBOs. Includes a hands-free Apple Watch companion app for easy calculations.">
-<meta property="og:image" content="https://avclockapp.com/images/avgrav-icon.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://avclockapp.com/images/og-avgrav.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://avclockapp.com/images/og-avgrav.png">
 
 <link rel="icon" type="image/png" href="images/avgrav-icon.png">
 <link rel="apple-touch-icon" href="images/avgrav-icon.png">
@@ -78,7 +81,7 @@
           </div>
         </div>
         <h1>API Fuel Gravity, Corrected in Seconds</h1>
-        <p class="subhead">The premier API fuel gravity calculator for fuelers, technicians, and FBOs. Enter your observed API gravity and temperature, pick a fuel type, get the corrected value at 60&deg;F instantly, with a hands-free Apple Watch companion app for calculations out on the ramp.</p>
+        <p class="subhead">The premier API fuel gravity calculator for fuelers, technicians, and FBOs. Enter your hydrometer reading and the sample temperature and get the corrected value at 60&deg;F (or density at 15&deg;C) instantly, with an Apple Watch app for calculations out on the ramp. Try it right below.</p>
         <div class="badge-row">
           <a class="store-badge" href="https://apps.apple.com/us/app/avgrav-api-fuel-gravity-calc/id6804878148" target="_blank" rel="noopener">
             <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
@@ -87,16 +90,77 @@
         </div>
       </div>
     </div>
+
+    <!-- Working calculator: js/avgrav-calc.js, the app's own math. -->
+    <div class="grav-calc" id="grav-calc">
+      <div class="gc-head">
+        <div class="label-caps">Try it</div>
+        <span class="live-dot">LIVE MATH</span>
+      </div>
+      <div class="gc-body">
+        <form class="gc-form" novalidate>
+          <fieldset class="gc-mode">
+            <legend class="sr-only">Hydrometer type</legend>
+            <label><input type="radio" name="mode" value="api" checked> API gravity</label>
+            <label><input type="radio" name="mode" value="density"> Density kg/m&sup3;</label>
+          </fieldset>
+          <label class="gc-field"><span id="gc-reading-label">Observed API gravity</span>
+            <input id="gc-reading" inputmode="decimal" value="46.0" autocomplete="off">
+          </label>
+          <div class="gc-row">
+            <label class="gc-field"><span>Sample temperature</span>
+              <input id="gc-temp" inputmode="decimal" value="85" autocomplete="off">
+            </label>
+            <label class="gc-field gc-unit"><span>Unit</span>
+              <select id="gc-unit"><option value="F">&deg;F</option><option value="C">&deg;C</option></select>
+            </label>
+          </div>
+          <label class="gc-field"><span>Fuel type</span>
+            <select id="gc-fuel">
+              <option value="jet">Jet A / Jet A-1</option>
+              <option value="avgas">Avgas 100LL</option>
+              <option value="mogas">Mogas</option>
+              <option value="diesel">Diesel</option>
+            </select>
+          </label>
+        </form>
+        <div class="gc-result" aria-live="polite">
+          <svg class="gc-hydrometer" viewBox="0 0 90 220" aria-hidden="true">
+            <rect class="gc-cyl" x="10" y="20" width="70" height="190" rx="8"/>
+            <rect class="gc-fuel" x="12" y="70" width="66" height="138" rx="6"/>
+            <g class="gc-float">
+              <rect class="gc-stem" x="41" y="6" width="8" height="96" rx="3"/>
+              <path class="gc-ticks" d="M43 20h4M43 30h4M43 40h4M43 50h4M43 60h4M43 70h4M43 80h4M43 90h4"/>
+              <ellipse class="gc-bulb" cx="45" cy="128" rx="15" ry="30"/>
+              <circle class="gc-weight" cx="45" cy="150" r="7"/>
+            </g>
+            <path class="gc-surface" d="M12 70 q16 -4 33 0 t33 0"/>
+          </svg>
+          <div class="gc-numbers">
+            <div class="gc-big-label label-caps">Corrected API @ 60&deg;F</div>
+            <div class="gc-big">&mdash;</div>
+            <div class="gc-second"></div>
+            <div class="gc-status"></div>
+            <dl class="gc-facts">
+              <div><dt>SG 60&deg;F</dt><dd data-f="sg">&ndash;</dd></div>
+              <div><dt>lb/gal</dt><dd data-f="lbgal">&ndash;</dd></div>
+              <div><dt>kg/L 60&deg;F</dt><dd data-f="d15">&ndash;</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <p class="gc-note">Reference only, the same math as the app: API MPMS Chapter 11.1, Table 6B (API at 60&deg;F) or Table 53B (density at 15&deg;C), with the standard glass hydrometer correction. Always confirm against your organization's official procedures before accepting or rejecting fuel.</p>
+    </div>
   </div>
 </header>
 
 <!-- SECTION 2 — WHY IT EXISTS -->
 <section id="about">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">Why AvGrav exists</div>
       <h2>A field-ready tool for fuelers, technicians, and QA personnel</h2>
-      <p>AvGrav is the modernized, field-ready API fuel gravity calculator designed specifically for aviation line service technicians, FBO operations, and quality assurance personnel. Built from the ground up, AvGrav delivers instant, precise fuel density calculations right on your phone. Whether you're handling Jet-A, 100LL, Mogas, or Diesel, AvGrav calculates all your needs, using standard, publicly verified API MPMS Chapter 11.1 / ASTM formulas to determine corrected API gravity at 60&deg;F (15&deg;C).</p>
+      <p>AvGrav is the modernized, field-ready API fuel gravity calculator designed specifically for aviation line service technicians, FBO operations, and quality assurance personnel. Built from the ground up, AvGrav delivers instant, precise fuel density calculations right on your phone. Whether you're handling Jet-A, 100LL, Mogas, or Diesel, AvGrav calculates all your needs, using the published API MPMS Chapter 11.1 correction: API gravity corrected to 60&deg;F (Table 6B), or a density reading corrected to 15&deg;C (Table 53B), the reference most of the world uses for Jet A-1.</p>
     </div>
   </div>
 </section>
@@ -104,44 +168,64 @@
 <!-- SECTION 3 — FEATURES (single tier -- flat one-time purchase, no free/premium split) -->
 <section id="features">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div class="section-eyebrow">Everything included</div>
       <h2>One purchase. Nothing held back.</h2>
       <p>No subscription, no in-app purchases, no ads.</p>
     </div>
 
-    <div class="feature-grid">
-      <div class="feature-item"><span class="tag">CALC</span><span class="label">Live or manual API gravity correction</span></div>
-      <div class="feature-item"><span class="tag">FUEL</span><span class="label">Jet-A/Jet A-1, Avgas 100LL, Mogas, Diesel</span></div>
-      <div class="feature-item"><span class="tag">REF</span><span class="label">Built-in reference table, every fuel type</span></div>
-      <div class="feature-item"><span class="tag">CLR</span><span class="label">Color-coded results: normal, marginal, out of range</span></div>
-      <div class="feature-item"><span class="tag">WCH</span><span class="label">Apple Watch companion, with History synced to your iPhone</span></div>
-      <div class="feature-item"><span class="tag">DENS</span><span class="label">Density hydrometers too: kg/m&sup3; corrected to 15&deg;C</span></div>
-      <div class="feature-item"><span class="tag">TKT</span><span class="label">Compare to the delivery ticket, with your own tolerance</span></div>
-      <div class="feature-item"><span class="tag">TANK</span><span class="label">Saved tanks and trucks, one tap per reading</span></div>
-      <div class="feature-item"><span class="tag">CSV</span><span class="label">Export History as a spreadsheet or a summary PDF</span></div>
-      <div class="feature-item"><span class="tag">SIRI</span><span class="label">Siri, Shortcuts, and a Control Center button</span></div>
-      <div class="feature-item"><span class="tag">GLR</span><span class="label">Aviation-first, high-contrast design for outdoor glare</span></div>
-      <div class="feature-item"><span class="tag">PIC</span><span class="label">Add photos &amp; descriptive text for documentation</span></div>
-      <div class="feature-item"><span class="tag">VOL</span><span class="label">Fuel volume, net 60&deg;F volume &amp; total weight</span></div>
-      <div class="feature-item"><span class="tag">HIST</span><span class="label">History tab &mdash; every past calculation at a glance</span></div>
-      <div class="feature-item"><span class="tag">EDIT</span><span class="label">Edit a saved reading &mdash; every change timestamped</span></div>
-      <div class="feature-item"><span class="tag">STAR</span><span class="label">Star a reading to protect it from deletion</span></div>
-      <div class="feature-item"><span class="tag">SHR</span><span class="label">Send a professional export to any device</span></div>
-      <div class="feature-item"><span class="tag">WDGT</span><span class="label">Home Screen widget, incl. tap-to-launch</span></div>
+    <div class="feature-groups">
+      <div class="feature-group reveal">
+        <h3 class="label-caps">Measure</h3>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="tag">CALC</span><span class="label">Live or manual API gravity correction</span></div>
+          <div class="feature-item"><span class="tag">DENS</span><span class="label">Density hydrometers too: kg/m&sup3; corrected to 15&deg;C</span></div>
+          <div class="feature-item"><span class="tag">FUEL</span><span class="label">Jet-A/Jet A-1, Avgas 100LL, Mogas, Diesel</span></div>
+          <div class="feature-item"><span class="tag">CLR</span><span class="label">Color-coded results: normal, marginal, out of range</span></div>
+          <div class="feature-item"><span class="tag">REF</span><span class="label">Built-in reference table, every fuel type</span></div>
+          <div class="feature-item"><span class="tag">VOL</span><span class="label">Fuel volume, net 60&deg;F volume &amp; total weight</span></div>
+        </div>
+      </div>
+      <div class="feature-group reveal">
+        <h3 class="label-caps">Record</h3>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="tag">HIST</span><span class="label">History tab: every past calculation at a glance</span></div>
+          <div class="feature-item"><span class="tag">TANK</span><span class="label">Saved tanks and trucks, one tap per reading</span></div>
+          <div class="feature-item"><span class="tag">PIC</span><span class="label">Add photos &amp; descriptive text for documentation</span></div>
+          <div class="feature-item"><span class="tag">EDIT</span><span class="label">Edit a saved reading, every change timestamped</span></div>
+          <div class="feature-item"><span class="tag">STAR</span><span class="label">Star a reading to protect it from deletion</span></div>
+          <div class="feature-item"><span class="tag">TKT</span><span class="label">Compare to the delivery ticket, with your own tolerance</span></div>
+        </div>
+      </div>
+      <div class="feature-group reveal">
+        <h3 class="label-caps">Share</h3>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="tag">CSV</span><span class="label">Export History as a spreadsheet or a summary PDF</span></div>
+          <div class="feature-item"><span class="tag">SHR</span><span class="label">Send a professional export to any device</span></div>
+        </div>
+      </div>
+      <div class="feature-group reveal">
+        <h3 class="label-caps">Devices</h3>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="tag">WCH</span><span class="label">Apple Watch companion, with History synced to your iPhone</span></div>
+          <div class="feature-item"><span class="tag">WDGT</span><span class="label">Home Screen widget, incl. tap-to-launch</span></div>
+          <div class="feature-item"><span class="tag">SIRI</span><span class="label">Siri, Shortcuts, and a Control Center button</span></div>
+          <div class="feature-item"><span class="tag">GLR</span><span class="label">Aviation-first, high-contrast design for outdoor glare</span></div>
+        </div>
+      </div>
     </div>
 
-    <div class="price-callout">One-time purchase &mdash; $0.99. No subscriptions, no ads, no recurring fees.</div>
+    <div class="price-callout">One-time purchase: $0.99. No subscriptions, no ads, no recurring fees.</div>
   </div>
 </section>
 
 <!-- SECTION 3.5 — ALSO BY THE SAME DEVELOPER -->
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <h2>Also by the same developer</h2>
     </div>
-    <div class="app-promo-card">
+    <div class="app-promo-card reveal">
       <img src="images/app-icon.png" alt="AvClock app icon">
       <div>
         <div class="label-caps">DEP / ARR &middot; ALL AIRPORTS &middot; WORLDWIDE</div>
@@ -162,14 +246,14 @@
 <!-- SECTION 4 — FAQ -->
 <section id="faq">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <h2>Frequently asked questions</h2>
     </div>
 
     <div class="faq-list">
       <details class="faq-item">
         <summary>Does the formula change per fuel type?</summary>
-        <p>No &mdash; the correction math is the same for every fuel type in the app. Jet A, 100LL, Mogas, and Diesel are all light, refined petroleum products, so they all use the same standard correction table. What changes per fuel type is the normal reading range, not the equation.</p>
+        <p>Not by the fuel type you pick. All four are refined products, so they all use the standard refined-products table (Table 6B). That table sets how much a fuel expands with heat by its density, in four bands: gasolines like 100LL and mogas, a narrow transition band, jet fuels, and heavier fuel oils like diesel. AvGrav picks the band from the reading itself, the same way the printed tables do. The fuel type you pick sets the typical range the result is checked against.</p>
       </details>
       <details class="faq-item">
         <summary>Is this a certified measurement instrument?</summary>
@@ -220,12 +304,23 @@
         <a href="mailto:avclock@protonmail.com">Contact</a>
       </div>
     </div>
+    <div class="more-apps">
+      <div class="label-caps">More apps from the same developer</div>
+      <div class="more-apps-row">
+        <a class="more-app" href="./"><img src="images/app-icon.png" alt="" width="40" height="40"><span><strong>AvClock</strong><small>Airport world clock</small></span></a>
+        <a class="more-app" href="avgrav"><img src="images/avgrav-icon.png" alt="" width="40" height="40"><span><strong>AvGrav</strong><small>API fuel gravity</small></span></a>
+        <a class="more-app" href="https://notyetcb.com/" target="_blank" rel="noopener"><img src="images/notyet-icon.png" alt="" width="40" height="40"><span><strong>Not Yet</strong><small>Checkout blocker</small></span></a>
+        <a class="more-app" href="https://notyetcb.com/shotstand/" target="_blank" rel="noopener"><img src="images/shotstand-icon.png" alt="" width="40" height="40"><span><strong>Shotstand</strong><small>App Store screenshots, coming soon</small></span></a>
+      </div>
+    </div>
     <p class="footer-note">AvGrav is a reference and convenience tool, not a certified measurement instrument. Always confirm results against your organization's official procedures before an acceptance or rejection decision. Not affiliated with, endorsed by, or sponsored by the American Petroleum Institute, ASTM International, or any equipment manufacturer.</p>
   </div>
 </footer>
 
 <script src="js/nav.js" defer></script>
 <script src="js/track.js" defer></script>
+<script src="js/reveal.js" defer></script>
+<script src="js/avgrav-calc.js" defer></script>
 
 </body>
 </html>

@@ -15,7 +15,14 @@ privacy.html                      Privacy Policy
 terms.html                        Terms of Use
 css/style.css                     Shared styles
 images/app-icon.png               Real app icon (from Assets.xcassets)
-js/track.js                       First-party analytics beacon (every page)
+js/track.js                       First-party analytics beacon (every page) (also window.avTrack, for "demo" events)
+js/reveal.js                      Fade-in as sections scroll into view (off with reduced motion)
+js/avclock-demos.js               Homepage: Try any airport, Overlap, Jet lag day 1, Big Clock preview
+js/avgrav-calc.js                 AvGrav page calculator: the app's own correction math, ported
+data/airports.json                Airports for "Try any airport" (OurAirports via the app's bundled
+                                  clean_airports.json: [iata, icao, name, lat, lon, tz, country]);
+                                  regenerate from the app's dataset when it changes
+images/og-avclock.png, og-avgrav.png   1200x630 share images
 functions/api/track.js            Cloudflare Pages Function — logs events (public)
 functions/api/stats.js            Cloudflare Pages Function — reads aggregates (should be gated)
 analytics.html                    Private live-stats dashboard (should be gated, see below)
