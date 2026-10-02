@@ -236,3 +236,21 @@ just makes sure only you can reach whatever you put there. Since this
 step happens in your own Cloudflare account, it's something you'll
 need to click through yourself — I can't log into your dashboard for
 you.
+
+## Speed, accessibility, and Cloudflare limits (2026-10-02)
+
+- Icons on pages come from `images/icons/<app>-<size>.webp` (64, 96,
+  192, 384 px, about 2x each display size), not the 400-512px PNGs,
+  which were 100-420 KB each. The PNGs stay for the favicon,
+  apple-touch-icon, and share images. A new icon on a page should use
+  a sized WebP too.
+- `_headers` gives `/images/*` (and `/data/*` on avclockapp.com) a
+  1-day cache with a week of background refresh.
+- Lighthouse (mobile, local) after these changes: every audited page
+  scores 100 for accessibility, 99-100 for performance.
+- Analytics (src/index.js, same file on both sites): 1 KV read + 1 KV
+  write per tracked event, one counter key per page/event (count in
+  KV metadata), and /api/stats is one list() cached for 5 minutes.
+  The dashboard polls once a minute and only while visible. Free tier:
+  1,000 KV writes/day, so roughly 400-700 visits a day before counts
+  stop for the rest of that UTC day; the site itself is unaffected.
