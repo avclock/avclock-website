@@ -40,6 +40,11 @@
   }
   send("view", referrerSource);
 
+  // For the interactive demos (avclock-demos.js, avgrav-calc.js):
+  // each demo reports "used" at most once per page load, so they add
+  // at most a handful of writes on top of the view.
+  window.avTrack = send;
+
   // Scroll-depth milestones, each fired at most once per page load.
   // Trimmed from [25, 50, 75, 100] to just 100 (2026-09-04, real KV
   // write-quota pressure): four milestones meant up to four extra
