@@ -1153,3 +1153,9 @@ article.legal p { font-size: 15.5px; max-width: none; }
    color alone (WCAG 1.4.1); buttons, badges, and nav links carry
    classes or sit outside paragraphs and are unaffected. */
 p a:not([class]), li a:not([class]) { text-decoration: underline; text-underline-offset: 2px; }
+
+/* Premium footer: weather chips and the price on one line (wraps on
+   phones), inside the container like everything else. */
+.premium-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-top: 28px; }
+.premium-foot .cat-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.premium-foot .price-callout { margin-top: 0; }
