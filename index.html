@@ -820,25 +820,13 @@
     if (firstPin) firstPin.dispatchEvent(new Event("click"));
   }
 
-  // ---- Screenshot gallery device tabs ----
-  var galleryTabs = document.querySelectorAll("[data-gallery-tab]");
-  var galleries = document.querySelectorAll("[data-gallery]");
-
-  galleryTabs.forEach(function (tab) {
-    tab.addEventListener("click", function () {
-      var device = tab.getAttribute("data-gallery-tab");
-      galleryTabs.forEach(function (t) { t.setAttribute("aria-selected", t === tab ? "true" : "false"); });
-      galleries.forEach(function (g) {
-        if (g.getAttribute("data-gallery") === device) g.setAttribute("data-active", "");
-        else g.removeAttribute("data-active");
-      });
-    });
-  });
+  // Screenshot gallery tabs: js/shot-gallery.js (shared with avgrav.html).
 })();
 </script>
 <script src="js/nav.js" defer></script>
 <script src="js/track.js" defer></script>
 <script src="js/reveal.js" defer></script>
+<script src="js/shot-gallery.js" defer></script>
 <script src="js/avclock-demos.js" defer></script>
 
 </body>
