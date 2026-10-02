@@ -33,7 +33,7 @@
   --hairline-strong: rgba(236, 239, 244, 0.16);
   --paper: #eceff4;
   --muted: #838ea3;
-  --muted-2: #5b6478;
+  --muted-2: #80899e; /* was #5b6478: 3.1:1 on panels, under WCAG AA. Now 5.2:1 on --panel, 4.6:1 on --panel-2 */
   --beacon: #2c8cff;
   --beacon-strong: #5aa7ff;
   --amber: #ffb020;
@@ -903,8 +903,14 @@ article.legal p { font-size: 15.5px; max-width: none; }
 }
 .flap.sep { background: transparent; min-width: 0.35em; }
 .flap.sep::after { display: none; }
-.flap.flip { animation: flapFlip 0.32s ease-out; transform-origin: 50% 50%; }
-@keyframes flapFlip {
+.flap.flip-a { animation: flapFlipA 0.32s ease-out; }
+.flap.flip-b { animation: flapFlipB 0.32s ease-out; }
+@keyframes flapFlipA {
+  0% { transform: rotateX(90deg); color: var(--amber); }
+  60% { transform: rotateX(-12deg); }
+  100% { transform: rotateX(0); }
+}
+@keyframes flapFlipB {
   0% { transform: rotateX(90deg); color: var(--amber); }
   60% { transform: rotateX(-12deg); }
   100% { transform: rotateX(0); }
@@ -1142,3 +1148,8 @@ article.legal p { font-size: 15.5px; max-width: none; }
 /* AvGrav grouped feature list */
 .feature-groups { display: flex; flex-direction: column; gap: 22px; }
 .feature-group h3 { color: var(--muted); font-size: 12.5px; margin: 0 0 10px; }
+
+/* Links inside running text are underlined, so they don't rely on
+   color alone (WCAG 1.4.1); buttons, badges, and nav links carry
+   classes or sit outside paragraphs and are unaffected. */
+p a:not([class]), li a:not([class]) { text-decoration: underline; text-underline-offset: 2px; }

@@ -101,7 +101,7 @@
 <nav class="site-nav">
   <div class="container">
     <a class="brand" href="./">
-      <img src="images/app-icon.png" alt="AvClock app icon">
+      <img src="images/icons/avclock-64.webp" alt="AvClock app icon">
       AvClock
     </a>
     <div class="nav-links">
@@ -121,7 +121,7 @@
   <div class="container">
     <div class="hero-grid">
       <div class="hero-icon">
-        <img src="images/app-icon.png" alt="AvClock's chrome airplane monogram app icon">
+        <img src="images/icons/avclock-384.webp" alt="AvClock's chrome airplane monogram app icon">
       </div>
       <div>
         <div class="app-title">AvClock: Global Airport Times</div>
@@ -534,7 +534,7 @@
       <h2>Also by the same developer</h2>
     </div>
     <div class="app-promo-card reveal">
-      <img src="images/avgrav-icon.png" alt="AvGrav app icon">
+      <img src="images/icons/avgrav-192.webp" alt="AvGrav app icon">
       <div>
         <div class="label-caps">FOR FUELERS &middot; FBOs &middot; AIRPORTS</div>
         <h3>AvGrav: API Fuel Gravity Calc.</h3>
@@ -604,7 +604,7 @@
   <div class="container">
     <div class="footer-grid">
       <a class="brand" href="./">
-        <img src="images/app-icon.png" alt="AvClock app icon">
+        <img src="images/icons/avclock-64.webp" alt="AvClock app icon">
         AvClock
       </a>
       <div class="footer-links">
@@ -620,10 +620,10 @@
     <div class="more-apps">
       <div class="label-caps">More apps from the same developer</div>
       <div class="more-apps-row">
-        <a class="more-app" href="./"><img src="images/app-icon.png" alt="" width="40" height="40"><span><strong>AvClock</strong><small>Airport world clock</small></span></a>
-        <a class="more-app" href="avgrav"><img src="images/avgrav-icon.png" alt="" width="40" height="40"><span><strong>AvGrav</strong><small>API fuel gravity</small></span></a>
-        <a class="more-app" href="https://notyetcb.com/" target="_blank" rel="noopener"><img src="images/notyet-icon.png" alt="" width="40" height="40"><span><strong>Not Yet</strong><small>Checkout blocker</small></span></a>
-        <a class="more-app" href="https://notyetcb.com/shotstand/" target="_blank" rel="noopener"><img src="images/shotstand-icon.png" alt="" width="40" height="40"><span><strong>Shotstand</strong><small>App Store screenshots, coming soon</small></span></a>
+        <a class="more-app" href="./"><img src="images/icons/avclock-96.webp" alt="" width="40" height="40" loading="lazy" decoding="async"><span><strong>AvClock</strong><small>Airport world clock</small></span></a>
+        <a class="more-app" href="avgrav"><img src="images/icons/avgrav-96.webp" alt="" width="40" height="40" loading="lazy" decoding="async"><span><strong>AvGrav</strong><small>API fuel gravity</small></span></a>
+        <a class="more-app" href="https://notyetcb.com/" target="_blank" rel="noopener"><img src="images/icons/notyet-96.webp" alt="" width="40" height="40" loading="lazy" decoding="async"><span><strong>Not Yet</strong><small>Checkout blocker</small></span></a>
+        <a class="more-app" href="https://notyetcb.com/shotstand/" target="_blank" rel="noopener"><img src="images/icons/shotstand-96.webp" alt="" width="40" height="40" loading="lazy" decoding="async"><span><strong>Shotstand</strong><small>App Store screenshots, coming soon</small></span></a>
       </div>
     </div>
     <p class="footer-note">AvClock is for reference only, not for navigation, pilotage, or flight planning. Data and weather may be inaccurate or delayed; always confirm with official sources before any aviation decision. Not affiliated with, endorsed by, or sponsored by the FAA, NOAA, Uber Technologies, or Lyft.</p>
@@ -661,7 +661,12 @@
         var cells = el.querySelectorAll(".flap");
         if (cells.length !== text.length) {
           el.textContent = "";
-          el.setAttribute("aria-label", text);
+          // Screen readers get the plain time from a visually hidden
+          // span; the flap cells are decoration only.
+          var sr = document.createElement("span");
+          sr.className = "sr-only";
+          sr.textContent = text;
+          el.appendChild(sr);
           for (var i = 0; i < text.length; i++) {
             var c = document.createElement("span");
             c.className = "flap" + (text[i] === ":" ? " sep" : "");
@@ -674,13 +679,12 @@
         for (var j = 0; j < text.length; j++) {
           if (cells[j].textContent === text[j]) continue;
           cells[j].textContent = text[j];
-          if (flipOK) {
-            cells[j].classList.remove("flip");
-            void cells[j].offsetWidth;
-            cells[j].classList.add("flip");
-          }
+          // Alternate between two identical animations: switching the
+          // animation name restarts it without forcing a layout pass
+          // (the old remove/offsetWidth/add did, several times a second).
+          if (flipOK) cells[j].className = "flap " + (cells[j].className.indexOf("flip-a") !== -1 ? "flip-b" : "flip-a");
         }
-        el.setAttribute("aria-label", text);
+        el.querySelector(".sr-only").textContent = text;
       } catch (e) { /* unsupported tz — leave placeholder */ }
     });
   }

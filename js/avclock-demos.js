@@ -17,10 +17,12 @@
 
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var track = window.avTrack || function () {};
-  var tracked = {};
+  // One "demo" event per page load at most (the first demo used), so
+  // trying all four demos costs one KV write, not four.
+  var tracked = false;
   function trackOnce(name) {
-    if (tracked[name]) return;
-    tracked[name] = true;
+    if (tracked) return;
+    tracked = true;
     track("demo", name);
   }
 
