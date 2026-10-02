@@ -46,7 +46,11 @@
       Early versions of AvGrav over-corrected for temperature, so readings taken well above or below 60&deg;F came out too low or too high. That's fixed. Readings saved before the fix keep their saved value, and History shows the same reading run through the current correction next to it, so you can see exactly what changed.</p>
 
       <p><strong>Does a reading calculated on the Watch show up on my iPhone, or vice versa?</strong><br>
-      Not currently — the Watch app keeps its own separate history. A reading you calculate on the Watch stays on the Watch; a reading you calculate on the iPhone stays on the iPhone. See the <a href="avgrav-privacy">Privacy Policy</a> for details.</p>
+      Yes. History syncs directly between your iPhone and your paired Apple Watch, with no server in between. Photos stay on the iPhone that took them. Starred readings are never deleted by a delete on the other device.</p>
+      <p><strong>Can I use a density hydrometer instead of API gravity?</strong><br>
+      Yes. Choose "Density kg/m&sup3;" above the reading field (or in Settings). AvGrav corrects the reading to 15&deg;C, the way Jet A-1 is certified outside the US, and shows the API at 60&deg;F as well.</p>
+      <p><strong>Why did my total weight change?</strong><br>
+      A meter that isn't temperature-compensated reads the fuel's actual volume, which is larger when the fuel is warm. AvGrav now corrects that volume to 60&deg;F before working out the weight, and shows the net 60&deg;F volume. If your meter is already temperature-compensated, turn on "Already corrected to 60&deg;F."</p>
 
       <p><strong>Why does the app ask for camera access?</strong><br>
       Only if you choose to attach a photo of a hydrometer, gauge, or other physical reading as proof alongside a calculation. It's entirely optional, and the photo is only ever stored on your own device.</p>
