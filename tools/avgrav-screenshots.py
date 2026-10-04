@@ -133,7 +133,7 @@ def gallery_html(blocks):
             '    <div class="section-head reveal">\n'
             '      <div class="section-eyebrow">Screenshots</div>\n'
             '      <h2>See it before you fuel</h2>\n'
-            '      <p>Real screenshots from the App Store listing. Swipe through, or pick your device.</p>\n'
+            '      <p>AvGrav on iPhone, iPad, and Apple Watch. Swipe through, or pick your device.</p>\n'
             '    </div>\n\n'
             + tabs + galleries +
             '    <p class="gallery-hint">Scroll to see more &rarr;</p>\n'
