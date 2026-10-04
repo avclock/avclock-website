@@ -8,9 +8,14 @@
   </url>
   <url>
     <loc>https://avclockapp.com/blog/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/blog/avclock-1-9-overlap-jet-lag-flights</loc>
+    <lastmod>2026-10-04</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avclockapp.com/blog/avclock-1-8-my-flights-airport-amenities</loc>
