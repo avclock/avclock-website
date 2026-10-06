@@ -71,7 +71,6 @@
 
   var root = document.getElementById("grav-calc");
   if (!root) return;
-  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var form = root.querySelector("form");
   var modeInputs = root.querySelectorAll("input[name=mode]");
   var reading = root.querySelector("#gc-reading"), readingLabel = root.querySelector("#gc-reading-label");
@@ -138,9 +137,7 @@
       var depth = Math.max(0, Math.min(1, (api - 25) / 50));
       hydrometer.style.setProperty("--sink", (depth * 46).toFixed(1) + "px");
     }
-    if (!reduceMotion) {
-      big.classList.remove("gc-pop"); void big.offsetWidth; big.classList.add("gc-pop");
-    }
+    big.classList.remove("gc-pop"); void big.offsetWidth; big.classList.add("gc-pop");
   }
 
   modeInputs.forEach(function (m) { m.addEventListener("change", setMode); });
