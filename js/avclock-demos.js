@@ -15,7 +15,6 @@
 (function () {
   "use strict";
 
-  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var track = window.avTrack || function () {};
   // One "demo" event per page load at most (the first demo used), so
   // trying all four demos costs one KV write, not four.
@@ -206,11 +205,9 @@
       card.hidden = false;
       card.querySelector("[data-f=code]").textContent = a.code + (a.icao ? " · " + a.icao : "");
       card.querySelector("[data-f=name]").textContent = a.name + (a.country ? ", " + a.country : "");
-      if (!reduceMotion) {
-        card.classList.remove("try-card-in");
-        void card.offsetWidth;
-        card.classList.add("try-card-in");
-      }
+      card.classList.remove("try-card-in");
+      void card.offsetWidth;
+      card.classList.add("try-card-in");
       tick();
     }
 
@@ -421,9 +418,7 @@
     }
     root.querySelector(".bc-next").addEventListener("click", function () {
       i = (i + 1) % order.length;
-      if (!reduceMotion) {
-        t.classList.remove("bc-swap"); void t.offsetWidth; t.classList.add("bc-swap");
-      }
+      t.classList.remove("bc-swap"); void t.offsetWidth; t.classList.add("bc-swap");
       draw();
       trackOnce("bigclock");
     });

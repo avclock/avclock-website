@@ -52,17 +52,6 @@
 
 html { scroll-behavior: smooth; }
 
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
-  /* The marquee's animation-iteration-count is `infinite` -- shrinking
-     just its duration above doesn't freeze it, it makes the full
-     translateX(0) -> translateX(-50%) cycle repeat every 0.001ms
-     forever, which reads as violent flickering/jumping instead of a
-     calm static state. Needs its own explicit stop. */
-  .marquee-track { animation: none !important; }
-}
-
 body {
   margin: 0;
   background: var(--ink);
@@ -248,10 +237,8 @@ section:last-of-type { border-bottom: none; }
    available to screen readers. translateX(-50%) shifts by exactly
    half the track's width -- since all six copies are identical, that
    lands the animation back in a visually identical position, so the
-   0s->40s loop repeats seamlessly. The global prefers-reduced-motion
-   rule at the top of this file already forces all animation
-   durations near-zero, which freezes this in place for anyone who's
-   asked for reduced motion, without extra rules here. */
+   0s->40s loop repeats seamlessly. It runs whatever the device's
+   Reduce Motion setting says (2026-10-06). */
 .marquee {
   overflow: hidden;
   min-width: 0;
@@ -731,7 +718,6 @@ article.legal p { font-size: 15.5px; max-width: none; }
   box-shadow: 0 0 8px currentColor;
   animation: livePulse 2.4s ease-in-out infinite;
 }
-@media (prefers-reduced-motion: reduce) { .live-dot::before { animation: none; } }
 @keyframes livePulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
 
 /* Live clock board — reuses .board-row's visual language with real
@@ -880,9 +866,8 @@ article.legal p { font-size: 15.5px; max-width: none; }
 /* ============================================================
    2026-10 overhaul: split-flap board, scroll reveal, Try any
    airport, New in AvClock demos, collapsed feature lists, the
-   More apps strip, and the AvGrav calculator. All motion stops under
-   prefers-reduced-motion (the global rule at the top of this file,
-   plus reveal.js and the demo scripts check it themselves).
+   More apps strip, and the AvGrav calculator. Motion plays whatever
+   the device's Reduce Motion setting says (2026-10-06).
    ============================================================ */
 
 /* Split-flap cells on the live board */
@@ -1131,7 +1116,6 @@ article.legal p { font-size: 15.5px; max-width: none; }
 .gc-float { transform: translateY(var(--sink, 20px)); transition: transform 0.7s cubic-bezier(.3, 1.4, .5, 1); }
 .gc-float > * { animation: gcBob 3.2s ease-in-out infinite; }
 @keyframes gcBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(2.5px); } }
-@media (prefers-reduced-motion: reduce) { .gc-float > * { animation: none !important; } }
 .gc-stem { fill: rgba(236, 239, 244, 0.85); }
 .gc-ticks { stroke: var(--ink); stroke-width: 1; }
 .gc-bulb { fill: rgba(236, 239, 244, 0.75); }

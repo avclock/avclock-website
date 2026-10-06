@@ -644,8 +644,7 @@
   // once-per-15s jump nobody would notice. ----
   // Split-flap: each character is its own cell, and only the cells
   // whose character changed flip (CSS .flap.flip), like a real
-  // departure board. Reduced motion: plain text swap, no flip.
-  var flipOK = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  // departure board.
   var boardFormats = {};
   function updateLiveBoard() {
     var rows = document.querySelectorAll("#live-board [data-tz]");
@@ -681,7 +680,7 @@
           // Alternate between two identical animations: switching the
           // animation name restarts it without forcing a layout pass
           // (the old remove/offsetWidth/add did, several times a second).
-          if (flipOK) cells[j].className = "flap " + (cells[j].className.indexOf("flip-a") !== -1 ? "flip-b" : "flip-a");
+          cells[j].className = "flap " + (cells[j].className.indexOf("flip-a") !== -1 ? "flip-b" : "flip-a");
         }
         el.querySelector(".sr-only").textContent = text;
       } catch (e) { /* unsupported tz — leave placeholder */ }
