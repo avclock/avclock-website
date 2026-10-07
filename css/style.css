@@ -656,6 +656,20 @@ article.post .callout {
   margin: 32px 0;
 }
 article.post .callout p { max-width: none; }
+/* Reference tables in posts (time zone offsets, conversion tables).
+   The wrapper scrolls sideways on its own on narrow phones, so the page
+   itself never does. */
+article.post .table-wrap { overflow-x: auto; margin: 22px 0 28px; border: 1px solid var(--hairline); border-radius: var(--radius); }
+article.post table { width: 100%; border-collapse: collapse; font-size: 15px; color: var(--muted); }
+article.post th, article.post td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--hairline); white-space: nowrap; }
+article.post th { font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted-2); background: var(--panel); }
+article.post tr:last-child td { border-bottom: 0; }
+article.post td.num, article.post th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+article.post td strong { color: var(--paper); }
+article.post .wide-shot { margin: 28px 0; }
+article.post .wide-shot img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+article.post .wide-shot figcaption { margin-top: 10px; font-size: 14px; color: var(--muted-2); }
+
 article.post .disclaimer {
   margin-top: 46px;
   padding-top: 22px;

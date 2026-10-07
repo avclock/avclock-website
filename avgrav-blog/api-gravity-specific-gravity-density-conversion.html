@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-itunes-app" content="app-id=6804878148">
+
+<title>API Gravity to Specific Gravity and Density: Formulas and Table</title>
+<meta name="description" content="How to convert API gravity to specific gravity, kg/m³, kg/L, and pounds per gallon, with a worked Jet A example and a conversion table from 30 to 70 degrees API.">
+<link rel="canonical" href="https://avclockapp.com/avgrav-blog/api-gravity-specific-gravity-density-conversion">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="API Gravity to Specific Gravity and Density: Formulas and Table">
+<meta property="og:description" content="How to convert API gravity to specific gravity, kg/m³, kg/L, and pounds per gallon, with a worked Jet A example and a conversion table from 30 to 70 degrees API.">
+<meta property="og:url" content="https://avclockapp.com/avgrav-blog/api-gravity-specific-gravity-density-conversion">
+<meta property="og:image" content="https://avclockapp.com/images/avgrav-icon.png">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" type="image/png" href="../images/avgrav-icon.png">
+<link rel="apple-touch-icon" href="../images/avgrav-icon.png">
+<link rel="stylesheet" href="../css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "API Gravity to Specific Gravity and Density: Formulas and Table",
+  "description": "How to convert API gravity to specific gravity, kg/m³, kg/L, and pounds per gallon, with a worked Jet A example and a conversion table from 30 to 70 degrees API.",
+  "datePublished": "2026-10-07",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AvGrav"
+  },
+  "mainEntityOfPage": "https://avclockapp.com/avgrav-blog/api-gravity-specific-gravity-density-conversion"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you convert API gravity to specific gravity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Specific gravity at 60°F equals 141.5 divided by (API gravity + 131.5). For example, 43.79° API is 141.5 ÷ 175.29 = 0.8072."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you convert API gravity to density in kg/m³?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "First find specific gravity: 141.5 ÷ (API + 131.5). Then multiply by 999.016, the density of water at 60°F in kg/m³. That gives density at 60°F. Density at 15°C is a few tenths of a kg/m³ higher and comes from the petroleum measurement tables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many pounds per gallon is Jet A?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the batch's API gravity. Multiply specific gravity by about 8.328 pounds per US gallon. A typical Jet A at 43.8° API (SG 0.807) weighs about 6.72 pounds per gallon; across the usual range it runs from about 6.5 to 7.0."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="../avgrav">
+      <img src="../images/icons/avgrav-64.webp" alt="AvGrav app icon">
+      AvGrav
+    </a>
+    <div class="nav-links">
+      <a href="../avgrav#about">About</a>
+      <a href="../avgrav#features">Features</a>
+      <a href="./">Blog</a>
+      <a href="../avgrav-support">Support</a>
+      <a href="../">AvClock</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <article class="post">
+      <p><a href="./">&larr; Back to Blog</a></p>
+      <div class="label-caps" style="color:var(--amber);margin-bottom:14px;">GUIDES &middot; FUEL QUALITY</div>
+      <h1>API Gravity to Specific Gravity and Density: Formulas and Table</h1>
+      <div class="post-meta">4 min read <button class="share-btn" data-track="share">Share</button></div>
+
+      <p>A hydrometer gives you API gravity. The bill of lading, an international supplier, or your weight and balance might want specific gravity, kilograms per cubic meter, or pounds per gallon instead. They're all the same measurement in different units, and converting between them takes one formula. Here are the formulas, a worked example, and a table for the range fuelers actually see.</p>
+
+      <h2>The Formulas</h2>
+      <p>Everything starts from specific gravity (SG) at 60&deg;F, the fuel's density divided by water's at the same temperature:</p>
+      <div class="metar-example">SG at 60&deg;F = 141.5 &divide; (API + 131.5)</div>
+      <div class="metar-example">API = (141.5 &divide; SG) &minus; 131.5</div>
+      <p>From SG, density and weight are one multiplication each, using water's own density at 60&deg;F:</p>
+      <div class="metar-example">kg/m&sup3; at 60&deg;F = SG &times; 999.016</div>
+      <div class="metar-example">kg/L at 60&deg;F = SG &times; 0.999016</div>
+      <div class="metar-example">lb per US gallon = SG &times; 8.32774</div>
+      <p>Two things to keep straight. First, all of these need the <em>corrected</em> API gravity, at 60&deg;F. Plug in an uncorrected reading from a warm sample and every number downstream is off. Second, metric paperwork usually quotes density at 15&deg;C, not 60&deg;F. 15&deg;C is 59&deg;F, so the fuel is a little denser there: a few tenths of a kg/m&sup3; higher than the 60&deg;F figure. Use the petroleum tables (or AvGrav) for the 15&deg;C number rather than the formula above.</p>
+
+      <h2>A Worked Example</h2>
+      <p>Say you've corrected a Jet A sample to <strong>43.79&deg; API</strong> at 60&deg;F.</p>
+      <ul>
+        <li>SG = 141.5 &divide; (43.79 + 131.5) = 141.5 &divide; 175.29 = <strong>0.8072</strong></li>
+        <li>Density at 60&deg;F = 0.8072 &times; 999.016 = <strong>806.4 kg/m&sup3;</strong></li>
+        <li>Weight = 0.8072 &times; 8.32774 = <strong>6.722 lb per US gallon</strong></li>
+      </ul>
+      <p>So 5,000 gallons of it weighs about 33,610 pounds. That's the same fuel as on AvGrav's result screen, which shows SG, pounds per gallon, and kg/m&sup3; at 15&deg;C (806.8 for this sample) under every reading.</p>
+
+      <h2>Conversion Table</h2>
+      <p>API gravity at 60&deg;F and its equivalents, in steps of two degrees. Jet A typically falls between about 36 and 51&deg; API, diesel between 30 and 42, and 100LL and mogas between 55 and 65.</p>
+      <div class="table-wrap">
+        <table>
+          <tr><th class="num">API</th><th class="num">SG 60/60&deg;F</th><th class="num">kg/m&sup3; 60&deg;F</th><th class="num">kg/L</th><th class="num">lb/US gal</th></tr>
+          <tr><td class="num">30</td><td class="num">0.8762</td><td class="num">875.3</td><td class="num">0.875</td><td class="num">7.296</td></tr>
+          <tr><td class="num">32</td><td class="num">0.8654</td><td class="num">864.6</td><td class="num">0.865</td><td class="num">7.207</td></tr>
+          <tr><td class="num">34</td><td class="num">0.8550</td><td class="num">854.1</td><td class="num">0.854</td><td class="num">7.120</td></tr>
+          <tr><td class="num">36</td><td class="num">0.8448</td><td class="num">843.9</td><td class="num">0.844</td><td class="num">7.035</td></tr>
+          <tr><td class="num">38</td><td class="num">0.8348</td><td class="num">834.0</td><td class="num">0.834</td><td class="num">6.952</td></tr>
+          <tr><td class="num">40</td><td class="num">0.8251</td><td class="num">824.3</td><td class="num">0.824</td><td class="num">6.871</td></tr>
+          <tr><td class="num">42</td><td class="num">0.8156</td><td class="num">814.8</td><td class="num">0.815</td><td class="num">6.792</td></tr>
+          <tr><td class="num">44</td><td class="num">0.8063</td><td class="num">805.5</td><td class="num">0.805</td><td class="num">6.714</td></tr>
+          <tr><td class="num">46</td><td class="num">0.7972</td><td class="num">796.4</td><td class="num">0.796</td><td class="num">6.639</td></tr>
+          <tr><td class="num">48</td><td class="num">0.7883</td><td class="num">787.5</td><td class="num">0.788</td><td class="num">6.565</td></tr>
+          <tr><td class="num">50</td><td class="num">0.7796</td><td class="num">778.8</td><td class="num">0.779</td><td class="num">6.492</td></tr>
+          <tr><td class="num">52</td><td class="num">0.7711</td><td class="num">770.4</td><td class="num">0.770</td><td class="num">6.422</td></tr>
+          <tr><td class="num">54</td><td class="num">0.7628</td><td class="num">762.1</td><td class="num">0.762</td><td class="num">6.352</td></tr>
+          <tr><td class="num">56</td><td class="num">0.7547</td><td class="num">753.9</td><td class="num">0.754</td><td class="num">6.285</td></tr>
+          <tr><td class="num">58</td><td class="num">0.7467</td><td class="num">746.0</td><td class="num">0.746</td><td class="num">6.218</td></tr>
+          <tr><td class="num">60</td><td class="num">0.7389</td><td class="num">738.2</td><td class="num">0.738</td><td class="num">6.153</td></tr>
+          <tr><td class="num">62</td><td class="num">0.7313</td><td class="num">730.5</td><td class="num">0.731</td><td class="num">6.090</td></tr>
+          <tr><td class="num">64</td><td class="num">0.7238</td><td class="num">723.1</td><td class="num">0.723</td><td class="num">6.027</td></tr>
+          <tr><td class="num">66</td><td class="num">0.7165</td><td class="num">715.8</td><td class="num">0.716</td><td class="num">5.966</td></tr>
+          <tr><td class="num">68</td><td class="num">0.7093</td><td class="num">708.6</td><td class="num">0.709</td><td class="num">5.907</td></tr>
+          <tr><td class="num">70</td><td class="num">0.7022</td><td class="num">701.5</td><td class="num">0.702</td><td class="num">5.848</td></tr>
+        </table>
+      </div>
+
+      <h2>Which Number Goes Where</h2>
+      <ul>
+        <li><strong>API gravity</strong> is what US fuel paperwork and the Certificate of Analysis usually quote, and what you compare your reading with.</li>
+        <li><strong>Density in kg/m&sup3; at 15&deg;C</strong> is the international standard, and what Jet A-1 specifications outside the US are written in.</li>
+        <li><strong>Pounds per gallon</strong> turns a gallon count into weight, for weight and balance or for comparing a metered uplift against a weight on paper.</li>
+        <li><strong>Specific gravity</strong> is the bridge between all of them, and what some older forms and fuel slips still ask for.</li>
+      </ul>
+
+      <h2>Doing It on the Ramp</h2>
+      <p><a href="../avgrav">AvGrav</a> does every one of these at once. Enter the observed API and temperature (or a density reading in kg/m&sup3;, if that's the hydrometer you have), and the result shows corrected API, SG, pounds per gallon, and kg/m&sup3; at 15&deg;C together. Add a fuel volume and it gives you net gallons at 60&deg;F and the total weight. It works the same on Apple Watch, and it's now $0.99.</p>
+
+      <p class="disclaimer">AvGrav and this guide are reference and convenience tools, not certified measurement instruments or a substitute for a calibrated hydrometer, thermometer, or your organization's official procedures. Always follow your organization's quality control program and applicable regulations before accepting, rejecting, or releasing any fuel.</p>
+
+      <div style="text-align:center;margin:40px 0;">
+        <div class="label-caps" style="margin-bottom:14px;">Correct your next reading in seconds</div>
+        <div class="badge-row" style="justify-content:center;">
+          <a class="store-badge" href="https://apps.apple.com/us/app/avgrav-api-fuel-gravity-calc/id6804878148" target="_blank" rel="noopener">
+            <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            Download AvGrav
+          </a>
+        </div>
+      </div>
+
+      <div class="more-posts">
+        <div class="label-caps">More from AvGrav</div>
+        <div class="blog-board">
+          <a class="blog-row" href="how-to-correct-api-gravity-to-60f">
+            <span class="tag">API</span>
+            <span class="row-main">
+              <span class="row-title">How to Correct API Gravity to 60&deg;F</span>
+              <span class="row-excerpt">Correct the reading first, then convert it.</span>
+            </span>
+            <span class="row-status live">LIVE</span>
+          </a>
+          <a class="blog-row" href="avgrav-now-99-cents">
+            <span class="tag">PRICE</span>
+            <span class="row-main">
+              <span class="row-title">AvGrav Is Now $0.99</span>
+              <span class="row-excerpt">Every feature, one purchase, no subscription.</span>
+            </span>
+            <span class="row-status live">NEW</span>
+          </a>
+          <a class="blog-row" href="../avgrav">
+            <span class="tag">HOME</span>
+            <span class="row-main">
+              <span class="row-title">AvGrav homepage</span>
+              <span class="row-excerpt">Full feature list, FAQ, and download link.</span>
+            </span>
+            <span class="row-status live">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <a class="brand" href="../avgrav">
+        <img src="../images/icons/avgrav-64.webp" alt="AvGrav app icon">
+        AvGrav
+      </a>
+      <div class="footer-links">
+        <a href="./">Blog</a>
+        <a href="../avgrav-support">Support</a>
+        <a href="../avgrav-privacy">Privacy Policy</a>
+        <a href="../avgrav-terms">Terms of Use</a>
+        <a href="../">AvClock</a>
+        <a href="mailto:avclock@protonmail.com">Contact</a>
+      </div>
+    </div>
+    <p class="footer-note">AvGrav is a reference and convenience tool, not a certified measurement instrument. Always confirm results against your organization's official procedures before an acceptance or rejection decision.</p>
+  </div>
+</footer>
+
+<script src="../js/nav.js" defer></script>
+<script src="../js/track.js" defer></script>
+</body>
+</html>
