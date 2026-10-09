@@ -670,6 +670,18 @@ article.post .wide-shot { margin: 28px 0; }
 article.post .wide-shot img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
 article.post .wide-shot figcaption { margin-top: 10px; font-size: 14px; color: var(--muted-2); }
 
+/* A drawn Mac menu bar strip, for showing what the AvClock Mac app can
+   put in the menu bar. Text, not a screenshot. */
+article.post .menubar-demo { margin: 22px 0 30px; display: grid; gap: 14px; }
+article.post .menubar-row { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: 6px 18px; align-items: center; }
+article.post .menubar { display: flex; align-items: center; justify-content: flex-end; gap: 12px; height: 30px; padding: 0 10px; border-radius: 8px;
+  background: linear-gradient(90deg, #26314a, #1c2335); border: 1px solid var(--hairline-strong); overflow: hidden; }
+article.post .menubar .mb-item { color: rgba(236, 239, 244, 0.55); font: 600 13px/1 var(--sans); white-space: nowrap; }
+article.post .menubar .mb-title { color: #fff; background: rgba(255, 255, 255, 0.16); border-radius: 5px; padding: 5px 8px; font: 600 13px/1 var(--sans); white-space: pre; }
+article.post .menubar-label { font-size: 15px; color: var(--muted); }
+article.post .menubar-label strong { color: var(--paper); display: block; font-size: 15.5px; margin-bottom: 2px; }
+@media (max-width: 560px) { article.post .menubar-row { grid-template-columns: 1fr; } }
+
 article.post .disclaimer {
   margin-top: 46px;
   padding-top: 22px;
