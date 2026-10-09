@@ -2,9 +2,11 @@
 // AvClock homepage demos (beyond the live board and map, which live
 // in index.html's own inline script):
 //   - "Try any airport": search the same OurAirports dataset the app
-//     ships (data/airports.json, loaded only when the section comes
-//     near the screen) and see that airport's live local time, Zulu
-//     offset, difference from you, and sunrise/sunset.
+//     downloads (data/airports.json, made from avcock-data's
+//     clean_airports.json: [iata, icao, name, lat, lon, tz, country,
+//     city]; loaded only when the section comes near the screen) and see
+//     that airport's live local time, Zulu offset, difference from you,
+//     and sunrise/sunset.
 //   - Overlap: the hours that work for everyone, same rule as the
 //     app's Overlap screen.
 //   - Jet lag: day 1 of the same plan the app builds for a logged
@@ -118,7 +120,9 @@
       status.textContent = "Loading airports…";
       fetch("data/airports.json").then(function (r) { return r.json(); }).then(function (rows) {
         airports = rows.map(function (r) {
-          return { code: r[0], icao: r[1], name: r[2], lat: r[3], lon: r[4], tz: r[5], country: r[6], blob: (r[0] + " " + r[1] + " " + r[2] + " " + r[6]).toLowerCase() };
+          // r[7], the city, came in 2026-10-09; older copies of the file
+          // without it still work.
+          return { code: r[0], icao: r[1], name: r[2], lat: r[3], lon: r[4], tz: r[5], country: r[6], blob: (r[0] + " " + r[1] + " " + r[2] + " " + (r[7] || "") + " " + r[6]).toLowerCase() };
         });
         status.textContent = airports.length.toLocaleString() + " airports ready. Try LHR, Denver, or Haneda.";
         if (!current) show(airports.filter(function (a) { return a.code === "LHR"; })[0]);
