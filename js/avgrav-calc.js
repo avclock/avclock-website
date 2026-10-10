@@ -64,7 +64,9 @@
 
   var FUELS = {
     jet: { label: "Jet A / Jet A-1", range: [36, 51] },
-    avgas: { label: "Avgas 100LL", range: [55, 65] },
+    // Same ranges as FuelType.typicalAPIRange in the app; 100LL is 60-72
+    // since 2026-10-10 (55-65 flagged ordinary avgas, about 65-68 API).
+    avgas: { label: "Avgas 100LL", range: [60, 72] },
     mogas: { label: "Mogas", range: [55, 65] },
     diesel: { label: "Diesel", range: [30, 42] }
   };
