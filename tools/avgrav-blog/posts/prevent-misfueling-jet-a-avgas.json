@@ -1,0 +1,63 @@
+{
+  "slug": "prevent-misfueling-jet-a-avgas",
+  "title": "Preventing Misfueling: Keeping Jet A Out of Piston Engines",
+  "description": "Why misfueling still happens, the checks at the nozzle, the order, and the decal that stop it, the airplanes that break the rules of thumb, and what to do after.",
+  "date": "2026-10-11",
+  "eyebrow": "LINE SERVICE &middot; SAFETY",
+  "tag": "MISF",
+  "excerpt": "The nozzle, the order, the decal, and the airplanes that break the rules of thumb.",
+  "minutes": 5,
+  "related": [
+    "fuel-delivery-api-gravity-check",
+    "how-to-correct-api-gravity-to-60f",
+    "fuel-quality-records-line-service"
+  ],
+  "faq": [
+    [
+      "What happens if Jet A is put in a piston airplane?",
+      "An engine built for avgas can run on the avgas still in its lines, then lose power to detonation once the jet fuel reaches it, sometimes not until takeoff or climb. The airplane shouldn't be started. It has to be defueled and inspected under the manufacturer's guidance first."
+    ],
+    [
+      "Why won't a jet fuel nozzle fit some airplanes?",
+      "Jet fuel nozzles in the U.S. are usually a flattened J-spout, and many avgas airplanes have filler restrictors that limit the opening to about 60 millimeters, so the jet nozzle can't go in. If a nozzle doesn't fit, stop and confirm the grade instead of forcing it."
+    ],
+    [
+      "Can you tell Jet A and 100LL apart in a fuel sample?",
+      "Usually. 100LL is dyed blue and Jet A is clear to straw colored, and their API gravity at 60°F is far apart: roughly 37 to 51 for Jet A and about 65 to 68 for 100LL. A small amount of contamination won't show either way, so a sample check backs up the other checks rather than replacing them."
+    ]
+  ],
+  "body": [
+    "<p>Putting Jet A in an airplane built for avgas is one of the few line service mistakes that can bring an airplane down on its first takeoff. The engine starts and runs on the avgas still in its lines, passes the run-up, and then the jet fuel arrives. Investigators keep finding the same chain of events decades after the fixes below became standard.</p>",
+    "<p>Misfueling runs the other way too. Some piston airplanes burn Jet A, and 100LL isn't an approved fuel for them. Neither mistake is about skill. Both start with a quick assumption on a busy ramp, which is why prevention is a stack of independent checks rather than one rule.</p>",
+    "",
+    "<h2>The Physical Barriers</h2>",
+    "<p>Jet fuel nozzles in the U.S. are usually a flattened J-spout, wider than the filler opening on many avgas airplanes, whose restrictors limit the opening to about 60 millimeters. When the nozzle doesn't fit, the airplane is telling you something. Never rotate, tilt, or force a nozzle into a filler neck. In one fatal accident, investigators found the line worker had turned the nozzle until it went in.</p>",
+    "<p>The nozzle is a good barrier, not a complete one. Some turbine helicopters have fuel ports too small for a J-spout and are fueled through a smaller nozzle, and some piston airplanes converted to turbine power under a supplemental type certificate kept their original filler opening. Trucks, tanks, and hydrant pits carry standard grade markings under API/EI 1542 so the grade reads at a glance, and the fuels look different in a jar: 100LL is dyed blue, and Jet A runs from clear to straw colored.</p>",
+    "",
+    "<h2>The Paper and Verbal Checks</h2>",
+    "<ul>",
+    "  <li><strong>Get the grade in writing.</strong> A fuel order that names the grade, the quantity, and the tail number is harder to misread than a request shouted across the ramp.</li>",
+    "  <li><strong>Read the decal at the filler.</strong> Aircraft fuel fillers are marked with the grade they take. Read it every time, even on an airplane you fueled last week. Engines get swapped and airplanes change hands.</li>",
+    "  <li><strong>Confirm with the pilot.</strong> When the pilot is there, ask for the grade instead of assuming it. Safety bulletins call a pilot at the fueling the simplest prevention there is.</li>",
+    "  <li><strong>Use exact words.</strong> &ldquo;Turbo&rdquo; is not &ldquo;turbine.&rdquo; In the 1980s, a run of misfuelings in turbocharged piston airplanes was blamed on line workers reading one as the other. Careful operations write &ldquo;Jet A&rdquo; and &ldquo;100LL,&rdquo; never &ldquo;jet&rdquo; or &ldquo;the usual.&rdquo;</li>",
+    "</ul>",
+    "<p>Training is where these habits stick. NATA's free Safety 1st misfueling prevention training is written for line service, pilots, and customer service staff, and its 2023 update covers the unleaded avgas grades, including a newer mix-up: UL94 in an airplane that needs 100 octane.</p>",
+    "",
+    "<h2>The Airplanes That Break the Rules of Thumb</h2>",
+    "<p>&ldquo;Props burn avgas, jets burn Jet A&rdquo; is right often enough to be dangerous. A few exceptions every line tech should know:</p>",
+    "<ul>",
+    "  <li><strong>Diesel piston airplanes.</strong> Several Diamond models, among others, have piston engines that burn Jet A. A small twin without turbine exhaust stacks can look like an avgas airplane and isn't one.</li>",
+    "  <li><strong>Turboprops.</strong> A propeller doesn't mean a piston engine. Turboprops burn jet fuel.</li>",
+    "  <li><strong>Conversions.</strong> A type you know as a piston single may have been converted to turbine or diesel power, and the filler may not have changed with it.</li>",
+    "</ul>",
+    "<p>The answer is the same in every case: the decal and the order decide the grade, not the shape of the airplane.</p>",
+    "",
+    "<h2>If the Wrong Fuel Goes In</h2>",
+    "<p>Stop and say so right away. Don't let the airplane start. Tell the pilot and your supervisor, and follow your company's procedure. The airplane will need to be defueled and its engine and fuel system inspected under the manufacturer's guidance before it flies.</p>",
+    "<p>A misfueling caught at the truck costs a defuel and an awkward phone call. One that isn't caught can cost lives, so an FBO's culture has to make speaking up the obvious choice, with no penalty for the person who stops the line to ask.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>A gravity reading tells the two fuels apart at a glance. Jet A corrected to 60&deg;F sits roughly between 37 and 51 API, and 100LL is usually around 65 to 68, so a sample from the wrong truck or a badly mixed tank stands out right away. It won't catch a small amount of contamination, which is why the nozzle, the decal, and the order come first.</p>",
+    "<p><a href=\"../avgrav\">AvGrav</a> corrects the reading to 60&deg;F and colors the result against the typical range for the fuel you pick, so a 100LL sample entered as Jet A shows up red. Each reading saves with the truck or tank, the time, a photo, and a note, which gives you a record when you sample a truck after loading or check a tank you're unsure about. For a refresher on the reading itself, see <a href=\"how-to-correct-api-gravity-to-60f\">how to correct API gravity to 60&deg;F</a>.</p>"
+  ]
+}
