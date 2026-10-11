@@ -15,6 +15,7 @@ Files here:
 - `topics.json`: the topic list, in order. Take the first `"todo"` topic
   that is in season.
 - `posts/<slug>.json`: the spec each post was published from.
+- `avgrav-math.js`: AvGrav's correction math, for every fuel number.
 
 ## Publishing today's post
 
@@ -30,12 +31,12 @@ Files here:
    verified gets checked with a web search first. If it can't be confirmed,
    leave it out or say it in general terms. Fuel numbers (gravity, weight,
    volume, temperature) come from AvGrav's own math, never from memory:
-   `tools/app-store-screenshots/avgrav-math.js` in avclock/AvGrav, for
-   example:
+   `avgrav-math.js` in this folder (a copy of the app's correction code,
+   from avclock/AvGrav `tools/app-store-screenshots/`). From the repository
+   root:
 
    ```
-   cd AvGrav/tools/app-store-screenshots
-   node -e 'const M=require("./avgrav-math.js").AvGravMath;const a=M.correctedAPI(46.0,85);console.log(a.toFixed(2),M.lbPerGal(a).toFixed(3),M.vcf(a,20).toFixed(5))'
+   node -e 'const M=require("./tools/avgrav-blog/avgrav-math.js").AvGravMath;const a=M.correctedAPI(46.0,85);console.log(a.toFixed(2),M.lbPerGal(a).toFixed(3),M.vcf(a,20).toFixed(5))'
    ```
 
    It has `correctedAPI(obs, tempF)`, `vcf(api60, tempF)` (net gallons =
