@@ -1,0 +1,78 @@
+{
+  "slug": "winter-fueling-cold-fuel-fsii",
+  "title": "Winter at the FBO: Heavier Gallons, Water, and Icing Inhibitor",
+  "description": "What cold weather changes for line service: heavier gallons of Jet A, water in the sumps, fuel system icing inhibitor, static, and the habits that help.",
+  "date": "2026-10-11",
+  "eyebrow": "LINE SERVICE &middot; SEASONAL",
+  "tag": "WNTR",
+  "excerpt": "Heavier gallons, water in the sumps, icing inhibitor, and static in dry air.",
+  "minutes": 5,
+  "related": [
+    "fuel-density-uplift-check",
+    "jet-a-weight-per-gallon",
+    "how-to-correct-api-gravity-to-60f"
+  ],
+  "faq": [
+    [
+      "Does cold fuel weigh more per gallon?",
+      "Yes. Fuel contracts as it cools, so a metered gallon of cold fuel holds more fuel by weight. A typical Jet A at 6.722 pounds per gallon at 60°F weighs about 6.858 pounds per metered gallon at 20°F, roughly half a percent more for every 10°F colder."
+    ],
+    [
+      "What is FSII and when is it used?",
+      "Fuel system icing inhibitor, usually DiEGME (sold under names like Prist), keeps water in jet fuel from freezing into crystals that can block filters and fuel lines. Aircraft without fuel heaters often require it. It's injected during fueling at the concentration the aircraft's documents call for, commonly 0.10 to 0.15 percent by volume."
+    ],
+    [
+      "Why is there more water in fuel in winter?",
+      "Jet fuel holds a small amount of dissolved water, and less of it stays dissolved as the fuel cools. The rest comes out as free water or ice and settles in tank bottoms and sumps, so sumping matters more after cold snaps and big temperature swings."
+    ]
+  ],
+  "body": [
+    "<p>Winter doesn't change what line service does, but it changes the numbers and the risks behind them. Fuel gets denser, water comes out of solution, ice can hide in drains you open every day, and dry air holds static.</p>",
+    "<p>Here's what shifts when the temperature drops, and the habits that keep each one from turning into a problem.</p>",
+    "",
+    "<h2>A Gallon Weighs More When It's Cold</h2>",
+    "<p>Fuel shrinks as it cools, so a metered gallon of cold fuel holds more fuel by weight. For a typical Jet A (43.79 API at 60&deg;F, 6.722 pounds per gallon at 60&deg;F), this is what one metered gallon weighs (pounds per gallon) at different fuel temperatures, and how many metered gallons make a 4,000 pound order:</p>",
+    "<div class=\"table-wrap\">",
+    "  <table>",
+    "    <tr><th class=\"num\">Fuel temp</th><th class=\"num\">Lb/gal</th><th class=\"num\">Gal for 4,000 lb</th></tr>",
+    "    <tr><td class=\"num\">85&deg;F</td><td class=\"num\">6.637</td><td class=\"num\">602.7</td></tr>",
+    "    <tr><td class=\"num\">60&deg;F</td><td class=\"num\">6.722</td><td class=\"num\">595.0</td></tr>",
+    "    <tr><td class=\"num\">40&deg;F</td><td class=\"num\">6.790</td><td class=\"num\">589.1</td></tr>",
+    "    <tr><td class=\"num\">20&deg;F</td><td class=\"num\">6.858</td><td class=\"num\">583.3</td></tr>",
+    "    <tr><td class=\"num\">0&deg;F</td><td class=\"num\">6.925</td><td class=\"num\">577.6</td></tr>",
+    "  </table>",
+    "</div>",
+    "<p>That's about half a percent for every 10&deg;F. With the truck's fuel at 20&deg;F, about 583 metered gallons fills a 4,000 pound order. Pump the 595 gallons a flat 60&deg;F conversion suggests and the airplane gets about 4,080 pounds, 80 more than the crew asked for, which can matter to a crew working close to a weight limit. 100LL changes even more with temperature, about 0.7 percent per 10&deg;F.</p>",
+    "<p>Use the fuel's temperature, not the air's. A truck kept in a heated hangar can be far warmer than the ramp.</p>",
+    "",
+    "<h2>Water Comes Out of the Fuel</h2>",
+    "<p>Jet fuel always carries a little dissolved water. As it cools, some of that water comes out as free water or ice crystals and settles in tank bottoms and sumps. A cold night after a mild day makes it worse, and condensation in partly empty tanks adds more.</p>",
+    "<ul>",
+    "  <li>Sump and drain on schedule, and look harder at what comes out after a cold snap.</li>",
+    "  <li>A drain that gives you nothing on a cold morning may be frozen, not dry. Treat it as unchecked until it flows.</li>",
+    "  <li>Keep sample jars clean and dry, and give the sample time to settle so water at the bottom can show.</li>",
+    "</ul>",
+    "<p>The <a href=\"fuel-quality-records-line-service\">fuel quality records guide</a> covers what to write down when you find something.</p>",
+    "",
+    "<h2>Fuel System Icing Inhibitor</h2>",
+    "<p>Many turbine aircraft without fuel heaters need fuel system icing inhibitor (FSII), usually diethylene glycol monomethyl ether (DiEGME), sold under names like Prist. It keeps water in the fuel from freezing into crystals that can block filters and fuel lines at altitude. <a href=\"https://skybrary.aero/articles/fuel-system-icing-inhibitor-fsii\" target=\"_blank\" rel=\"noopener\">SKYbrary's FSII summary</a> is a good primer.</p>",
+    "<ul>",
+    "  <li><strong>Ask every time.</strong> Whether an aircraft needs FSII is up to its manufacturer and operator. Many FBO trucks can switch injection on or off for each fueling.</li>",
+    "  <li><strong>Blend it while fueling.</strong> FSII has to be injected as the fuel goes into the airplane, at the concentration the aircraft's documents call for, commonly 0.10 to 0.15 percent by volume. Poured into the tank afterward, it doesn't mix; it sinks.</li>",
+    "  <li><strong>Check the injector.</strong> Follow your manual for checking the injection rate and the additive supply, and write down that the aircraft got it.</li>",
+    "</ul>",
+    "",
+    "<h2>Static Builds Up in Dry Air</h2>",
+    "<p>Cold air is usually dry, and dry air lets static charge build and linger. Bonding the truck to the aircraft before the fuel cap comes off, and leaving it in place until the cap is back on, matters even more in winter. Follow your training for the full sequence, and don't skip a step because it's cold and you're in a hurry.</p>",
+    "",
+    "<h2>A Few Cold-Weather Habits</h2>",
+    "<ul>",
+    "  <li>Read the hydrometer and the thermometer together, and quickly. A sample warms or cools in the jar while you wait.</li>",
+    "  <li>Watch your footing around the truck and under the wing. Ice and spilled fuel together are slick.</li>",
+    "  <li>Keep spare gloves dry. Cold, wet hands make every connection and every reading slower.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> works out the cold-weather numbers for you. Enter the gravity reading and its temperature, then the metered volume, and it gives the volume corrected to 60&deg;F and the weight in pounds or kilograms for the fuel you actually pumped, instead of a flat 6.7 pounds per gallon. You can add a note to each reading, like a sump result or that FSII went in, and the Apple Watch app handles a quick calculation when your phone is under a winter coat.</p>"
+  ]
+}

@@ -156,6 +156,20 @@
       <h2>Doing It on the Ramp</h2>
       <p><a href="../avgrav">AvGrav</a> does every one of these at once. Enter the observed API and temperature (or a density reading in kg/m&sup3;, if that's the hydrometer you have), and the result shows corrected API, SG, pounds per gallon, and kg/m&sup3; at 15&deg;C together. Add a fuel volume and it gives you net gallons at 60&deg;F and the total weight. It works the same on Apple Watch, and it's now $0.99.</p>
 
+      <h2>Common Questions</h2>
+      <details class="faq-item">
+        <summary>How do you convert API gravity to specific gravity?</summary>
+        <p>Specific gravity at 60°F equals 141.5 divided by (API gravity + 131.5). For example, 43.79° API is 141.5 ÷ 175.29 = 0.8072.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How do you convert API gravity to density in kg/m³?</summary>
+        <p>First find specific gravity: 141.5 ÷ (API + 131.5). Then multiply by 999.016, the density of water at 60°F in kg/m³. That gives density at 60°F. Density at 15°C is a few tenths of a kg/m³ higher and comes from the petroleum measurement tables.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How many pounds per gallon is Jet A?</summary>
+        <p>It depends on the batch's API gravity. Multiply specific gravity by about 8.328 pounds per US gallon. A typical Jet A at 43.8° API (SG 0.807) weighs about 6.72 pounds per gallon; across the usual range it runs from about 6.5 to 7.0.</p>
+      </details>
+
       <p class="disclaimer">AvGrav and this guide are reference and convenience tools, not certified measurement instruments or a substitute for a calibrated hydrometer, thermometer, or your organization's official procedures. Always follow your organization's quality control program and applicable regulations before accepting, rejecting, or releasing any fuel.</p>
 
       <div style="text-align:center;margin:40px 0;">

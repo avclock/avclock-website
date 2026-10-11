@@ -1,0 +1,482 @@
+[
+  {
+    "slug": "prevent-misfueling-jet-a-avgas",
+    "title": "Preventing Misfueling: Keeping Jet A Out of Piston Engines",
+    "tag": "MISF",
+    "eyebrow": "LINE SERVICE &middot; SAFETY",
+    "season": "any",
+    "angle": "Why misfueling still happens, the physical barriers (J-spout, filler restrictors), the paper and verbal checks, the airplanes that break the rules of thumb (diesel pistons, turboprops, conversions), and what to do after.",
+    "facts": [
+      "Avgas filler restrictors limit the opening to about 60 mm; U.S. jet nozzles are a flattened J-spout that won't fit (AOPA, Flying; verified 2026-10-11).",
+      "Some turbine helicopters (some AStar models) need a smaller nozzle; some piston-to-turbine STC conversions keep the original filler (verified).",
+      "1980s misfuelings in turbocharged pistons were traced to 'turbo' read as 'turbine' (AOPA, verified).",
+      "NATA's free Safety 1st General Aviation Misfueling Prevention Program (2016), updated 2023 for unleaded grades and UL94 in 100-octane airplanes (verified).",
+      "In one fatal accident the line worker rotated the nozzle to fit the filler neck (AIN, 2019; verified)."
+    ],
+    "avgrav": "Gravity tells Jet A (about 37 to 51 API) from 100LL (about 65 to 68) in a sample; the range color flags a 100LL sample entered as Jet A; records per truck.",
+    "avoid": "Specific placard colors (API/EI 1542 is paywalled); claiming gravity catches small contamination.",
+    "status": "published",
+    "published": "2026-10-11"
+  },
+  {
+    "slug": "fuel-density-uplift-check",
+    "title": "Why Crews Ask for the Fuel's Density: Uplift Checks Explained",
+    "tag": "DENS",
+    "eyebrow": "LINE SERVICE &middot; CREWS",
+    "season": "any",
+    "angle": "The uplift check (metered volume times density versus the gauges), why the density has to match the metered temperature, a worked example, and what to give the crew.",
+    "facts": [
+      "Sample Jet A 43.79 API at 60°F, 806.8 kg/m³ at 15°C; 5,000 gal at 85°F is 4,936.3 net gal, 33,182.9 lb, about 15,050 kg; uncorrected 33,611 lb, 428 lb (194 kg) high, 1.3% (avgrav-math.js)."
+    ],
+    "avgrav": "Volume in gallons or liters, weight in lb or kg, density at 15°C and SG at 60°F, the Already corrected to 60°F toggle for compensated meters, saved records for callbacks.",
+    "avoid": "Specific operator discrepancy limits.",
+    "status": "published",
+    "published": "2026-10-11"
+  },
+  {
+    "slug": "winter-fueling-cold-fuel-fsii",
+    "title": "Winter at the FBO: Heavier Gallons, Water, and Icing Inhibitor",
+    "tag": "WNTR",
+    "eyebrow": "LINE SERVICE &middot; SEASONAL",
+    "season": "winter",
+    "angle": "Cold fuel weighs more per metered gallon (table), water coming out of solution and frozen sump drains, FSII basics, static in dry air, cold-weather habits.",
+    "facts": [
+      "Sample Jet A (6.722 lb/gal at 60°F): lb per metered gal 6.637 at 85°F, 6.790 at 40°F, 6.858 at 20°F, 6.925 at 0°F; about 0.5% per 10°F; 100LL about 0.7% per 10°F (avgrav-math.js).",
+      "FSII is usually DiEGME (Prist); injected during uplift at 0.10 to 0.15% by volume as the aircraft documents require; pouring it in afterward doesn't mix, it sinks; many trucks switch injection on and off (SKYbrary, Prist literature; verified)."
+    ],
+    "avgrav": "Weight from the real temperature instead of a flat 6.7, notes for sump and FSII, the Apple Watch app in the cold.",
+    "avoid": "Deicing fluid procedures; claiming which aircraft need FSII.",
+    "status": "published",
+    "published": "2026-10-11"
+  },
+  {
+    "slug": "gross-vs-net-gallons",
+    "title": "Gross Gallons vs Net Gallons: What Your Meter Is Counting",
+    "tag": "NET",
+    "eyebrow": "LINE SERVICE &middot; FUEL MATH",
+    "season": "any",
+    "angle": "Gross is the volume at the fuel's temperature, net is corrected to 60°F. Bills of lading, temperature-compensated meters, why inventory and invoices use one or the other, and how mixing them causes confusion.",
+    "facts": [
+      "Compute examples with vcf(); verify how bills of lading typically show gross and net gallons before stating it."
+    ],
+    "avgrav": "Net Volume @ 60°F, and the Already corrected to 60°F toggle and Volume already at 60°F setting for compensated meters.",
+    "avoid": "Claiming which meters are standard on FBO trucks.",
+    "status": "todo"
+  },
+  {
+    "slug": "jet-a-vs-jet-a1",
+    "title": "Jet A vs Jet A-1: What Line Service Should Know",
+    "tag": "JETA",
+    "eyebrow": "FUEL QC &middot; GRADES",
+    "season": "any",
+    "angle": "Both are ASTM D1655 kerosene-type fuels; the main difference is the freeze point; where each is used; why they're handled the same on the ramp.",
+    "facts": [
+      "Freeze point maximum: Jet A -40°C, Jet A-1 -47°C; both under ASTM D1655; density 775 to 840 kg/m³ at 15°C for both (verify each before stating)."
+    ],
+    "avgrav": "Same fuel choice and typical range (Jet A / Jet A-1, 36 to 51 API); density readings to 15°C the way Jet A-1 is certified.",
+    "avoid": "Additive requirements by country.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-inventory-reconciliation",
+    "title": "Fuel Inventory Reconciliation: Why Gallons Seem to Disappear",
+    "tag": "INV",
+    "eyebrow": "FBO &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Daily stick or gauge readings, strapping charts, receipts and sales, why temperature makes a tank look short or long, water checks, and what a real variance looks like.",
+    "facts": [
+      "Show the temperature effect with vcf() on a tank-sized example."
+    ],
+    "avgrav": "Net Volume @ 60°F for converting a gross figure; readings per tank name; exports for the books.",
+    "avoid": "Regulatory leak-detection thresholds.",
+    "status": "todo"
+  },
+  {
+    "slug": "hydrometer-thermometer-care",
+    "title": "Hydrometer and Thermometer Care: Keeping Readings Honest",
+    "tag": "HYDR",
+    "eyebrow": "FUEL QC &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Cleaning and storing hydrometers, checking them against a reference, cylinder size, air bubbles, reading at eye level, thermometer accuracy, and when to replace.",
+    "facts": [
+      "Verify any reading technique detail against ASTM D1298 descriptions before stating it."
+    ],
+    "avgrav": "The glass hydrometer correction is built in; record observed values so a bad instrument can be traced later.",
+    "avoid": "Calibration intervals.",
+    "status": "todo"
+  },
+  {
+    "slug": "water-in-jet-fuel",
+    "title": "Water in Jet Fuel: Sumps, Drains, and Clear and Bright",
+    "tag": "H2O",
+    "eyebrow": "FUEL QC &middot; CONTAMINATION",
+    "season": "any",
+    "angle": "Dissolved vs free water, where it collects, sumping, what clear and bright means, chemical water detectors, and why it matters.",
+    "facts": [
+      "Verify water detector descriptions before naming products."
+    ],
+    "avgrav": "A photo and note on each reading for the sample result.",
+    "avoid": "Pass/fail ppm limits.",
+    "status": "todo"
+  },
+  {
+    "slug": "density-meter-vs-hydrometer",
+    "title": "Density Meter or Glass Hydrometer? What Changes on the Ramp",
+    "tag": "DMTR",
+    "eyebrow": "FUEL QC &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Digital density meters read kg/m³ and correct to 15°C; hydrometers read API at the sample temperature; tables 6B and 53B; pros and cons; how to compare to a ticket in either unit.",
+    "facts": [
+      "Convert between units with avgrav-math.js."
+    ],
+    "avgrav": "Both reading modes, Ticket Density @ 15°C, every result showing both units.",
+    "avoid": "Brand comparisons.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-truck-daily-check",
+    "title": "The Fuel Truck Daily Check: What to Look For and Why",
+    "tag": "TRCK",
+    "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Leaks, deadman control, emergency shutoffs, bonding cable and clamp, nozzle and screen, filter differential pressure, sump, placards, extinguishers, and writing it down.",
+    "facts": [
+      "Keep to the usual items; point to A4A Spec 103 and the company manual for the real list."
+    ],
+    "avgrav": "Tank or Truck names so readings tie to each truck; Require Photo to Save.",
+    "avoid": "Specific pressure limits.",
+    "status": "todo"
+  },
+  {
+    "slug": "sustainable-aviation-fuel-fbo",
+    "title": "Sustainable Aviation Fuel at the FBO: What Changes for Line Service",
+    "tag": "SAF",
+    "eyebrow": "FUEL QC &middot; GRADES",
+    "season": "any",
+    "angle": "What SAF is, how blended SAF is certified (ASTM D7566 then D1655), why it's handled as Jet A, paperwork, and density checks.",
+    "facts": [
+      "Verify the D7566 to D1655 recertification path and blend limits before stating them."
+    ],
+    "avgrav": "The same Jet A checks and range apply to a certified blend.",
+    "avoid": "Emissions claims and numbers.",
+    "status": "todo"
+  },
+  {
+    "slug": "pound-orders-new-line-techs",
+    "title": "Fuel Orders in Pounds: A Quick Guide for New Line Techs",
+    "tag": "LBS",
+    "eyebrow": "LINE SERVICE &middot; TRAINING",
+    "season": "any",
+    "angle": "Why crews order in pounds, why 6.7 is an approximation, getting the real lb/gal, rounding, and confirming the number back.",
+    "facts": [
+      "Reuse the 4,000 lb examples from avgrav-math.js; link jet-a-weight-per-gallon rather than repeating it."
+    ],
+    "avgrav": "Total Weight from the real gravity and temperature.",
+    "avoid": "Repeating the jet-a-weight-per-gallon post; add the communication angle.",
+    "status": "todo"
+  },
+  {
+    "slug": "bonding-static-fueling",
+    "title": "Bonding During Fueling: Static Electricity on the Ramp",
+    "tag": "BOND",
+    "eyebrow": "LINE SERVICE &middot; SAFETY",
+    "season": "any",
+    "angle": "How fueling builds static, why bonding equalizes it, the usual connect and disconnect order, cable checks, dry weather.",
+    "facts": [
+      "Verify NFPA 407's bonding and grounding wording before stating what it requires."
+    ],
+    "avgrav": "Light: daily equipment checks recorded alongside readings.",
+    "avoid": "Telling anyone to skip grounding or any step.",
+    "status": "todo"
+  },
+  {
+    "slug": "international-crews-liters-kilograms",
+    "title": "Liters, Kilograms, and Gallons: Fueling International Crews",
+    "tag": "INTL",
+    "eyebrow": "LINE SERVICE &middot; CREWS",
+    "season": "any",
+    "angle": "Unit conversions, why kilograms need a density and a temperature, imperial vs U.S. gallons, writing the ticket so nothing is misread.",
+    "facts": [
+      "1 U.S. gallon = 3.785411784 L; 1 imperial gallon = 4.54609 L; compute masses with avgrav-math.js."
+    ],
+    "avgrav": "Volume in liters, weight in kg, density at 15°C.",
+    "avoid": "Country-specific rules.",
+    "status": "todo"
+  },
+  {
+    "slug": "filter-differential-pressure",
+    "title": "Filter Differential Pressure: The Daily Number Worth Trending",
+    "tag": "DP",
+    "eyebrow": "FUEL QC &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "What differential pressure says about filter elements, recording it at flow, trends vs single readings, sudden drops, and change-out per the manufacturer.",
+    "facts": [
+      "Verify any flow-correction method before describing it."
+    ],
+    "avgrav": "Notes on readings for DP; exports for records.",
+    "avoid": "Change-out psi limits.",
+    "status": "todo"
+  },
+  {
+    "slug": "photographing-fuel-samples",
+    "title": "How to Photograph a Fuel Sample So It Proves Something",
+    "tag": "PHOT",
+    "eyebrow": "FUEL QC &middot; RECORDS",
+    "season": "any",
+    "angle": "A clean jar, a white background, light from behind, the label or ticket in frame, focus, and what an auditor wants to see.",
+    "facts": [],
+    "avgrav": "Add Photo on a reading, Require Photo to Save, photos in the Summary PDF.",
+    "avoid": "Claiming photos replace required tests.",
+    "status": "todo"
+  },
+  {
+    "slug": "new-line-tech-training",
+    "title": "Training a New Line Tech: A First-Month Checklist",
+    "tag": "TRNG",
+    "eyebrow": "FBO &middot; TRAINING",
+    "season": "any",
+    "angle": "Shadowing, sign-offs, fuel quality, misfueling prevention, towing and marshalling, customer service, and checking understanding.",
+    "facts": [
+      "NATA Safety 1st offers line service training (verify current program names). Verify 14 CFR 139.321 fueling fire-safety training wording before citing it."
+    ],
+    "avgrav": "Practicing gravity corrections with real samples.",
+    "avoid": "Stating training hours or intervals unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-quality-audit-prep",
+    "title": "Getting Ready for a Fuel Quality Audit",
+    "tag": "AUDT",
+    "eyebrow": "FBO &middot; RECORDS",
+    "season": "any",
+    "angle": "Who audits (supplier, insurer, airport), what they look at, records, filter logs, training records, housekeeping, and fixing gaps before they arrive.",
+    "facts": [],
+    "avgrav": "Exports as Spreadsheet (CSV) or Summary PDF, observed values kept, the edit history.",
+    "avoid": "Naming specific supplier audit programs unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "small-fbo-transient-traffic",
+    "title": "How Small FBOs Win More Transient Traffic",
+    "tag": "FBO",
+    "eyebrow": "FBO &middot; BUSINESS",
+    "season": "any",
+    "angle": "Accurate listings and fuel prices online, quick turns, crew cars, clean facilities, local partnerships, follow-up after a visit.",
+    "facts": [],
+    "avgrav": "A well-run fuel operation is part of the reputation; give the line crew good tools.",
+    "avoid": "Invented survey numbers.",
+    "status": "todo"
+  },
+  {
+    "slug": "phone-on-the-ramp",
+    "title": "Gloves, Glare, and Cold Fingers: Using a Phone on the Ramp",
+    "tag": "RAMP",
+    "eyebrow": "LINE SERVICE &middot; TOOLS",
+    "season": "any",
+    "angle": "Screen brightness and glare, gloves, cases and lanyards, batteries in the cold, and following the company's rules on phones near fueling.",
+    "facts": [
+      "Many operations restrict phone use during fueling: tell readers to follow their policy and use the phone before or after, not during."
+    ],
+    "avgrav": "Big fields, the Apple Watch calculator, Siri, the Control Center button.",
+    "avoid": "Encouraging phone use during fueling.",
+    "status": "todo"
+  },
+  {
+    "slug": "certificate-of-analysis",
+    "title": "What's on a Certificate of Analysis, and What to Do With It",
+    "tag": "COA",
+    "eyebrow": "FUEL QC &middot; RECORDS",
+    "season": "any",
+    "angle": "Refinery certificate vs recertification vs release paperwork, which numbers matter at the FBO (density or gravity, appearance), and comparing them.",
+    "facts": [
+      "Verify the names of the documents in the chain before stating them."
+    ],
+    "avgrav": "Ticket API @ 60°F and Ticket Density @ 15°C with the user's tolerance.",
+    "avoid": "Specification limits beyond density.",
+    "status": "todo"
+  },
+  {
+    "slug": "unleaded-avgas-line-service",
+    "title": "Unleaded Avgas on the Ramp: What Line Service Should Know",
+    "tag": "UL",
+    "eyebrow": "FUEL QC &middot; GRADES",
+    "season": "any",
+    "angle": "The grades arriving (100-octane unleaded, UL94), which airplanes can use which, new misfueling risks, markings, and what stays the same.",
+    "facts": [
+      "NATA's 2023 misfueling update covers UL grades and the risk of UL94 in airplanes that need 100 octane (verified 2026-10-11). Verify G100UL approvals, the FAA EAGLE goal date, and any density figures before stating them."
+    ],
+    "avgrav": "AvGrav's 100LL range is for 100LL; check the supplier's data for other grades.",
+    "avoid": "Engine approvals and fleet coverage numbers unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-farm-daily-check",
+    "title": "The Fuel Farm Daily Check: A Walkthrough",
+    "tag": "FARM",
+    "eyebrow": "FUEL QC &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Tank sumps, filter differential pressure, hoses and valves, leaks and stains, signs, spill kits, security, and records.",
+    "facts": [],
+    "avgrav": "Readings per tank name, photos, exports.",
+    "avoid": "Environmental regulation specifics.",
+    "status": "todo"
+  },
+  {
+    "slug": "microbial-growth-fuel-tanks",
+    "title": "Microbial Growth in Fuel Tanks: Signs, Causes, and Prevention",
+    "tag": "MICR",
+    "eyebrow": "FUEL QC &middot; CONTAMINATION",
+    "season": "any",
+    "angle": "Water as the cause, what growth looks like (sludge, mats, plugged filters), test kits, keeping water out, and treatment only per manufacturer approval.",
+    "facts": [
+      "Verify any test or biocide statement before including it."
+    ],
+    "avgrav": "Photo and note records of samples over time.",
+    "avoid": "Biocide doses and product endorsements.",
+    "status": "todo"
+  },
+  {
+    "slug": "pilot-at-fueling",
+    "title": "Why Line Service Wants the Pilot There for Fueling",
+    "tag": "PLOT",
+    "eyebrow": "LINE SERVICE &middot; CREWS",
+    "season": "any",
+    "angle": "Confirming grade and quantity, catching mistakes early, additives, questions about the airplane, and how to ask politely.",
+    "facts": [
+      "A safety bulletin calls a pilot at the fueling the simplest misfueling prevention (IAAPB; verified 2026-10-11)."
+    ],
+    "avgrav": "Showing the crew the corrected gravity and the weight on the spot.",
+    "avoid": "Pilot regulatory duties.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-spill-first-minutes",
+    "title": "A Fuel Spill on the Ramp: The First Few Minutes",
+    "tag": "SPIL",
+    "eyebrow": "LINE SERVICE &middot; SAFETY",
+    "season": "any",
+    "angle": "Stop the flow, warn people, keep ignition sources away, contain it, call it in, and the paperwork after; all per the airport's plan.",
+    "facts": [
+      "Verify any NFPA 407 or AC 150/5230-4 reference before citing it."
+    ],
+    "avgrav": "Light: notes and photos for the record.",
+    "avoid": "Reporting thresholds and cleanup chemistry.",
+    "status": "todo"
+  },
+  {
+    "slug": "quick-turn-service",
+    "title": "The Quick Turn: Line Service Habits Crews Remember",
+    "tag": "TURN",
+    "eyebrow": "FBO &middot; SERVICE",
+    "season": "any",
+    "angle": "Meeting the airplane, chocks and cones, asking about fuel, lav, catering, and departure time up front, the ticket ready with the weight, and a clean handoff.",
+    "facts": [],
+    "avgrav": "The uplift weight ready before the crew asks.",
+    "avoid": "Invented turn-time numbers.",
+    "status": "todo"
+  },
+  {
+    "slug": "summer-fuel-heat",
+    "title": "Hot Ramp, Hot Fuel: What Summer Does to Your Gallons",
+    "tag": "HEAT",
+    "eyebrow": "LINE SERVICE &middot; SEASONAL",
+    "season": "summer",
+    "angle": "Expansion and lighter gallons, trucks in the sun, 100LL vapor, readings that drift, and short uplifts.",
+    "facts": [
+      "Compute with avgrav-math.js at 85°F, 100°F, and 110°F."
+    ],
+    "avgrav": "Weight from the real temperature.",
+    "avoid": "Repeating the jet-a-weight-per-gallon post; link it.",
+    "status": "todo"
+  },
+  {
+    "slug": "truck-loading-rack",
+    "title": "Loading a Fuel Truck at the Rack: Checks Before and After",
+    "tag": "RACK",
+    "eyebrow": "LINE SERVICE &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Bonding, the right product to the right truck, overfill protection, watching the load, settling and sampling per the manual, and records.",
+    "facts": [],
+    "avgrav": "A gravity reading after loading, saved to the truck's name.",
+    "avoid": "Settling times.",
+    "status": "todo"
+  },
+  {
+    "slug": "self-serve-avgas-quality",
+    "title": "Running a Self-Serve 100LL Pump: The Checks Behind It",
+    "tag": "SELF",
+    "eyebrow": "FBO &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Daily sumps, filters, nozzle and hose, the bonding cable, signs and instructions for pilots, and records after deliveries.",
+    "facts": [],
+    "avgrav": "A tank name for the self-serve tank and a reading after each delivery.",
+    "avoid": "Payment or card reader security claims.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-colors-dyes",
+    "title": "Fuel Colors: What 100LL Blue and Jet A Straw Tell You",
+    "tag": "CLR",
+    "eyebrow": "FUEL QC &middot; GRADES",
+    "season": "any",
+    "angle": "Why avgas is dyed, what each grade looks like, what a color change can mean, and why color alone isn't a test.",
+    "facts": [
+      "100LL is dyed blue; Jet A is clear to straw. Verify the colors of other grades (100, UL94, UL91) before stating them."
+    ],
+    "avgrav": "Gravity as the second check when color looks off.",
+    "avoid": "Diagnosing contamination from color alone.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-weight-performance-crews",
+    "title": "Why Crews Care About Every Pound of Fuel",
+    "tag": "PERF",
+    "eyebrow": "LINE SERVICE &middot; CREWS",
+    "season": "any",
+    "angle": "Weight and balance, takeoff performance, landing weight, and why an accurate uplift weight helps the crew, from the fueler's side.",
+    "facts": [],
+    "avgrav": "Total Weight from actual density.",
+    "avoid": "Pilot procedures and performance numbers.",
+    "status": "todo"
+  },
+  {
+    "slug": "fod-walks",
+    "title": "FOD Walks: Why, When, and How",
+    "tag": "FOD",
+    "eyebrow": "FBO &middot; RAMP",
+    "season": "any",
+    "angle": "What FOD is, the damage it causes, when to walk the ramp, how to do it well, bins and reporting.",
+    "facts": [
+      "Verify any FAA guidance citation (for example AC 150/5210-24 on FOD management) before naming it."
+    ],
+    "avgrav": "Light: a short 'from the makers of AvGrav' note on tools that make the line's job easier.",
+    "avoid": "Cost statistics unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "towing-wing-walkers",
+    "title": "Towing and Wing Walkers: Ramp Basics That Prevent Damage",
+    "tag": "TOW",
+    "eyebrow": "FBO &middot; RAMP",
+    "season": "any",
+    "angle": "Planning the tow, wing walkers, speed, turning limits and shear pins per the aircraft, communication, and hangar clearance.",
+    "facts": [],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Aircraft-specific limits.",
+    "status": "todo"
+  },
+  {
+    "slug": "ramp-ppe",
+    "title": "PPE on the Ramp: Hearing, Eyes, Hands, and Feet",
+    "tag": "PPE",
+    "eyebrow": "FBO &middot; SAFETY",
+    "season": "any",
+    "angle": "Hearing protection around engines, eye protection when sampling, gloves for fuel, footwear, visibility, and cold-weather gear.",
+    "facts": [
+      "Verify any OSHA reference before citing it."
+    ],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Exposure limits and medical claims.",
+    "status": "todo"
+  }
+]

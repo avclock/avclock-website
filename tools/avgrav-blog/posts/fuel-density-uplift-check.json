@@ -1,0 +1,62 @@
+{
+  "slug": "fuel-density-uplift-check",
+  "title": "Why Crews Ask for the Fuel's Density: Uplift Checks Explained",
+  "description": "Why crews compare the uplift to their fuel gauges, why that needs the fuel's density, and how a 15°C density on warm metered fuel overstates the uplift.",
+  "date": "2026-10-11",
+  "eyebrow": "LINE SERVICE &middot; CREWS",
+  "tag": "DENS",
+  "excerpt": "What an uplift check is, and how to give crews a density they can use.",
+  "minutes": 5,
+  "related": [
+    "jet-a-weight-per-gallon",
+    "api-gravity-specific-gravity-density-conversion",
+    "fuel-delivery-api-gravity-check"
+  ],
+  "faq": [
+    [
+      "Why do pilots ask for the fuel's specific gravity or density?",
+      "To check the uplift. The crew converts the metered volume into pounds or kilograms with the density and compares it with how much the fuel gauges went up. A large difference can point to a gauge, a meter, a leak, or a paperwork mistake."
+    ],
+    [
+      "Should the density be at 15°C or at the fuel's temperature?",
+      "Turning metered volume into weight needs the density at the temperature the fuel was metered, or the volume corrected to 15°C (or 60°F) first. A 15°C density on warm metered fuel overstates the weight, by about 1.3 percent for Jet A at 85°F."
+    ],
+    [
+      "How many kilograms is 5,000 gallons of Jet A?",
+      "It depends on the fuel's density and temperature. For Jet A at 43.79 API (806.8 kg/m³ at 15°C) metered at 85°F, 5,000 U.S. gallons is about 15,050 kilograms, or 33,183 pounds."
+    ]
+  ],
+  "body": [
+    "<p>Hand a fuel ticket to an airline crew, or a corporate crew that flies internationally, and you'll often be asked for the fuel's density or specific gravity. It isn't a quiz. The crew is about to check your uplift against their own fuel gauges, and the density is the number that makes the check work.</p>",
+    "<p>Knowing what they do with it helps you give them the right number the first time, and helps you answer when a crew calls back about a discrepancy.</p>",
+    "",
+    "<h2>What an Uplift Check Is</h2>",
+    "<p>Your meter counts volume, in gallons or liters. The airplane's fuel quantity system shows weight, in pounds or kilograms. Many operators have their crews convert the metered uplift into weight and compare it with how much the gauges went up during fueling. When the two disagree by more than the operator's limit, something gets a closer look: a gauge, a meter, a leak, or the paperwork.</p>",
+    "<p>The conversion is volume times density. Get the density wrong and a perfectly good fueling can look like a discrepancy, or a real one can hide inside the error.</p>",
+    "",
+    "<h2>Which Density, at Which Temperature</h2>",
+    "<p>Fuel expands as it warms. A liter of Jet A at 30&deg;C holds less fuel by weight than a liter at 15&deg;C, so the density has to match the temperature of the fuel that went through the meter.</p>",
+    "<p>The paperwork for a batch usually gives density at 15&deg;C, or API gravity at 60&deg;F in the U.S. Those are reference values, not the density of the fuel in the truck on a hot afternoon. Multiply a 15&deg;C density by liters metered at 30&deg;C and the answer comes out heavy.</p>",
+    "",
+    "<h2>A Worked Example</h2>",
+    "<p>Take Jet A with an API gravity of 43.79 at 60&deg;F, which is 806.8 kg/m&sup3; at 15&deg;C. You pump 5,000 U.S. gallons (18,927 liters) on a day when the fuel is at 85&deg;F.</p>",
+    "<ul>",
+    "  <li>Corrected to 60&deg;F, those 5,000 gallons are 4,936.3 gallons, because warm fuel takes up more room.</li>",
+    "  <li>At 6.722 pounds per gallon at 60&deg;F, the uplift is 33,182.9 pounds, about 15,050 kilograms.</li>",
+    "  <li>Skip the temperature correction and multiply 5,000 gallons by 6.722, and you get 33,611 pounds: 428 pounds (194 kilograms) more than the airplane received, an error of about 1.3 percent.</li>",
+    "</ul>",
+    "<p>That's enough to send a crew chasing a discrepancy that isn't there, or to cover for one that is. The <a href=\"jet-a-weight-per-gallon\">weight per gallon guide</a> walks through the same correction for pound requests.</p>",
+    "",
+    "<h2>What to Give the Crew</h2>",
+    "<ul>",
+    "  <li><strong>Ask what they want.</strong> Some operators want the density at the fuel's temperature, some want the reference value with the temperature, and some want the uplift already converted to pounds or kilograms.</li>",
+    "  <li><strong>Always include the temperature.</strong> A density without a temperature is half a number. Write which one it is: &ldquo;at 15&deg;C,&rdquo; or &ldquo;at 29&deg;C, as metered.&rdquo;</li>",
+    "  <li><strong>Use the right reference.</strong> If your operation checks gravity on the truck's fuel, that corrected value is your best reference for what's in it. If you only have the delivery paperwork, use the value on it and say so.</li>",
+    "  <li><strong>Keep the units straight.</strong> U.S. gallons, imperial gallons, and liters are all different. On an international ticket, spell the unit out.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> does this conversion the way the published API tables do. Enter the gravity reading and its temperature (or a density meter reading), then the metered volume in gallons or liters. AvGrav corrects the volume to 60&deg;F and gives the total weight in pounds or kilograms, along with the density at 15&deg;C and the specific gravity at 60&deg;F. If your meter is temperature compensated, turn on <strong>Already corrected to 60&deg;F</strong> so the volume isn't corrected twice.</p>",
+    "<p>Each reading saves with the truck, the time, and a note, so when a crew calls back about a discrepancy you can show exactly what went in and how the weight was worked out.</p>"
+  ]
+}

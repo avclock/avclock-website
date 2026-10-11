@@ -26,6 +26,8 @@ images/og-avclock.png, og-avgrav.png   1200x630 share images
 functions/api/track.js            Cloudflare Pages Function — logs events (public)
 functions/api/stats.js            Cloudflare Pages Function — reads aggregates (should be gated)
 analytics.html                    Private live-stats dashboard (should be gated, see below)
+tools/avgrav-blog/                The daily AvGrav post: new_post.py, topics.json, and the
+                                  writing guide (README.md there); tools/ isn't served
 ```
 
 ## A privacy note on the legal pages
