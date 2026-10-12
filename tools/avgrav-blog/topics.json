@@ -61,7 +61,8 @@
     ],
     "avgrav": "Net Volume @ 60°F, and the Already corrected to 60°F toggle and Volume already at 60°F setting for compensated meters.",
     "avoid": "Claiming which meters are standard on FBO trucks.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-12"
   },
   {
     "slug": "jet-a-vs-jet-a1",
