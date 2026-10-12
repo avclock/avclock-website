@@ -1,0 +1,80 @@
+{
+  "slug": "gross-vs-net-gallons",
+  "title": "Gross Gallons vs Net Gallons: What Your Meter Is Counting",
+  "description": "Gross gallons are fuel at its actual temperature; net gallons are corrected to 60°F. How the two differ, and why mixing them makes inventory look wrong.",
+  "date": "2026-10-12",
+  "eyebrow": "LINE SERVICE &middot; FUEL MATH",
+  "tag": "NET",
+  "excerpt": "Why a delivery ticket shows two gallon figures, and how to keep them from fighting each other.",
+  "minutes": 5,
+  "related": [
+    "how-to-correct-api-gravity-to-60f",
+    "fuel-delivery-api-gravity-check",
+    "fuel-density-uplift-check"
+  ],
+  "faq": [
+    [
+      "What is the difference between gross gallons and net gallons?",
+      "Gross gallons are the volume the fuel actually takes up at its current temperature. Net gallons are that same fuel corrected to a standard temperature of 60°F. Above 60°F net is smaller than gross, and below 60°F net is larger."
+    ],
+    [
+      "How big is the difference between gross and net gallons for Jet A?",
+      "For Jet A at 43.79 API, about half a percent for every 10°F away from 60°F. A load of 8,000 gross gallons at 85°F is 7,898.0 net gallons, about 102 gallons less."
+    ],
+    [
+      "Do I correct the volume if my meter is temperature compensated?",
+      "No. A temperature-compensated meter already reports net gallons. Correcting its reading again counts the temperature effect twice, so check which kind of meter you have before you correct anything."
+    ]
+  ],
+  "body": [
+    "<p>Look at a fuel delivery ticket and you'll usually see two gallon figures that don't match: gross gallons and net gallons. Nobody lost fuel between the two lines. They're the same fuel, counted two ways.</p>",
+    "<p>Knowing which one you're looking at keeps your tank numbers, your invoices, and your answers to customers from contradicting each other.</p>",
+    "",
+    "<h2>Two Ways to Count the Same Fuel</h2>",
+    "<p>Fuel expands as it warms and shrinks as it cools. The amount of fuel doesn't change, but the space it takes up does.</p>",
+    "<ul>",
+    "  <li><strong>Gross gallons</strong> are the volume at the fuel's actual temperature. A meter with no temperature correction counts gross gallons, and so does a tank stick.</li>",
+    "  <li><strong>Net gallons</strong> are that volume corrected to 60&deg;F, the U.S. reference temperature. Two loads of the same fuel at different temperatures can be compared fairly once both are in net gallons.</li>",
+    "</ul>",
+    "<p>The correction uses a volume correction factor, or VCF: a number from the API tables (API MPMS Chapter 11.1) that depends on the fuel's API gravity and its temperature. Net gallons are gross gallons times the VCF. Above 60&deg;F the factor is below 1, so net is smaller than gross. Below 60&deg;F it's above 1, so net is larger.</p>",
+    "",
+    "<h2>How Big the Difference Is</h2>",
+    "<p>Take Jet A at 43.79 API at 60&deg;F, the sample fuel used across this blog. Here's what 8,000 gross gallons works out to at different temperatures:</p>",
+    "<div class=\"table-wrap\"><table>",
+    "  <thead><tr><th>Temperature</th><th class=\"num\">Net gallons</th><th class=\"num\">Change</th></tr></thead>",
+    "  <tbody>",
+    "    <tr><td>30&deg;F</td><td class=\"num\">8,121.3</td><td class=\"num\">+121.3</td></tr>",
+    "    <tr><td>50&deg;F</td><td class=\"num\">8,040.6</td><td class=\"num\">+40.6</td></tr>",
+    "    <tr><td>60&deg;F</td><td class=\"num\">8,000.0</td><td class=\"num\">0.0</td></tr>",
+    "    <tr><td>70&deg;F</td><td class=\"num\">7,959.3</td><td class=\"num\">&minus;40.7</td></tr>",
+    "    <tr><td>85&deg;F</td><td class=\"num\">7,898.0</td><td class=\"num\">&minus;102.0</td></tr>",
+    "    <tr><td>100&deg;F</td><td class=\"num\">7,836.5</td><td class=\"num\">&minus;163.5</td></tr>",
+    "  </tbody>",
+    "</table></div>",
+    "<p>That's roughly half a percent for every 10&deg;F. On one aircraft it's small. Over a month of deliveries and sales, it adds up to real gallons on paper.</p>",
+    "",
+    "<h2>Where Each One Shows Up</h2>",
+    "<ul>",
+    "  <li><strong>Delivery paperwork.</strong> Bills of lading commonly show both gross and net gallons, along with the temperature and API gravity used for the correction. Your supply contract says which figure you're billed on.</li>",
+    "  <li><strong>Tank sticks and gauges.</strong> A stick reading turned into gallons with a strapping chart (the table that converts inches of fuel to gallons for that tank) gives gross gallons at the tank's temperature.</li>",
+    "  <li><strong>Truck and dispenser meters.</strong> An uncompensated meter counts gross gallons. A temperature-compensated meter corrects as it counts and reports net gallons. Check which kind each of your meters is; the meter's documentation or your fuel supplier can tell you.</li>",
+    "  <li><strong>Weight.</strong> Pounds per gallon at 60&deg;F goes with net gallons. Multiply it by gross gallons and the weight comes out wrong, as the <a href=\"fuel-density-uplift-check\">uplift check post</a> shows.</li>",
+    "</ul>",
+    "",
+    "<h2>How Mixing Them Causes Confusion</h2>",
+    "<p>Say a load of that Jet A arrives at 85&deg;F: 8,000 gross gallons, 7,898.0 net. A few days later the fuel in the tank has cooled to 50&deg;F. The same 7,898.0 net gallons now takes up 7,858.2 gross gallons. Stick the tank, compare it with the 8,000 on the ticket, and you look about 142 gallons short. No fuel left the tank. It got colder.</p>",
+    "<p>The reverse happens too. Fuel received cold and sold warm can make a tank look long, which hides a real loss if you're not watching for it.</p>",
+    "<p>The fix is to compare like with like:</p>",
+    "<ul>",
+    "  <li>Pick one basis for your records, usually net, and convert every figure to it before you compare.</li>",
+    "  <li>Write the temperature and the API gravity next to any gross figure, so it can be corrected later.</li>",
+    "  <li>Label every number: &ldquo;gross&rdquo; or &ldquo;net @ 60&deg;F.&rdquo; An unlabeled gallon figure is the one that causes the argument.</li>",
+    "  <li>Never correct a compensated meter's reading again. That counts the temperature effect twice.</li>",
+    "</ul>",
+    "<p>A difference that's still there after everything is on the same basis deserves a closer look under your inventory procedures. Getting the gravity right matters too, since the VCF depends on it; the <a href=\"how-to-correct-api-gravity-to-60f\">guide to correcting API gravity to 60&deg;F</a> covers that step.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> does the gross to net conversion with the published API tables. Enter the hydrometer reading and its temperature, then the gallons in the <strong>Fuel Volume</strong> field, and it shows <strong>Net Volume @ 60&deg;F</strong> and the <strong>Total Weight</strong> along with the corrected gravity. If the volume came from a temperature-compensated meter, turn on <strong>Already corrected to 60&deg;F</strong>, or set <strong>Volume already at 60&deg;F</strong> as the default in Settings, so it isn't corrected twice.</p>",
+    "<p>Each reading saves to History with the tank or truck name, the time, and a note, and exports as a spreadsheet or a summary PDF when the books need it. It's a reference tool for the math, not a replacement for your QC program or your inventory procedures.</p>"
+  ]
+}
