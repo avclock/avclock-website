@@ -76,7 +76,8 @@
     ],
     "avgrav": "Same fuel choice and typical range (Jet A / Jet A-1, 36 to 51 API); density readings to 15°C the way Jet A-1 is certified.",
     "avoid": "Additive requirements by country.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-13"
   },
   {
     "slug": "fuel-inventory-reconciliation",
