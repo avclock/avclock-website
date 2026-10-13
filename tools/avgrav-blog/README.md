@@ -4,8 +4,9 @@ One new post a day on the AvGrav blog (`avgrav-blog/`, live at
 avclockapp.com/avgrav-blog/), written for FBOs: line techs, line service
 supervisors, fuel QC people, and FBO managers. Every post is useful on its
 own and has one short, honest section on where AvGrav fits. That section is
-the sponsor slot; the App Store button and the disclaimer are added
-automatically. `tools/` isn't served (see `.assetsignore`), so nothing in
+the sponsor slot, and it also mentions AvClock, the same developer's
+airport world clock, in a sentence or two (see "Mentioning AvClock" below).
+The App Store button and the disclaimer are added automatically. `tools/` isn't served (see `.assetsignore`), so nothing in
 this folder is public.
 
 Files here:
@@ -108,7 +109,8 @@ Files here:
   "simply" or "just" as a crutch. No hype ("game-changer," "revolutionary,"
   "seamless").
 - **Links:** two or three links to other AvGrav posts where they help, and
-  `<a href="../avgrav">AvGrav</a>` in the AvGrav section. One or two links
+  `<a href="../avgrav">AvGrav</a>` and `<a href="../">AvClock</a>` in the
+  AvGrav section. One or two links
   to an authoritative source (FAA, NTSB, NATA, SKYbrary, ASTM, the Energy
   Institute) are welcome, with `target="_blank" rel="noopener"`.
 - **Tables** use the existing component:
@@ -168,6 +170,34 @@ Files here:
 - It's a reference tool, not a certified instrument, and it doesn't replace
   a QC program. Don't say it makes anyone compliant, and don't claim
   features beyond this list.
+
+## Mentioning AvClock
+
+Every post also mentions AvClock, in one or two sentences inside the
+`Where AvGrav Fits` section (usually its last paragraph), linked as
+`<a href="../">AvClock</a>`. AvGrav stays the main app in that section.
+Tie AvClock to something the post is about, the way someone working a ramp
+would use it: Zulu time on tickets and logs, the local time and weather at
+an arriving aircraft's departure airport, FAA delays that move arrivals, or
+a crew's next stop. One honest sentence beats a sales pitch, and never
+suggest AvClock does anything with fuel.
+
+What AvClock does (say only these):
+
+- A free airport world clock: local time and UTC/Zulu for 8,700+ airports
+  in 236 countries, searched by ICAO or IATA code, city, or name. Local
+  weather in plain English, nearby airports (worked out on the device),
+  an interactive world map, Home Screen and Lock Screen widgets, a Big
+  Clock widget for StandBy, and Overlap (the hours when up to four
+  airports are all awake). No account, no ads, no data collection.
+- Premium, $4.99 once (not a subscription), one purchase for iPhone, iPad,
+  and Mac: live METAR and TAF, color-coded VFR, MVFR, IFR, and LIFR; FAA
+  ground stops, delays, and closures; weather and delay alerts; My Flights
+  (log flights, calendar reminders); a Time Converter that shifts every
+  clock together; heliports and hospital helipads.
+- It's for reference only, not for navigation or flight planning. Weather
+  and status can be delayed; official sources come first. Say so whenever
+  a post leans on its weather or FAA status.
 
 ## When something's off
 
