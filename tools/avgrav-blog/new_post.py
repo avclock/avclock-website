@@ -110,6 +110,10 @@ def problems(spec):
         errors.append("body never mentions AvGrav; every post has a short section on where it fits")
     if 'href="../avgrav"' not in spec["body"]:
         warnings.append("body doesn't link the AvGrav page (../avgrav)")
+    if "AvClock" not in body:
+        errors.append("body never mentions AvClock; give it a sentence or two in the AvGrav section")
+    if 'href="../"' not in spec["body"]:
+        warnings.append("body doesn't link the AvClock page (../)")
     if len(spec["title"]) > 70:
         warnings.append("title is %d characters; search results cut off around 60 to 70" % len(spec["title"]))
     if not 70 <= len(spec["description"]) <= 165:
