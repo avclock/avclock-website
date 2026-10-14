@@ -91,7 +91,8 @@
     ],
     "avgrav": "Net Volume @ 60°F for converting a gross figure; readings per tank name; exports for the books.",
     "avoid": "Regulatory leak-detection thresholds.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-14"
   },
   {
     "slug": "hydrometer-thermometer-care",
