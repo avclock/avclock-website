@@ -106,7 +106,8 @@
     ],
     "avgrav": "The glass hydrometer correction is built in; record observed values so a bad instrument can be traced later.",
     "avoid": "Calibration intervals.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-15"
   },
   {
     "slug": "water-in-jet-fuel",

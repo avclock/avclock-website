@@ -1,0 +1,80 @@
+{
+  "slug": "hydrometer-thermometer-care",
+  "title": "Hydrometer and Thermometer Care: Keeping Readings Honest",
+  "description": "How to clean, store, inspect, and check the hydrometer and thermometer behind every gravity reading, and how much a small instrument error moves the result.",
+  "date": "2026-10-15",
+  "eyebrow": "FUEL QC &middot; EQUIPMENT",
+  "tag": "HYDR",
+  "excerpt": "The glass behind every gravity check, and how a small error in it shows up on the ticket.",
+  "minutes": 5,
+  "related": [
+    "how-to-correct-api-gravity-to-60f",
+    "fuel-delivery-api-gravity-check",
+    "fuel-quality-records-line-service"
+  ],
+  "faq": [
+    [
+      "How do I know if my hydrometer is accurate?",
+      "Inspect it for cracks, loose material inside, and a scale that has moved, then compare it against a reference hydrometer in the same sample. Your quality control manual sets how and how often that check is done, and what to do with an instrument that fails it."
+    ],
+    [
+      "How much does a thermometer error affect API gravity?",
+      "For Jet A observed at 46.0 API and 85°F, a thermometer reading 2°F high gives 43.62 API at 60°F instead of 43.79. That's small, but it's enough to make a delivery look off against its ticket."
+    ],
+    [
+      "Can I use a plastic hydrometer for jet fuel?",
+      "Use the instrument your procedures specify. At least one hydrometer maker advises against its polycarbonate hydrometers for petroleum-based liquids, which can attack the plastic."
+    ]
+  ],
+  "body": [
+    "<p>Every gravity check you do rests on two pieces of glass: the hydrometer and the thermometer. The math that corrects the reading to 60&deg;F is only as good as the numbers you feed it, and a chipped, dirty, or slightly wrong instrument gives you a number that looks fine and isn't.</p>",
+    "<p>Reading technique, like eye level and the meniscus, is covered in the <a href=\"how-to-correct-api-gravity-to-60f\">guide to correcting API gravity to 60&deg;F</a>. This post is about the instruments themselves.</p>",
+    "",
+    "<h2>Cleaning and Handling</h2>",
+    "<p>A hydrometer floats at a depth set by its weight. Anything that changes that weight, or how the fuel wets the stem, changes the reading.</p>",
+    "<ul>",
+    "  <li><strong>Hold it by the top of the stem.</strong> Hydrometer makers advise handling it only there, because fingerprints and residue on the stem can throw off the reading.</li>",
+    "  <li><strong>Clean and dry it after use</strong>, the way your quality control manual describes, with a lint-free cloth. Clean the cylinder the same way.</li>",
+    "  <li><strong>Lower it into the sample gently.</strong> Let it settle on its own rather than dropping it, and don't let it hit the bottom of the cylinder.</li>",
+    "</ul>",
+    "",
+    "<h2>Storage</h2>",
+    "<ul>",
+    "  <li>Put it back in its case or a rack after every use. A hydrometer rolling around a truck cab or a lab bench won't last.</li>",
+    "  <li>Store it clean and dry, and away from extreme heat or cold.</li>",
+    "  <li>Keep the thermometer with it, so the pair you use together stays together.</li>",
+    "</ul>",
+    "",
+    "<h2>What to Look For Before You Use It</h2>",
+    "<p>A quick look before each check catches most problems:</p>",
+    "<ul>",
+    "  <li><strong>Cracks or chips</strong> anywhere on the stem or bulb. Even a small chip changes the instrument's weight.</li>",
+    "  <li><strong>A scale that has moved.</strong> The paper scale inside the stem is supposed to be fixed in place. If it has slipped or turned, every reading is off by the same unknown amount.</li>",
+    "  <li><strong>Loose material inside.</strong> The ballast (the weight that keeps the hydrometer upright) belongs at the bottom, and nothing inside should move.</li>",
+    "  <li><strong>A thermometer that's cracked or hard to read.</strong> It's half of every reading.</li>",
+    "</ul>",
+    "<p>If anything on that list turns up, take the instrument out of service and follow your procedures for replacing it.</p>",
+    "",
+    "<h2>Checking Against a Reference</h2>",
+    "<p>An instrument can look perfect and still read wrong. The usual way to find out is to compare it with a reference: a hydrometer or thermometer kept for checking the working ones, often with a calibration certificate. Read both in the same sample at the same time and compare. Some programs also check thermometers in an ice and water bath, which sits at 32&deg;F (0&deg;C).</p>",
+    "<p>How often to check, what difference is acceptable, and what to do with an instrument that fails all come from your quality control manual and your fuel supplier, not from a blog post.</p>",
+    "",
+    "<h2>How Much a Small Error Moves the Result</h2>",
+    "<p>Using AvGrav's correction math on the sample Jet A this blog uses, observed at 46.0 API and 85&deg;F:</p>",
+    "<div class=\"table-wrap\"><table>",
+    "  <thead><tr><th>Instrument</th><th class=\"num\">API @ 60&deg;F</th></tr></thead>",
+    "  <tbody>",
+    "    <tr><td>Both correct</td><td class=\"num\">43.79</td></tr>",
+    "    <tr><td>Thermometer 2&deg;F high</td><td class=\"num\">43.62</td></tr>",
+    "    <tr><td>Thermometer 2&deg;F low</td><td class=\"num\">43.97</td></tr>",
+    "    <tr><td>Hydrometer 0.5 high</td><td class=\"num\">44.28</td></tr>",
+    "    <tr><td>Hydrometer 0.5 low</td><td class=\"num\">43.31</td></tr>",
+    "  </tbody>",
+    "</table></div>",
+    "<p>In pounds per gallon, those results run from 6.704 to 6.741 instead of 6.722. None of them look wrong on their own, and all of them are in the normal range for Jet A. That&rsquo;s the danger: an instrument error doesn&rsquo;t announce itself, but it can make a good delivery look off against its ticket, or hide a real difference.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> applies the glass hydrometer correction from the published API tables, so the math is consistent from one tech to the next. Every reading saves to History with the observed gravity and temperature, which can't be changed after saving, along with the time, the <strong>Tank or Truck</strong>, a photo, and a note. If an instrument is later found to be off, you can see exactly which readings it took and what it read. A note like &ldquo;hydrometer #2&rdquo; on each reading makes that even easier. It's a reference tool for the math, not a replacement for your QC program.</p>",
+    "<p>For the rest of the shift, <a href=\"../\">AvClock</a>, from the same developer, shows local time and UTC/Zulu for any airport your arrivals are coming from.</p>"
+  ]
+}
