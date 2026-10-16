@@ -121,7 +121,8 @@
     ],
     "avgrav": "A photo and note on each reading for the sample result.",
     "avoid": "Pass/fail ppm limits.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-16"
   },
   {
     "slug": "density-meter-vs-hydrometer",
