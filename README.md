@@ -275,3 +275,13 @@ AvClock's gallery into `images/screenshots/avgrav/`, rewrites the
 slot, and can be rerun any time. Then commit and push. `tools/` is in
 `.assetsignore`, so the script itself isn't published. Tabs for both
 galleries are `js/shot-gallery.js`.
+
+## Audience tests
+
+Posts written to see whether a new audience finds AvClock. Compare their
+views, traffic sources, App Store clicks, and discount-code clicks
+(`/analytics.html`) against the aviation guides after a few weeks.
+
+| Date | Post | Audience | Also changed |
+| --- | --- | --- | --- |
+| 2026-10-16 | `blog/military-families-time-zones` | Military families (not pilots) | App Store promo text on iOS 1.9 and Mac 1.6 now leads with the MILITARY/STUDENT codes |
