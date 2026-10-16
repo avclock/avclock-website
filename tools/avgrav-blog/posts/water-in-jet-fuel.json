@@ -1,0 +1,82 @@
+{
+  "slug": "water-in-jet-fuel",
+  "title": "Water in Jet Fuel: Sumps, Drains, and Clear and Bright",
+  "description": "Where water in jet fuel comes from, why it collects at low points, what clear and bright means in a sample, and how water detectors fit into the check.",
+  "date": "2026-10-16",
+  "eyebrow": "FUEL QC &middot; CONTAMINATION",
+  "tag": "H2O",
+  "excerpt": "Dissolved, free, and in between, and what a sample jar can and can't tell you.",
+  "minutes": 5,
+  "related": [
+    "winter-fueling-cold-fuel-fsii",
+    "fuel-quality-records-line-service",
+    "fuel-delivery-api-gravity-check"
+  ],
+  "faq": [
+    [
+      "What does clear and bright mean for jet fuel?",
+      "It's a visual check of a sample in a clean, clear container. Clear means no visible free water, solids, or sediment. Bright means the fuel sparkles, with no cloudiness or haze, which can be a sign of fine water droplets."
+    ],
+    [
+      "Why does water collect at the bottom of fuel tanks?",
+      "Water is heavier than jet fuel. For Jet A with a specific gravity of 0.8072, water is about 24 percent heavier, so free water sinks and settles at the lowest point, which is where sumps and drains are placed."
+    ],
+    [
+      "Can a fuel sample look clear and still have water in it?",
+      "Yes. Dissolved water can't be seen, and very fine droplets may not show to the eye. That's why many programs add a chemical water detector to the visual check, following their own procedures."
+    ]
+  ],
+  "body": [
+    "<p>Water gets into jet fuel easily. It comes in with deliveries, condenses in tanks, and comes out of the fuel itself as it cools. Most of the sumping and sampling you do on a shift is about finding it before it finds its way into an airplane.</p>",
+    "<p>Knowing where it hides and how it shows up makes those checks mean something.</p>",
+    "",
+    "<h2>Three Ways Water Exists in Fuel</h2>",
+    "<ul>",
+    "  <li><strong>Dissolved water</strong> is mixed into the fuel at the molecular level. It's invisible, and every jet fuel carries some. How much fuel can hold depends on its temperature: warm fuel holds more.</li>",
+    "  <li><strong>Suspended water</strong> is tiny droplets spread through the fuel. It can come from pumping and handling, or from dissolved water coming out as the fuel cools. In a sample it can look like haze or cloudiness.</li>",
+    "  <li><strong>Free water</strong> is water that has separated out. It shows up as drops, a layer at the bottom of a sample jar, or a slug of water out of a sump.</li>",
+    "</ul>",
+    "<p>The three move between each other. A warm load can carry dissolved water into a tank that comes out as suspended and then free water on the first cold night. The <a href=\"winter-fueling-cold-fuel-fsii\">winter fueling post</a> covers that side in more detail.</p>",
+    "",
+    "<h2>Where It Collects</h2>",
+    "<p>Water is heavier than jet fuel. For Jet A with a specific gravity of 0.8072, water is about 24 percent heavier, so free water sinks and gathers at the lowest point of whatever it's in: tank bottoms, filter vessels, truck sumps, and the low points of lines. That's why sumps and drains are where they are.</p>",
+    "<p>One thing that catches people: when you drain a filter or strainer, water in the tank behind it may not show until the fuel in the line between them has drained out. A short drain can come up clean while water is still sitting upstream.</p>",
+    "",
+    "<h2>Sumping and Sampling</h2>",
+    "<p>Your quality control manual sets which points get drained, how often, and how much. The habits that make it work are the same everywhere:</p>",
+    "<ul>",
+    "  <li>Use a clean, dry, clear container. A dirty jar hides what you're looking for.</li>",
+    "  <li>Drain enough to get past what's sitting in the drain line itself.</li>",
+    "  <li>Let the sample settle before you judge it, so free water and sediment can reach the bottom.</li>",
+    "  <li>Keep draining and sampling until the result is clean, and follow your procedures when it isn't.</li>",
+    "  <li>Write down what you found every time, including when it was nothing.</li>",
+    "</ul>",
+    "",
+    "<h2>What Clear and Bright Means</h2>",
+    "<p>Clear and bright is the visual check of a fuel sample in a clean, clear container:</p>",
+    "<ul>",
+    "  <li><strong>Clear</strong> means no free water, solids, or sediment you can see.</li>",
+    "  <li><strong>Bright</strong> means the fuel has a sparkle to it, with no cloudiness or haze. Haze can be fine suspended water.</li>",
+    "</ul>",
+    "<p>Some operations also use a white bucket, where swirling the sample into a cone helps water and sediment gather at the center where you can see them. The visual check has limits, though. A sample can pass clear and bright and still carry water that only a test picks up.</p>",
+    "",
+    "<h2>Chemical Water Detectors</h2>",
+    "<p>Water detectors catch fine, undissolved water the eye can miss. Two used in jet fuel service:</p>",
+    "<ul>",
+    "  <li><strong>Shell Water Detector</strong>: a single-use paper capsule. Fuel is drawn through it, and the center changes from yellow toward green when suspended water is present.</li>",
+    "  <li><strong>Velcon Hydrokit</strong>: a go/no-go test where a powder in the sample tube turns pink when free water is present. Its maker lists it for jet fuel only.</li>",
+    "</ul>",
+    "<p>Each has its own instructions, and the Shell capsules have a limited shelf life, so check the dates. The pass or fail point, and which detector to use, come from your procedures and your fuel supplier.</p>",
+    "",
+    "<h2>Why It Matters</h2>",
+    "<ul>",
+    "  <li><strong>Ice.</strong> As fuel cools, dissolved water can come out and freeze, and ice crystals can block filters.</li>",
+    "  <li><strong>Microbial growth.</strong> Fungi and bacteria that feed on fuel need free water to grow, and the fuel and water boundary is where they thrive. Keeping water out is the main way to keep them out.</li>",
+    "  <li><strong>Engines and fuel systems</strong> are designed for fuel, not water.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> doesn't test for water; that's what your sump checks and detectors are for. What it does is keep the record next to the gravity check. Each reading saves with the time, the <strong>Tank or Truck</strong>, photos, and a note, so a photo of the sample jar and a note like &ldquo;clear and bright, detector pass&rdquo; sit with the reading they belong to. <strong>Require Photo to Save</strong> in Settings makes the photo a habit. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>Since cold nights bring water out of the fuel, <a href=\"../\">AvClock</a>, from the same developer, is a quick way to see the current weather at your airport in plain English, though official sources come first.</p>"
+  ]
+}
