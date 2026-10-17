@@ -1,0 +1,72 @@
+{
+  "slug": "density-meter-vs-hydrometer",
+  "title": "Density Meter or Glass Hydrometer? What Changes on the Ramp",
+  "description": "A digital density meter reads kg/m³, a glass hydrometer reads API gravity. How each reading gets corrected, and how to compare either one to a delivery ticket.",
+  "date": "2026-10-17",
+  "eyebrow": "FUEL QC &middot; EQUIPMENT",
+  "tag": "DMTR",
+  "excerpt": "Two instruments, two units, one fuel: how the readings line up.",
+  "minutes": 5,
+  "related": [
+    "api-gravity-specific-gravity-density-conversion",
+    "hydrometer-thermometer-care",
+    "jet-a-vs-jet-a1"
+  ],
+  "faq": [
+    [
+      "Does a density meter reading need to be corrected for temperature?",
+      "Yes, unless the meter already shows density at 15°C. A reading at the sample's temperature is corrected to 15°C with the published tables for refined products (Table 53B), the same way a hydrometer reading is corrected to 60°F."
+    ],
+    [
+      "How do I compare a density reading to a ticket in API gravity?",
+      "Convert one to the other's unit first, both at their reference temperatures. For example, 806.8 kg/m³ at 15°C is about 43.8 API at 60°F. Comparing raw numbers in different units or at different temperatures tells you nothing."
+    ],
+    [
+      "Is a density meter more accurate than a hydrometer?",
+      "Either can give good results when it's used and maintained properly. The bigger differences on the ramp are the unit each one reads in, how it's checked, and what your procedures call for."
+    ]
+  ],
+  "body": [
+    "<p>A lot of gravity checks in the U.S. are done with a glass hydrometer and a thermometer, and U.S. delivery paperwork usually gives API gravity at 60&deg;F. Jet A-1 is usually certified by density in kilograms per cubic meter at 15&deg;C instead, and digital density meters read in that unit.</p>",
+    "<p>The two instruments measure the same property of the fuel. What changes is the unit, the reference temperature, and the correction each reading needs.</p>",
+    "",
+    "<h2>What Each One Reads</h2>",
+    "<ul>",
+    "  <li><strong>A glass hydrometer</strong> floats in the sample and reads API gravity (or density, depending on its scale) at the sample's temperature. You read the temperature separately on a thermometer.</li>",
+    "  <li><strong>A digital density meter</strong> draws the sample into a small tube and works out density electronically, usually in kg/m&sup3;, along with the sample temperature. Lab and portable meters both use this approach; the lab method for it is ASTM D4052.</li>",
+    "</ul>",
+    "<p>Either way, the raw number is a reading at whatever temperature the fuel happens to be. It isn't the number to compare with paperwork until it's corrected.</p>",
+    "",
+    "<h2>Two Corrections, Two Tables</h2>",
+    "<p>Both corrections come from API MPMS Chapter 11.1, the published petroleum measurement tables:</p>",
+    "<ul>",
+    "  <li><strong>Hydrometer:</strong> API gravity at the sample temperature is corrected to API gravity at 60&deg;F with Table 6B. A glass hydrometer also needs a small correction for the glass itself expanding and shrinking with temperature.</li>",
+    "  <li><strong>Density meter:</strong> density at the sample temperature is corrected to density at 15&deg;C with Table 53B. The glass correction doesn't apply, since there's no glass hydrometer involved.</li>",
+    "</ul>",
+    "<p>Check whether your density meter shows density at the sample temperature or already corrected to 15&deg;C. Its manual will say. Correcting a number that's already at 15&deg;C a second time gives a wrong answer.</p>",
+    "",
+    "<h2>The Same Fuel, Both Ways</h2>",
+    "<p>Here's one Jet A sample, measured both ways at 85&deg;F (29.4&deg;C), with every number from AvGrav's correction math:</p>",
+    "<ul>",
+    "  <li><strong>Hydrometer:</strong> 46.0 API at 85&deg;F corrects to 43.79 API at 60&deg;F, which converts to 806.8 kg/m&sup3; at 15&deg;C.</li>",
+    "  <li><strong>Density meter:</strong> 796.4 kg/m&sup3; at 29.4&deg;C corrects to 806.8 kg/m&sup3; at 15&deg;C, which converts to 43.80 API at 60&deg;F.</li>",
+    "</ul>",
+    "<p>The two routes land on the same fuel: 806.8 kg/m&sup3; at 15&deg;C, about 43.8 API at 60&deg;F, 6.722 pounds per gallon. The last decimal differs only from rounding.</p>",
+    "",
+    "<h2>Comparing to a Ticket in Either Unit</h2>",
+    "<p>The rule is the same as always: compare corrected values, in the same unit. If the certificate gives density at 15&deg;C and you read API, convert one of them first. The <a href=\"api-gravity-specific-gravity-density-conversion\">conversion guide</a> covers how the units relate.</p>",
+    "<p>Say the ticket shows 808.5 kg/m&sup3; at 15&deg;C and your corrected reading is 806.8 kg/m&sup3;. That's a difference of 1.7 kg/m&sup3;, which is about 0.37 API. Whether that's within limits is up to your procedures and your fuel supplier, but it's only a fair comparison once both numbers are in the same unit at their reference temperature.</p>",
+    "",
+    "<h2>Practical Differences on the Ramp</h2>",
+    "<ul>",
+    "  <li><strong>Reading.</strong> A density meter shows a number on a screen, with no meniscus to read. A hydrometer needs a steady sample, a level surface, and a careful eye.</li>",
+    "  <li><strong>Sample handling.</strong> A density meter needs the sample tube free of air bubbles. A hydrometer needs a clean cylinder and time for bubbles to rise.</li>",
+    "  <li><strong>Upkeep.</strong> Glass can crack and has to be inspected; the <a href=\"hydrometer-thermometer-care\">hydrometer care post</a> covers that. An electronic meter needs power, cleaning, and the checks its maker and your procedures call for.</li>",
+    "  <li><strong>Units.</strong> Density in kg/m&sup3; matches how Jet A-1 is usually certified. API gravity matches most U.S. tickets.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> handles both instruments. A hydrometer reading is corrected to API at 60&deg;F with Table 6B, including the glass hydrometer correction, and a density meter reading is corrected to 15&deg;C with Table 53B. Every result shows API at 60&deg;F, specific gravity, density at 15&deg;C, and pounds per gallon together, so you can answer in whatever unit the ticket or the crew uses. <strong>Ticket Density @ 15&deg;C</strong> or <strong>Ticket API @ 60&deg;F</strong> shows the difference from the paperwork against a tolerance you set from your own procedures.</p>",
+    "<p>The crews who ask for density in kg/m&sup3; are often headed somewhere far away; <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at their next stop.</p>"
+  ]
+}

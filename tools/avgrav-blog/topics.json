@@ -136,7 +136,8 @@
     ],
     "avgrav": "Both reading modes, Ticket Density @ 15°C, every result showing both units.",
     "avoid": "Brand comparisons.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-17"
   },
   {
     "slug": "fuel-truck-daily-check",
