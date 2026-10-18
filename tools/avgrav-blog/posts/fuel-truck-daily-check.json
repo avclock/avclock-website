@@ -1,0 +1,71 @@
+{
+  "slug": "fuel-truck-daily-check",
+  "title": "The Fuel Truck Daily Check: What to Look For and Why",
+  "description": "What a refueler's daily check usually covers, from leaks and deadman controls to bonding cables, filter sumps, and placards, and why each item is on the list.",
+  "date": "2026-10-18",
+  "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+  "tag": "TRCK",
+  "excerpt": "The walkaround before the first fueling, item by item, and what each check protects against.",
+  "minutes": 5,
+  "related": [
+    "water-in-jet-fuel",
+    "fuel-quality-records-line-service",
+    "prevent-misfueling-jet-a-avgas"
+  ],
+  "faq": [
+    [
+      "What is checked on a fuel truck every day?",
+      "It depends on your company manual, but daily lists commonly include general condition and leaks, filter sumps, filter differential pressure, deadman controls, brake interlocks, hoses and nozzles, bonding reels, cables and clamps, emergency shutoffs, and fire extinguishers."
+    ],
+    [
+      "Why does a fuel truck have a deadman control?",
+      "A deadman control only lets fuel flow while the operator is holding it. If the operator lets go for any reason, flow stops. It must never be blocked or bypassed."
+    ],
+    [
+      "Where do the official daily check items come from?",
+      "From your company's fuel quality and operations manual, which is built on industry standards such as A4A Specification 103, the airport's rules, and the truck maker's instructions. A blog post can describe the usual items; your manual has the real list."
+    ]
+  ],
+  "body": [
+    "<p>The daily check on a refueler, the truck that carries fuel to the aircraft, takes a few minutes at the start of a shift. It's easy to let it become a signature on a form. It's worth more than that: most of the items on the list are there because each one is the last thing standing between a normal fueling and a spill, a fire, or bad fuel in an airplane.</p>",
+    "<p>Your company manual has the actual list and intervals. Here are the items that show up on most of them, and why they're there.</p>",
+    "",
+    "<h2>Walk Around the Truck</h2>",
+    "<ul>",
+    "  <li><strong>Leaks.</strong> Look under the truck and around the tank, pumps, valves, filter vessel, and hose reels for drips or wet spots. A small weep found in the morning is a work order. Found mid-fueling, it's a spill.</li>",
+    "  <li><strong>General condition.</strong> Tires, lights, mirrors, and anything loose or damaged.</li>",
+    "  <li><strong>Placards and markings.</strong> The product grade and flammable markings should be in place and readable, along with no-smoking signs and the labels at each emergency shutoff. The grade marking is one of the defenses against misfueling; the <a href=\"prevent-misfueling-jet-a-avgas\">misfueling guide</a> covers the rest.</li>",
+    "  <li><strong>Fire extinguishers.</strong> Present, charged, accessible, and inspected.</li>",
+    "</ul>",
+    "",
+    "<h2>Safety Controls</h2>",
+    "<ul>",
+    "  <li><strong>Deadman control.</strong> The handheld or nozzle control that only allows flow while you hold it. Check that it works and that flow stops when you let go. It must never be tied, wedged, or bypassed.</li>",
+    "  <li><strong>Emergency shutoffs.</strong> Each one should be clearly labeled, unobstructed, and working the way your procedures say to test it. In an emergency, nobody has time to hunt for one.</li>",
+    "  <li><strong>Brake interlock.</strong> It's there to keep the truck from driving off while fueling equipment is in use. Make sure it works, per your manual.</li>",
+    "</ul>",
+    "",
+    "<h2>Bonding</h2>",
+    "<p>Fuel flowing through hoses and filters builds up static charge. The bonding cable connects the truck to the aircraft so the charge has a safe path instead of a spark.</p>",
+    "<ul>",
+    "  <li>Pull the cable out and look at its full length for broken strands, kinks, or damage.</li>",
+    "  <li>Check that the clamp is intact, grips firmly, and isn't worn.</li>",
+    "  <li>Make sure the reel winds and unwinds properly.</li>",
+    "</ul>",
+    "<p>How and how often continuity is tested comes from your manual. A damaged cable or clamp gets reported and fixed before the truck fuels again, following your procedures.</p>",
+    "",
+    "<h2>Fuel Quality on the Truck</h2>",
+    "<ul>",
+    "  <li><strong>Filter sumps.</strong> Drain the filter vessel sump and look at the sample for water and dirt. The <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers what to look for and why water collects there.</li>",
+    "  <li><strong>Filter differential pressure.</strong> The gauge shows how much harder the fuel is working to get through the filter. Record it the way your procedures say. A reading that changes suddenly from the usual deserves a closer look; the limits and the correction method come from your manual and the filter maker.</li>",
+    "  <li><strong>Hoses and nozzles.</strong> Look for cracks, cuts, bulges, or soft spots in the hoses, and check that nozzles, caps, and dust covers are clean and intact. Nozzle screens are checked on the schedule your manual sets.</li>",
+    "</ul>",
+    "",
+    "<h2>Write It Down</h2>",
+    "<p>The check counts when it's recorded: the truck, the date and time, who did it, what was found, and what was done about it. Anything that fails goes to whoever your procedures name, and your procedures decide whether the truck can be used until it's fixed. The <a href=\"fuel-quality-records-line-service\">fuel quality records guide</a> covers how to keep those records useful.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> doesn't replace the truck checklist. It covers the gravity side of the day. Set up each truck under <strong>Tank or Truck</strong> in Settings, and every gravity reading saves to History with that truck's name, the time, photos, and a note. <strong>Require Photo to Save</strong> makes a photo of the sample part of every reading, and History exports today, the last 7 days, or everything as a spreadsheet or a summary PDF. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>Once the trucks are ready, <a href=\"../\">AvClock</a>, from the same developer, can help with the rest of the day: its Premium unlock shows FAA ground stops and delays that move arrivals, though official sources come first.</p>"
+  ]
+}
