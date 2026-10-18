@@ -151,7 +151,8 @@
     ],
     "avgrav": "Tank or Truck names so readings tie to each truck; Require Photo to Save.",
     "avoid": "Specific pressure limits.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-18"
   },
   {
     "slug": "sustainable-aviation-fuel-fbo",
