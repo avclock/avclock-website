@@ -1,0 +1,65 @@
+{
+  "slug": "sustainable-aviation-fuel-fbo",
+  "title": "Sustainable Aviation Fuel at the FBO: What Changes for Line Service",
+  "description": "How blended sustainable aviation fuel is certified under ASTM D7566 and then D1655, why it's handled as Jet A on the ramp, and what to watch on the paperwork.",
+  "date": "2026-10-19",
+  "eyebrow": "FUEL QC &middot; GRADES",
+  "tag": "SAF",
+  "excerpt": "Why a certified SAF blend arrives as Jet A, and the paperwork that proves it.",
+  "minutes": 5,
+  "related": [
+    "jet-a-vs-jet-a1",
+    "fuel-delivery-api-gravity-check",
+    "fuel-density-uplift-check"
+  ],
+  "faq": [
+    [
+      "Is blended SAF handled differently from Jet A at an FBO?",
+      "Once a blend has been made and certified, it meets ASTM D1655 and is treated as conventional Jet A or Jet A-1. Line service handles it under the same quality control procedures, unless your fuel supplier or manual says otherwise."
+    ],
+    [
+      "How much SAF can be blended into Jet A?",
+      "It depends on the type of SAF. Most approved types can be blended up to 50 percent, but some are limited to lower amounts, such as 10 percent. The limit is set in each type's annex of ASTM D7566, and blending is normally done before the fuel reaches the airport."
+    ],
+    [
+      "Does a SAF blend weigh the same as regular Jet A?",
+      "A certified blend has to meet the same Jet A density range, 775 to 840 kg/m³ at 15°C, but any batch can sit anywhere in that range. Use the gravity or density of the batch you actually have, not a number from a past delivery."
+    ]
+  ],
+  "body": [
+    "<p>Sustainable aviation fuel, usually shortened to SAF, is jet fuel made from sources other than crude oil. Some fuel suppliers offer it, and some customers ask for it by name. For line service the practical question is simple: does anything change on the ramp?</p>",
+    "<p>For a certified blend, the short answer is very little. The reason is in how the fuel is certified before it ever reaches you.</p>",
+    "",
+    "<h2>Two Specifications, One Fuel</h2>",
+    "<p>SAF goes through two specifications on its way to the airport:</p>",
+    "<ul>",
+    "  <li><strong>ASTM D7566</strong> covers the synthetic part on its own and how it's blended. Each type of SAF has its own annex in D7566, with its own requirements and its own maximum blend.</li>",
+    "  <li><strong>ASTM D1655</strong> is the same specification that covers conventional Jet A and Jet A-1. Once a blend is made and passes the required tests, it's certified to D1655 and from then on is treated as conventional Jet A or Jet A-1.</li>",
+    "</ul>",
+    "<p>Most approved SAF types can be blended up to 50 percent, but some are limited to less, including 10 percent for certain types. Those limits belong to the blender and the supplier. Blending is normally done upstream of the airport, so what arrives at your fuel farm is a finished, certified jet fuel.</p>",
+    "",
+    "<h2>What Stays the Same on the Ramp</h2>",
+    "<ul>",
+    "  <li><strong>Grade.</strong> A certified blend is Jet A or Jet A-1. It goes into the same tanks and trucks, under the same grade markings, unless your supplier or manual says otherwise. The <a href=\"jet-a-vs-jet-a1\">Jet A vs Jet A-1 post</a> covers the difference between those two.</li>",
+    "  <li><strong>Quality checks.</strong> Appearance, water, and gravity or density checks follow your quality control manual, the same as for any other load.</li>",
+    "  <li><strong>Density range.</strong> The blend must meet the same density limits as Jet A, 775 to 840 kg/m&sup3; at 15&deg;C, so the same typical range applies to your gravity check.</li>",
+    "</ul>",
+    "",
+    "<h2>What to Watch on the Paperwork</h2>",
+    "<p>Because a blend looks and checks like any other Jet A, the paperwork is how anyone downstream knows what it is. Certificates follow the fuel from the SAF producer through the blending point and each move after that, and the blend's certificate lists the batches that went into it.</p>",
+    "<ul>",
+    "  <li>Keep the delivery's certificate or ticket with your receipt records, the same as any load.</li>",
+    "  <li>If you sell SAF blends as a separate product, follow your supplier's process for tracking which deliveries and which sales they cover. Your supplier's documentation is what supports any claim about the fuel.</li>",
+    "  <li>Don't describe fuel to a customer as SAF, or as a blend of any percentage, unless the paperwork for that fuel says so.</li>",
+    "</ul>",
+    "<p>Certification as Jet A is about how the fuel performs, not about where it came from. Questions about sustainability claims belong with your supplier, not the ramp.</p>",
+    "",
+    "<h2>Use the Batch, Not a Habit</h2>",
+    "<p>A certified blend can land anywhere in the Jet A density range, the same as any other batch. If a load comes in lighter or heavier than you're used to, that alone isn't a problem. Check it against its own certificate, as the <a href=\"fuel-delivery-api-gravity-check\">delivery check guide</a> describes.</p>",
+    "<p>It does matter for weight. A batch at 790.0 kg/m&sup3; at 15&deg;C is 47.53 API and 6.582 pounds per gallon. One at 806.8 kg/m&sup3; is 43.8 API and 6.722 pounds per gallon. For 5,000 gallons at 60&deg;F, that's 32,910 pounds against 33,610, a 700-pound difference. Give crews the numbers for the fuel they actually received.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>To <a href=\"../avgrav\">AvGrav</a>, a certified blend is Jet A: the same Jet A / Jet A-1 fuel choice and the same typical range, 36 to 51 API at 60&deg;F. Correct a hydrometer or density meter reading, compare it with the batch's certificate in <strong>Ticket API @ 60&deg;F</strong> or <strong>Ticket Density @ 15&deg;C</strong>, and add the volume to get net gallons and total weight for that batch. A note on the reading, like the supplier's product name, keeps the record clear. It's a reference tool, not a replacement for your QC program or your supplier's documentation.</p>",
+    "<p>If your tickets and records are kept in Zulu time, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
