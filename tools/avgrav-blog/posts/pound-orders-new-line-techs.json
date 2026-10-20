@@ -1,0 +1,71 @@
+{
+  "slug": "pound-orders-new-line-techs",
+  "title": "Fuel Orders in Pounds: A Quick Guide for New Line Techs",
+  "description": "Why crews order jet fuel in pounds, why 6.7 pounds per gallon is only an estimate, and the questions to ask so the fuel you pump is the fuel they meant.",
+  "date": "2026-10-20",
+  "eyebrow": "LINE SERVICE &middot; TRAINING",
+  "tag": "LBS",
+  "excerpt": "Total or add, pounds or kilos, and how to say the order back before you pump.",
+  "minutes": 5,
+  "related": [
+    "jet-a-weight-per-gallon",
+    "fuel-density-uplift-check",
+    "api-gravity-specific-gravity-density-conversion"
+  ],
+  "faq": [
+    [
+      "Why do pilots order jet fuel in pounds instead of gallons?",
+      "Turbine aircraft track fuel by weight, and performance and loading are worked out in weight. Fuel is sold and metered by the gallon, so somebody has to convert, and the order is where mistakes creep in."
+    ],
+    [
+      "Is 6.7 pounds per gallon close enough for jet fuel?",
+      "It's a fair average, but Jet A can range from about 6.46 to 7.00 pounds per gallon at 60°F. For a 4,000-pound order, using 6.7 on a light batch at 6.582 pounds per gallon delivers about 3,929 pounds, 71 short."
+    ],
+    [
+      "What should I ask when a crew orders fuel in pounds?",
+      "Confirm whether the number is the total they want on board or the amount to add, whether it's pounds or kilograms, and how it should be split between tanks. Then say the order back before you start."
+    ]
+  ],
+  "body": [
+    "<p>Sooner or later every new line tech hears it: &ldquo;Give us 4,000 pounds.&rdquo; Your truck counts gallons. The crew is thinking in weight. In between is a conversion, a few questions, and a good habit of saying the number back.</p>",
+    "<p>The math is covered in detail in the <a href=\"jet-a-weight-per-gallon\">weight per gallon guide</a>. This post is about getting the order right before the math even starts.</p>",
+    "",
+    "<h2>Why Crews Think in Pounds</h2>",
+    "<p>Turbine aircraft track fuel by weight. The gauges, the performance numbers, and the weight and balance all work in pounds or kilograms. Fuel is bought and metered by the gallon, so somebody has to convert, and industry reporting has long pointed to the conversion, or the wrong amount or unit being passed along, as a source of fueling mistakes.</p>",
+    "<p>At least one FBO chain has run trucks that show pounds as well as gallons, using a fixed 6.7 pounds per gallon. That helps with communication, but it's still an estimate, which matters more than it sounds.</p>",
+    "",
+    "<h2>Ask Before You Convert</h2>",
+    "<p>A fuel order can go wrong before any arithmetic happens, through a misunderstanding about what the number means. Before you work out gallons, be sure of four things:</p>",
+    "<ul>",
+    "  <li><strong>Total or add?</strong> &ldquo;4,000 pounds&rdquo; can mean fill to 4,000 total on board, or add 4,000 to what's there. Those can be very different uplifts.</li>",
+    "  <li><strong>Pounds or kilograms?</strong> Crews who fly internationally may work in kilograms. 4,000 kilograms is about 8,818 pounds, more than twice the fuel.</li>",
+    "  <li><strong>Which tanks, and how much in each?</strong> Some orders come per side or per tank. Ask how they want it split.</li>",
+    "  <li><strong>Which grade?</strong> Confirm the grade every time, as the <a href=\"prevent-misfueling-jet-a-avgas\">misfueling guide</a> explains.</li>",
+    "</ul>",
+    "",
+    "<h2>Why 6.7 Is Only a Starting Point</h2>",
+    "<p>The Jet A specification allows a range of densities, so the weight of a gallon depends on the batch. Here's what a 4,000-pound order looks like on three different batches, with gallons at 60&deg;F from AvGrav's correction math:</p>",
+    "<div class=\"table-wrap\"><table>",
+    "  <thead><tr><th>Batch</th><th class=\"num\">lb/gal</th><th class=\"num\">Gallons</th></tr></thead>",
+    "  <tbody>",
+    "    <tr><td>Light, 47.53 API</td><td class=\"num\">6.582</td><td class=\"num\">607.7</td></tr>",
+    "    <tr><td>Middle, 43.79 API</td><td class=\"num\">6.722</td><td class=\"num\">595.0</td></tr>",
+    "    <tr><td>Heavy, 38.90 API</td><td class=\"num\">6.916</td><td class=\"num\">578.4</td></tr>",
+    "  </tbody>",
+    "</table></div>",
+    "<p>Using 6.7 for all three gives 597.0 gallons. On the light batch, that delivers about 3,929 pounds, 71 short. On the heavy batch, about 4,129 pounds, 129 over. Neither is a disaster on a ramp estimate, but it's not what the crew asked for, and it adds up on bigger orders.</p>",
+    "<p>The fix is to use the pounds per gallon from a corrected reading of the fuel you're actually pumping. If your meter isn't temperature compensated, there's one more step, covered in the weight per gallon guide: on an 85&deg;F day, those 595.0 gallons at 60&deg;F are 602.7 gallons on the meter.</p>",
+    "",
+    "<h2>Say It Back, Then Write It Down</h2>",
+    "<ul>",
+    "  <li><strong>Read the order back</strong> in the crew's terms before you start: &ldquo;Adding 4,000 pounds, 2,000 per side, Jet A.&rdquo; It takes five seconds and catches most misunderstandings.</li>",
+    "  <li><strong>Ask about rounding</strong> if the gallons come out uneven, rather than guessing which way they'd prefer, and follow your procedures.</li>",
+    "  <li><strong>Tell the crew what went in</strong>: the gallons, and the weight if they want it, worked out from the gravity of the fuel you pumped. The <a href=\"fuel-density-uplift-check\">uplift check post</a> explains why they'll compare it with their gauges.</li>",
+    "  <li><strong>Put it on the ticket</strong> so the order, the uplift, and the numbers behind them are all in one place.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> shows pounds per gallon with every corrected reading, so the number you divide by is the real one for today's fuel. After fueling, enter the gallons in <strong>Fuel Volume</strong> and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong> in pounds or kilograms, the figure the crew can check against their gauges. It works from gallons to weight, so for a pound order, divide by the pounds per gallon it shows. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>For crews heading somewhere far away, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at their next stop.</p>"
+  ]
+}

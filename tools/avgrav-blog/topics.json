@@ -181,7 +181,8 @@
     ],
     "avgrav": "Total Weight from the real gravity and temperature.",
     "avoid": "Repeating the jet-a-weight-per-gallon post; add the communication angle.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-20"
   },
   {
     "slug": "bonding-static-fueling",
