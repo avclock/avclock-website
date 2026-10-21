@@ -196,7 +196,8 @@
     ],
     "avgrav": "Light: daily equipment checks recorded alongside readings.",
     "avoid": "Telling anyone to skip grounding or any step.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-21"
   },
   {
     "slug": "international-crews-liters-kilograms",

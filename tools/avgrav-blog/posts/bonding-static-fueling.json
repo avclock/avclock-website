@@ -1,0 +1,66 @@
+{
+  "slug": "bonding-static-fueling",
+  "title": "Bonding During Fueling: Static Electricity on the Ramp",
+  "description": "Why fueling builds static electricity, what the bonding cable does about it, and the usual connect-first, disconnect-last order, with your manual as the final word.",
+  "date": "2026-10-21",
+  "eyebrow": "LINE SERVICE &middot; SAFETY",
+  "tag": "BOND",
+  "excerpt": "Where the charge comes from, why the cable goes on first, and why it comes off last.",
+  "minutes": 5,
+  "related": [
+    "fuel-truck-daily-check",
+    "winter-fueling-cold-fuel-fsii",
+    "prevent-misfueling-jet-a-avgas"
+  ],
+  "faq": [
+    [
+      "Why do you bond an aircraft before fueling?",
+      "Fuel moving through hoses and filters builds up static charge. Bonding connects the fueling equipment and the aircraft so they're at the same electrical potential, which keeps a spark from jumping between them where fuel vapor may be present."
+    ],
+    [
+      "When is the bonding cable connected and removed?",
+      "The bond goes on before any fueling connection is made or any fuel flows, and it stays on until fueling is finished and the other connections are removed. Your company manual and airport rules set the exact steps."
+    ],
+    [
+      "Is grounding still required for aircraft fueling?",
+      "Practice has shifted toward bonding the aircraft to the fueling equipment, but some airports and local codes still require grounding too. Follow your airport's rules, your company manual, and the edition of NFPA 407 that applies to you."
+    ]
+  ],
+  "body": [
+    "<p>Every fueling starts the same way: before the nozzle goes anywhere near the aircraft, the bonding cable goes on. It's one of the first habits a new line tech learns, and one of the easiest to rush. Knowing why it's there makes it harder to skip, and it should never be skipped.</p>",
+    "<p>This post explains the why. The exact steps come from your company manual, your airport's rules, and your training.</p>",
+    "",
+    "<h2>Where the Static Comes From</h2>",
+    "<p>When fuel moves, it picks up electrical charge. Pumping it through hoses, and especially through filters with their large surface area, separates charge, so the fuel arriving at the nozzle can carry static and so can the equipment around it.</p>",
+    "<p>That charge drains away with time. Some fuels carry a static dissipator additive, which makes the fuel more conductive so charge drains faster. It doesn't stop charge from being generated; it helps it leave sooner. Either way, there can be charge present during fueling, and that's what bonding is for.</p>",
+    "",
+    "<h2>What Bonding Does</h2>",
+    "<p>The bonding cable connects the fueling equipment to the aircraft. With the two connected, they're at the same electrical potential, so there's no difference between them for a spark to jump across. A spark is a problem anywhere near fuel vapor, and there can be vapor around the fill point whenever fuel is moving.</p>",
+    "<p>Older practice grounded both the truck and the aircraft. The industry has since shifted toward bonding the aircraft to the fueling equipment, since the danger is a difference between those two. Some airports and local codes still require grounding as well, so follow the rules where you work. Many manuals still say &ldquo;ground&rdquo; when they mean bond, so if yours is unclear, ask.</p>",
+    "",
+    "<h2>The Usual Order</h2>",
+    "<p>Your procedures set the exact sequence. The principle behind it is consistent:</p>",
+    "<ul>",
+    "  <li><strong>Bond first.</strong> The bonding connection is made before any fueling connection: before the fuel cap comes off, and before a nozzle or hose is connected.</li>",
+    "  <li><strong>Keep it on.</strong> The bond stays connected the whole time fuel is moving.</li>",
+    "  <li><strong>Disconnect last.</strong> Connections come off in the reverse order they went on, so the bond is the last thing removed, after the nozzle is away and the cap is back on.</li>",
+    "</ul>",
+    "<p>If the bond comes off in the middle of fueling for any reason, stop and follow your procedures before you continue.</p>",
+    "",
+    "<h2>Check the Cable Every Time</h2>",
+    "<p>A bond only works if the cable and clamp do. The <a href=\"fuel-truck-daily-check\">fuel truck daily check</a> covers the cable and reel. At each fueling, it takes a second to look again:</p>",
+    "<ul>",
+    "  <li>The clamp grips firmly on a bare metal bonding point the aircraft maker designates, not on paint or a part that isn't meant for it.</li>",
+    "  <li>The cable isn't frayed, kinked, or damaged along the length you've pulled out.</li>",
+    "  <li>The cable won't be run over, pulled tight, or knocked loose while you work.</li>",
+    "</ul>",
+    "<p>A damaged cable or clamp gets reported and fixed before that equipment fuels again, following your procedures.</p>",
+    "",
+    "<h2>Dry Weather</h2>",
+    "<p>Cold, dry air is when static is most noticeable, both on the equipment and on people. The <a href=\"winter-fueling-cold-fuel-fsii\">winter fueling post</a> covers the rest of the cold-weather list. The steps don't change with the weather; dry days are a reason to be more careful about them, not less.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> is a gravity calculator, not a safety system, and nothing in it replaces bonding or any other fueling step. What it does is keep the truck's records together. Each reading saves with the <strong>Tank or Truck</strong> name, the time, photos, and a note, so a note like &ldquo;bond cable and clamp checked&rdquo; can sit next to that truck's daily gravity reading in History.</p>",
+    "<p>For a quick look at what the day is doing, <a href=\"../\">AvClock</a>, from the same developer, shows the current weather at your airport in plain English. For storms and lightning, follow your airport's procedures and official sources.</p>"
+  ]
+}
