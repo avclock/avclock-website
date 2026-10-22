@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -256,6 +256,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/bonding-static-fueling</loc>
     <lastmod>2026-10-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/international-crews-liters-kilograms</loc>
+    <lastmod>2026-10-22</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
