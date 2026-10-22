@@ -211,7 +211,8 @@
     ],
     "avgrav": "Volume in liters, weight in kg, density at 15°C.",
     "avoid": "Country-specific rules.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-22"
   },
   {
     "slug": "filter-differential-pressure",

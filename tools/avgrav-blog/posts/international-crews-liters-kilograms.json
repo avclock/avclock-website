@@ -1,0 +1,73 @@
+{
+  "slug": "international-crews-liters-kilograms",
+  "title": "Liters, Kilograms, and Gallons: Fueling International Crews",
+  "description": "How to handle fuel orders in kilograms or liters, why kilograms need a density and a temperature, and how to write a ticket an international crew can't misread.",
+  "date": "2026-10-22",
+  "eyebrow": "LINE SERVICE &middot; CREWS",
+  "tag": "INTL",
+  "excerpt": "Three units, two kinds of gallon, and a ticket nobody can misread.",
+  "minutes": 5,
+  "related": [
+    "fuel-density-uplift-check",
+    "pound-orders-new-line-techs",
+    "jet-a-vs-jet-a1"
+  ],
+  "faq": [
+    [
+      "How many liters are in a U.S. gallon?",
+      "One U.S. gallon is exactly 3.785411784 liters. An imperial gallon, used in the UK, is exactly 4.54609 liters, about 20 percent larger, so always say which gallon you mean."
+    ],
+    [
+      "How do I convert kilograms of jet fuel to gallons?",
+      "You need the fuel's density. For Jet A at 806.8 kg/m³ at 15°C (6.722 pounds per gallon at 60°F), 2,500 kilograms is 819.9 U.S. gallons at 60°F. On a meter without temperature correction at 85°F, that's 830.5 gallons."
+    ],
+    [
+      "What should a fuel ticket for an international crew show?",
+      "The volume with its unit spelled out, the grade, and, if the crew wants weight, the mass with its unit and the density used, including its reference temperature. Unlabeled numbers are the ones that get misread."
+    ]
+  ],
+  "body": [
+    "<p>A domestic crew orders in pounds and reads gallons. An international crew may order in kilograms, think in liters, and come from a place where &ldquo;gallon&rdquo; means something else entirely. The fuel is the same. The units aren't, and every conversion between them is a chance to get it wrong.</p>",
+    "<p>The <a href=\"pound-orders-new-line-techs\">guide to fuel orders in pounds</a> covers the questions to ask before you convert. This post covers the units themselves.</p>",
+    "",
+    "<h2>Volume: Liters and Two Kinds of Gallon</h2>",
+    "<p>Volume conversions are fixed. They don't depend on the fuel:</p>",
+    "<ul>",
+    "  <li><strong>1 U.S. gallon</strong> is exactly 3.785411784 liters.</li>",
+    "  <li><strong>1 imperial gallon</strong>, the UK gallon, is exactly 4.54609 liters.</li>",
+    "</ul>",
+    "<p>That difference is about 20 percent. 1,000 imperial gallons is about 1,200.9 U.S. gallons. Of the sample Jet A this blog uses, that's about 3,666 kilograms against 3,053 for 1,000 U.S. gallons. If a crew says &ldquo;gallons,&rdquo; it's worth confirming which ones.</p>",
+    "",
+    "<h2>Mass: Why Kilograms Need a Density</h2>",
+    "<p>Turning volume into kilograms or pounds isn't a fixed conversion. It depends on how dense the fuel is, and density depends on the batch and the temperature. That means two numbers come with every mass conversion:</p>",
+    "<ul>",
+    "  <li><strong>The fuel's density</strong>, from a corrected gravity or density reading of the fuel you're dispensing.</li>",
+    "  <li><strong>The temperature basis.</strong> A density at 15&deg;C goes with volume at 15&deg;C (or 60&deg;F, which is close to it). It doesn't go with liters metered warm. The <a href=\"fuel-density-uplift-check\">uplift check post</a> shows how big that mistake gets.</li>",
+    "</ul>",
+    "",
+    "<h2>A Worked Example</h2>",
+    "<p>A crew asks for 2,500 kilograms of Jet A. Your fuel corrects to 43.79 API, which is 806.8 kg/m&sup3; at 15&deg;C and 6.722 pounds per gallon at 60&deg;F. Using AvGrav's correction math:</p>",
+    "<ul>",
+    "  <li>2,500 kilograms is 5,512 pounds.</li>",
+    "  <li>At 6.722 pounds per gallon, that's 819.9 U.S. gallons at 60&deg;F, or about 3,104 liters.</li>",
+    "  <li>On a meter without temperature correction, with the fuel at 85&deg;F, that's 830.5 gallons, or about 3,144 liters.</li>",
+    "</ul>",
+    "<p>If your meter is temperature compensated, the 60&deg;F figure is the one to pump. If it isn't, the 85&deg;F figure is. Either way, ask how the crew wants it split between tanks and say the order back before you start.</p>",
+    "",
+    "<h2>When the Order Is in Liters</h2>",
+    "<p>A liter order is simpler, because liters to gallons is a fixed conversion. 3,000 liters is 792.5 U.S. gallons, whatever the fuel. The one thing to settle is temperature: whether the crew means liters as metered or liters corrected to a standard temperature. If your meter isn&rsquo;t temperature compensated and they want a corrected figure, correct it the same way you would for a pound or kilogram order, and tell them which one you pumped.</p>",
+    "",
+    "<h2>Writing the Ticket</h2>",
+    "<p>An international crew may read your ticket quickly, in a second language, after a long day. Make it hard to misread:</p>",
+    "<ul>",
+    "  <li><strong>Spell out every unit:</strong> &ldquo;U.S. gal,&rdquo; &ldquo;L,&rdquo; &ldquo;kg,&rdquo; &ldquo;lb.&rdquo; Never a bare number.</li>",
+    "  <li><strong>Give density with its temperature:</strong> &ldquo;806.8 kg/m&sup3; at 15&deg;C,&rdquo; not &ldquo;0.807.&rdquo;</li>",
+    "  <li><strong>Say whether volume is metered or corrected</strong>, if you give both.</li>",
+    "  <li><strong>Write the grade in full.</strong> The <a href=\"jet-a-vs-jet-a1\">Jet A vs Jet A-1 post</a> explains why that matters to crews used to Jet A-1.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> takes volume in gallons, liters, or mL and gives total weight in pounds or kilograms, using the corrected gravity of your fuel. Every result also shows density at 15&deg;C and specific gravity, so you can answer in the crew's units. If your meter is temperature compensated, turn on <strong>Already corrected to 60&deg;F</strong> so the volume isn't corrected twice. It works from volume to weight, so for a kilogram order, convert as above and check it in AvGrav. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>For crews about to cross a few time zones, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at their next stop.</p>"
+  ]
+}
