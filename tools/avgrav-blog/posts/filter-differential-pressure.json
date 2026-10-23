@@ -1,0 +1,60 @@
+{
+  "slug": "filter-differential-pressure",
+  "title": "Filter Differential Pressure: The Daily Number Worth Trending",
+  "description": "What filter differential pressure tells you about the elements in a fuel filter vessel, why flow rate matters, and why a sudden drop can matter as much as a rise.",
+  "date": "2026-10-23",
+  "eyebrow": "FUEL QC &middot; EQUIPMENT",
+  "tag": "DP",
+  "excerpt": "One gauge, read every day, and what the trend says that a single reading can't.",
+  "minutes": 5,
+  "related": [
+    "fuel-truck-daily-check",
+    "water-in-jet-fuel",
+    "fuel-quality-records-line-service"
+  ],
+  "faq": [
+    [
+      "What does filter differential pressure mean?",
+      "It's the difference between the pressure going into a filter vessel and the pressure coming out. As the filter elements catch dirt and water, fuel has to work harder to get through, and the difference rises."
+    ],
+    [
+      "Why does a sudden drop in differential pressure matter?",
+      "A lower reading than usual at the same flow can mean fuel is getting past the elements instead of through them, for example because an element has failed. It deserves a closer look under your procedures, not a sigh of relief."
+    ],
+    [
+      "Why does flow rate affect the differential pressure reading?",
+      "Pressure drop depends on how fast fuel is moving through the filter. A reading taken at low flow looks lower than the same filter would show at full flow, which is why readings are compared at similar flow or corrected using your manual's or the filter maker's method."
+    ]
+  ],
+  "body": [
+    "<p>Many refuelers and filter vessels have a differential pressure gauge, and daily checklists commonly ask you to write down what it says. It's easy to treat that as one more box. It's actually one of the few numbers you record that tells you something about fuel quality equipment you can't see.</p>",
+    "<p>This post explains what the number means and why the trend matters more than any single reading.</p>",
+    "",
+    "<h2>What the Gauge Measures</h2>",
+    "<p>Differential pressure, usually shortened to DP, is the pressure going into a filter vessel minus the pressure coming out. Fuel loses some pressure pushing through the elements inside. Clean elements let it through easily. As they catch dirt and water, which is their job, fuel has to push harder, and the difference grows.</p>",
+    "<p>So a slow rise in DP over weeks is normal. It's the filter working. At some point the elements reach the change-out level set by the filter maker and your procedures, and they get replaced.</p>",
+    "",
+    "<h2>Why Flow Rate Matters</h2>",
+    "<p>DP depends on how fast fuel is moving. The same filter shows a lower reading at low flow and a higher one at full flow. That has two consequences:</p>",
+    "<ul>",
+    "  <li><strong>Read it while fuel is flowing</strong>, the way your procedures say. A reading with no flow tells you nothing about the elements.</li>",
+    "  <li><strong>Compare like with like.</strong> A reading taken at a slow flow rate looks better than the filter really is. Industry guidance covers correcting readings for flow, and one filter maker advises checking at 50 percent or more of rated flow from time to time if equipment usually runs slower. The correction method comes from your manual and the filter maker, not from a rule of thumb.</li>",
+    "</ul>",
+    "",
+    "<h2>Trend, Don't Just Record</h2>",
+    "<p>One DP reading on its own says little. A run of them says a lot:</p>",
+    "<ul>",
+    "  <li><strong>A steady, slow rise</strong> is the filter loading as expected.</li>",
+    "  <li><strong>A sharp rise</strong> over a short time can mean a slug of dirt or water reached the filter. That's worth a look at the fuel upstream, starting with the sumps; the <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers where water hides.</li>",
+    "  <li><strong>A sudden drop</strong> at similar flow is the one that catches people out. Lower DP can look like good news, but it can mean fuel is getting past the elements instead of through them, for example because an element has failed. Treat it as a problem until you know otherwise, and follow your procedures.</li>",
+    "</ul>",
+    "<p>Writing the reading down next to the flow rate and the date makes all of this visible. A simple chart of DP over time, per vessel, is the easiest way to spot a change.</p>",
+    "",
+    "<h2>Where DP Fits in the Day</h2>",
+    "<p>DP is part of the daily equipment check alongside the filter sump, as the <a href=\"fuel-truck-daily-check\">fuel truck daily check</a> covers. Quality control programs built on industry standards such as A4A Specification 103 also include periodic checks of corrected DP. How often, at what flow, and at what limits all come from your manual and the filter maker.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> doesn't read or correct DP; that's your gauge and your manual. What it does is keep notes next to your gravity checks. Each reading saves with the <strong>Tank or Truck</strong> name, the time, photos, and a note, so a note with the DP and the flow rate, or a photo of the gauge, sits with that truck's reading, and History exports to a spreadsheet when it's time to chart the trend. It's a reference tool, not a replacement for your QC program or your equipment records.</p>",
+    "<p>For the rest of the shift, <a href=\"../\">AvClock</a>, from the same developer, shows local time and UTC/Zulu for any airport, with Home Screen and Lock Screen widgets for a quick look.</p>"
+  ]
+}
