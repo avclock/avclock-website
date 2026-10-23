@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -261,6 +261,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/international-crews-liters-kilograms</loc>
     <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/filter-differential-pressure</loc>
+    <lastmod>2026-10-23</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
