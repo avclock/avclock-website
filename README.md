@@ -26,6 +26,12 @@ images/og-avclock.png, og-avgrav.png   1200x630 share images
 functions/api/track.js            Cloudflare Pages Function — logs events (public)
 functions/api/stats.js            Cloudflare Pages Function — reads aggregates (should be gated)
 analytics.html                    Private live-stats dashboard (should be gated, see below)
+airport-time/                     "What time is it at <airport>" pages for 65 busy airports plus an index,
+                                  written by tools/airport-time/make_pages.py (rerun yearly: the clock
+                                  change tables run through next year); js/airport-time.js keeps them live
+tools/indexnow.py                 Tells Bing and the other IndexNow engines a page is new or changed
+                                  (key file: the 32-hex .txt at the root). After a deploy:
+                                  python3 tools/indexnow.py airport-time/lhr.html (or no args: whole sitemap)
 tools/avgrav-blog/                The daily AvGrav post: new_post.py, topics.json, and the
                                   writing guide (README.md there); tools/ isn't served
 ```

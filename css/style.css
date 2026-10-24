@@ -1169,3 +1169,20 @@ p a:not([class]), li a:not([class]) { text-decoration: underline; text-underline
 .premium-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-top: 28px; }
 .premium-foot .cat-chips { display: flex; gap: 6px; flex-wrap: wrap; }
 .premium-foot .price-callout { margin-top: 0; }
+
+/* Airport time pages (airport-time/, tools/airport-time/make_pages.py).
+   The clock reuses the Try any airport card's parts (.try-*). */
+.apt-clock {
+  border-left: none; padding: 22px 24px;
+  background: var(--panel); border: 1px solid var(--hairline); border-radius: var(--radius);
+  margin: 6px 0 28px;
+}
+.apt-clock .try-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 760px) {
+  .apt-clock { padding: 18px; border-top: 1px solid var(--hairline); }
+  .apt-clock .try-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.apt-zulu { margin: 18px 0 14px; font-family: var(--mono); }
+.apt-zulu .label-caps { color: var(--muted-2); margin-right: 8px; }
+.apt-zulu strong { color: var(--amber); font-size: 20px; }
+.apt-board .row-status { font-family: var(--mono); white-space: nowrap; }
