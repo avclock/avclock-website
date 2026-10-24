@@ -239,7 +239,8 @@
     "facts": [],
     "avgrav": "Add Photo on a reading, Require Photo to Save, photos in the Summary PDF.",
     "avoid": "Claiming photos replace required tests.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-24"
   },
   {
     "slug": "new-line-tech-training",

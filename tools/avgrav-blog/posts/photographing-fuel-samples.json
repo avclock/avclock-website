@@ -1,0 +1,70 @@
+{
+  "slug": "photographing-fuel-samples",
+  "title": "How to Photograph a Fuel Sample So It Proves Something",
+  "description": "How to take a fuel sample photo that's actually useful later: a clean clear jar, a plain background, good light, the label in frame, and what it can't replace.",
+  "date": "2026-10-24",
+  "eyebrow": "FUEL QC &middot; RECORDS",
+  "tag": "PHOT",
+  "excerpt": "A clean jar, the right light, and the label in the frame: photos that settle questions.",
+  "minutes": 4,
+  "related": [
+    "fuel-quality-records-line-service",
+    "water-in-jet-fuel",
+    "fuel-delivery-api-gravity-check"
+  ],
+  "faq": [
+    [
+      "What makes a good fuel sample photo?",
+      "A clean, clear container, a plain light background, even light, sharp focus on the fuel, and something in the frame that ties the photo to the sample, like a label with the tank or truck, the date, and the time."
+    ],
+    [
+      "Does a photo of a fuel sample replace the required checks?",
+      "No. A photo records what you saw. It doesn't replace the visual check, water detector, gravity check, or any other test your procedures require, and it doesn't replace writing the result down."
+    ],
+    [
+      "Why include the label or ticket in a fuel sample photo?",
+      "A sample jar photo with nothing else in it could be any jar, any day. A label or ticket in the frame ties the picture to a specific tank, truck, delivery, and time, which is what makes it useful later."
+    ]
+  ],
+  "body": [
+    "<p>Phones made it easy to photograph every fuel sample. That doesn't mean every photo is worth keeping. A blurry jar on a cluttered bench, shot into the sun, proves very little. A clear, well-lit photo with the right details in the frame can settle a question months later in seconds.</p>",
+    "<p>Here's how to take the second kind.</p>",
+    "",
+    "<h2>Start With a Clean, Clear Container</h2>",
+    "<p>The camera can only show what the jar lets through. Use the clean, clear sample container your procedures call for, and make sure it's dry and free of smudges, old labels, and fingerprints. Haze on the glass looks a lot like haze in the fuel. The <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers why a clean jar matters for the visual check itself.</p>",
+    "<p>Let the sample settle before you take the picture, the same as you would before you judge it. Free water and sediment need time to reach the bottom where the camera can see them.</p>",
+    "",
+    "<h2>Use a Plain, Light Background</h2>",
+    "<p>Fuel color, haze, and particles show up best against something plain and light, like a white card, a white bucket, or a light wall. A busy background, a dark truck panel, or a reflective surface hides exactly the things you're trying to show.</p>",
+    "",
+    "<h2>Get the Light Right</h2>",
+    "<ul>",
+    "  <li><strong>Even light works best.</strong> Open shade or light coming through the jar from behind or the side shows haze and particles well.</li>",
+    "  <li><strong>Avoid shooting straight into the sun</strong> or with a bright light behind you reflecting off the glass. Glare hides what's in the fuel.</li>",
+    "  <li><strong>At night,</strong> use a steady light source rather than the phone's flash pointed straight at the glass, which tends to bounce back as a white spot.</li>",
+    "</ul>",
+    "",
+    "<h2>Put the Proof in the Frame</h2>",
+    "<p>A photo of a jar on its own could be any jar on any day. What makes it evidence is what's around it:</p>",
+    "<ul>",
+    "  <li><strong>A label</strong> on or next to the jar with the tank or truck, the date, and the time.</li>",
+    "  <li><strong>The delivery ticket</strong>, when the sample is from a receipt, so the photo ties to that load.</li>",
+    "  <li><strong>The whole jar</strong>, top to bottom, so the bottom where water and sediment collect is in the picture.</li>",
+    "</ul>",
+    "<p>For a gravity check, a second photo of the hydrometer in the cylinder, taken at eye level, and of the thermometer, records the readings you wrote down.</p>",
+    "",
+    "<h2>Check It Before You Move On</h2>",
+    "<ul>",
+    "  <li>Zoom in and make sure the fuel is in focus, not the background.</li>",
+    "  <li>Make sure the label is readable.</li>",
+    "  <li>If it isn't right, take another. It's much easier now than after the sample is gone.</li>",
+    "</ul>",
+    "",
+    "<h2>What a Photo Can't Do</h2>",
+    "<p>A photo shows what the sample looked like. It doesn't replace the visual check, a water detector, the gravity check, or any test your procedures require, and it doesn't replace writing the result down. It backs up your record; it isn't the record. The <a href=\"fuel-quality-records-line-service\">fuel quality records guide</a> covers what else belongs in it.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> keeps photos with the reading they belong to. Each saved reading can carry photos and a note, along with the time, the fuel, and the <strong>Tank or Truck</strong>, so the sample jar and the hydrometer photo sit next to the corrected gravity, not lost in a camera roll. <strong>Require Photo to Save</strong> in Settings makes a photo part of every reading. When someone needs the records, History exports today, the last 7 days, or everything as a spreadsheet or a summary PDF. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your records run on Zulu time, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport, which makes timestamps on labels and logs easy to line up.</p>"
+  ]
+}
