@@ -63,6 +63,12 @@ Files here:
    the owner's personal email; this site's commits must not carry it. Open
    a PR against `main` and merge it right away (squash). The owner asked
    for every change to be merged without waiting. Cloudflare deploys `main`.
+7. **Tell the search engines.** Once the page is live (check that
+   `https://avclockapp.com/avgrav-blog/<slug>` answers 200; the deploy takes
+   a minute or two), run `python3 tools/indexnow.py
+   avgrav-blog/<slug>.html avgrav-blog/index.html`. It reaches Bing and the
+   other IndexNow engines in one request. If it fails, say so in the PR and
+   move on; the sitemap still covers the post.
 
 ## The spec
 
