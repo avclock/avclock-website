@@ -254,7 +254,8 @@
     ],
     "avgrav": "Practicing gravity corrections with real samples.",
     "avoid": "Stating training hours or intervals unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-25"
   },
   {
     "slug": "fuel-quality-audit-prep",

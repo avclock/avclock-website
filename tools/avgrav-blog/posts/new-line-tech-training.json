@@ -1,0 +1,68 @@
+{
+  "slug": "new-line-tech-training",
+  "title": "Training a New Line Tech: A First-Month Checklist",
+  "description": "A practical first-month plan for a new line tech: shadowing, fire safety, fuel quality, misfueling prevention, towing, customer service, and real sign-offs.",
+  "date": "2026-10-25",
+  "eyebrow": "FBO &middot; TRAINING",
+  "tag": "TRNG",
+  "excerpt": "What to cover in a new hire's first month, and how to know it actually stuck.",
+  "minutes": 5,
+  "related": [
+    "prevent-misfueling-jet-a-avgas",
+    "pound-orders-new-line-techs",
+    "fuel-truck-daily-check"
+  ],
+  "faq": [
+    [
+      "What training does a new line tech need before fueling aircraft?",
+      "It depends on your company program and your airport. At airports certificated under 14 CFR Part 139, employees who fuel aircraft or handle fuel must receive at least initial on-the-job training in fire safety from a trained supervisor, with recurrent instruction every 24 consecutive calendar months."
+    ],
+    [
+      "What is NATA Safety 1st PLST?",
+      "Professional Line Service Training is NATA Safety 1st's line service training program. It combines online modules and exams with hands-on training and a practical exam, and it certifies individuals rather than locations."
+    ],
+    [
+      "How do you know a new line tech is ready to work alone?",
+      "Not by time served. They're ready when they can do each task correctly while a trainer watches, explain why each step matters, and handle the questions and surprises that come up, with every sign-off written down."
+    ]
+  ],
+  "body": [
+    "<p>A new line tech's first month sets habits that last for years. Rush it, and the gaps show up later as a missed sump, a skipped bond, or a fuel order taken the wrong way. Do it well, and you end up with someone who knows not only what to do but why.</p>",
+    "<p>Here's a practical checklist for that first month. Your company training program, your fuel supplier, and your airport set the actual requirements; this is a way to organize the work around them.</p>",
+    "",
+    "<h2>Know the Requirements First</h2>",
+    "<ul>",
+    "  <li><strong>Fire safety training.</strong> At airports certificated under 14 CFR Part 139, section 139.321 requires that at least one supervisor for each fueling agent complete an FAA-authorized aviation fuel fire safety course. Everyone else who fuels aircraft, accepts fuel, or handles fuel must get at least initial on-the-job fire safety training from that supervisor, and recurrent instruction every 24 consecutive calendar months.</li>",
+    "  <li><strong>Your company program.</strong> Many FBOs use a structured course, such as NATA Safety 1st&rsquo;s Professional Line Service Training (PLST), which pairs online modules and exams with hands-on training and a practical exam. Others use a supplier's or in-house program.</li>",
+    "  <li><strong>Airport rules.</strong> Ramp driving, badging, and local procedures come from the airport.</li>",
+    "</ul>",
+    "",
+    "<h2>Start by Shadowing</h2>",
+    "<p>The first days are for watching. Pair the new hire with one experienced tech, and have that tech explain what they're doing and why as they go. Hearing the reasoning out loud is how a checklist turns into judgment.</p>",
+    "",
+    "<h2>Cover These Before Solo Work</h2>",
+    "<ul>",
+    "  <li><strong>Ramp and fire safety.</strong> Where the extinguishers and emergency shutoffs are, how to use them, and what to do in a spill.</li>",
+    "  <li><strong>Misfueling prevention.</strong> Grade markings, nozzles, and confirming the grade every time. The <a href=\"prevent-misfueling-jet-a-avgas\">misfueling guide</a> is a good starting point.</li>",
+    "  <li><strong>The truck daily check and bonding.</strong> Walk through every item and explain why it's there. The <a href=\"fuel-truck-daily-check\">fuel truck daily check</a> post covers the usual list.</li>",
+    "  <li><strong>Fuel quality.</strong> Sumping, clear and bright, gravity checks, and writing it all down.</li>",
+    "  <li><strong>Towing and marshalling.</strong> Hands-on with a qualified trainer, on the equipment and aircraft types your FBO handles, following your company procedures.</li>",
+    "  <li><strong>Customers and crews.</strong> Taking a fuel order, including orders in pounds or kilograms; the <a href=\"pound-orders-new-line-techs\">pound orders guide</a> covers the questions to ask.</li>",
+    "</ul>",
+    "",
+    "<h2>Sign-Offs That Mean Something</h2>",
+    "<p>A sign-off should mean the trainer watched the new tech do the task correctly, not that the task was mentioned. For each one, write down the task, the date, who observed it, and what was covered. Keep those records where your training program says to.</p>",
+    "",
+    "<h2>Check Understanding, Not Just Steps</h2>",
+    "<ul>",
+    "  <li><strong>Ask them to explain it back.</strong> &ldquo;Why does the bond go on first?&rdquo; tells you more than watching them do it.</li>",
+    "  <li><strong>Ask what-if questions.</strong> What if the sump shows water? What if a crew asks for the wrong grade?</li>",
+    "  <li><strong>Watch them under normal pressure,</strong> on a busy afternoon, with a trainer still nearby.</li>",
+    "</ul>",
+    "<p>Readiness to work alone is a judgment for the trainer and supervisor under your program, based on what they've seen, not a date on the calendar.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> is a good practice tool for the gravity part of training. Have the new tech take a real hydrometer reading and temperature, correct it in AvGrav, and compare with the trainer's reading of the same sample. Every reading saves with the time, the <strong>Tank or Truck</strong>, and a note, so &ldquo;training, observed by&rdquo; and the trainer's name can go right on the reading. It's a reference tool for the math, not a substitute for training or your QC program.</p>",
+    "<p>New techs also have to get used to Zulu time on tickets and logs. <a href=\"../\">AvClock</a>, from the same developer, shows local time and UTC side by side for any airport, which makes the conversion easy to see.</p>"
+  ]
+}
