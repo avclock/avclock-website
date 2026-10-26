@@ -1,0 +1,77 @@
+{
+  "slug": "fuel-quality-audit-prep",
+  "title": "Getting Ready for a Fuel Quality Audit",
+  "description": "Who audits an FBO's fuel operation, what they usually look at, and how to find and fix the gaps in your records and equipment before they arrive.",
+  "date": "2026-10-26",
+  "eyebrow": "FBO &middot; RECORDS",
+  "tag": "AUDT",
+  "excerpt": "Who shows up, what they check, and how to find your own gaps first.",
+  "minutes": 5,
+  "related": [
+    "fuel-quality-records-line-service",
+    "filter-differential-pressure",
+    "new-line-tech-training"
+  ],
+  "faq": [
+    [
+      "Who audits an FBO's fuel operation?",
+      "It varies. At airports certificated under 14 CFR Part 139, the airport inspects tenant fueling facilities at least once every 3 consecutive months. Fuel suppliers may audit the FBOs they supply, and some aircraft operators audit the FBOs they buy fuel from."
+    ],
+    [
+      "What records do fuel quality auditors usually ask for?",
+      "Commonly: daily, monthly, quarterly, and annual inspection records, fuel receipt records, filter change and differential pressure records, meter calibration records, and training records for everyone who handles fuel."
+    ],
+    [
+      "How do you prepare for a fuel quality audit?",
+      "Audit yourself first. Walk the facility and trucks with the auditor's eyes, pull a sample of records from every category, check that they're complete and signed, and fix what you find before the visit, with notes on what you fixed."
+    ]
+  ],
+  "body": [
+    "<p>A fuel quality audit doesn't have to be stressful. If the daily work has been done and written down, an audit mostly confirms it. The stress comes from gaps nobody noticed: a missing signature, a filter change with no record, a training file that ends a year ago.</p>",
+    "<p>The way to make an audit routine is to find those gaps yourself first.</p>",
+    "",
+    "<h2>Who Audits, and Why</h2>",
+    "<ul>",
+    "  <li><strong>The airport.</strong> At airports certificated under 14 CFR Part 139, section 139.321 has the airport inspect tenant fueling agents' facilities at least once every 3 consecutive months, and get written confirmation every 12 months that required fire safety training was done.</li>",
+    "  <li><strong>Your fuel supplier.</strong> Suppliers may audit the FBOs that sell their fuel against their own quality program.</li>",
+    "  <li><strong>Customers.</strong> Some aircraft operators audit the FBOs they buy from. A4A Specification 103, written for airline fuel quality, is a common benchmark for these.</li>",
+    "</ul>",
+    "<p>Each one has its own checklist. Ask for it ahead of time if you can.</p>",
+    "",
+    "<h2>What They Usually Look At</h2>",
+    "<p>Audit checklists vary, but most cover the same ground:</p>",
+    "<ul>",
+    "  <li><strong>Inspection records</strong> for the daily, monthly, quarterly, and annual checks your manual requires, complete and signed.</li>",
+    "  <li><strong>Fuel receipts:</strong> delivery paperwork, the checks done on each load, and what was found.</li>",
+    "  <li><strong>Filters:</strong> element changes and the differential pressure record. The <a href=\"filter-differential-pressure\">filter DP post</a> covers why the trend matters.</li>",
+    "  <li><strong>Meter calibration</strong> records for trucks and dispensers.</li>",
+    "  <li><strong>Training records</strong> for everyone who handles fuel, current and complete. The <a href=\"new-line-tech-training\">new line tech training post</a> covers sign-offs that hold up.</li>",
+    "  <li><strong>Equipment in person:</strong> bonding cables and clamps, hoses, nozzles, interlocks, fire extinguishers, placards, and sump samples, often checked with a white bucket.</li>",
+    "  <li><strong>Inventory records</strong> and how variances were handled.</li>",
+    "</ul>",
+    "",
+    "<h2>Audit Yourself First</h2>",
+    "<p>A few weeks before a scheduled visit, or on a regular schedule if you'd rather never scramble:</p>",
+    "<ul>",
+    "  <li><strong>Pull a sample from every record type.</strong> A random week of daily checks, the last few receipts, every filter change this year. Look for blanks, missing signatures, and readings that don't make sense.</li>",
+    "  <li><strong>Check every training file</strong> against your program's requirements, including recurrent training dates.</li>",
+    "  <li><strong>Walk the facility and every truck</strong> as if you'd never seen them. Look for leaks, worn hoses, faded placards, and anything that's been &ldquo;on the list&rdquo; too long.</li>",
+    "  <li><strong>Do a sump and look at it the way an auditor will.</strong> If you wouldn't want them to see it, find out why now.</li>",
+    "</ul>",
+    "",
+    "<h2>Fix Gaps Honestly</h2>",
+    "<p>When you find a gap, fix the cause and write down what you found and what you did. Never go back and fill in a record for a check nobody did, or change a reading after the fact. A gap with an honest corrective note is a finding you've already handled. A record that was quietly rewritten is a much bigger problem. The <a href=\"fuel-quality-records-line-service\">fuel quality records guide</a> covers keeping records that hold up.</p>",
+    "",
+    "<h2>On the Day</h2>",
+    "<ul>",
+    "  <li>Have records organized and easy to find, by type and date.</li>",
+    "  <li>Have the people who do the work available to show it. An auditor may ask a line tech to walk through a check.</li>",
+    "  <li>Answer questions directly. If you don't know, say so and find out.</li>",
+    "  <li>Write down every finding and agree on how and when each one will be closed.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> keeps gravity readings in a form that's easy to show an auditor. The observed and corrected values can't be changed after saving, edits to other fields are kept in an edit history, and a star protects a reading from deletion. Each reading carries the time, the fuel, the <strong>Tank or Truck</strong>, photos, and a note. When the auditor asks, History exports today, the last 7 days, or everything as a <strong>Spreadsheet (CSV)</strong> or a <strong>Summary PDF</strong>. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your supplier's quality team works from another time zone, <a href=\"../\">AvClock</a>, from the same developer, has an Overlap view that shows the hours when up to four airports are all awake, which makes scheduling the call easier.</p>"
+  ]
+}

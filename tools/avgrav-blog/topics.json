@@ -267,7 +267,8 @@
     "facts": [],
     "avgrav": "Exports as Spreadsheet (CSV) or Summary PDF, observed values kept, the edit history.",
     "avoid": "Naming specific supplier audit programs unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-26"
   },
   {
     "slug": "small-fbo-transient-traffic",
