@@ -1,0 +1,68 @@
+{
+  "slug": "small-fbo-transient-traffic",
+  "title": "How Small FBOs Win More Transient Traffic",
+  "description": "How a small FBO can win more transient traffic: accurate prices and fees online, a phone that gets answered, quick turns, and a visit worth repeating.",
+  "date": "2026-10-27",
+  "eyebrow": "FBO &middot; BUSINESS",
+  "tag": "FBO",
+  "excerpt": "Accurate listings, quick turns, and the small things crews remember.",
+  "minutes": 5,
+  "related": [
+    "fuel-quality-audit-prep",
+    "fuel-truck-daily-check",
+    "new-line-tech-training"
+  ],
+  "faq": [
+    [
+      "How do pilots find FBO fuel prices?",
+      "Mostly online, through FBO websites, airport directories such as AirNav and AOPA's, and flight planning apps such as ForeFlight. Many pilots also call before visiting an unfamiliar airport to confirm prices, fees, and parking."
+    ],
+    [
+      "Should an FBO list its fees online?",
+      "It helps pilots plan and avoids surprises at the counter. A 2026 GAO review found fuel prices were generally easy to find online, but none of the 16 FBOs it contacted that charge mandatory fees had them listed accurately on all the online sources it checked."
+    ],
+    [
+      "What makes transient pilots come back to an FBO?",
+      "A fast, correct fueling, a friendly answer on the phone and the radio, clean facilities, honest pricing with no surprises, and small things like a crew car or local recommendations."
+    ]
+  ],
+  "body": [
+    "<p>A small FBO can't outspend a big chain, but it can be the easiest stop on the route. Transient pilots choose where to land based on what they can find out ahead of time, and they decide whether to come back based on how the visit went.</p>",
+    "<p>Here's where a small operation can win on both counts.</p>",
+    "",
+    "<h2>Be Easy to Find, and Accurate</h2>",
+    "<p>Pilots plan stops online: FBO websites, airport directories such as AirNav and AOPA's, and flight planning apps such as ForeFlight, where pilots can confirm or report a fuel price. If your listing is out of date, you're losing visits you never hear about.</p>",
+    "<ul>",
+    "  <li><strong>Keep fuel prices current</strong> everywhere you're listed, and update them the same day prices change.</li>",
+    "  <li><strong>List your fees, too.</strong> In 2026 the U.S. Government Accountability Office checked 45 FBOs at 40 airports. Fuel prices online generally matched what FBOs quoted by phone, but none of the 16 FBOs that said they charge mandatory fees had them listed accurately on all the online sources GAO checked. Being the one that does stands out.</li>",
+    "  <li><strong>Make hours, services, and after-hours options clear,</strong> so nobody plans around something you don't offer.</li>",
+    "</ul>",
+    "",
+    "<h2>Answer the Phone</h2>",
+    "<p>The same GAO review found pilots routinely call an FBO before visiting an unfamiliar airport, to confirm prices, fees, and parking. That call is often your first impression. Answer it, know the prices and fees, and be friendly. A missed call can mean a pilot picks a different airport.</p>",
+    "",
+    "<h2>Make the Turn Quick and Right</h2>",
+    "<ul>",
+    "  <li><strong>Be ready when they land.</strong> If a crew calls ahead with a fuel order, have the truck checked and waiting.</li>",
+    "  <li><strong>Get the order right.</strong> Confirm the grade, the quantity, and whether it's pounds or gallons, and say it back; the <a href=\"pound-orders-new-line-techs\">pound orders guide</a> covers how.</li>",
+    "  <li><strong>Hand over a clear ticket</strong> with the grade, the quantity, and the price.</li>",
+    "</ul>",
+    "<p>A fast turn only counts if it's a correct one. A well-run fuel operation, with trained people and equipment that's checked every day, is part of your reputation even when customers never see it. The <a href=\"new-line-tech-training\">line tech training</a> and <a href=\"fuel-truck-daily-check\">truck daily check</a> posts cover that side.</p>",
+    "",
+    "<h2>The Small Things Crews Remember</h2>",
+    "<ul>",
+    "  <li>A clean restroom and a quiet place to sit.</li>",
+    "  <li>A crew car, or a quick way to get one.</li>",
+    "  <li>Good, current recommendations for food and hotels nearby.</li>",
+    "  <li>Someone who knows the local area and the airport's quirks.</li>",
+    "  <li>Local partnerships, such as a restaurant or hotel that knows your customers, can make all of this easier.</li>",
+    "</ul>",
+    "",
+    "<h2>Follow Up</h2>",
+    "<p>A short thank-you after a first visit, with a note on anything new, reminds a crew you exist the next time they plan the route. Ask what would have made the visit better, and fix what you can. When a crew comes back, remember them; recognizing a returning customer by name is the kind of thing a small FBO can do every time. It costs very little, and it's something a small operation can do better than a big one.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Good tools for the line crew are part of a smooth turn. <a href=\"../avgrav\">AvGrav</a> corrects a gravity reading to 60&deg;F and gives pounds per gallon and total weight in seconds, so a crew asking for the weight of their fuel gets a real number, not a guess. Every reading saves with the time, the truck, photos, and a note. It's $0.99 once, with no subscription, and it's a reference tool, not a replacement for your QC program.</p>",
+    "<p>Crews passing through are often thinking about their next stop. <a href=\"../\">AvClock</a>, from the same developer, is a free airport world clock that shows the local time, UTC, and weather for any airport, worth mentioning to a crew who asks.</p>"
+  ]
+}
