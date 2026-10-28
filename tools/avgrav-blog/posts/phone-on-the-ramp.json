@@ -1,0 +1,70 @@
+{
+  "slug": "phone-on-the-ramp",
+  "title": "Gloves, Glare, and Cold Fingers: Using a Phone on the Ramp",
+  "description": "Practical tips for using a phone on the ramp: glare, gloves, cases and lanyards, batteries in the cold, and following your company's rules near fueling.",
+  "date": "2026-10-28",
+  "eyebrow": "LINE SERVICE &middot; TOOLS",
+  "tag": "RAMP",
+  "excerpt": "Bright sun, cold hands, and a battery that quits at the worst time.",
+  "minutes": 4,
+  "related": [
+    "bonding-static-fueling",
+    "photographing-fuel-samples",
+    "winter-fueling-cold-fuel-fsii"
+  ],
+  "faq": [
+    [
+      "Can I use my phone while fueling an aircraft?",
+      "Follow your company's policy and your airport's rules. Where phone use near fueling is restricted, do your phone tasks before or after fueling, away from the aircraft and the truck, and never let a phone distract you from the fueling itself."
+    ],
+    [
+      "Why does my iPhone battery die faster in the cold?",
+      "Apple designs iPhone and iPad for ambient temperatures of 32° to 95°F (0° to 35°C). Using one in very cold conditions outside that range can temporarily shorten battery life or make it turn off. Battery life returns to normal once it warms up."
+    ],
+    [
+      "How do I use a touchscreen with work gloves?",
+      "Gloves with touchscreen-compatible fingertips are the simplest answer. Otherwise, use the shortcuts that need fewer taps, such as widgets, voice commands, or a watch, so the gloves stay on."
+    ]
+  ],
+  "body": [
+    "<p>A phone has become one of the tools on the ramp: tickets, sample photos, gravity corrections, messages from the front desk. It's also a tool that hates bright sun, can't feel gloved fingers, and quits when it gets too cold. A few habits make it a lot more useful.</p>",
+    "<p>And one rule comes before all of them: fueling gets your full attention.</p>",
+    "",
+    "<h2>First, the Rule That Matters</h2>",
+    "<p>Follow your company's policy and your airport's rules on phones around aircraft and fueling. Where phone use near fueling is restricted, take the reading, the photo, or the note before you start or after you finish, away from the aircraft and the truck. No app is worth a distraction while fuel is flowing, and nothing here replaces any step in your procedures, including <a href=\"bonding-static-fueling\">bonding</a>.</p>",
+    "",
+    "<h2>Glare and Bright Sun</h2>",
+    "<ul>",
+    "  <li><strong>Turn the brightness up</strong>, or let auto-brightness handle it, when you step outside.</li>",
+    "  <li><strong>Change your angle.</strong> Tilting the phone or turning your back to the sun often does more than brightness.</li>",
+    "  <li><strong>Use dark mode or light mode,</strong> whichever reads better for you in sun. It's a personal call, so try both.</li>",
+    "  <li><strong>Keep the screen clean.</strong> Fuel film and fingerprints make glare much worse.</li>",
+    "</ul>",
+    "",
+    "<h2>Gloves and Cold Fingers</h2>",
+    "<p>Touchscreens need skin contact, or something that acts like it. Work gloves with touchscreen-compatible fingertips are the easiest fix. If yours don't have them, the next best thing is needing fewer taps: widgets, voice commands, and a watch all let you get what you need without pulling a glove off.</p>",
+    "",
+    "<h2>Cases, Lanyards, and Fuel</h2>",
+    "<ul>",
+    "  <li><strong>A rugged case</strong> earns its keep on concrete.</li>",
+    "  <li><strong>A lanyard or clip</strong> keeps the phone from ending up in a sump bucket, a fuel tank opening, or a jet intake area. Anything that can fall should be secured.</li>",
+    "  <li><strong>Wipe off fuel</strong> with a clean cloth if it gets on the phone, and keep it away from the sample jar while you work.</li>",
+    "</ul>",
+    "",
+    "<h2>Photos on the Ramp</h2>",
+    "<p>The phone camera is often how a sample, a ticket, or a gauge reading gets recorded. Wipe the lens before you shoot, since a smear of fuel or a fingerprint blurs everything. Brace the phone against something steady, tap the screen to focus on the sample rather than the background, and check the picture before you move on. The <a href=\"photographing-fuel-samples\">guide to photographing fuel samples</a> covers the rest.</p>",
+    "",
+    "<h2>Batteries in the Cold</h2>",
+    "<p>Apple designs iPhone and iPad for ambient temperatures of 32&deg; to 95&deg;F (0&deg; to 35&deg;C). Below that, a phone's battery can drain faster or the phone can shut off, and a phone that's too cold may not charge. Apple says the battery returns to normal once the phone warms up. On a cold shift:</p>",
+    "<ul>",
+    "  <li>Keep the phone in an inside pocket, close to your body, between uses.</li>",
+    "  <li>Start the shift fully charged, and charge on breaks once the phone has warmed up.</li>",
+    "  <li>Don't leave it in a truck cab overnight in the cold, or on a dashboard in summer sun.</li>",
+    "</ul>",
+    "<p>The <a href=\"winter-fueling-cold-fuel-fsii\">winter fueling post</a> covers the rest of the cold-weather list.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> is designed with the ramp in mind. There's a full calculator on Apple Watch, so a gravity correction doesn't mean pulling a phone out at all, plus Siri, Home Screen widgets, and a Control Center button for getting to a calculation quickly. Readings save on their own to History, with photos and a note, so you can add details back inside where it's warm. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>For airport times at a glance, <a href=\"../\">AvClock</a>, from the same developer, has Home Screen and Lock Screen widgets, including a Big Clock widget made for StandBy.</p>"
+  ]
+}

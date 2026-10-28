@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -286,6 +286,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/small-fbo-transient-traffic</loc>
     <lastmod>2026-10-27</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/phone-on-the-ramp</loc>
+    <lastmod>2026-10-28</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
