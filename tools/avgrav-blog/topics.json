@@ -310,7 +310,8 @@
     ],
     "avgrav": "Ticket API @ 60°F and Ticket Density @ 15°C with the user's tolerance.",
     "avoid": "Specification limits beyond density.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-29"
   },
   {
     "slug": "unleaded-avgas-line-service",

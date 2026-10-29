@@ -1,0 +1,66 @@
+{
+  "slug": "certificate-of-analysis",
+  "title": "What's on a Certificate of Analysis, and What to Do With It",
+  "description": "The quality documents that follow jet fuel from the refinery to your tank, which numbers matter at the FBO, and how to compare a certificate with your own reading.",
+  "date": "2026-10-29",
+  "eyebrow": "FUEL QC &middot; RECORDS",
+  "tag": "COA",
+  "excerpt": "Refinery certificate, certificate of analysis, release paperwork: what each one is and how to use it.",
+  "minutes": 5,
+  "related": [
+    "fuel-delivery-api-gravity-check",
+    "density-meter-vs-hydrometer",
+    "fuel-quality-records-line-service"
+  ],
+  "faq": [
+    [
+      "What is the difference between a Refinery Certificate of Quality and a Certificate of Analysis?",
+      "A Refinery Certificate of Quality is the original record of a batch, made where the fuel was produced, showing it meets its specification. A Certificate of Analysis is issued later, often by an independent lab retesting key properties as the fuel moves through the supply chain. A Certificate of Analysis isn't a substitute for the refinery's certificate."
+    ],
+    [
+      "Which numbers on a fuel certificate matter at an FBO?",
+      "Usually the grade, the batch or reference number, and the density at 15°C or API gravity at 60°F, which you can compare with your own corrected reading. Your own appearance check matters too. Your quality control manual says which properties you check."
+    ],
+    [
+      "How do I compare my gravity reading with a certificate?",
+      "Correct your reading to the same reference temperature and unit as the certificate first. For example, a certificate density of 803.5 kg/m³ at 15°C is 44.52 API at 60°F, so a corrected reading of 43.79 API is 0.73 API heavier. Whether that's acceptable comes from your procedures."
+    ]
+  ],
+  "body": [
+    "<p>Every batch of jet fuel comes with paperwork that says what it is and that it meets its specification. Most of the time the line tech sees the end of that chain: a delivery ticket and maybe a certificate. Knowing what each document is, and which numbers on it you can actually check, makes the receipt check mean more.</p>",
+    "<p>Here's the chain in plain terms, and how to use the paperwork that reaches you.</p>",
+    "",
+    "<h2>The Documents in the Chain</h2>",
+    "<p>Names vary a little by supplier and country, but these are the common ones:</p>",
+    "<ul>",
+    "  <li><strong>Refinery Certificate of Quality (RCQ).</strong> The original, definitive record of a batch, made where the fuel was produced. It identifies the batch, the refinery, and the date, shows that the fuel meets its specification (such as ASTM D1655 for Jet A), and lists additives.</li>",
+    "  <li><strong>Certificate of Analysis (CoA).</strong> Issued as fuel moves through the supply chain, often by an independent lab, retesting key properties. Fuel quality standards say a CoA isn't a substitute for the refinery's certificate.</li>",
+    "  <li><strong>Recertification Test Certificate.</strong> Another of the common quality documents named in industry guidance for fuel moving through the supply chain.</li>",
+    "  <li><strong>Release Certificate.</strong> An operational document from the site handling or transferring the fuel, linked to one or more lab certificates.</li>",
+    "</ul>",
+    "<p>Taken together, they're how a batch can be traced from your tank back to where it was made. That traceability is the point.</p>",
+    "",
+    "<h2>What Reaches the FBO</h2>",
+    "<p>At the FBO, you'll usually see the delivery ticket or bill of lading, which commonly shows the grade, gross and net gallons, the temperature, and API gravity. Depending on your supplier, you may also get a certificate for the batch or have access to one. Your quality control manual says which documents you must receive and keep.</p>",
+    "",
+    "<h2>The Numbers You Can Check</h2>",
+    "<ul>",
+    "  <li><strong>Grade.</strong> Matches what you ordered and what the tank holds.</li>",
+    "  <li><strong>Batch or reference number.</strong> Ties the delivery to its certificate.</li>",
+    "  <li><strong>Density or API gravity.</strong> The one property you can check yourself on the ramp, with a hydrometer or density meter.</li>",
+    "  <li><strong>Appearance.</strong> Your own clear and bright check on the sample is the ramp's part of that.</li>",
+    "</ul>",
+    "<p>A certificate lists other properties too, measured in a lab. Those are for the lab and the supplier. Your job is to check what you can and keep the paperwork that proves the rest.</p>",
+    "",
+    "<h2>Comparing Your Reading With the Certificate</h2>",
+    "<p>The rule is always the same: compare corrected values in the same unit at the same reference temperature. Certificates often give density in kg/m&sup3; at 15&deg;C; U.S. tickets often give API gravity at 60&deg;F.</p>",
+    "<p>An example, using AvGrav's correction math: the certificate shows 803.5 kg/m&sup3; at 15&deg;C, which is 44.52 API at 60&deg;F. Your hydrometer reading corrects to 43.79 API, or 806.8 kg/m&sup3;. Your fuel reads 0.73 API (3.3 kg/m&sup3;) heavier than the certificate. Whether that's within limits comes from your procedures and your supplier, not from a rule of thumb. The <a href=\"density-meter-vs-hydrometer\">density meter post</a> covers both units, and the <a href=\"fuel-delivery-api-gravity-check\">delivery check guide</a> covers the full receipt check.</p>",
+    "",
+    "<h2>Keep It</h2>",
+    "<p>File the certificate or ticket with your receipt record, along with your own check and its result. If there's ever a question about a batch, that's where the answer starts. The <a href=\"fuel-quality-records-line-service\">fuel quality records guide</a> covers how to keep it findable.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> makes the comparison quick. Enter the certificate's value in <strong>Ticket API @ 60&deg;F</strong> or <strong>Ticket Density @ 15&deg;C</strong>, take your reading, and it shows the difference against a tolerance you set in Settings from your own procedures. Every result shows API, specific gravity, density at 15&deg;C, and pounds per gallon, so the unit on the certificate doesn't matter. Add a photo of the certificate to the reading, and it's all in one place. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your records are kept in UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport, which makes matching paperwork times easier.</p>"
+  ]
+}
