@@ -325,7 +325,8 @@
     ],
     "avgrav": "AvGrav's 100LL range is for 100LL; check the supplier's data for other grades.",
     "avoid": "Engine approvals and fleet coverage numbers unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-30"
   },
   {
     "slug": "fuel-farm-daily-check",

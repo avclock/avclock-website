@@ -1,0 +1,64 @@
+{
+  "slug": "unleaded-avgas-line-service",
+  "title": "Unleaded Avgas on the Ramp: What Line Service Should Know",
+  "description": "The unleaded avgas grades reaching FBOs, why UL94 isn't a drop-in for every airplane, the new misfueling risks, and what stays the same for line service.",
+  "date": "2026-10-30",
+  "eyebrow": "FUEL QC &middot; GRADES",
+  "tag": "UL",
+  "excerpt": "New grades, the same red nozzle, and why the grade check matters more than ever.",
+  "minutes": 5,
+  "related": [
+    "prevent-misfueling-jet-a-avgas",
+    "jet-a-vs-jet-a1",
+    "certificate-of-analysis"
+  ],
+  "faq": [
+    [
+      "Can any piston airplane use UL94?",
+      "No. UL94 is an unleaded avgas with a lower octane rating than 100LL, and an airplane needs the right approval, such as a supplemental type certificate (STC) for its engine and airframe, to use it. Putting UL94 in an airplane that requires 100-octane fuel is a misfueling."
+    ],
+    [
+      "Do unleaded avgas nozzles look different from 100LL nozzles?",
+      "Not necessarily. Avgas nozzles, including 100LL and UL94, use red handles, while jet fuel nozzles use black. That's why line service has to confirm the exact grade, not just the color of the nozzle."
+    ],
+    [
+      "When is general aviation supposed to switch to unleaded avgas?",
+      "The FAA and industry EAGLE initiative has a goal of transitioning general aviation piston aircraft to unleaded fuel by the end of 2030. Timing at any given airport depends on suppliers, the airport, and the FBO."
+    ]
+  ],
+  "body": [
+    "<p>For decades, avgas on most U.S. ramps meant one grade: 100LL. That's changing. Unleaded grades are arriving at more airports, and some FBOs now carry more than one kind of avgas. For line service, that means new grades to learn, new questions from pilots, and a misfueling risk that didn't used to exist.</p>",
+    "<p>Here's what's arriving and what it means on the ramp.</p>",
+    "",
+    "<h2>Why the Change</h2>",
+    "<p>100LL contains lead. The FAA and industry, working together through an initiative called EAGLE, have set a goal of moving general aviation piston aircraft to unleaded fuel by the end of 2030. An FAA draft transition plan from mid-2026 counted about 212 airports offering some form of unleaded avgas. Which grade arrives at your field, and when, depends on your supplier, your airport, and your FBO.</p>",
+    "",
+    "<h2>The Grades You May See</h2>",
+    "<ul>",
+    "  <li><strong>UL94.</strong> An unleaded avgas made to ASTM D7547, with a lower octane rating than 100LL. It's for airplanes approved to use it, typically through a supplemental type certificate (STC) for the engine and airframe. It is not a substitute for 100LL in airplanes that need 100-octane fuel.</li>",
+    "  <li><strong>G100UL.</strong> A 100-octane unleaded avgas approved by the FAA through STCs for engines and airframes. Distribution is still limited to a number of airports.</li>",
+    "  <li><strong>Others in testing.</strong> Other 100-octane unleaded fuels are working through the FAA's testing and approval process, so the list will keep changing.</li>",
+    "</ul>",
+    "<p>Which airplanes can use which fuel depends on that airplane's approvals. That's the pilot's and owner's responsibility to know, and your job to ask about.</p>",
+    "",
+    "<h2>The New Misfueling Risk</h2>",
+    "<p>The classic misfueling is jet fuel in a piston engine. Unleaded avgas adds a new one: lower-octane fuel, such as UL94, in an airplane that needs 100 octane. NATA updated its misfueling prevention program in 2023 to cover unleaded avgas and this risk.</p>",
+    "<p>One reason it's easy to get wrong: avgas nozzles, including 100LL and UL94, use red handles, while jet fuel nozzles use black. Nozzle color alone won't tell you which avgas grade you're holding.</p>",
+    "<ul>",
+    "  <li><strong>Confirm the exact grade</strong> with the pilot every time, by name, not just &ldquo;avgas.&rdquo;</li>",
+    "  <li><strong>Know which grades your FBO carries</strong> and which truck or dispenser holds which.</li>",
+    "  <li><strong>Read the markings</strong> on the truck, the dispenser, and the ticket.</li>",
+    "  <li><strong>When in doubt, stop and ask.</strong> The <a href=\"prevent-misfueling-jet-a-avgas\">misfueling guide</a> covers the rest.</li>",
+    "</ul>",
+    "",
+    "<h2>If Your FBO Is Converting</h2>",
+    "<p>NATA's guidance for fuel providers says that when equipment is converted to an unleaded grade, every 100LL marking (placards, labels, decals) must be removed and replaced with markings for the new grade. It also covers flushing equipment so that leftover blue dye from 100LL doesn't make the new fuel look like 100LL. Your supplier and your manual set the actual steps.</p>",
+    "",
+    "<h2>What Stays the Same</h2>",
+    "<p>Sumping, water checks, bonding, and good records don't change with the grade. Neither does the rule that the paperwork has to match the fuel; the <a href=\"certificate-of-analysis\">certificate post</a> covers the documents.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> corrects gravity readings for Jet A / Jet A-1, Avgas 100LL, Mogas, and Diesel. Its typical range for 100LL, 60 to 72 API at 60&deg;F, is for 100LL; for an unleaded grade, check the gravity against your supplier's data for that fuel rather than the 100LL range. Each reading saves with the time, the tank or truck, photos, and a note, so writing the exact grade in the note keeps the record clear. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>Pilots looking for a particular fuel may compare a few airports at once; <a href=\"../\">AvClock</a>, from the same developer, shows local time and UTC for any of them.</p>"
+  ]
+}
