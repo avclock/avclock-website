@@ -1,0 +1,82 @@
+{
+  "slug": "fuel-farm-daily-check",
+  "title": "The Fuel Farm Daily Check: A Walkthrough",
+  "description": "A walkthrough of the fuel farm daily check: tank sumps, filter vessels, hoses and valves, leaks, signs and security, shutoffs, and writing it all down.",
+  "date": "2026-10-31",
+  "eyebrow": "FUEL QC &middot; OPERATIONS",
+  "tag": "FARM",
+  "excerpt": "A walk around the tanks, item by item, and what each check is looking for.",
+  "minutes": 5,
+  "related": [
+    "fuel-truck-daily-check",
+    "water-in-jet-fuel",
+    "filter-differential-pressure"
+  ],
+  "faq": [
+    [
+      "What is checked at a fuel farm every day?",
+      "It depends on your manual, but daily checks commonly include draining tank sumps or low points for water, checking filter vessels, looking for leaks around tanks, piping, and valves, and confirming that fencing, locks, signs, and emergency shutoffs are in order."
+    ],
+    [
+      "Why are fuel storage tank sumps drained every day?",
+      "Water is heavier than fuel and collects at the lowest point of a tank. Draining the sump and checking the sample, for example with a clear and bright check, finds water before it moves downstream toward trucks and aircraft."
+    ],
+    [
+      "Who sets the fuel farm inspection requirements?",
+      "Your company's fuel quality manual, built on industry standards such as A4A Specification 103, along with your fuel supplier, the airport, and the fire code that applies. A blog post can describe the usual items; your manual has the real list."
+    ]
+  ],
+  "body": [
+    "<p>The fuel farm is where every gallon you sell waits before it goes anywhere near an aircraft. The daily check there is the first line of defense for everything downstream: the trucks, the dispensers, and the airplanes. It's also easy to rush, because on most days nothing is wrong.</p>",
+    "<p>Here's a walkthrough of the items that show up on most daily lists, and what each one is looking for. Your manual has the actual list and order.</p>",
+    "",
+    "<h2>Start at the Gate</h2>",
+    "<ul>",
+    "  <li><strong>Fencing and locks.</strong> The fence intact, gates closed and locked, nothing that looks like someone was where they shouldn't be.</li>",
+    "  <li><strong>Signs.</strong> No-smoking signs and product identification posted and readable, and emergency shutoff locations clearly marked.</li>",
+    "  <li><strong>Housekeeping.</strong> No trash, rags, or stored materials that don't belong, and clear access to equipment and exits.</li>",
+    "</ul>",
+    "",
+    "<h2>Tank Sumps and Low Points</h2>",
+    "<p>This is the heart of the check. Water is heavier than fuel and settles at the bottom of a tank, so draining the sump or low point and looking at the sample is how you find it before it moves on.</p>",
+    "<ul>",
+    "  <li>Drain into a clean, clear container, following your procedure for how much to drain.</li>",
+    "  <li>Let the sample settle, then check that it's clear and bright: no free water, no sediment, no haze.</li>",
+    "  <li>If you find water, keep draining and follow your procedures for what comes next.</li>",
+    "</ul>",
+    "<p>The <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers what you're looking for and why it matters.</p>",
+    "",
+    "<h2>Filter Vessels</h2>",
+    "<ul>",
+    "  <li><strong>Drain the filter vessel sump</strong> and check the sample the same way.</li>",
+    "  <li><strong>Read and record differential pressure</strong> when fuel is flowing, the way your procedures say. The <a href=\"filter-differential-pressure\">filter DP post</a> covers why the trend matters more than one reading.</li>",
+    "</ul>",
+    "",
+    "<h2>Piping, Hoses, and Valves</h2>",
+    "<ul>",
+    "  <li><strong>Look for leaks and stains</strong> around tanks, pumps, piping, valves, and fittings. A fresh stain on the ground or a wet fitting is worth tracking down now.</li>",
+    "  <li><strong>Check hoses</strong> at loading points for cracks, cuts, bulges, and wear.</li>",
+    "  <li><strong>Check that valves</strong> are in their normal positions for the time of day.</li>",
+    "</ul>",
+    "",
+    "<h2>Loading Area and Safety Equipment</h2>",
+    "<ul>",
+    "  <li><strong>Bonding connections</strong> at the truck loading point in good condition, with the clip or clamp intact.</li>",
+    "  <li><strong>Deadman controls</strong> at the loading station working and never blocked.</li>",
+    "  <li><strong>Emergency shutoffs</strong> marked, unobstructed, and in working order per your procedures.</li>",
+    "  <li><strong>Fire extinguishers</strong> in place, charged, and accessible.</li>",
+    "  <li><strong>Spill response equipment</strong> stocked and where your plan says it should be.</li>",
+    "</ul>",
+    "<p>The <a href=\"fuel-truck-daily-check\">fuel truck daily check</a> covers the trucks that load here.</p>",
+    "",
+    "<h2>Same Route, Every Day</h2>",
+    "<p>Walk the farm in the same order every time, with the checklist in hand rather than from memory. A fixed route is what keeps a sump from being skipped on a busy morning. If you get called away halfway through, pick the check back up where your list says, not where you think you left off.</p>",
+    "",
+    "<h2>Write It Down</h2>",
+    "<p>A daily check counts when it's recorded: the date and time, who did it, each sump and filter result, the DP reading, and anything found and what was done about it. Anything that fails goes to whoever your procedures name, right away.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> covers the gravity side of the day. Set up each tank under <strong>Tank or Truck</strong> in Settings, and every gravity reading saves with that tank's name, the time, photos, and a note, so a photo of the sump sample and a note on the result sit with the reading. History exports today, the last 7 days, or everything as a spreadsheet or a summary PDF. It's a reference tool, not a replacement for your QC program or your inspection forms.</p>",
+    "<p>Since cold nights and weather changes can bring water out of fuel, <a href=\"../\">AvClock</a>, from the same developer, is a quick way to see the current weather at your airport in plain English, though official sources come first.</p>"
+  ]
+}
