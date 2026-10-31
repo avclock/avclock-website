@@ -338,7 +338,8 @@
     "facts": [],
     "avgrav": "Readings per tank name, photos, exports.",
     "avoid": "Environmental regulation specifics.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-10-31"
   },
   {
     "slug": "microbial-growth-fuel-tanks",
