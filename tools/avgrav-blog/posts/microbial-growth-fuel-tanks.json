@@ -1,0 +1,66 @@
+{
+  "slug": "microbial-growth-fuel-tanks",
+  "title": "Microbial Growth in Fuel Tanks: Signs, Causes, and Prevention",
+  "description": "Why microbes grow in jet fuel systems, the signs line service can spot, how testing works, and why keeping water out is the best prevention there is.",
+  "date": "2026-11-01",
+  "eyebrow": "FUEL QC &middot; CONTAMINATION",
+  "tag": "MICR",
+  "excerpt": "No water, no growth: what to watch for and why sumping is the real defense.",
+  "minutes": 5,
+  "related": [
+    "water-in-jet-fuel",
+    "fuel-farm-daily-check",
+    "filter-differential-pressure"
+  ],
+  "faq": [
+    [
+      "What causes microbial growth in jet fuel?",
+      "Bacteria and fungi that can feed on fuel need free water to grow. They live at the boundary between fuel and water, which is usually at the bottom of a tank or another low point. Without free water, active growth can't happen."
+    ],
+    [
+      "What are the signs of microbial contamination in fuel?",
+      "Filters that plug faster than usual are a common warning. Material at the fuel and water boundary in a sump sample is another. In aircraft, contamination can lead to fuel gauge problems, clogged fuel systems, and tank corrosion."
+    ],
+    [
+      "How is fuel tested for microbial contamination?",
+      "There are standard test methods, such as ASTM D7687, which measures ATP from living cells, and ASTM D7978, which cultures viable microbes. Results need interpreting with industry guidance, and one sample rarely tells the whole story."
+    ]
+  ],
+  "body": [
+    "<p>Most fuel contamination comes from outside: dirt, water, the wrong grade. Microbial contamination is different. It grows inside the system, slowly, wherever conditions allow. By the time it's obvious, it may have been there a while.</p>",
+    "<p>The good news for line service is that the best prevention is something you already do every day.</p>",
+    "",
+    "<h2>No Water, No Growth</h2>",
+    "<p>Some bacteria and fungi can use jet fuel as food, but they can't grow without free water. They live at the boundary where fuel meets water, which, because water is heavier than fuel, is usually at the bottom of a tank or another low point. Even small amounts of water left in place give them a chance.</p>",
+    "<p>That's why the sumping and draining you do every day is the main defense. Remove the water and you remove the place they live. The <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers where water collects and how to find it.</p>",
+    "",
+    "<h2>Signs to Watch For</h2>",
+    "<ul>",
+    "  <li><strong>Filters plugging faster than usual.</strong> Microbial growth can clog fuel systems and filters. A rise in filter differential pressure that you can't explain otherwise is worth looking into; the <a href=\"filter-differential-pressure\">filter DP post</a> covers trending it.</li>",
+    "  <li><strong>Material at the fuel and water boundary</strong> in a sump sample, rather than a clean separation.</li>",
+    "  <li><strong>Water that keeps coming back</strong> at the same drain day after day, which means conditions for growth are there.</li>",
+    "</ul>",
+    "<p>In aircraft, microbial contamination can lead to fuel gauge problems, clogged fuel systems, and tank corrosion, which is why it matters well beyond the fuel farm.</p>",
+    "",
+    "<h2>How Testing Works</h2>",
+    "<p>Seeing something odd in a sample isn't proof of growth, and a clean-looking sample isn't proof there's none. Testing gives a better answer. Two standard methods:</p>",
+    "<ul>",
+    "  <li><strong>ASTM D7687</strong> measures ATP, a compound found in all living cells, as an indicator of active microbial contamination.</li>",
+    "  <li><strong>ASTM D7978</strong> cultures the sample to count viable microbes, including ones that are dormant.</li>",
+    "</ul>",
+    "<p>There are also field screening kits. Two cautions apply to all of them. Contamination is usually spread unevenly through a system, so one sample rarely gives the whole picture. And results need interpreting with industry guidance, such as IATA's guidance material and ASTM's guide on microbial contamination, not on their own. Your manual and your fuel supplier say when to test, how, and what the results mean.</p>",
+    "",
+    "<h2>Prevention</h2>",
+    "<ul>",
+    "  <li><strong>Drain sumps and low points</strong> on schedule, and keep draining until the sample is clean. The <a href=\"fuel-farm-daily-check\">fuel farm daily check</a> covers the routine.</li>",
+    "  <li><strong>Keep water out to begin with.</strong> Check deliveries, keep tank fittings and seals in good condition, and follow up on water that keeps showing up.</li>",
+    "  <li><strong>Watch equipment that sits.</strong> Low use is one of the conditions industry guidance links to growth, so tanks and trucks that see little turnover deserve extra attention.</li>",
+    "  <li><strong>Record what you find</strong>, so a trend at one drain shows up early.</li>",
+    "</ul>",
+    "<p>Treatments such as biocides exist, but whether and how to use one is a decision for your fuel supplier, your manual, and, for aircraft, the aircraft manufacturer. It isn't something to improvise on the ramp.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> doesn't test for microbes. What it does is keep a record over time. Each reading saves with the <strong>Tank or Truck</strong> name, the time, photos, and a note, so a photo of each sump sample and a note on what it showed build up a history for each tank. History exports to a spreadsheet when you want to look back. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your records run on Zulu time, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
