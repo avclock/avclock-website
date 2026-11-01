@@ -353,7 +353,8 @@
     ],
     "avgrav": "Photo and note records of samples over time.",
     "avoid": "Biocide doses and product endorsements.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-01"
   },
   {
     "slug": "pilot-at-fueling",

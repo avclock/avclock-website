@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -306,6 +306,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/fuel-farm-daily-check</loc>
     <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/microbial-growth-fuel-tanks</loc>
+    <lastmod>2026-11-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
