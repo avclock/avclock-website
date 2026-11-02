@@ -368,7 +368,8 @@
     ],
     "avgrav": "Showing the crew the corrected gravity and the weight on the spot.",
     "avoid": "Pilot regulatory duties.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-02"
   },
   {
     "slug": "fuel-spill-first-minutes",
