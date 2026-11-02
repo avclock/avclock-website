@@ -1,0 +1,69 @@
+{
+  "slug": "pilot-at-fueling",
+  "title": "Why Line Service Wants the Pilot There for Fueling",
+  "description": "Why having the pilot at the airplane during fueling is one of the simplest misfueling defenses, what to confirm together, and how to ask for it without friction.",
+  "date": "2026-11-02",
+  "eyebrow": "LINE SERVICE &middot; CREWS",
+  "tag": "PLOT",
+  "excerpt": "A second set of eyes on the grade, the quantity, and the airplane.",
+  "minutes": 4,
+  "related": [
+    "prevent-misfueling-jet-a-avgas",
+    "pound-orders-new-line-techs",
+    "unleaded-avgas-line-service"
+  ],
+  "faq": [
+    [
+      "Why should the pilot be present during fueling?",
+      "The pilot knows the airplane and the fuel it needs. A U.S. government interagency aviation safety bulletin calls having the pilot present during fueling the easiest and most dependable way to prevent misfueling, because it lets the pilot and line tech confirm the grade together."
+    ],
+    [
+      "Does having the pilot present guarantee the right fuel?",
+      "No. Misfuelings have happened with the pilot standing there. Presence works when the pilot and line tech actually confirm the grade, out loud and by looking at the markings, before fuel flows."
+    ],
+    [
+      "How do I ask a pilot to stay for fueling?",
+      "Keep it simple and friendly: explain that you like to confirm the grade and quantity with the pilot before you start. It also gives them a chance to mention anything special about the airplane."
+    ]
+  ],
+  "body": [
+    "<p>A lot of fuel orders arrive by phone, radio, or a note at the front desk, and the line tech fuels an airplane with nobody around. Usually it goes fine. But the person who knows the airplane best, and exactly what fuel it needs, is the pilot.</p>",
+    "<p>That's why it's worth asking the pilot to be at the airplane when fuel goes in.</p>",
+    "",
+    "<h2>The Simplest Misfueling Defense</h2>",
+    "<p>An Interagency Aviation Accident Prevention Bulletin, issued by U.S. government aviation programs, calls misfueling prevention a matter of communication between the line technician and the pilot, and singles out having the pilot present during fueling as the easiest and most dependable safeguard.</p>",
+    "<p>Being there isn't enough on its own, though. The NTSB has described a case where the pilot was present and the airplane still got the wrong fuel. Presence works when the two of you actually confirm the grade together before any fuel flows. The <a href=\"prevent-misfueling-jet-a-avgas\">misfueling guide</a> covers the rest of the defenses.</p>",
+    "",
+    "<h2>What to Confirm Together</h2>",
+    "<ul>",
+    "  <li><strong>The grade, by name.</strong> &ldquo;Jet A,&rdquo; &ldquo;100LL,&rdquo; or the exact unleaded grade, not just &ldquo;avgas&rdquo; or &ldquo;the usual.&rdquo; Look at the markings near the fill point together. The <a href=\"unleaded-avgas-line-service\">unleaded avgas post</a> explains why that matters more now.</li>",
+    "  <li><strong>The quantity, and what it means.</strong> Total or add, pounds or gallons, and how it's split between tanks. The <a href=\"pound-orders-new-line-techs\">pound orders guide</a> covers the questions.</li>",
+    "  <li><strong>Additives.</strong> Whether they want fuel with an icing inhibitor, if your FBO offers it, and how it's handled.</li>",
+    "  <li><strong>Anything special about the airplane.</strong> A tricky fuel cap, a tank they want left lower, or anything else only the pilot would know.</li>",
+    "</ul>",
+    "",
+    "<h2>It Helps the Pilot, Too</h2>",
+    "<p>With the pilot there, questions get answered on the spot instead of by phone later. They see the fuel go in, they can check the caps afterward, and they leave with the numbers they need. If they want the weight of the uplift, you can work it out from the gravity of the fuel you pumped, right there.</p>",
+    "",
+    "<h2>Close It Out Together</h2>",
+    "<ul>",
+    "  <li><strong>Show the ticket</strong> before they leave: the grade, the quantity, and which tanks.</li>",
+    "  <li><strong>Let them see the caps</strong> are secure, and confirm the airplane is ready to move.</li>",
+    "  <li><strong>Offer the numbers they might want</strong>, such as the weight of the uplift or the fuel&rsquo;s density, worked out from the gravity of what you pumped.</li>",
+    "</ul>",
+    "",
+    "<h2>When the Pilot Can&rsquo;t Be There</h2>",
+    "<p>Sometimes the crew is in a meeting or the airplane is fueled overnight. That&rsquo;s when the written order matters most. Get the grade and quantity in writing, check them against the grade marking at the fill point and the type of airplane, and stop and call if anything doesn&rsquo;t line up. A short phone call is cheap; a wrong grade is not. Follow your procedures for unattended fueling, and never fill in a gap with a guess.</p>",
+    "",
+    "<h2>How to Ask Without Friction</h2>",
+    "<ul>",
+    "  <li><strong>Ask when the order comes in:</strong> &ldquo;Will you be out at the airplane for fueling? We like to confirm the grade with the pilot.&rdquo;</li>",
+    "  <li><strong>Make it about the airplane,</strong> not about trust. It's a check on the fuel, not on them.</li>",
+    "  <li><strong>If the pilot can't be there,</strong> follow your procedures for confirming the grade another way, and never guess.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>With the pilot standing there, <a href=\"../avgrav\">AvGrav</a> can answer the weight question in seconds. Enter the gravity reading and its temperature, then the gallons pumped, and it gives net gallons at 60&deg;F and total weight in pounds or kilograms. For example, 600 gallons of Jet A at 43.79 API, metered at 85&deg;F, is 592.4 gallons at 60&deg;F and about 3,982 pounds (1,806 kilograms). It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>If a crew mentions where they're headed next, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC there.</p>"
+  ]
+}
