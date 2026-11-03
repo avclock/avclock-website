@@ -1,0 +1,79 @@
+{
+  "slug": "fuel-spill-first-minutes",
+  "title": "A Fuel Spill on the Ramp: The First Few Minutes",
+  "description": "What usually comes first when fuel spills on the ramp: stop the flow, warn people, keep ignition sources away, call it in, and follow your airport's plan.",
+  "date": "2026-11-03",
+  "eyebrow": "LINE SERVICE &middot; SAFETY",
+  "tag": "SPIL",
+  "excerpt": "Stop it, clear it, call it: the order that matters when fuel hits the ground.",
+  "minutes": 4,
+  "related": [
+    "bonding-static-fueling",
+    "fuel-truck-daily-check",
+    "new-line-tech-training"
+  ],
+  "faq": [
+    [
+      "What is the first thing to do in a fuel spill?",
+      "Stop the flow. Release the deadman or use the emergency fuel shutoff, then follow your airport's and company's spill procedures for warning people and calling it in."
+    ],
+    [
+      "Who do you call when fuel spills on the ramp?",
+      "That depends on your airport's plan. Airport rules commonly call for notifying a supervisor and the airport fire department, and some say the fire department should be told immediately. Learn your airport's numbers and thresholds before you need them."
+    ],
+    [
+      "Can line service clean up a fuel spill?",
+      "Only following your procedures, and only if you're trained for it. Industry guidance calls for cleanup by trained personnel. Until then, the job is to stop the flow, keep people and ignition sources away, and get help."
+    ]
+  ],
+  "body": [
+    "<p>Even when everything is done right, spills can happen: a hose fitting gives, a nozzle slips, a tank overfills. What you do in the first few minutes matters more than anything after. Airport rules stress that the response has to be immediate, both to cut the fire risk and to limit the damage.</p>",
+    "<p>This post covers the general order of things. Your airport's spill plan, your company's procedures, and your training are what you actually follow. Know them before you need them.</p>",
+    "",
+    "<h2>1. Stop the Flow</h2>",
+    "<p>The first move is always to stop more fuel from coming out. Let go of the deadman, close the nozzle, and if that doesn't do it, use the emergency fuel shutoff. That's one reason the shutoffs are labeled and kept clear, and why the <a href=\"fuel-truck-daily-check\">truck daily check</a> looks at them every day.</p>",
+    "",
+    "<h2>2. Warn People and Keep Them Back</h2>",
+    "<ul>",
+    "  <li>Call out to anyone nearby, including the crew and passengers if they're at the airplane.</li>",
+    "  <li>Keep people out of the spill and the area around it.</li>",
+    "  <li>Don't walk through the fuel or drive through it.</li>",
+    "</ul>",
+    "",
+    "<h2>3. Keep Ignition Sources Away</h2>",
+    "<p>Fuel vapor near a spill can find an ignition source. Airport rules commonly keep aircraft from operating near a fueling operation or a spill, and limit vehicles near fueling. In the moment, that means:</p>",
+    "<ul>",
+    "  <li>Don't start engines, aircraft or vehicles, near the spill.</li>",
+    "  <li>Keep running equipment, and anything else that could spark, away.</li>",
+    "  <li>Follow your procedures on whether to move equipment that's already there. Don't make that call on instinct.</li>",
+    "</ul>",
+    "<p>The same thinking is behind <a href=\"bonding-static-fueling\">bonding</a>: no sparks where fuel vapor might be.</p>",
+    "",
+    "<h2>4. Call It In</h2>",
+    "<p>Airport rules commonly call for notifying a supervisor and the airport fire department, and some require the fire department to be called immediately. Who you call, and at what point, comes from your airport's plan. Make sure every line tech knows the numbers and the rules on day one; the <a href=\"new-line-tech-training\">training checklist</a> includes them.</p>",
+    "",
+    "<h2>5. Contain It, If You're Trained To</h2>",
+    "<p>If your procedures and training cover it, and it's safe, containing the spill keeps it from spreading toward drains, buildings, or other aircraft. Industry guidance calls for cleanup by trained personnel only. If you're not trained for it, your job is to stop the flow, keep people and sparks away, and get the people who are.</p>",
+    "",
+    "<h2>Be Ready Before It Happens</h2>",
+    "<p>The first few minutes go best when nobody has to think about where things are. Before your next shift:</p>",
+    "<ul>",
+    "  <li>Know where every emergency shutoff is on each truck and at the fuel farm, and how to work it.</li>",
+    "  <li>Know where the spill equipment your plan calls for is kept, and check that it&rsquo;s stocked.</li>",
+    "  <li>Have the numbers to call where you can find them without searching.</li>",
+    "  <li>Walk through the steps with your supervisor or trainer if you haven&rsquo;t recently.</li>",
+    "</ul>",
+    "",
+    "<h2>Afterward</h2>",
+    "<ul>",
+    "  <li>Write down what happened while it's fresh: the time, the location, the equipment, the fuel, roughly how much, and who was told.</li>",
+    "  <li>Take photos once it's safe, if your procedures allow.</li>",
+    "  <li>Take the equipment involved out of service until it's checked, following your procedures.</li>",
+    "  <li>Finish whatever reports your airport and company require.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> is a gravity calculator, not a safety tool, and nothing in it is part of a spill response. Afterward, though, its notes and photos can help with the record: each reading saves with the time, the <strong>Tank or Truck</strong>, photos, and a note, so the truck's last gravity check before the spill is easy to find. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>Reports need accurate times, and if your records use UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
