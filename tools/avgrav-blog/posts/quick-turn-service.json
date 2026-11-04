@@ -1,0 +1,75 @@
+{
+  "slug": "quick-turn-service",
+  "title": "The Quick Turn: Line Service Habits Crews Remember",
+  "description": "The line service habits that make a quick turn feel easy for a crew: meeting the airplane, asking the right questions up front, and a ticket ready before they ask.",
+  "date": "2026-11-04",
+  "eyebrow": "FBO &middot; SERVICE",
+  "tag": "TURN",
+  "excerpt": "Meet the airplane, ask once, and have the numbers ready.",
+  "minutes": 4,
+  "related": [
+    "small-fbo-transient-traffic",
+    "pilot-at-fueling",
+    "pound-orders-new-line-techs"
+  ],
+  "faq": [
+    [
+      "What should line service ask a crew on arrival?",
+      "Ask everything once, up front: fuel grade and quantity, and whether it's pounds or gallons, any other services such as lav, water, or catering, and when they plan to leave. Asking it all at the airplane saves calls and trips later."
+    ],
+    [
+      "Why have the fuel weight ready on the ticket?",
+      "Many crews want the weight of the uplift for their own checks. Working it out from the gravity of the fuel you pumped, and writing it on the ticket, answers the question before they ask it."
+    ],
+    [
+      "What makes a quick turn go smoothly?",
+      "Preparation and communication: knowing the airplane is coming, being at the parking spot when it arrives, getting the order right the first time, and keeping the crew posted on anything that changes."
+    ]
+  ],
+  "body": [
+    "<p>A quick turn is where line service shows what it can do. The crew has a schedule, maybe passengers waiting, and a lot on their minds. They won't remember every detail of the stop, but they'll remember whether it felt easy.</p>",
+    "<p>Most of what makes it feel easy comes down to a few habits.</p>",
+    "",
+    "<h2>Be There When It Arrives</h2>",
+    "<ul>",
+    "  <li><strong>Know it's coming.</strong> Keep track of arrivals the front desk knows about, and have the right truck checked and ready if the fuel order came in ahead of time.</li>",
+    "  <li><strong>Meet the airplane</strong> at the parking spot, and marshal it in if your FBO does and you're trained to.</li>",
+    "  <li><strong>Chocks and cones go in</strong> as soon as the procedure allows, so the crew knows the airplane is secure.</li>",
+    "</ul>",
+    "",
+    "<h2>Take a Quick Look Around</h2>",
+    "<p>Once the airplane is secure, walk around it before you start any service. You&rsquo;re not inspecting it; that&rsquo;s the crew&rsquo;s job. You&rsquo;re noticing what&rsquo;s around it: where the fuel fill points are, what&rsquo;s parked nearby, and anything that will get in the way of the truck. If you see something unusual on the airplane, such as a drip or damage, mention it to the crew right away rather than after the turn.</p>",
+    "",
+    "<h2>Ask Once, Ask Everything</h2>",
+    "<p>The fastest turns come from getting the whole picture in one conversation at the airplane, rather than a string of calls later:</p>",
+    "<ul>",
+    "  <li><strong>Fuel:</strong> the grade by name, the quantity, whether it's total or add, and pounds or gallons. The <a href=\"pound-orders-new-line-techs\">pound orders guide</a> covers the questions.</li>",
+    "  <li><strong>Other services:</strong> lav, water, catering, ground power, or anything else your FBO offers.</li>",
+    "  <li><strong>Timing:</strong> when they plan to leave, so you can sequence the work around it.</li>",
+    "</ul>",
+    "<p>Say the order back. It takes seconds and catches most misunderstandings before they cost time. If the pilot is going to be at the airplane for fueling, that's the moment to confirm the grade together; the <a href=\"pilot-at-fueling\">pilot at fueling post</a> covers why.</p>",
+    "",
+    "<h2>Have the Numbers Ready</h2>",
+    "<p>Crews often want the weight of the fuel they just took on, for their own checks. Have it on the ticket before they ask, worked out from the gravity of the fuel you pumped, not a rule of thumb.</p>",
+    "<p>An example, using AvGrav's correction math: 400 gallons of Jet A at 43.79 API, metered on a 45&deg;F morning, is 403.0 gallons at 60&deg;F, about 2,709 pounds (1,229 kilograms). Multiplying 400 by 6.722 pounds per gallon without correcting for temperature would say 2,689, 20 pounds light. Small, but it's the crew's number, so it should be right.</p>",
+    "",
+    "<h2>Keep Them Posted</h2>",
+    "<ul>",
+    "  <li>If something will take longer than expected, tell the crew right away, along with a realistic new time.</li>",
+    "  <li>When each service is done, say so.</li>",
+    "  <li>If anything looked wrong while you were at the airplane, tell them.</li>",
+    "</ul>",
+    "",
+    "<h2>A Clean Handoff</h2>",
+    "<ul>",
+    "  <li><strong>Hand over the ticket</strong> with the grade, the quantity, and the weight, all clearly labeled.</li>",
+    "  <li><strong>Walk around once more</strong> before departure: caps secure, equipment clear, chocks and cones removed when the procedure says.</li>",
+    "  <li><strong>Thank them</strong> and say you hope to see them again. It's a good last impression.</li>",
+    "</ul>",
+    "<p>None of this is complicated. Done every time, it's what crews mean when they say an FBO is easy to work with. The <a href=\"small-fbo-transient-traffic\">transient traffic post</a> covers the business side.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> is how the weight gets on the ticket in seconds. Correct a gravity reading, enter the gallons in <strong>Fuel Volume</strong>, and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong> in pounds or kilograms. With the full calculator on Apple Watch, it can happen without pulling out a phone. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>When you're asking about departure time, a crew may be thinking about their arrival time somewhere else. <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at any airport.</p>"
+  ]
+}
