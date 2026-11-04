@@ -396,7 +396,8 @@
     "facts": [],
     "avgrav": "The uplift weight ready before the crew asks.",
     "avoid": "Invented turn-time numbers.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-04"
   },
   {
     "slug": "summer-fuel-heat",
