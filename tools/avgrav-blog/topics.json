@@ -423,7 +423,8 @@
     "facts": [],
     "avgrav": "A gravity reading after loading, saved to the truck's name.",
     "avoid": "Settling times.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-05"
   },
   {
     "slug": "self-serve-avgas-quality",
