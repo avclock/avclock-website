@@ -1,0 +1,70 @@
+{
+  "slug": "truck-loading-rack",
+  "title": "Loading a Fuel Truck at the Rack: Checks Before and After",
+  "description": "The checks around loading a refueler at the fuel farm rack: right product to the right truck, bonding, overfill protection, watching the load, and sampling.",
+  "date": "2026-11-05",
+  "eyebrow": "LINE SERVICE &middot; OPERATIONS",
+  "tag": "RACK",
+  "excerpt": "Right product, right truck, and eyes on the load the whole time.",
+  "minutes": 4,
+  "related": [
+    "fuel-farm-daily-check",
+    "fuel-truck-daily-check",
+    "bonding-static-fueling"
+  ],
+  "faq": [
+    [
+      "What should be checked before loading a fuel truck?",
+      "That the truck and the rack are for the same product, the truck is bonded to the rack, the high-level shutoff or overfill protection is working as your procedures say to check it, and you know how much the truck can take."
+    ],
+    [
+      "What does a high-level shutoff do on a refueler?",
+      "It's part of the truck's overfill protection. A sensor near the top of the tank shuts off loading automatically when the fuel reaches a set level. Many systems include a precheck to test it before loading starts."
+    ],
+    [
+      "Should you sample the truck after loading?",
+      "Follow your manual. Many quality programs call for letting the fuel settle and then draining a sample from the truck's sump to check for water and dirt before the truck goes into service."
+    ]
+  ],
+  "body": [
+    "<p>Most fuel that reaches an aircraft passes through a truck first, and most trucks are filled at the fuel farm's loading rack. Loading is routine, which is exactly why it deserves the same care as fueling an airplane. A mistake at the rack goes everywhere that truck goes.</p>",
+    "<p>Here are the usual checks before, during, and after. Your manual and your training set the actual steps.</p>",
+    "",
+    "<h2>Before You Connect</h2>",
+    "<ul>",
+    "  <li><strong>Right product, right truck.</strong> Confirm that the rack position and the truck are for the same grade, by reading the markings on both, every time. Some loading systems use grade-selective couplings, but don't let that be the only check.</li>",
+    "  <li><strong>Know how much it can take.</strong> Check the truck's gauge or the amount already in the tank against its capacity before you start.</li>",
+    "  <li><strong>Check the overfill protection</strong> the way your procedures say. Refuelers are commonly fitted with a high-level shutoff that stops loading automatically when the tank is nearly full, often with a precheck to test it before loading starts.</li>",
+    "  <li><strong>Look the connection over:</strong> adapters, caps, and hoses clean and undamaged.</li>",
+    "</ul>",
+    "",
+    "<h2>Bond First</h2>",
+    "<p>Loading moves a lot of fuel quickly, which builds static. Connect the rack's bonding cable to the truck before any loading connection is made, and leave it on until loading is finished and the hose is disconnected. The <a href=\"bonding-static-fueling\">bonding post</a> covers why the order matters.</p>",
+    "",
+    "<h2>Watch the Load</h2>",
+    "<ul>",
+    "  <li><strong>Stay with it.</strong> The deadman control at the loading station only lets fuel flow while you hold it, so you're at the controls the whole time. Never block or bypass it.</li>",
+    "  <li><strong>Watch the gauges</strong> and the flow, and be ready to stop.</li>",
+    "  <li><strong>Know where the emergency shutoff is</strong> before you start, and use it if anything goes wrong.</li>",
+    "  <li><strong>Don't rely on the high-level shutoff</strong> to end every load. It's a safeguard, not the plan.</li>",
+    "</ul>",
+    "",
+    "<h2>After Loading</h2>",
+    "<ul>",
+    "  <li><strong>Disconnect in order:</strong> the loading hose, caps back on, and the bond last.</li>",
+    "  <li><strong>Let the fuel settle and sample it</strong> the way your manual says, draining the truck's sump and checking for water and dirt. The <a href=\"fuel-truck-daily-check\">fuel truck daily check</a> covers the sump.</li>",
+    "  <li><strong>Check the truck's markings</strong> one more time, so the grade on the truck matches what's in it.</li>",
+    "  <li><strong>Walk around</strong> the rack and the truck for drips or leaks before you drive away.</li>",
+    "</ul>",
+    "",
+    "<h2>When Something Looks Wrong</h2>",
+    "<p>If anything doesn't look right at any point, such as a grade marking that doesn't match, a leak, a shutoff that fails its precheck, or a sample with water or dirt in it, stop. Don't finish the load to deal with it later, and don't put the truck in service. Tell your supervisor and follow your procedures, which usually means tagging the truck or the rack position out of service until it's sorted out. A truck that waits an hour costs far less than fuel that shouldn't have gone into an airplane.</p>",
+    "",
+    "<h2>Write It Down</h2>",
+    "<p>Record the load the way your procedures say: the truck, the product, the amount, the time, who loaded it, and the sample result. That record is how a question about a truck's fuel gets answered later, and how loads tie back to the tanks they came from. The <a href=\"fuel-farm-daily-check\">fuel farm daily check</a> covers the tank side.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>A gravity check after loading is a quick way to confirm what's in the truck. In <a href=\"../avgrav\">AvGrav</a>, set up each truck under <strong>Tank or Truck</strong> in Settings, take the reading and its temperature, and the corrected gravity saves to History under that truck's name, with the time, photos, and a note. If the truck's fuel is ever questioned, its last reading is easy to find. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your loading records are kept in Zulu time, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
