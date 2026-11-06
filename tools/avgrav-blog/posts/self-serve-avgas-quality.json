@@ -1,0 +1,67 @@
+{
+  "slug": "self-serve-avgas-quality",
+  "title": "Running a Self-Serve 100LL Pump: The Checks Behind It",
+  "description": "The checks behind a self-serve 100LL pump: daily sumps, the filter, the nozzle and hose, the bonding cable, clear signs for pilots, and records after each delivery.",
+  "date": "2026-11-06",
+  "eyebrow": "FBO &middot; OPERATIONS",
+  "tag": "SELF",
+  "excerpt": "Nobody from the line is there when a pilot fuels, so the checks happen before they arrive.",
+  "minutes": 4,
+  "related": [
+    "fuel-farm-daily-check",
+    "bonding-static-fueling",
+    "certificate-of-analysis"
+  ],
+  "faq": [
+    [
+      "What should be checked daily on a self-serve avgas pump?",
+      "Follow your FBO's procedures and the equipment manuals. Common daily checks include draining the tank and filter sumps and checking the samples for water and dirt, and looking over the nozzle, hose, bonding cable, emergency shutoff, and signs."
+    ],
+    [
+      "Does NFPA 407 cover self-serve fueling?",
+      "Yes. NFPA 407, the standard for aircraft fuel servicing, has a chapter on self-service fueling that covers things like emergency fuel shutoffs, fire protection, signs, and access control. Many airports require self-serve stations to follow it. Your airport and local fire authority decide which edition and rules apply."
+    ],
+    [
+      "What should be done after a fuel delivery to the self-serve tank?",
+      "Follow your receiving procedures: check the paperwork against the product, let the fuel settle as your manual says, sample it, and record the delivery and the results before the pump goes back in service."
+    ]
+  ],
+  "body": [
+    "<p>A self-serve 100LL pump is convenient for pilots and cheap to run, but it changes one thing: nobody from the line is standing there when the fuel goes into the airplane. Every check that would normally happen at the truck has to happen ahead of time, so the station is right before the pilot walks up.</p>",
+    "<p>Your FBO's procedures, the equipment manuals, and your airport's rules set the real steps. Here's what usually goes into them.</p>",
+    "",
+    "<h2>The Rules Behind It</h2>",
+    "<p>NFPA 407, the standard for aircraft fuel servicing, has a chapter on self-service fueling. It covers things like where the emergency fuel shutoffs go, fire protection, signs, and access control. Many airports require self-serve stations to follow it, often through their own fueling rules or permits. Know which rules your airport uses, and who checks them.</p>",
+    "",
+    "<h2>Daily Checks</h2>",
+    "<ul>",
+    "  <li><strong>Sump the tank and the filter</strong> the way your procedures say, and check each sample for water and dirt before the pump is used that day. Filter makers' procedures commonly call for draining the filter sump daily.</li>",
+    "  <li><strong>Look at the filter</strong> and any pressure gauge your system has, and record what your procedures ask for.</li>",
+    "  <li><strong>Look over the nozzle and hose:</strong> no cracks, kinks, leaks, or damage, the nozzle screen and dust cap in place, and the hose stowed properly.</li>",
+    "  <li><strong>Check the bonding cable</strong> and its clip: not frayed, not broken, and the clip still grips. The <a href=\"bonding-static-fueling\">bonding post</a> covers why it matters.</li>",
+    "  <li><strong>Check the emergency shutoff</strong> is clearly marked and nothing blocks it, and the fire extinguisher is where it belongs and in date.</li>",
+    "  <li><strong>Walk around the station</strong> for leaks, stains, and anything left behind.</li>",
+    "</ul>",
+    "<p>If a check fails, take the pump out of service and mark it that way before a pilot finds out the hard way.</p>",
+    "",
+    "<h2>Signs and Instructions for Pilots</h2>",
+    "<p>At a self-serve pump, the signs are doing the line tech's job. Make sure they're clear, readable, and current:</p>",
+    "<ul>",
+    "  <li>The grade, marked plainly on the pump, the nozzle, and the tank.</li>",
+    "  <li>Step-by-step instructions, including bonding before the cap comes off.</li>",
+    "  <li>Where the emergency shutoff is, and what to do in a spill or fire.</li>",
+    "  <li>A phone number to call if something is wrong.</li>",
+    "</ul>",
+    "<p>Read them as if you'd never seen the pump before. If a step is confusing to you, it's confusing to a pilot at night.</p>",
+    "",
+    "<h2>After Every Delivery</h2>",
+    "<p>The tank is only as good as the last load that went into it. When a delivery comes in, follow your receiving procedures: check the paperwork against the product and the tank, let the fuel settle as your manual says, then sample it before the pump goes back in service. The <a href=\"certificate-of-analysis\">certificate of analysis post</a> covers the paperwork.</p>",
+    "",
+    "<h2>Records</h2>",
+    "<p>Write down the daily checks, every delivery, and every sample result, the way your procedures say. With no one at the pump during fueling, those records are the main proof the station was checked. They also make a question about a tank's fuel much easier to answer. The <a href=\"fuel-farm-daily-check\">fuel farm daily check</a> covers the same kind of log on the tank side.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>In <a href=\"../avgrav\">AvGrav</a>, set up the self-serve tank under <strong>Tank or Truck</strong> in Settings, pick <strong>Avgas 100LL</strong>, and take a gravity reading after each delivery. The corrected result is colored against the typical range for 100LL, and you can enter the ticket's API in <strong>Ticket API @ 60&deg;F</strong> to see the difference. Each reading saves to History with the time, photos, and a note, and exports as a <strong>Spreadsheet (CSV)</strong> or <strong>Summary PDF</strong>. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your logs or delivery paperwork use UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
