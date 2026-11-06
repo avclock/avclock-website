@@ -436,7 +436,8 @@
     "facts": [],
     "avgrav": "A tank name for the self-serve tank and a reading after each delivery.",
     "avoid": "Payment or card reader security claims.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-06"
   },
   {
     "slug": "fuel-colors-dyes",
@@ -502,6 +503,136 @@
     ],
     "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
     "avoid": "Exposure limits and medical claims.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-sample-jar-cleanliness",
+    "title": "Clean Sample Jars: Why the Container Matters",
+    "tag": "JAR",
+    "eyebrow": "FUEL QC &middot; SAMPLING",
+    "season": "any",
+    "angle": "Why a dirty or wet jar ruins a visual check, cleaning and drying per the manual, storing jars capped, and when to replace them.",
+    "facts": [],
+    "avgrav": "Photos of the sample saved with the reading.",
+    "avoid": "Specific cleaning chemicals or intervals.",
+    "status": "todo"
+  },
+  {
+    "slug": "deicing-season-ramp",
+    "title": "Deicing Season on the Ramp: What Line Service Should Know",
+    "tag": "ICE",
+    "eyebrow": "FBO &middot; SEASONAL",
+    "season": "winter",
+    "angle": "Coordinating with crews, where deicing happens, fluid on the ramp and footing, keeping trucks and fluid apart, and clean-up per the airport's plan.",
+    "facts": [
+      "Verify any FAA reference (for example AC 120-60 on ground deicing) before naming it."
+    ],
+    "avgrav": "Light: cold fuel readings, linking the winter fueling post.",
+    "avoid": "Holdover times and fluid types; that's the crew's and operator's call.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-receipt-from-transport",
+    "title": "Receiving a Fuel Transport: The Checks Before You Accept It",
+    "tag": "RCV",
+    "eyebrow": "FUEL QC &middot; RECEIVING",
+    "season": "any",
+    "angle": "Matching paperwork to the product and the tank, seals, sampling the transport, gravity against the ticket, and when to refuse a load.",
+    "facts": [
+      "Link the certificate-of-analysis post rather than repeating it."
+    ],
+    "avgrav": "Ticket API @ 60&deg;F and the difference against the user's tolerance.",
+    "avoid": "Specific gravity tolerances; those come from the user's procedures.",
+    "status": "todo"
+  },
+  {
+    "slug": "aircraft-fuel-caps-after-fueling",
+    "title": "Fuel Caps: The Last Check Before You Walk Away",
+    "tag": "CAP",
+    "eyebrow": "LINE SERVICE &middot; FUELING",
+    "season": "any",
+    "angle": "Why caps get left off or loose, a final walk-around, checking each filler you opened, and telling the crew if one doesn't seat.",
+    "facts": [],
+    "avgrav": "Light: a note saved with the reading for anything unusual at the airplane.",
+    "avoid": "Accident details unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "ground-power-units",
+    "title": "Ground Power Units: Basics for Line Service",
+    "tag": "GPU",
+    "eyebrow": "FBO &middot; RAMP",
+    "season": "any",
+    "angle": "Asking the crew first, matching the right unit to the aircraft per the manual, positioning, connecting and disconnecting in order, and cable care.",
+    "facts": [],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Voltages and aircraft-specific procedures.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-price-questions-front-desk",
+    "title": "When a Pilot Asks About the Fuel Price",
+    "tag": "PRICE",
+    "eyebrow": "FBO &middot; SERVICE",
+    "season": "any",
+    "angle": "Answering clearly, posting prices, explaining fees and programs honestly, and how an accurate ticket builds trust.",
+    "facts": [],
+    "avgrav": "Accurate quantities and weights on the ticket.",
+    "avoid": "Actual prices, margins, or competitor comparisons.",
+    "status": "todo"
+  },
+  {
+    "slug": "night-ramp-operations",
+    "title": "Working the Ramp at Night",
+    "tag": "NGHT",
+    "eyebrow": "FBO &middot; SAFETY",
+    "season": "any",
+    "angle": "Lighting and visibility, reflective gear, flashlights for sampling, slower speeds, and extra care with marshalling and towing.",
+    "facts": [
+      "Verify any OSHA or FAA reference before citing it."
+    ],
+    "avgrav": "Reading a hydrometer under a light, and photos saved with the reading.",
+    "avoid": "Specific lighting levels.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-tickets-done-right",
+    "title": "The Fuel Ticket: What Goes on It and Why",
+    "tag": "TKT",
+    "eyebrow": "LINE SERVICE &middot; RECORDS",
+    "season": "any",
+    "angle": "Grade, quantity, units, meter readings, the tail number, time, signatures, and weight when asked; why a clean ticket saves arguments later.",
+    "facts": [],
+    "avgrav": "Net Volume @ 60&deg;F and Total Weight for the ticket.",
+    "avoid": "Legal or tax requirements unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "hangar-fire-safety-basics",
+    "title": "Hangar Fire Safety: The Everyday Habits",
+    "tag": "HNGR",
+    "eyebrow": "FBO &middot; SAFETY",
+    "season": "any",
+    "angle": "Keeping exits and extinguishers clear, no fueling inside, drip pans, housekeeping, and knowing the alarm and evacuation plan.",
+    "facts": [
+      "Verify any NFPA 409 reference before citing it."
+    ],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Suppression system specifics.",
+    "status": "todo"
+  },
+  {
+    "slug": "training-records-line-techs",
+    "title": "Keeping Training Records for Line Techs",
+    "tag": "TRN",
+    "eyebrow": "FBO &middot; BUSINESS",
+    "season": "any",
+    "angle": "What to record, refreshers, who signs off, keeping records findable for audits, and linking them to the new-tech checklist.",
+    "facts": [
+      "Verify any 14 CFR 139.321 fueling training reference before citing it."
+    ],
+    "avgrav": "Light: exported readings as an example of a clean record.",
+    "avoid": "Specific intervals unless verified.",
     "status": "todo"
   }
 ]
