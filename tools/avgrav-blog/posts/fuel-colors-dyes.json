@@ -1,0 +1,75 @@
+{
+  "slug": "fuel-colors-dyes",
+  "title": "Fuel Colors: What 100LL Blue and Jet A Straw Tell You",
+  "description": "Why avgas is dyed, what 100LL, UL94, and Jet A look like in a sample jar, what an unexpected color means, and why color is only one check among several.",
+  "date": "2026-11-07",
+  "eyebrow": "FUEL QC &middot; GRADES",
+  "tag": "CLR",
+  "excerpt": "Color is a quick first look, not a test. Here's what it can and can't tell you.",
+  "minutes": 4,
+  "related": [
+    "prevent-misfueling-jet-a-avgas",
+    "unleaded-avgas-line-service",
+    "photographing-fuel-samples"
+  ],
+  "faq": [
+    [
+      "What color is 100LL avgas?",
+      "100LL is dyed blue. The dye is there so the grade can be identified by sight."
+    ],
+    [
+      "What color is Jet A?",
+      "Jet A and Jet A-1 aren't dyed. In a clean sample jar they look clear to straw colored, which is one of the ways they look different from dyed avgas."
+    ],
+    [
+      "What color is UL94 unleaded avgas?",
+      "UL94 is now dyed purple. It used to be undyed. Swift Fuels has also pointed out that to someone with red-green color blindness, UL94 and 100LL can look the same, so color can't be the only way to tell them apart."
+    ],
+    [
+      "Can you tell if fuel is contaminated by its color?",
+      "No. A color that isn't normal for the grade is a reason to stop and investigate, following your procedures, but color doesn't tell you what's wrong. Water, dirt, and the wrong grade each need their own checks."
+    ]
+  ],
+  "body": [
+    "<p>Every sample jar starts with a look. Before anyone thinks about water, dirt, or gravity, the first thing you notice is the color. It's a useful habit, as long as everyone on the line knows what color can tell you and what it can't.</p>",
+    "",
+    "<h2>Why Avgas Is Dyed</h2>",
+    "<p>Aviation gasoline is dyed so its grade can be identified by sight. A different color for each grade makes it harder to put the wrong fuel in an airplane. Jet fuel isn't dyed, which is part of what makes it look different from avgas in a jar.</p>",
+    "",
+    "<h2>What Each Fuel Looks Like</h2>",
+    "<ul>",
+    "  <li><strong>100LL:</strong> dyed blue.</li>",
+    "  <li><strong>UL94:</strong> now dyed purple. It used to be undyed, so older references, and older habits, may describe it as clear.</li>",
+    "  <li><strong>Jet A and Jet A-1:</strong> not dyed. Clear to straw colored.</li>",
+    "</ul>",
+    "<p>Older grades had their own colors too, such as red for 80 and green for 100, but those grades are rare or gone, and the industry has been reassigning colors as grades change. If your FBO carries any other grade, including the newer unleaded fuels, check the supplier's information for its color rather than going by memory. The <a href=\"unleaded-avgas-line-service\">unleaded avgas post</a> covers what to ask.</p>",
+    "",
+    "<h2>When the Color Looks Wrong</h2>",
+    "<p>A sample that doesn't look the way that grade should is a reason to stop, not a diagnosis. It might be a dirty jar, poor light, a little dye left in a hose from another product, or the wrong fuel. Color can't tell you which.</p>",
+    "<ul>",
+    "  <li><strong>Stop</strong> before the fuel goes anywhere else.</li>",
+    "  <li><strong>Take a fresh sample</strong> in a clean jar, in good light, following your procedures.</li>",
+    "  <li><strong>Check it the other ways</strong> your procedures call for: water, dirt, and gravity.</li>",
+    "  <li><strong>Tell your supervisor</strong> and hold the equipment or tank if your procedures say to.</li>",
+    "</ul>",
+    "",
+    "<h2>Why Color Alone Isn't a Test</h2>",
+    "<ul>",
+    "  <li><strong>Mixtures can fool your eye.</strong> A small amount of one fuel mixed into another may not be obvious from the color.</li>",
+    "  <li><strong>Not everyone sees color the same way.</strong> Swift Fuels has pointed out that to someone with red-green color blindness, UL94 and 100LL can look the same.</li>",
+    "  <li><strong>Light changes everything.</strong> Early morning, ramp lights at night, and a dirty jar can all make a sample look different.</li>",
+    "  <li><strong>Clear and bright is about more than color.</strong> A sample can be the right color and still have water or particles in it.</li>",
+    "</ul>",
+    "<p>That's why misfueling prevention depends on several layers: markings, nozzles, asking the crew for the grade by name, and checks like gravity. The <a href=\"prevent-misfueling-jet-a-avgas\">misfueling post</a> covers them.</p>",
+    "",
+    "<h2>Getting a Good Look</h2>",
+    "<p>A clean, dry, clear jar, good light, and a plain background make color easier to judge. A photo of the sample, taken the same way each time, gives you something to compare against later. The <a href=\"photographing-fuel-samples\">sample photo post</a> covers how.</p>",
+    "",
+    "<h2>Teaching It to New Techs</h2>",
+    "<p>Show new line techs real samples of each grade your FBO handles, side by side, in clean jars and good light. Then teach them the rule that goes with it: color is the first look, never the last word. If it looks wrong, stop and check, and if it looks right, keep going with the rest of the checks anyway.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>When the color looks off, gravity is a good second check, because the fuels are far apart. <a href=\"../avgrav\">AvGrav</a> corrects your reading to 60&deg;F and colors the result against the typical range for the fuel you pick: about 36 to 51 API for Jet A and 60 to 72 for 100LL. A reading outside the range shows red. Save it with a photo of the sample and a note, and the record stays with the reading in History. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your sample log is kept in UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport, so each entry gets the right time.</p>"
+  ]
+}
