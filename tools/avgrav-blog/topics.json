@@ -451,7 +451,8 @@
     ],
     "avgrav": "Gravity as the second check when color looks off.",
     "avoid": "Diagnosing contamination from color alone.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-07"
   },
   {
     "slug": "fuel-weight-performance-crews",
