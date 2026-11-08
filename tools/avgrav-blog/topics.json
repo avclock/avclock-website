@@ -464,7 +464,8 @@
     "facts": [],
     "avgrav": "Total Weight from actual density.",
     "avoid": "Pilot procedures and performance numbers.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-08"
   },
   {
     "slug": "fod-walks",
