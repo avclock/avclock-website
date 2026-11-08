@@ -1,0 +1,70 @@
+{
+  "slug": "fuel-weight-performance-crews",
+  "title": "Why Crews Care About Every Pound of Fuel",
+  "description": "Why an accurate fuel weight matters to the crew, from the fueler's side: weight and balance, performance, the planned load, and how density changes the pounds.",
+  "date": "2026-11-08",
+  "eyebrow": "LINE SERVICE &middot; CREWS",
+  "tag": "PERF",
+  "excerpt": "The number on your ticket goes into the crew's numbers. Here's why it should be right.",
+  "minutes": 4,
+  "related": [
+    "pound-orders-new-line-techs",
+    "gross-vs-net-gallons",
+    "fuel-density-uplift-check"
+  ],
+  "faq": [
+    [
+      "Why do pilots care about fuel weight?",
+      "Fuel is part of the airplane's weight, and weight affects performance and balance. The FAA's Pilot's Handbook of Aeronautical Knowledge notes that fuel burn is normally the only weight change during a flight, and that it can move the center of gravity depending on where the tanks are."
+    ],
+    [
+      "Is 6.7 pounds per gallon accurate for Jet A?",
+      "It's a common approximation, but the real weight depends on the fuel's density and temperature. Using AvGrav's math, Jet A at 38 API weighs 6.952 pounds per gallon at 60&deg;F and Jet A at 48 API weighs 6.565, a difference of almost 400 pounds over 1,000 gallons."
+    ],
+    [
+      "What should line service give the crew?",
+      "Whatever the crew asks for, clearly labeled: the grade, the quantity and its units, and the weight if they want it, worked out from the gravity of the fuel you pumped."
+    ]
+  ],
+  "body": [
+    "<p>When a crew orders fuel in pounds or asks what the uplift weighed, it isn't small talk. That number goes into the crew's own planning. You don't need to know how they do their job to do yours well, but it helps to know why the number matters.</p>",
+    "<p>This post is from the fueler's side. Weight and balance, performance, and fuel planning are the crew's work, done with the airplane's own data and their procedures.</p>",
+    "",
+    "<h2>Fuel Is Weight</h2>",
+    "<p>Everything on board counts toward the airplane's weight, and fuel is often a big part of it. The FAA's Pilot's Handbook of Aeronautical Knowledge notes that fuel burn is normally the only weight change during a flight, and that as fuel is used, the airplane gets lighter and its performance improves. So the crew cares about the weight at the start, and how it changes on the way.</p>",
+    "",
+    "<h2>Fuel Moves the Balance</h2>",
+    "<p>The same handbook notes that burning fuel can also move the center of gravity, depending on where the tanks are. That's one reason crews care which tanks get the fuel and how much goes in each. If they ask for a particular split between tanks, that's why. Fuel exactly the way it was ordered, and ask before changing anything.</p>",
+    "",
+    "<h2>The Plan Depends on the Load</h2>",
+    "<p>Crews plan a flight around a fuel load. Too little, and they may not have what they planned for. Too much, and the extra weight may cost them somewhere else. That's why an order like \"total 8,000 pounds\" means exactly that, and why you confirm total versus add, and pounds versus gallons, before you start. The <a href=\"pound-orders-new-line-techs\">pound orders guide</a> covers the questions.</p>",
+    "",
+    "<h2>Not Every Gallon Weighs the Same</h2>",
+    "<p>A gallon of Jet A doesn't have one fixed weight. It depends on the fuel's density, which varies from batch to batch, and on its temperature. Using AvGrav's correction math, here's 1,000 gallons at 60&deg;F at three gravities inside the typical Jet A range:</p>",
+    "<div class=\"table-wrap\"><table>",
+    "  <thead><tr><th>API @ 60&deg;F</th><th class=\"num\">lb/gal</th><th class=\"num\">1,000 gal</th></tr></thead>",
+    "  <tbody>",
+    "    <tr><td>38.0</td><td class=\"num\">6.952</td><td class=\"num\">6,952 lb</td></tr>",
+    "    <tr><td>43.79</td><td class=\"num\">6.722</td><td class=\"num\">6,722 lb</td></tr>",
+    "    <tr><td>48.0</td><td class=\"num\">6.565</td><td class=\"num\">6,565 lb</td></tr>",
+    "  </tbody>",
+    "</table></div>",
+    "<p>That's almost 400 pounds between the heaviest and the lightest, for the same gallons. Temperature adds to it: 1,000 gallons of the 43.79 API fuel metered at 30&deg;F is 1,015.2 gallons at 60&deg;F, about 6,824 pounds, not 6,722. The <a href=\"gross-vs-net-gallons\">gross vs. net gallons post</a> explains the correction.</p>",
+    "",
+    "<h2>What That Means at the Truck</h2>",
+    "<ul>",
+    "  <li><strong>Use the fuel's real gravity</strong> when you convert pounds to gallons, or gallons to pounds, not a rule of thumb.</li>",
+    "  <li><strong>Correct for temperature</strong> unless your meter already does.</li>",
+    "  <li><strong>Label everything</strong> on the ticket: gallons or liters, pounds or kilograms, and whether a volume is metered or corrected.</li>",
+    "  <li><strong>Tell the crew right away</strong> if what went in isn't what they ordered. A surprise later is worse than a short delay now.</li>",
+    "</ul>",
+    "<p>The <a href=\"fuel-density-uplift-check\">density uplift check post</a> covers how crews may compare your number with their gauges.</p>",
+    "",
+    "<h2>When You're Not Sure</h2>",
+    "<p>If you can't tell whether the crew wants pounds or gallons, total or add, or which tanks, ask before the nozzle goes in. Crews would rather answer one more question than fix a fuel load after the fact. If the gravity reading looks odd for the grade, stop and check it before you use it in any conversion.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> works out the weight from the fuel you actually pumped. Correct a gravity reading, enter the gallons in <strong>Fuel Volume</strong>, and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong> in pounds or kilograms. If your meter already corrects to 60&deg;F, check <strong>Already corrected to 60&deg;F</strong>. It's a reference tool, not a replacement for your procedures or the crew's own calculations.</p>",
+    "<p>Crews often have their next stop's time on their mind too. <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at any airport, so you can talk timing in the same terms they do.</p>"
+  ]
+}
