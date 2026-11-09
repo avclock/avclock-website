@@ -1,0 +1,81 @@
+{
+  "slug": "fod-walks",
+  "title": "FOD Walks: Why, When, and How",
+  "description": "A practical guide to FOD walks for line service: what foreign object debris is, when to walk the ramp, how to do it well, and what to do with what you find.",
+  "date": "2026-11-09",
+  "eyebrow": "FBO &middot; RAMP",
+  "tag": "FOD",
+  "excerpt": "A bolt on the ramp is cheap. The damage it can do isn't.",
+  "minutes": 4,
+  "related": [
+    "new-line-tech-training",
+    "quick-turn-service",
+    "phone-on-the-ramp"
+  ],
+  "faq": [
+    [
+      "What is FOD at an airport?",
+      "FOD stands for foreign object debris: anything in the wrong place in the airport environment that could damage aircraft or hurt people. Bolts, rocks, tie wraps, plastic, and tools left behind are all examples."
+    ],
+    [
+      "Is there FAA guidance on FOD?",
+      "Yes. FAA Advisory Circular 150/5210-24A, Airport Foreign Object Debris (FOD) Management, issued in 2024, gives airports guidance on FOD programs, including prevention, detection, removal, and evaluation. It's advisory; your airport's own program and procedures are what you follow."
+    ],
+    [
+      "When should line service do a FOD walk?",
+      "Whenever your procedures call for it. Common times are the start of a shift, before aircraft arrive or depart, after construction or maintenance nearby, and after storms or high wind."
+    ]
+  ],
+  "body": [
+    "<p>FOD walks aren't exciting. A line of people walking slowly across the ramp, picking things up. But that small piece of metal near a parking spot is exactly the kind of thing that ends up where it shouldn't, and it's much easier to pick up than to explain later.</p>",
+    "",
+    "<h2>What FOD Is</h2>",
+    "<p>FOD means foreign object debris: anything in the wrong place in the airport environment that could damage an aircraft or hurt someone. On an FBO ramp, it's usually ordinary stuff:</p>",
+    "<ul>",
+    "  <li>Bolts, nuts, rivets, and safety wire.</li>",
+    "  <li>Rocks, gravel, and broken pieces of pavement.</li>",
+    "  <li>Tie wraps, plastic bags, wrappers, and cups.</li>",
+    "  <li>Luggage tags, pens, and things that fall out of pockets.</li>",
+    "  <li>Tools and parts left behind after work.</li>",
+    "</ul>",
+    "<p>Engines and propellers can pull debris in or throw it, and tires can pick it up. People on the ramp can be hit by it too.</p>",
+    "",
+    "<h2>The FAA's Guidance</h2>",
+    "<p>The FAA's Advisory Circular 150/5210-24A, <em>Airport Foreign Object Debris (FOD) Management</em>, issued in 2024, is the main FAA guidance on airport FOD programs. It covers prevention, detection, removal, and evaluation. It's advisory, so the program you follow is your airport's and your company's. Ask what yours includes and where FOD reports go.</p>",
+    "",
+    "<h2>When to Walk</h2>",
+    "<p>Your procedures set the schedule. Common times include:</p>",
+    "<ul>",
+    "  <li>The start of a shift.</li>",
+    "  <li>Before a parking spot is used, especially before an arrival.</li>",
+    "  <li>After construction, maintenance, or deliveries nearby.</li>",
+    "  <li>After storms or high wind, which can blow debris onto the ramp.</li>",
+    "</ul>",
+    "",
+    "<h2>How to Do It Well</h2>",
+    "<ul>",
+    "  <li><strong>Walk, don't drive,</strong> unless your procedures use a sweeper or vehicle for part of it.</li>",
+    "  <li><strong>Spread out in a line,</strong> close enough that nothing falls between people.</li>",
+    "  <li><strong>Look down and slow down.</strong> Small things hide in cracks, along pavement joints, and near drains.</li>",
+    "  <li><strong>Check the edges:</strong> fences, building corners, and grass lines where wind piles things up.</li>",
+    "  <li><strong>Stay aware of what's moving.</strong> A FOD walk is still ramp work, with aircraft and vehicles around.</li>",
+    "</ul>",
+    "",
+    "<h2>What to Bring</h2>",
+    "<p>Keep it simple: gloves, a bag or bucket for what you collect, your high-visibility gear, and a flashlight if the light is poor. Ask your supervisor before picking up anything that looks hazardous, sharp, or like it might be evidence of something bigger, such as a piece of an aircraft.</p>",
+    "",
+    "<h2>Bins and Reporting</h2>",
+    "<ul>",
+    "  <li><strong>Use the FOD bins</strong> around the ramp, and keep them emptied.</li>",
+    "  <li><strong>Report what's unusual.</strong> A pile of the same bolt, or a part that looks like it came off an aircraft, may mean something is missing from somewhere. Tell your supervisor, and keep the item if your procedures say to.</li>",
+    "  <li><strong>Record the walks</strong> if your program asks for it, so you can see where debris keeps turning up.</li>",
+    "</ul>",
+    "",
+    "<h2>Make It a Habit, Not an Event</h2>",
+    "<p>The best FOD program is everyone picking things up all day, not just during the scheduled walk. Put tools back, secure loose items in trucks and carts, and pick up what you see on the way to the airplane. The <a href=\"new-line-tech-training\">new line tech checklist</a> is a good place to make it part of training from day one, and the <a href=\"quick-turn-service\">quick turn post</a> covers the walk-around before service.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>FOD has nothing to do with fuel, but the same habit of checking before you start runs through all of line service. On the fuel side, <a href=\"../avgrav\">AvGrav</a> corrects a hydrometer reading to 60&deg;F and saves it with the time, the tank or truck, photos, and a note, for $0.99 with no subscription. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If you schedule walks around arrivals, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at the airplane's departure airport.</p>"
+  ]
+}

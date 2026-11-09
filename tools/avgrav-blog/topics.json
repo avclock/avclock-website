@@ -479,7 +479,8 @@
     ],
     "avgrav": "Light: a short 'from the makers of AvGrav' note on tools that make the line's job easier.",
     "avoid": "Cost statistics unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-09"
   },
   {
     "slug": "towing-wing-walkers",
