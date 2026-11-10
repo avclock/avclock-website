@@ -492,7 +492,8 @@
     "facts": [],
     "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
     "avoid": "Aircraft-specific limits.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-10"
   },
   {
     "slug": "ramp-ppe",
