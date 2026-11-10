@@ -1,0 +1,79 @@
+{
+  "slug": "towing-wing-walkers",
+  "title": "Towing and Wing Walkers: Ramp Basics That Prevent Damage",
+  "description": "Ramp basics for towing aircraft: planning the move, wing walkers, the towbar and shear pin, turning limits from the manual, communication, and hangar clearance.",
+  "date": "2026-11-10",
+  "eyebrow": "FBO &middot; RAMP",
+  "tag": "TOW",
+  "excerpt": "Slow, planned, and watched from every side: towing done the boring way.",
+  "minutes": 4,
+  "related": [
+    "fod-walks",
+    "new-line-tech-training",
+    "quick-turn-service"
+  ],
+  "faq": [
+    [
+      "What does a wing walker do?",
+      "A wing walker walks beside a wingtip during a tow, watching the clearance between the aircraft and anything nearby, and signals the tug driver to stop if it gets close. Wing walkers keep the driver in sight, and the driver stops if they lose sight of a wing walker."
+    ],
+    [
+      "What is a shear pin on a towbar?",
+      "It's a pin designed to break before too much force reaches the aircraft's nose gear. Towbar makers such as Tronair say to use only the specified shear pin and that towing with a broken or missing pin can damage the aircraft. If a pin breaks during a tow, stop."
+    ],
+    [
+      "Where do turning limits come from?",
+      "From the aircraft's own manuals and markings, not from a general rule. Turning the nose gear past its limit can damage it, so know the limit for the aircraft you're moving before you start."
+    ]
+  ],
+  "body": [
+    "<p>Towing happens at low speed, but close to things that are solid. A tow that touches a wingtip to a hangar door or another airplane can turn a routine move into an expensive repair. The fix isn't heroics. It's a plan, enough people, and patience.</p>",
+    "<p>Your FBO's procedures, the aircraft's manuals, and the towbar and tug makers' instructions are what you follow. This post covers the basics that run through all of them.</p>",
+    "",
+    "<h2>Plan the Move First</h2>",
+    "<ul>",
+    "  <li><strong>Walk the route</strong> before you hook up. Look for other aircraft, vehicles, equipment, FOD, and anything overhead in a hangar.</li>",
+    "  <li><strong>Know the aircraft.</strong> Check its turning limits, towing points, and any steps the manual calls for before a tow, such as a steering bypass pin.</li>",
+    "  <li><strong>Brief the team.</strong> Everyone should know the route, the stops, and the signals before anything moves.</li>",
+    "</ul>",
+    "",
+    "<h2>The Towbar and Shear Pin</h2>",
+    "<ul>",
+    "  <li><strong>Use the right towbar</strong> or adapter for the aircraft, and look it over before each use.</li>",
+    "  <li><strong>Check the shear pin.</strong> It's designed to break before too much force reaches the nose gear. Towbar makers such as Tronair say to use only the specified pin and that towing with a broken or missing pin can damage the aircraft.</li>",
+    "  <li><strong>Connect in the order</strong> the towbar maker says. Tronair's instructions, for example, attach the towbar to the aircraft first, then to the tug.</li>",
+    "  <li><strong>If the pin breaks</strong> during a tow, stop, and follow your procedures before going any further.</li>",
+    "</ul>",
+    "",
+    "<h2>Wing Walkers</h2>",
+    "<p>A wing walker's whole job is clearance. They walk beside a wingtip, or the tail, and watch the gap between the aircraft and everything around it.</p>",
+    "<ul>",
+    "  <li><strong>Use as many as the move needs.</strong> Tight spots and hangars call for more eyes, as your procedures say.</li>",
+    "  <li><strong>Stay where the driver can see you,</strong> and use the agreed signals, including a clear stop signal.</li>",
+    "  <li><strong>If the driver loses sight of a wing walker, stop.</strong></li>",
+    "  <li><strong>Watch your own feet too:</strong> chocks, cords, and equipment on the ground.</li>",
+    "</ul>",
+    "",
+    "<h2>During the Tow</h2>",
+    "<ul>",
+    "  <li><strong>Go slowly,</strong> at whatever speed your procedures set, and slower near obstacles.</li>",
+    "  <li><strong>Respect the turning limits.</strong> Turning the nose gear past its limit can damage it.</li>",
+    "  <li><strong>Keep someone in the cockpit</strong> to ride the brakes if your procedures or the aircraft call for it, with a way to talk to the driver.</li>",
+    "  <li><strong>Stop smoothly.</strong> Hard stops put load on the nose gear and the towbar.</li>",
+    "  <li><strong>Anyone can call stop.</strong> If something doesn't look right, stop first and talk after.</li>",
+    "</ul>",
+    "",
+    "<h2>Into the Hangar</h2>",
+    "<p>Hangars are where clearance is tightest. Check the tail height against the door, watch both wingtips and the tail, and know where the aircraft needs to end up before you start. Once it's in place, chock it, and set the brake or follow whatever the aircraft's procedures call for before you disconnect.</p>",
+    "",
+    "<h2>Afterward</h2>",
+    "<p>Disconnect in the order your procedures say, put back anything you removed or installed for the tow, and walk around the aircraft once more. If anything touched, even lightly, report it. A small mark reported now is much better than one found later.</p>",
+    "",
+    "<h2>Train for It</h2>",
+    "<p>Nobody should drive a tug or walk a wing on a real aircraft without training and sign-off under your procedures. The <a href=\"new-line-tech-training\">new line tech checklist</a> is a good place to track it.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Towing is the ramp side of the job. On the fuel side, <a href=\"../avgrav\">AvGrav</a> corrects a hydrometer or density reading to 60&deg;F and saves it with the time, the tank or truck, photos, and a note, for $0.99 with no subscription. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If you're moving an aircraft ahead of a departure, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at the destination, and its Premium tier adds FAA ground stops and delays that might change the plan.</p>"
+  ]
+}
