@@ -1,0 +1,81 @@
+{
+  "slug": "ramp-ppe",
+  "title": "PPE on the Ramp: Hearing, Eyes, Hands, and Feet",
+  "description": "A plain guide to personal protective equipment for line service: hearing protection, eye protection for sampling, gloves for fuel, footwear, visibility, and cold.",
+  "date": "2026-11-11",
+  "eyebrow": "FBO &middot; SAFETY",
+  "tag": "PPE",
+  "excerpt": "The gear that keeps line techs working for years, not just for a shift.",
+  "minutes": 4,
+  "related": [
+    "winter-fueling-cold-fuel-fsii",
+    "new-line-tech-training",
+    "phone-on-the-ramp"
+  ],
+  "faq": [
+    [
+      "Does OSHA require PPE for line service?",
+      "OSHA's general PPE rule, 29 CFR 1910.132, requires employers to assess the workplace for hazards, decide what PPE is needed, and provide it. Which rules apply to your FBO, and what PPE your job calls for, comes from your employer's hazard assessment and procedures."
+    ],
+    [
+      "Why wear eye protection when sampling fuel?",
+      "Draining a sump or filling a sample jar can splash fuel, and fuel in the eyes needs immediate first aid. Wear the eye protection your procedures call for whenever you sample or work around open fuel."
+    ],
+    [
+      "What gloves should line techs wear around fuel?",
+      "Gloves that your employer's assessment picks for fuel contact. Not every glove holds up to fuel, so use the type you were issued for the job and replace it when it's damaged."
+    ]
+  ],
+  "body": [
+    "<p>Line service is hard on the body in small, everyday ways: engine noise, fuel splashes, cold mornings, long hours on concrete. Most of it isn't dramatic, which is exactly why PPE gets skipped. The gear only works if it's on every time.</p>",
+    "",
+    "<h2>Who Decides What You Wear</h2>",
+    "<p>OSHA's general PPE rule, 29 CFR 1910.132, puts it on the employer: assess the workplace for hazards, decide what PPE each job needs, provide it, and train people to use it. So the real list for your ramp comes from your FBO's hazard assessment and procedures. This post covers the usual pieces and why they matter. If your issued gear doesn't fit or is worn out, say so. PPE that's damaged should be replaced.</p>",
+    "",
+    "<h2>Hearing</h2>",
+    "<ul>",
+    "  <li><strong>Wear hearing protection around running engines,</strong> APUs, and ground power units, the way your procedures say.</li>",
+    "  <li><strong>Put it on before you need it,</strong> not after the engine starts.</li>",
+    "  <li><strong>Make sure it fits.</strong> Earplugs only work inserted properly, and earmuffs need a good seal.</li>",
+    "  <li><strong>Keep it with you.</strong> Hearing protection in the truck does nothing at the airplane.</li>",
+    "</ul>",
+    "<p>The protection only works if it's on, every time, on quiet days as well as loud ones.</p>",
+    "",
+    "<h2>Eyes</h2>",
+    "<ul>",
+    "  <li><strong>Wear eye protection when sampling,</strong> draining sumps, or working with open fuel. Fuel can splash.</li>",
+    "  <li><strong>Use the type you're issued.</strong> OSHA's eye and face rule, 29 CFR 1910.133, ties eye protection to recognized safety standards, so ordinary sunglasses aren't the same thing.</li>",
+    "  <li><strong>Know where the eyewash is</strong> at the fuel farm and on the ramp before you need it.</li>",
+    "</ul>",
+    "",
+    "<h2>Hands</h2>",
+    "<ul>",
+    "  <li><strong>Wear the gloves picked for fuel</strong> when sampling, fueling, and handling filters. Not every glove holds up to fuel.</li>",
+    "  <li><strong>Swap gloves</strong> that are torn, soaked, or stiff.</li>",
+    "  <li><strong>Use work gloves</strong> for towbars, chocks, and hoses, where cuts and pinches are the risk.</li>",
+    "</ul>",
+    "",
+    "<h2>Feet</h2>",
+    "<p>Wear the footwear your procedures call for: closed, sturdy, with soles that grip on wet or icy pavement and hold up to fuel. Chocks, towbars, and equipment wheels are all heavy, and ramps get slick.</p>",
+    "",
+    "<h2>Visibility</h2>",
+    "<p>High-visibility clothing helps tug drivers, fuel truck drivers, and crews see you, especially at dawn, dusk, at night, and in rain or snow. Keep it clean and zipped. A vest balled up in a pocket doesn't help anyone see you.</p>",
+    "",
+    "<h2>Cold Weather</h2>",
+    "<ul>",
+    "  <li><strong>Layer up</strong> so you can work without bulky gear getting in the way.</li>",
+    "  <li><strong>Keep spare gloves</strong> dry, since wet gloves get cold fast.</li>",
+    "  <li><strong>Watch your footing</strong> on ice, and slow down. The <a href=\"winter-fueling-cold-fuel-fsii\">winter fueling post</a> covers the fuel side of cold mornings.</li>",
+    "</ul>",
+    "",
+    "<h2>Look After Your Gear</h2>",
+    "<p>Check your PPE at the start of each shift, the same way you'd check a truck. Look for cracked eye protection, earplugs that are dirty or flattened, gloves with holes, and worn-out soles. Store it where it stays clean and dry, and ask for a replacement before it fails, not after.</p>",
+    "",
+    "<h2>Make It Normal</h2>",
+    "<p>PPE works best when everyone wears it without being reminded, new techs and veterans alike. Leads set the tone. Put it in training from the first day; the <a href=\"new-line-tech-training\">new line tech checklist</a> is a good place to track it.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>PPE is about the people. On the fuel side, <a href=\"../avgrav\">AvGrav</a> corrects a hydrometer or density reading to 60&deg;F and saves it with the time, the tank or truck, photos, and a note, for $0.99 with no subscription. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>On cold early shifts, <a href=\"../\">AvClock</a>, from the same developer, shows the local weather in plain English at any airport, which helps when you're deciding what to wear out to the ramp.</p>"
+  ]
+}
