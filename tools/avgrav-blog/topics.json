@@ -507,7 +507,8 @@
     ],
     "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
     "avoid": "Exposure limits and medical claims.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-11"
   },
   {
     "slug": "fuel-sample-jar-cleanliness",
