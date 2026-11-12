@@ -1,0 +1,74 @@
+{
+  "slug": "fuel-sample-jar-cleanliness",
+  "title": "Clean Sample Jars: Why the Container Matters",
+  "description": "Why a dirty or wet sample jar can ruin a fuel visual check, how to keep jars and buckets clean and dry, how to store them, and when it's time to replace one.",
+  "date": "2026-11-12",
+  "eyebrow": "FUEL QC &middot; SAMPLING",
+  "tag": "JAR",
+  "excerpt": "A visual check is only as good as the jar it's in.",
+  "minutes": 4,
+  "related": [
+    "water-in-jet-fuel",
+    "photographing-fuel-samples",
+    "fuel-colors-dyes"
+  ],
+  "faq": [
+    [
+      "Why does the sample jar have to be clean and dry?",
+      "Because the visual check looks for water, dirt, and haze. A drop of water or a film left in the jar can look like a problem in the fuel, or hide one. Fuel handling procedures commonly call for the jar to be clean and dry before each sample."
+    ],
+    [
+      "What does clear and bright mean?",
+      "ASTM D6986 describes clear and bright fuel as having no visible water drops or particles and no haze or cloudiness. Bright fuel has a sparkle to it."
+    ],
+    [
+      "How should sample jars be cleaned?",
+      "The way your procedures and the equipment maker say. The goal is a jar that's clean, dry, and free of anything that could end up in the next sample."
+    ]
+  ],
+  "body": [
+    "<p>The visual check is one of the most common fuel quality checks on the line. Draw a sample, look for water, dirt, and haze, and decide whether the fuel is clear and bright. It's quick and useful, but it depends on something easy to overlook: the container. A visual check is only as good as the jar it's in.</p>",
+    "",
+    "<h2>What You're Looking For</h2>",
+    "<p>ASTM D6986, the standard visual inspection method for aviation fuels, describes clear and bright fuel as having no visible water drops or particles and no haze or cloudiness. Bright fuel sparkles. The method is sensitive enough that small amounts of water can show up in a clear glass container, which is exactly why the container has to be right.</p>",
+    "",
+    "<h2>How a Dirty Jar Fools You</h2>",
+    "<ul>",
+    "  <li><strong>Water left in the jar</strong> looks like water in the fuel. You may hold good equipment out of service for nothing.</li>",
+    "  <li><strong>A film or residue</strong> can make fuel look hazy, or make it hard to see real haze.</li>",
+    "  <li><strong>Dirt or lint</strong> in the jar looks like particles in the fuel.</li>",
+    "  <li><strong>Leftover product</strong> from another sample can change the color, which matters when you're also judging the grade by eye.</li>",
+    "  <li><strong>Scratches and cloudy glass</strong> make everything harder to see.</li>",
+    "</ul>",
+    "<p>The worst case isn't a false alarm. It's getting used to a jar that always looks a little off, until a real problem looks normal.</p>",
+    "",
+    "<h2>Keeping Jars Clean and Dry</h2>",
+    "<p>Fuel handling procedures commonly call for the jar, and the white bucket if you use one, to be clean and dry before each sample. How to get it that way comes from your manual and the equipment maker. The usual habits:</p>",
+    "<ul>",
+    "  <li><strong>Clean it the way your procedures say,</strong> and let it dry completely before it goes back in service.</li>",
+    "  <li><strong>Look at it empty</strong> against the light before every sample. If it isn't clean and clear, don't use it.</li>",
+    "  <li><strong>Don't wipe it with whatever's handy.</strong> A rag can leave lint or residue behind.</li>",
+    "  <li><strong>Keep the bucket's bonding cable</strong> in good shape, if your setup has one, and use it the way your procedures say.</li>",
+    "</ul>",
+    "",
+    "<h2>Storing Them</h2>",
+    "<ul>",
+    "  <li><strong>Keep jars capped</strong> or covered when not in use, so dust and rain stay out.</li>",
+    "  <li><strong>Store them where they won't get knocked around,</strong> not loose on a truck floor.</li>",
+    "  <li><strong>Keep sampling equipment for one purpose.</strong> A jar that's been used for something else doesn't belong back in the fuel kit.</li>",
+    "</ul>",
+    "",
+    "<h2>When to Replace One</h2>",
+    "<p>Replace a jar when it's chipped, cracked, scratched, cloudy, or stained in a way cleaning won't fix. Glass is cheap compared to a wrong call on fuel. If you're not sure, swap it and ask your supervisor.</p>",
+    "",
+    "<h2>Good Light Helps Too</h2>",
+    "<p>A clean jar still needs good light and a plain background. Early mornings, night shifts, and ramp lights all change how a sample looks. The <a href=\"photographing-fuel-samples\">sample photo post</a> covers getting a consistent look, and the <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers what you're looking for.</p>",
+    "",
+    "<h2>Teach It Early</h2>",
+    "<p>New line techs learn what clear and bright looks like by seeing it, so show them what a clean, dry jar looks like too, side by side with a wet or dirty one. Once they've seen how much a drop of water or a smudge changes the picture, they won't skip the empty-jar check.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>A clean jar makes for a good photo, too. In <a href=\"../avgrav\">AvGrav</a>, attach a photo of the sample to the reading, and it saves to History with the time, the fuel, the <strong>Tank or Truck</strong>, and a note. Turn on <strong>Require Photo to Save</strong> in Settings if you want every reading to have one. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your sample log is kept in UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}

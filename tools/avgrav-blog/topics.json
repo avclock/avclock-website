@@ -520,7 +520,8 @@
     "facts": [],
     "avgrav": "Photos of the sample saved with the reading.",
     "avoid": "Specific cleaning chemicals or intervals.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-12"
   },
   {
     "slug": "deicing-season-ramp",
