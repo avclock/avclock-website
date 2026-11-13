@@ -1,0 +1,74 @@
+{
+  "slug": "deicing-season-ramp",
+  "title": "Deicing Season on the Ramp: What Line Service Should Know",
+  "description": "What line service should know in deicing season: working with the crew, where deicing happens, footing on a wet ramp, keeping fuel trucks clear, and clean-up.",
+  "date": "2026-11-13",
+  "eyebrow": "FBO &middot; SEASONAL",
+  "tag": "ICE",
+  "excerpt": "Deicing is the crew's call. Making the ramp work around it is yours.",
+  "minutes": 4,
+  "related": [
+    "winter-fueling-cold-fuel-fsii",
+    "ramp-ppe",
+    "quick-turn-service"
+  ],
+  "faq": [
+    [
+      "Who decides whether an aircraft needs deicing?",
+      "The flight crew and the operator, under their own procedures. FAA Advisory Circular 120-60 covers ground deicing and anti-icing programs. Line service supports the decision; it doesn't make it."
+    ],
+    [
+      "Should fueling and deicing happen at the same time?",
+      "Follow your FBO's procedures and the crew's. Plan the sequence with the crew, so fueling is finished and the truck is clear of the deicing area before deicing starts."
+    ],
+    [
+      "What should line service do about deicing fluid on the ramp?",
+      "Watch your footing and your driving, keep equipment out of the deicing area, and follow your airport's plan for where deicing happens and how fluid is collected or cleaned up."
+    ]
+  ],
+  "body": [
+    "<p>When the first frost arrives, the ramp changes. Aircraft need deicing, crews are watching the clock, and the pavement around the deicing area gets wet and busy. Line service doesn't make the deicing decisions, but it does a lot to make the operation go smoothly and safely.</p>",
+    "<p>Your FBO's procedures, your airport's plan, and the crew's instructions are what you follow. This post covers what usually matters from the line's side.</p>",
+    "",
+    "<h2>It's the Crew's Call</h2>",
+    "<p>Whether an aircraft needs deicing, what fluid, and when, are decisions for the flight crew and the operator under their own procedures. FAA Advisory Circular 120-60 covers ground deicing and anti-icing programs, and the FAA publishes updated guidance each season. Line service doesn't need to know the details of holdover times or fluid types to do its part. What it does need is to listen, ask, and not guess.</p>",
+    "",
+    "<h2>Talk to the Crew Early</h2>",
+    "<ul>",
+    "  <li><strong>Ask if they'll want deicing</strong> when you take the fuel order, and what time they plan to leave.</li>",
+    "  <li><strong>Ask what order they want things done in,</strong> such as fuel, then catering, then deicing.</li>",
+    "  <li><strong>Tell them right away</strong> if something will delay the plan, so they can adjust.</li>",
+    "</ul>",
+    "<p>Getting the order right matters, because the timing of deicing matters to the crew. The <a href=\"quick-turn-service\">quick turn post</a> covers asking everything once, up front.</p>",
+    "",
+    "<h2>Know Where Deicing Happens</h2>",
+    "<p>Some airports deice at a dedicated pad, and some at the gate or on the FBO ramp. Know your airport's plan, where aircraft are allowed to be deiced, and where they aren't. If an aircraft is going to be deiced on your ramp, plan where it parks, and where everything else goes, before the truck shows up.</p>",
+    "",
+    "<h2>Keep Fuel and Fluid Apart</h2>",
+    "<ul>",
+    "  <li><strong>Plan the sequence</strong> the way your procedures say, so fueling is done and the fuel truck is clear before deicing starts.</li>",
+    "  <li><strong>Keep fuel trucks and other equipment out</strong> of the deicing area and away from the spray.</li>",
+    "  <li><strong>Close everything you opened</strong> before you leave the aircraft: caps, panels, and doors.</li>",
+    "</ul>",
+    "",
+    "<h2>Watch Your Footing</h2>",
+    "<p>Deicing fluid, melting snow, and ice make the pavement around the aircraft slippery. Walk carefully, give yourself more room to stop when driving, and take extra care around wings and steps. The <a href=\"ramp-ppe\">PPE post</a> covers footwear and cold-weather gear. If a spot stays slick, tell your supervisor so it can be treated or marked the way your procedures say.</p>",
+    "",
+    "<h2>Clean-Up and Runoff</h2>",
+    "<p>The EPA has effluent rules for airport deicing that apply at many airports. How fluid is collected and cleaned up on your ramp comes from your airport's plan. Follow it, and if you see fluid going somewhere it shouldn't, such as a storm drain, report it.</p>",
+    "",
+    "<h2>The Fuel Side in Winter</h2>",
+    "<p>Cold mornings also change the fuel. Cold fuel is denser, gallons shrink, and water is more of a concern. The <a href=\"winter-fueling-cold-fuel-fsii\">winter fueling post</a> covers what to watch for.</p>",
+    "",
+    "<h2>Before the Season Starts</h2>",
+    "<ul>",
+    "  <li><strong>Review your airport's deicing plan</strong> with the whole line team, including where deicing is allowed.</li>",
+    "  <li><strong>Check your cold-weather gear</strong> and replace what's worn out.</li>",
+    "  <li><strong>Know who to call</strong> for deicing service, if your FBO doesn't provide it.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>On cold mornings, a hydrometer reading taken at a low temperature still needs correcting to 60&deg;F. <a href=\"../avgrav\">AvGrav</a> does that, and with the gallons entered in <strong>Fuel Volume</strong>, it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong>. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>Winter weather moves departure times. <a href=\"../\">AvClock</a>, from the same developer, shows the local time and plain-English weather at any airport, and its Premium tier adds live METAR and TAF and FAA ground stops and delays.</p>"
+  ]
+}

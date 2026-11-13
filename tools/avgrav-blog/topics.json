@@ -535,7 +535,8 @@
     ],
     "avgrav": "Light: cold fuel readings, linking the winter fueling post.",
     "avoid": "Holdover times and fluid types; that's the crew's and operator's call.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-13"
   },
   {
     "slug": "fuel-receipt-from-transport",
