@@ -1,0 +1,75 @@
+{
+  "slug": "fuel-receipt-from-transport",
+  "title": "Receiving a Fuel Transport: The Checks Before You Accept It",
+  "description": "The checks before a fuel transport unloads into your tanks: paperwork against product and tank, seals, sampling, a gravity check against the ticket, and saying no.",
+  "date": "2026-11-14",
+  "eyebrow": "FUEL QC &middot; RECEIVING",
+  "tag": "RCV",
+  "excerpt": "Once it's in your tank, it's your fuel. Check it before it gets there.",
+  "minutes": 4,
+  "related": [
+    "certificate-of-analysis",
+    "fuel-farm-daily-check",
+    "water-in-jet-fuel"
+  ],
+  "faq": [
+    [
+      "What should be checked before a fuel transport unloads?",
+      "Follow your receiving procedures. Common checks include matching the bill of lading to the product, the truck, and the tank it's going into; checking that the seal numbers match the paperwork; taking a sample and checking it for water and dirt; and comparing a corrected gravity reading with the paperwork."
+    ],
+    [
+      "How close should the API gravity be to the ticket?",
+      "That tolerance comes from your own procedures and quality program, not from a general rule. Correct your reading to 60&deg;F first, then compare it with the API at 60&deg;F on the ticket or certificate."
+    ],
+    [
+      "Can line service refuse a fuel delivery?",
+      "Your procedures say who can stop or refuse a delivery and what happens next. If anything doesn't check out, don't unload, and get the person your procedures name involved before any fuel goes into the tank."
+    ]
+  ],
+  "body": [
+    "<p>A fuel transport pulls up to the farm, and the driver wants to unload and move on. That's the moment to slow down. Once the fuel is in your tank, any problem with it is your problem, mixed in with everything else that was already there. The checks before the hose connects are what keep that from happening.</p>",
+    "<p>Your receiving procedures, and the quality program they come from, set the actual steps. Here's what usually goes into them.</p>",
+    "",
+    "<h2>Check the Paperwork First</h2>",
+    "<ul>",
+    "  <li><strong>Match the bill of lading</strong> to what's in front of you: the product, the grade, the truck, and the destination.</li>",
+    "  <li><strong>Match it to your tank.</strong> Confirm which tank it's going into, and that the tank is for the same grade, with room for the load.</li>",
+    "  <li><strong>Find the quality paperwork,</strong> such as the certificate of analysis or the reference to it, with the API gravity at 60&deg;F. The <a href=\"certificate-of-analysis\">certificate of analysis post</a> covers what's on it.</li>",
+    "</ul>",
+    "",
+    "<h2>Check the Seals</h2>",
+    "<p>Many transports arrive with numbered seals on their compartments and valves. Compare the seal numbers with the paperwork before anything is opened, and write them down. A missing, broken, or mismatched seal is a reason to stop and ask, following your procedures.</p>",
+    "",
+    "<h2>Sample the Transport</h2>",
+    "<ul>",
+    "  <li><strong>Draw a sample</strong> the way your procedures say, from each compartment if they call for it.</li>",
+    "  <li><strong>Check it</strong> for water, dirt, and haze, in a clean, dry container. The <a href=\"water-in-jet-fuel\">water in jet fuel post</a> covers what you're looking for.</li>",
+    "  <li><strong>Check the color</strong> is right for the grade. It's a first look, not a test.</li>",
+    "</ul>",
+    "",
+    "<h2>Check the Gravity Against the Paperwork</h2>",
+    "<p>A gravity reading is a quick way to confirm the fuel matches its paperwork. Take a hydrometer reading and its temperature, correct it to 60&deg;F, and compare it with the API at 60&deg;F on the ticket or certificate.</p>",
+    "<p>An example, using AvGrav's correction math: a Jet A sample reads 46.0 API at 85&deg;F. Corrected, that's 43.79 API at 60&deg;F. If the paperwork says 43.8, the difference is 0.01. Comparing the uncorrected 46.0 with the ticket would show a gap of 2.2 that isn't really there.</p>",
+    "<p>How big a difference is acceptable comes from your procedures, not from a general rule. If it's outside your tolerance, stop and ask.</p>",
+    "",
+    "<h2>When to Stop</h2>",
+    "<p>Don't let the load go into the tank if:</p>",
+    "<ul>",
+    "  <li>The paperwork doesn't match the product, the truck, or the tank.</li>",
+    "  <li>The seals don't match or are damaged.</li>",
+    "  <li>The sample shows water, dirt, haze, or the wrong color.</li>",
+    "  <li>The corrected gravity is outside your tolerance.</li>",
+    "</ul>",
+    "<p>Your procedures say who decides what happens next. Your job is to stop before the fuel goes in, and get that person involved.</p>",
+    "",
+    "<h2>During and After Unloading</h2>",
+    "<p>Bond the transport the way your procedures say, stay with it while it unloads, and watch the tank level. Afterward, let the tank settle as your manual says before you sample it and put it back in service. The <a href=\"fuel-farm-daily-check\">fuel farm daily check</a> covers the tank side.</p>",
+    "",
+    "<h2>Write It Down</h2>",
+    "<p>Record the delivery: the date and time, the bill of lading, the seal numbers, the tank, the amount, your sample result, and your corrected gravity alongside the paperwork's. If a question about the tank comes up later, that record is where it starts.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> handles this comparison. Enter the reading and its temperature, then put the paperwork's number in <strong>Ticket API @ 60&deg;F</strong>, or <strong>Ticket Density @ 15&deg;C</strong>, and it shows the difference against the tolerance you set in Settings from your own procedures. Save it under the receiving tank's name with a photo of the paperwork and a note. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your receiving log uses UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}

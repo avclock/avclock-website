@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -376,6 +376,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/deicing-season-ramp</loc>
     <lastmod>2026-11-13</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/fuel-receipt-from-transport</loc>
+    <lastmod>2026-11-14</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

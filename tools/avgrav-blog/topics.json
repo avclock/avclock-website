@@ -550,7 +550,8 @@
     ],
     "avgrav": "Ticket API @ 60&deg;F and the difference against the user's tolerance.",
     "avoid": "Specific gravity tolerances; those come from the user's procedures.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-14"
   },
   {
     "slug": "aircraft-fuel-caps-after-fueling",
