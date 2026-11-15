@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -381,6 +381,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/fuel-receipt-from-transport</loc>
     <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/aircraft-fuel-caps-after-fueling</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

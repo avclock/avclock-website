@@ -1,0 +1,76 @@
+{
+  "slug": "aircraft-fuel-caps-after-fueling",
+  "title": "Fuel Caps: The Last Check Before You Walk Away",
+  "description": "Why fuel caps get left loose or off after fueling, the final walk-around that catches it, checking every filler you opened, and what to do when a cap won't seat.",
+  "date": "2026-11-15",
+  "eyebrow": "LINE SERVICE &middot; FUELING",
+  "tag": "CAP",
+  "excerpt": "Every filler you opened, closed and checked, every time.",
+  "minutes": 4,
+  "related": [
+    "quick-turn-service",
+    "pilot-at-fueling",
+    "phone-on-the-ramp"
+  ],
+  "faq": [
+    [
+      "Why does a loose fuel cap matter?",
+      "Australia's Transport Safety Bureau has warned that a missing or unsecured fuel cap can lead to rapid and substantial fuel loss in flight, even when the tank has an anti-siphon valve. A cap that's on and secure is a simple thing that matters a great deal."
+    ],
+    [
+      "When should fuel caps be checked?",
+      "After every fueling, by whoever fueled, before walking away from the airplane. The ATSB recommends checking fuel system security, including caps, after refuelling as well as during the pilot's preflight."
+    ],
+    [
+      "What if a fuel cap won't close properly?",
+      "Don't force it and don't leave it. Tell the crew right away, and follow your procedures. A cap that won't seat is the crew's and maintenance's call, not something to work around."
+    ]
+  ],
+  "body": [
+    "<p>The fuel is in, the numbers are on the ticket, and the next airplane is waiting. That's exactly the moment a fuel cap gets missed. It only takes a few seconds to check every filler you opened, and it's one of the most important few seconds in the whole fueling.</p>",
+    "",
+    "<h2>Why It Matters</h2>",
+    "<p>Australia's Transport Safety Bureau has warned that a missing or unsecured fuel cap can lead to rapid and substantial fuel loss in flight, even when the tank is fitted with an anti-siphon valve. It recommends checking fuel system security, caps included, after refuelling and during turnarounds, not only at the pilot's preflight. The pilot checks too, but your check comes first and doesn't depend on theirs.</p>",
+    "",
+    "<h2>Why Caps Get Missed</h2>",
+    "<ul>",
+    "  <li><strong>Interruptions.</strong> A question from the crew, a radio call, or a phone in the middle of fueling. The ATSB has pointed to distraction during ground tasks like this as a factor.</li>",
+    "  <li><strong>Multiple fillers.</strong> On airplanes with several tanks, it's easy to close all but one.</li>",
+    "  <li><strong>Unfamiliar caps.</strong> Caps differ from airplane to airplane, and one that looks closed may not be locked.</li>",
+    "  <li><strong>Hurry.</strong> A quick turn makes everyone move faster, which is when steps get skipped.</li>",
+    "  <li><strong>Two people, no owner.</strong> When two techs fuel one airplane, each can assume the other checked the caps. Agree out loud who does the final check.</li>",
+    "</ul>",
+    "<p>The <a href=\"phone-on-the-ramp\">phone on the ramp post</a> covers keeping distractions out of fueling.</p>",
+    "",
+    "<h2>Habits That Catch It</h2>",
+    "<ul>",
+    "  <li><strong>Finish one filler before you start the next.</strong> Cap closed and checked, then move.</li>",
+    "  <li><strong>Count them.</strong> Know how many fillers you opened, and check that many closed.</li>",
+    "  <li><strong>If you're interrupted, start the check over.</strong> Don't assume you closed the one you were at.</li>",
+    "  <li><strong>Touch each cap.</strong> Look and feel that it's seated and locked the way that airplane's cap is meant to be.</li>",
+    "</ul>",
+    "",
+    "<h2>The Final Walk-Around</h2>",
+    "<p>Before you leave the airplane, walk around it once more:</p>",
+    "<ul>",
+    "  <li>Every filler you opened is capped and secure, and any access door is closed.</li>",
+    "  <li>No fuel is dripping or pooling under a wing.</li>",
+    "  <li>The bonding cable is disconnected and stowed.</li>",
+    "  <li>Ladders, steps, and equipment are clear.</li>",
+    "</ul>",
+    "<p>It takes less than a minute. The <a href=\"quick-turn-service\">quick turn post</a> covers fitting it into a fast stop.</p>",
+    "",
+    "<h2>When a Cap Won't Seat</h2>",
+    "<p>Sometimes a cap won't close the way it should: a worn seal, a bent latch, or something that doesn't feel right. Don't force it, and don't leave it for the crew to find. Tell them right away, show them, and follow your procedures. Whether the airplane can fly with it is the crew's and maintenance's call.</p>",
+    "",
+    "<h2>Tell the Crew</h2>",
+    "<p>When you hand over the ticket, saying that the caps are on and checked takes a few seconds. If the pilot is at the airplane for fueling, they may want to check them with you; the <a href=\"pilot-at-fueling\">pilot at fueling post</a> covers working together.</p>",
+    "",
+    "<h2>Make It Part of Training</h2>",
+    "<p>Teach new line techs the cap check as part of fueling, not an extra step at the end. Show them the different caps on the airplanes your FBO sees most, and have them practice the final walk-around until it's automatic.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>If something at the airplane is worth remembering, such as a cap that was hard to seat, <a href=\"../avgrav\">AvGrav</a> saves a note and photos with each gravity reading in History, along with the time and the <strong>Tank or Truck</strong>. It's a reference tool, not a replacement for your procedures or a maintenance record.</p>",
+    "<p>If you note times in UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
