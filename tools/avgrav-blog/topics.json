@@ -563,7 +563,8 @@
     "facts": [],
     "avgrav": "Light: a note saved with the reading for anything unusual at the airplane.",
     "avoid": "Accident details unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-15"
   },
   {
     "slug": "ground-power-units",
