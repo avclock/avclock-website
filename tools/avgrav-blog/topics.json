@@ -576,7 +576,8 @@
     "facts": [],
     "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
     "avoid": "Voltages and aircraft-specific procedures.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-16"
   },
   {
     "slug": "fuel-price-questions-front-desk",
@@ -642,6 +643,140 @@
     ],
     "avgrav": "Light: exported readings as an example of a clean record.",
     "avoid": "Specific intervals unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-tank-water-after-rain",
+    "title": "After Heavy Rain: Checking Tanks and Trucks for Water",
+    "tag": "RAIN",
+    "eyebrow": "FUEL QC &middot; WATER",
+    "season": "any",
+    "angle": "Why heavy rain is a reason for extra attention, checking sumps and vents per the manual, caps and seals, and logging what you find.",
+    "facts": [
+      "Link the water-in-jet-fuel post rather than repeating it."
+    ],
+    "avgrav": "A reading after the extra sump, saved with a note about the weather.",
+    "avoid": "Settling times and water limits.",
+    "status": "todo"
+  },
+  {
+    "slug": "hydrometer-reading-technique",
+    "title": "Reading a Hydrometer: Eye Level, the Meniscus, and Other Small Things",
+    "tag": "HYD",
+    "eyebrow": "FUEL QC &middot; GRAVITY",
+    "season": "any",
+    "angle": "Reading at eye level, where to read the scale, letting it float freely, a clean cylinder, and reading the temperature at the same time.",
+    "facts": [
+      "Verify the meniscus reading convention in ASTM D1298 or the hydrometer maker's instructions before stating it."
+    ],
+    "avgrav": "Correcting the reading to 60&deg;F as soon as it's taken.",
+    "avoid": "Accuracy figures unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-truck-meter-basics",
+    "title": "Fuel Truck Meters: What the Numbers Mean",
+    "tag": "MTR",
+    "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Totalizer versus delivered quantity, temperature-compensated versus not, calibration per procedures, and writing down the right number.",
+    "facts": [
+      "Verify any meter calibration requirement before citing it."
+    ],
+    "avgrav": "Already corrected to 60&deg;F for compensated meters.",
+    "avoid": "Calibration intervals and tolerances.",
+    "status": "todo"
+  },
+  {
+    "slug": "aircraft-marshalling-basics",
+    "title": "Marshalling Basics: Clear Signals and When to Stop",
+    "tag": "MRSH",
+    "eyebrow": "FBO &middot; RAMP",
+    "season": "any",
+    "angle": "Training first, standard signals, positioning, wing walkers, lighting at night, and the stop signal.",
+    "facts": [
+      "Verify any FAA reference (for example the AIM's hand signals section) before citing it."
+    ],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Describing specific signals in detail; point to the official source.",
+    "status": "todo"
+  },
+  {
+    "slug": "crew-car-and-amenities",
+    "title": "Crew Cars, Coffee, and the Small Things Crews Notice",
+    "tag": "CREW",
+    "eyebrow": "FBO &middot; SERVICE",
+    "season": "any",
+    "angle": "Clean crew cars, a quiet lounge, weather and flight planning space, honest wait times, and why the little things bring crews back.",
+    "facts": [],
+    "avgrav": "Light: accurate numbers on the ticket as part of good service.",
+    "avoid": "Statistics on customer loyalty unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-density-vs-temperature",
+    "title": "Why Fuel Gets Heavier When It's Cold",
+    "tag": "DENS",
+    "eyebrow": "FUEL QC &middot; GRAVITY",
+    "season": "any",
+    "angle": "Thermal expansion in plain terms, the same fuel at different temperatures, and why correcting to 60&deg;F makes readings comparable.",
+    "facts": [
+      "Compute every example with avgrav-math.js."
+    ],
+    "avgrav": "Net Volume @ 60&deg;F and Total Weight.",
+    "avoid": "Repeating the gross-vs-net post; link it.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-hose-and-nozzle-care",
+    "title": "Fuel Hoses and Nozzles: Daily Care",
+    "tag": "HOSE",
+    "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Looking for cracks and soft spots, nozzle screens and dust caps, couplings, stowing hoses, and taking damaged equipment out of service.",
+    "facts": [
+      "Verify any hose standard (for example API/EI 1529) before naming it."
+    ],
+    "avgrav": "Light: notes and photos saved with a reading.",
+    "avoid": "Replacement intervals and pressure ratings.",
+    "status": "todo"
+  },
+  {
+    "slug": "winter-fuel-farm-checks",
+    "title": "Fuel Farm Checks in Winter",
+    "tag": "WFRM",
+    "eyebrow": "FUEL QC &middot; SEASONAL",
+    "season": "winter",
+    "angle": "Ice around sumps and valves, snow on vents and signs, footing, cold readings, and keeping emergency shutoffs clear.",
+    "facts": [
+      "Link the fuel-farm-daily-check and winter-fueling posts."
+    ],
+    "avgrav": "Correcting cold readings to 60&deg;F.",
+    "avoid": "Specific temperatures for fuel properties unless computed with avgrav-math.js.",
+    "status": "todo"
+  },
+  {
+    "slug": "handling-a-fuel-complaint",
+    "title": "When a Customer Questions the Fuel",
+    "tag": "CMPL",
+    "eyebrow": "FBO &middot; SERVICE",
+    "season": "any",
+    "angle": "Listening, not arguing, pulling the records, retained samples if your program keeps them, involving the supervisor, and following up.",
+    "facts": [],
+    "avgrav": "Finding the truck's last reading in History, with photos and notes.",
+    "avoid": "Legal advice or liability claims.",
+    "status": "todo"
+  },
+  {
+    "slug": "line-service-shift-handover",
+    "title": "The Shift Handover: What the Next Crew Needs to Know",
+    "tag": "SHFT",
+    "eyebrow": "FBO &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Expected arrivals, equipment out of service, open fuel orders, fuel farm status, and writing it down.",
+    "facts": [],
+    "avgrav": "Exporting the day's readings as a Summary PDF for the handover.",
+    "avoid": "Invented scheduling rules.",
     "status": "todo"
   }
 ]

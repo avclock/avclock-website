@@ -1,0 +1,79 @@
+{
+  "slug": "ground-power-units",
+  "title": "Ground Power Units: Basics for Line Service",
+  "description": "GPU basics for line service: asking the crew first, the right unit for the aircraft, positioning, connecting and disconnecting in order, and caring for the cables.",
+  "date": "2026-11-16",
+  "eyebrow": "FBO &middot; RAMP",
+  "tag": "GPU",
+  "excerpt": "Ask first, match the unit, follow the order, and look after the cable.",
+  "minutes": 4,
+  "related": [
+    "towing-wing-walkers",
+    "ramp-ppe",
+    "quick-turn-service"
+  ],
+  "faq": [
+    [
+      "Who decides when to connect ground power?",
+      "The crew. Line service makes the physical connection, and the flight crew accepts the power from the cockpit. Ask before you connect or disconnect, and follow your procedures."
+    ],
+    [
+      "What order do you connect a GPU in?",
+      "The order the aircraft's manual, the GPU's manual, and your procedures give. Manuals don't all use the same sequence, so learn the one for each aircraft and unit you work with rather than going by habit."
+    ],
+    [
+      "Can you unplug a GPU while it's powering the aircraft?",
+      "Not without following your procedures. Guidance on ground power warns against pulling the cable under load, which can cause arcing. Confirm with the crew, shut the power off the way your procedures say, then disconnect."
+    ]
+  ],
+  "body": [
+    "<p>A ground power unit lets a crew run the aircraft's systems on the ground without running engines or an APU. It's a routine service at many FBOs, but it's also a heavy cable carrying a lot of power to an expensive airplane. Doing it the same careful way every time is what keeps it routine.</p>",
+    "<p>Your FBO's procedures, the aircraft's manuals, and the GPU maker's instructions are what you follow. This post covers the basics that run through all of them.</p>",
+    "",
+    "<h2>Ask the Crew First</h2>",
+    "<ul>",
+    "  <li><strong>Ask if they want ground power,</strong> ideally when you take the rest of the order.</li>",
+    "  <li><strong>Confirm before you connect.</strong> Line service makes the physical connection; the crew accepts the power from the cockpit.</li>",
+    "  <li><strong>Confirm before you disconnect,</strong> too. Pulling power the crew is still using can interrupt what they're doing.</li>",
+    "</ul>",
+    "",
+    "<h2>The Right Unit for the Aircraft</h2>",
+    "<p>Aircraft don't all take the same kind of ground power, and the wrong unit can damage equipment. Match the GPU to the aircraft the way your procedures and the aircraft's manual say, and if you're not sure, ask before you plug anything in. This is one of the things worth learning airplane by airplane, not guessing.</p>",
+    "",
+    "<h2>Positioning</h2>",
+    "<ul>",
+    "  <li><strong>Park the unit</strong> where the cable reaches the receptacle without strain, and where it isn't in the path of other service vehicles.</li>",
+    "  <li><strong>Keep it clear</strong> of the wings, doors, and the fueling area, as your procedures say.</li>",
+    "  <li><strong>Set the brake</strong> and chock the unit if your procedures call for it.</li>",
+    "</ul>",
+    "",
+    "<h2>Before You Connect</h2>",
+    "<ul>",
+    "  <li><strong>Look at the cable and plug:</strong> no cuts, kinks, exposed wire, or damaged pins.</li>",
+    "  <li><strong>Look at the aircraft's receptacle</strong> for damage, corrosion, or anything in it.</li>",
+    "  <li><strong>Check the unit's display</strong> and settings the way its manual says.</li>",
+    "</ul>",
+    "<p>If anything looks wrong, don't connect. Tell your supervisor and take the cable or unit out of service.</p>",
+    "",
+    "<h2>Connecting and Disconnecting in Order</h2>",
+    "<p>Manuals don't all use the same sequence for turning the unit on and plugging it in, so follow the order the aircraft, the GPU, and your procedures give, not the order you used on the last airplane. Seat the plug fully and confirm the crew has power. When it's time to disconnect, confirm with the crew first and shut the power off the way your procedures say. Guidance on ground power warns against pulling the cable under load, which can cause arcing.</p>",
+    "",
+    "<h2>Look After the Cable</h2>",
+    "<ul>",
+    "  <li><strong>Don't drive over it</strong> or drag it across rough pavement.</li>",
+    "  <li><strong>Don't pull it by the cord</strong> to unplug it. Use the plug.</li>",
+    "  <li><strong>Stow it properly</strong> when you're done, so it isn't left on the ramp as a trip hazard or FOD.</li>",
+    "  <li><strong>Report damage</strong> right away. Cable and plug problems are a common reason an aircraft won't accept ground power.</li>",
+    "</ul>",
+    "",
+    "<h2>Before You Leave</h2>",
+    "<p>Once the GPU is disconnected, close the receptacle door if your procedures say to, move the unit clear, and include it in your final walk-around. A cable left near an aircraft is easy to miss when it's time to push or taxi. The <a href=\"towing-wing-walkers\">towing post</a> covers clearing the area before an aircraft moves.</p>",
+    "",
+    "<h2>Learn It Hands-On</h2>",
+    "<p>Nobody should run a GPU on a real aircraft without training on that unit and sign-off under your procedures. The <a href=\"new-line-tech-training\">new line tech checklist</a> is a good place to track it.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Ground power is the electrical side of the turn. On the fuel side, <a href=\"../avgrav\">AvGrav</a> corrects a hydrometer or density reading to 60&deg;F and saves it with the time, the tank or truck, photos, and a note, for $0.99 with no subscription. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If you're planning GPU and fuel around an arrival, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at the aircraft's departure airport.</p>"
+  ]
+}
