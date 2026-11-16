@@ -3,5 +3,6 @@ Allow: /
 Disallow: /analytics.html
 Disallow: /analytics
 Disallow: /api/
+Disallow: /cdn-cgi/
 
 Sitemap: https://avclockapp.com/sitemap.xml
