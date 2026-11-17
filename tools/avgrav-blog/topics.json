@@ -589,7 +589,8 @@
     "facts": [],
     "avgrav": "Accurate quantities and weights on the ticket.",
     "avoid": "Actual prices, margins, or competitor comparisons.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-17"
   },
   {
     "slug": "night-ramp-operations",
