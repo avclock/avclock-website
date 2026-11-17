@@ -1,0 +1,72 @@
+{
+  "slug": "fuel-price-questions-front-desk",
+  "title": "When a Pilot Asks About the Fuel Price",
+  "description": "How the front desk and line can answer fuel price and fee questions clearly: posting prices, explaining fees honestly, and why an accurate ticket builds trust.",
+  "date": "2026-11-17",
+  "eyebrow": "FBO &middot; SERVICE",
+  "tag": "PRICE",
+  "excerpt": "A clear answer about price is part of good service, not a sales pitch.",
+  "minutes": 4,
+  "related": [
+    "small-fbo-transient-traffic",
+    "quick-turn-service",
+    "fuel-weight-performance-crews"
+  ],
+  "faq": [
+    [
+      "Should FBOs post fuel prices and fees online?",
+      "Pilot groups have pushed for it. AOPA's fee transparency effort, endorsed by NBAA and others, encourages FBOs to post fuel prices and ramp fees on their websites or in AOPA's airport directory. Whether and where your FBO posts them is a management decision."
+    ],
+    [
+      "What should staff say if they don't know a fee?",
+      "Say so, find out, and get back to the pilot with the real answer. A guess that turns out wrong costs more trust than a short wait."
+    ],
+    [
+      "Why does an accurate fuel ticket matter for pricing?",
+      "Because the pilot pays for what the ticket says. A clear ticket with the right grade, quantity, and units lets the pilot check the bill against what went into the airplane."
+    ]
+  ],
+  "body": [
+    "<p>\"How much is fuel?\" is a question every FBO hears, by phone, radio, or at the desk. It's also one of the easiest places to build trust, or lose it. A clear, honest answer makes a pilot more likely to come back, whatever the number is.</p>",
+    "<p>This post is about how to answer, not what to charge. Pricing is a management decision. Answering well is everyone's job.</p>",
+    "",
+    "<h2>Know the Answer Before They Ask</h2>",
+    "<ul>",
+    "  <li><strong>Know today's prices</strong> for every grade you sell, and where they're posted.</li>",
+    "  <li><strong>Know the fees</strong> that might apply, such as ramp, handling, overnight, or after-hours fees, and when they're waived.</li>",
+    "  <li><strong>Know any programs</strong> your FBO takes part in, such as fuel cards, contract fuel, or discounts, and who qualifies.</li>",
+    "</ul>",
+    "<p>Keep a short, current price sheet at the desk and on the line, and if anything changes, make sure everyone who answers the phone or the radio hears about it the same day.</p>",
+    "",
+    "<h2>Answer Clearly</h2>",
+    "<ul>",
+    "  <li><strong>Give the price for the grade they asked about,</strong> and say whether it includes taxes.</li>",
+    "  <li><strong>Mention fees that will apply</strong> to their visit, up front, not on the invoice.</li>",
+    "  <li><strong>If a fee is waived with a fuel purchase,</strong> say how much fuel it takes.</li>",
+    "  <li><strong>If you don't know,</strong> say so, find out, and call back. Don't guess.</li>",
+    "</ul>",
+    "<p>A fee mentioned up front is a lot easier to accept than one that first shows up on the invoice.</p>",
+    "",
+    "<h2>Posting Prices</h2>",
+    "<p>Pilot groups have pushed for clearer pricing for years. AOPA's fee transparency effort, endorsed by NBAA and others, encourages FBOs to post fuel prices and ramp fees on their websites or in AOPA's airport directory. A U.S. Government Accountability Office review found that FBO fee information online was often missing or didn't match from one source to the next. If your FBO posts prices, whether on a sign, a website, or a directory, keep every one of them current. An old number online is worse than none.</p>",
+    "",
+    "<h2>Be Honest About Programs and Discounts</h2>",
+    "<p>Explain what a program actually does and who it applies to. If a pilot asks about a discount they don't qualify for, say so plainly and tell them what would apply. Don't hint at deals the desk can't actually give.</p>",
+    "",
+    "<h2>The Ticket Backs It Up</h2>",
+    "<p>The price only means something if the quantity is right. The pilot pays for what the ticket says, so the ticket should be easy to check:</p>",
+    "<ul>",
+    "  <li>The grade, by name.</li>",
+    "  <li>The quantity, with its units: gallons or liters, and pounds or kilograms if they asked.</li>",
+    "  <li>Whether a volume is metered or corrected to 60&deg;F, if that matters to them.</li>",
+    "</ul>",
+    "<p>An accurate, clearly labeled ticket answers the next question before it's asked. The <a href=\"fuel-weight-performance-crews\">fuel weight post</a> covers why crews care about those numbers.</p>",
+    "",
+    "<h2>When a Pilot Pushes Back</h2>",
+    "<p>Sometimes a pilot won't like the answer. Stay polite, explain what the price and fees cover, and don't argue. If they want to talk to someone who sets prices, get your manager. Every caller is a possible return visit, even the ones who fuel somewhere else this time. The <a href=\"small-fbo-transient-traffic\">transient traffic post</a> covers the business side.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>When a crew pays by the pound, the weight on the ticket should come from the fuel you pumped. <a href=\"../avgrav\">AvGrav</a> corrects a gravity reading to 60&deg;F and, with the gallons in <strong>Fuel Volume</strong>, gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong> in pounds or kilograms. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>Price questions often come by phone from pilots still on the ground somewhere else. <a href=\"../\">AvClock</a>, from the same developer, shows the local time at their airport, which helps when you promise to call back.</p>"
+  ]
+}
