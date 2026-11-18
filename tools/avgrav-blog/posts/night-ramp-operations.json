@@ -1,0 +1,68 @@
+{
+  "slug": "night-ramp-operations",
+  "title": "Working the Ramp at Night",
+  "description": "What changes for line service after dark: being seen, seeing what you're doing, sampling under a flashlight, slower driving, and extra care with marshalling and towing.",
+  "date": "2026-11-18",
+  "eyebrow": "FBO &middot; SAFETY",
+  "tag": "NGHT",
+  "excerpt": "Same ramp, same jobs, less light. Slow down and make yourself seen.",
+  "minutes": 4,
+  "related": [
+    "ramp-ppe",
+    "towing-wing-walkers",
+    "photographing-fuel-samples"
+  ],
+  "faq": [
+    [
+      "What changes for line service at night?",
+      "Mostly visibility: drivers and crews can't see you as well, and you can't see the ramp, the aircraft, or a fuel sample as well. Good lighting, reflective gear, slower driving, and taking more time on each check make up for it."
+    ],
+    [
+      "How do you marshal an aircraft at night?",
+      "The signals are the same; what changes is that they have to be lit. Signalers commonly use lighted wands at night. Follow your training and procedures, and the FAA's Aeronautical Information Manual for the standard signals."
+    ],
+    [
+      "How do you check a fuel sample at night?",
+      "With good light and a plain background, the way your procedures say. A flashlight held behind or beside the jar helps show haze, water, and particles. If you can't see well enough to judge it, get better light before you decide."
+    ]
+  ],
+  "body": [
+    "<p>The jobs on the ramp don't change after dark. Fueling, towing, marshalling, and sampling all still happen, sometimes with a crew waiting and nobody else around. What changes is how well you can see, and how well everyone else can see you. Night work goes best when you plan for both.</p>",
+    "<p>Your FBO's procedures and training are what you follow. This post covers what usually needs extra attention.</p>",
+    "",
+    "<h2>Be Seen</h2>",
+    "<ul>",
+    "  <li><strong>Wear your high-visibility gear,</strong> clean and zipped. Reflective material only works if a light can reach it.</li>",
+    "  <li><strong>Carry a light,</strong> and use it to show where you are when vehicles or aircraft are moving.</li>",
+    "  <li><strong>Make eye contact</strong> with drivers before you walk in front of them. If you can't see their eyes, assume they can't see you.</li>",
+    "</ul>",
+    "<p>The <a href=\"ramp-ppe\">PPE post</a> covers visibility gear and the rest of your kit.</p>",
+    "",
+    "<h2>See What You're Doing</h2>",
+    "<ul>",
+    "  <li><strong>Check that ramp and fuel farm lights work,</strong> and report any that are out.</li>",
+    "  <li><strong>Keep a flashlight</strong> on you, with spare batteries or a charger nearby.</li>",
+    "  <li><strong>Light the job, not just the path.</strong> Fuel caps, grade markings, receptacles, and chocks are all harder to see at night.</li>",
+    "  <li><strong>Read every label twice.</strong> Grade markings on trucks and aircraft are easy to misread in poor light.</li>",
+    "</ul>",
+    "",
+    "<h2>Fuel Samples After Dark</h2>",
+    "<p>A visual check depends on light. A clear jar, a plain background, and a flashlight held behind or beside the jar help show haze, water, and particles. Ramp lights can tint a sample and change how its color looks, so judge color carefully, and don't decide on the color alone. If you can't see well enough to call it clear and bright, get better light first. The <a href=\"photographing-fuel-samples\">sample photo post</a> covers getting a consistent look.</p>",
+    "",
+    "<h2>Drive Slower</h2>",
+    "<p>Fuel trucks, tugs, and carts are harder to judge at night, and so are wingtips and people. Drive at your procedures' speed or slower, keep your lights on, and give yourself more room to stop. If you're not sure what's ahead, stop and look.</p>",
+    "",
+    "<h2>Marshalling at Night</h2>",
+    "<p>The standard hand signals are in the FAA's Aeronautical Information Manual, and they don't change at night. What changes is that the pilot has to be able to see them, so signalers commonly use lighted wands. Only marshal if you're trained to, and stand where the pilot can see you and your signals clearly.</p>",
+    "",
+    "<h2>Towing at Night</h2>",
+    "<p>Clearance is harder to judge in the dark, so towing at night calls for more care, not less. Walk the route with a light first, use wing walkers with lights, and go slower than you would in daylight. The <a href=\"towing-wing-walkers\">towing post</a> covers the basics.</p>",
+    "",
+    "<h2>Fatigue Counts Too</h2>",
+    "<p>Night shifts and early mornings are when people get tired. Tiredness makes small mistakes more likely, like a missed cap or a misread label. If you're working alone or late, slow down, use checklists, and don't skip steps to finish faster. If you're too tired to work safely, tell your supervisor before something gets missed.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>A hydrometer is harder to read under a flashlight, so take your time with the reading and its temperature. <a href=\"../avgrav\">AvGrav</a> corrects the reading to 60&deg;F and saves it to History with the time, the <strong>Tank or Truck</strong>, a note, and photos of the sample, so a night reading can be looked at again in daylight. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>Night arrivals are often late ones. <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at the departure airport, and its Premium tier adds FAA ground stops and delays.</p>"
+  ]
+}

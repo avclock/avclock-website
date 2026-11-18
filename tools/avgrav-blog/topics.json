@@ -604,7 +604,8 @@
     ],
     "avgrav": "Reading a hydrometer under a light, and photos saved with the reading.",
     "avoid": "Specific lighting levels.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-18"
   },
   {
     "slug": "fuel-tickets-done-right",
