@@ -1,0 +1,75 @@
+{
+  "slug": "fuel-tickets-done-right",
+  "title": "The Fuel Ticket: What Goes on It and Why",
+  "description": "What a clean fuel ticket usually includes: the grade, quantity and units, meter readings, the tail number, the time, signatures, and the weight when the crew asks.",
+  "date": "2026-11-19",
+  "eyebrow": "LINE SERVICE &middot; RECORDS",
+  "tag": "TKT",
+  "excerpt": "A clear ticket answers questions before anyone has to ask them.",
+  "minutes": 4,
+  "related": [
+    "gross-vs-net-gallons",
+    "pound-orders-new-line-techs",
+    "fuel-price-questions-front-desk"
+  ],
+  "faq": [
+    [
+      "What should be on an aviation fuel ticket?",
+      "Whatever your FBO's ticket and procedures call for. Common items are the date and time, the aircraft's tail number, the grade by name, the quantity with its units, the meter start and end readings, the truck or pump, and signatures, plus the weight if the crew asked for it."
+    ],
+    [
+      "Should the ticket show gallons or pounds?",
+      "Show the quantity in the units your meter measures, labeled clearly, and add the weight in pounds or kilograms when the crew asks. Note whether a volume is as metered or corrected to 60&deg;F."
+    ],
+    [
+      "Why record meter start and end readings?",
+      "They show where the quantity came from. If a number is ever questioned, the readings let anyone check the math and match the ticket to the truck's or pump's records."
+    ]
+  ],
+  "body": [
+    "<p>The fuel ticket is the one record of a fueling that everyone sees: the crew, the front desk, billing, and sometimes an auditor. When it's complete and clear, nobody has to think about it again. When it's missing something, it turns into phone calls, corrections, and arguments days later.</p>",
+    "<p>Your FBO's ticket and procedures set what goes on it. Here's what usually belongs there, and why.</p>",
+    "",
+    "<h2>Who and When</h2>",
+    "<ul>",
+    "  <li><strong>The tail number,</strong> written carefully and checked against the aircraft.</li>",
+    "  <li><strong>The date and time,</strong> in the time standard your FBO uses, labeled so nobody has to guess whether it's local or UTC.</li>",
+    "  <li><strong>The truck or pump</strong> the fuel came from.</li>",
+    "  <li><strong>Who fueled,</strong> and who signed for it if your procedures ask for a signature.</li>",
+    "</ul>",
+    "",
+    "<h2>What and How Much</h2>",
+    "<ul>",
+    "  <li><strong>The grade, by name.</strong> Jet A, Jet A-1, 100LL, or whatever it was, written out.</li>",
+    "  <li><strong>The quantity, with its units.</strong> Gallons or liters, never just a number.</li>",
+    "  <li><strong>Meter start and end readings,</strong> if your ticket has room for them. They show where the quantity came from.</li>",
+    "  <li><strong>Any additive</strong> your procedures say to record, if one was used.</li>",
+    "</ul>",
+    "",
+    "<h2>The Weight, When They Ask</h2>",
+    "<p>Many crews want to know what the uplift weighed. When they ask, work it out from the gravity of the fuel you pumped, and label it as pounds or kilograms. If you corrected the volume to 60&deg;F, say so on the ticket.</p>",
+    "<p>An example, using AvGrav's correction math: 300 gallons of Jet A at 43.79 API, metered at 40&deg;F, is 303.0 gallons at 60&deg;F, about 2,037 pounds (925 kilograms). Multiplying 300 by 6.722 pounds per gallon without the temperature correction would say 2,017. The <a href=\"gross-vs-net-gallons\">gross vs. net gallons post</a> explains the difference.</p>",
+    "",
+    "<h2>Write It So Anyone Can Read It</h2>",
+    "<ul>",
+    "  <li><strong>Write clearly,</strong> or use the system your FBO has. A 1 that looks like a 7 is a billing problem.</li>",
+    "  <li><strong>Label every number.</strong> Gallons, liters, pounds, kilograms, metered, or corrected.</li>",
+    "  <li><strong>Don't round</strong> unless your procedures say how.</li>",
+    "  <li><strong>Fill it out at the truck,</strong> while the numbers are in front of you, not later from memory.</li>",
+    "  <li><strong>Keep your copy</strong> the way your procedures say, so it can be found when someone asks about it.</li>",
+    "</ul>",
+    "",
+    "<h2>Mistakes and Corrections</h2>",
+    "<p>If something on a ticket is wrong, fix it the way your procedures say, and don't just write over it. Tell the crew if they already have a copy. A correction made openly is a lot easier to explain than one nobody knew about.</p>",
+    "",
+    "<h2>Why It Matters Later</h2>",
+    "<p>A good ticket answers the questions that come up later: how much fuel went in, which grade, from which truck, and when. It ties the fueling to the truck's records, the fuel farm's records, and the bill. The <a href=\"fuel-price-questions-front-desk\">fuel price post</a> covers why the ticket backs up the price, and the <a href=\"pound-orders-new-line-techs\">pound orders guide</a> covers getting the order right in the first place.</p>",
+    "",
+    "<h2>Hand It Over Clearly</h2>",
+    "<p>When you give the crew their copy, point out the grade, the quantity, and the weight if they asked for it. It takes seconds, and it gives them a chance to catch anything that doesn't match what they ordered.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> is how the weight gets on the ticket in seconds. Correct a gravity reading, enter the gallons in <strong>Fuel Volume</strong>, and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong> in pounds or kilograms. If your meter already corrects to 60&deg;F, check <strong>Already corrected to 60&deg;F</strong>. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>If your tickets use UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport, so the time on the ticket is right.</p>"
+  ]
+}

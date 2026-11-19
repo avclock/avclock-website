@@ -617,7 +617,8 @@
     "facts": [],
     "avgrav": "Net Volume @ 60&deg;F and Total Weight for the ticket.",
     "avoid": "Legal or tax requirements unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-19"
   },
   {
     "slug": "hangar-fire-safety-basics",
