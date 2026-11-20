@@ -632,7 +632,8 @@
     ],
     "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
     "avoid": "Suppression system specifics.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-20"
   },
   {
     "slug": "training-records-line-techs",

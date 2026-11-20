@@ -1,0 +1,79 @@
+{
+  "slug": "hangar-fire-safety-basics",
+  "title": "Hangar Fire Safety: The Everyday Habits",
+  "description": "The everyday hangar fire safety habits for FBO staff: clear exits and extinguishers, fueling rules, drips and spills, housekeeping, and knowing the alarm and plan.",
+  "date": "2026-11-20",
+  "eyebrow": "FBO &middot; SAFETY",
+  "tag": "HNGR",
+  "excerpt": "The building has its systems. Your part is the habits that keep it safe every day.",
+  "minutes": 4,
+  "related": [
+    "fuel-spill-first-minutes",
+    "towing-wing-walkers",
+    "ramp-ppe"
+  ],
+  "faq": [
+    [
+      "What standards cover aircraft hangar fire safety?",
+      "NFPA 409, the Standard on Aircraft Hangars, sets minimum fire protection requirements for hangar buildings, and NFPA 410 covers fire safety during aircraft maintenance. Your local fire code and airport rules decide what applies to your hangar."
+    ],
+    [
+      "Can you fuel an aircraft inside a hangar?",
+      "Follow your airport's rules, your local fire code, and your FBO's procedures. Some airports prohibit fueling or defueling inside hangars outright, and fire codes restrict ignition sources near fueling operations."
+    ],
+    [
+      "What should staff know about a hangar's fire plan?",
+      "Where the exits, extinguishers, and pull stations are, what the alarm sounds like, where to meet outside, and who to call. Learn it before you need it."
+    ]
+  ],
+  "body": [
+    "<p>A hangar holds aircraft full of fuel, vehicles, equipment, and people, often all at once. The building's fire protection is designed and inspected by others. The everyday habits that keep a fire from starting, or keep it small, are everyone's job.</p>",
+    "<p>Your FBO's procedures, your airport's rules, and your local fire code are what you follow. This post covers the habits that usually matter most.</p>",
+    "",
+    "<h2>The Standards Behind It</h2>",
+    "<p>NFPA 409, the Standard on Aircraft Hangars, sets minimum fire protection requirements for hangar buildings. NFPA 410 covers fire safety during aircraft maintenance. Local fire codes often point to these standards, and your airport may add rules of its own. You don't need to know them line by line, but your supervisor should be able to tell you which apply to your hangar.</p>",
+    "",
+    "<h2>Keep Exits and Equipment Clear</h2>",
+    "<ul>",
+    "  <li><strong>Never block an exit,</strong> even for a few minutes, with a cart, a tug, or a parked aircraft.</li>",
+    "  <li><strong>Keep extinguishers visible and reachable,</strong> and report any that are missing, used, or out of date.</li>",
+    "  <li><strong>Keep alarm pull stations clear</strong> and know where they are.</li>",
+    "  <li><strong>Leave room around fire protection equipment</strong> the way your procedures say.</li>",
+    "</ul>",
+    "",
+    "<h2>Fuel and the Hangar</h2>",
+    "<p>Fueling happens outside, on the ramp, unless your procedures say otherwise. Some airports prohibit fueling or defueling inside hangars outright, and fire codes restrict ignition sources near fueling operations. If an aircraft needs fuel, it comes out to the ramp. If an aircraft is towed in right after fueling, check for drips first.</p>",
+    "",
+    "<h2>Drips, Leaks, and Spills</h2>",
+    "<ul>",
+    "  <li><strong>Look under every aircraft</strong> coming into the hangar for fuel or fluid drips.</li>",
+    "  <li><strong>Use drip pans</strong> where your procedures call for them, and empty them the right way.</li>",
+    "  <li><strong>Clean up small spills</strong> the way your procedures say, with the right absorbent, and dispose of it properly.</li>",
+    "  <li><strong>Report anything bigger</strong> right away. The <a href=\"fuel-spill-first-minutes\">fuel spill post</a> covers the first few minutes.</li>",
+    "</ul>",
+    "",
+    "<h2>Housekeeping</h2>",
+    "<ul>",
+    "  <li><strong>Keep the floor clear</strong> of rags, packaging, and trash. Combustible debris doesn't belong around aircraft.</li>",
+    "  <li><strong>Put oily or fuel-soaked rags</strong> where your procedures say, not in the regular trash.</li>",
+    "  <li><strong>Store flammable liquids</strong> in the cabinets or areas meant for them, closed when not in use.</li>",
+    "  <li><strong>Don't let equipment pile up</strong> against walls, exits, or electrical panels.</li>",
+    "</ul>",
+    "",
+    "<h2>Ignition Sources</h2>",
+    "<p>Follow your hangar's rules on smoking, open flames, heaters, and anything else that could spark. Vehicles and ground equipment inside the hangar should be the ones your procedures allow, used the way they say. Hot work, such as welding, has its own rules and permits; it's never done casually. Battery chargers, extension cords, and portable heaters should be the kinds your FBO allows, used only where your procedures say, and unplugged when you're done.</p>",
+    "",
+    "<h2>Know the Plan</h2>",
+    "<ul>",
+    "  <li>What the alarm sounds like, and what to do when you hear it.</li>",
+    "  <li>Where the exits are, and the meeting point outside.</li>",
+    "  <li>Who to call, and how.</li>",
+    "  <li>Whether you're expected to use an extinguisher, and only if you're trained to.</li>",
+    "</ul>",
+    "<p>Walk through it with your supervisor if you haven't recently. When the alarm goes off is the wrong time to learn it.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Hangar safety is the building side of the job. On the fuel side, <a href=\"../avgrav\">AvGrav</a> corrects a hydrometer or density reading to 60&deg;F and saves it with the time, the tank or truck, photos, and a note, for $0.99 with no subscription. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If aircraft are coming out of the hangar for an early departure, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at the destination, so the plan lines up with the crew's.</p>"
+  ]
+}
