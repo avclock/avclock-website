@@ -1,0 +1,71 @@
+{
+  "slug": "training-records-line-techs",
+  "title": "Keeping Training Records for Line Techs",
+  "description": "How an FBO can keep line tech training records that hold up: what to record, refreshers, who signs off, and keeping records easy to find when an inspector asks.",
+  "date": "2026-11-21",
+  "eyebrow": "FBO &middot; BUSINESS",
+  "tag": "TRN",
+  "excerpt": "If it isn't written down, it's hard to show it happened.",
+  "minutes": 4,
+  "related": [
+    "new-line-tech-training",
+    "fuel-quality-audit-prep",
+    "ramp-ppe"
+  ],
+  "faq": [
+    [
+      "Is fueling training required at airports?",
+      "At airports certificated under 14 CFR Part 139, section 139.321 requires fire safety training for fueling personnel. It says at least one supervisor with each fueling agent must have completed an aviation fuel training course in fire safety, and the airport must get written confirmation each year from its tenant fueling agents that the required training was done. Your airport and your quality program may require more."
+    ],
+    [
+      "What should a line tech training record include?",
+      "Who was trained, on what, when, by whom, and how they showed they could do it, with a sign-off. Keep the version of the procedure or course they were trained on, too."
+    ],
+    [
+      "How long should training records be kept?",
+      "As long as your airport, your regulations, and your quality program require. Check the current rules for your airport rather than going by memory, and when in doubt, keep them longer."
+    ]
+  ],
+  "body": [
+    "<p>Every FBO trains its line techs. Not every FBO can show it. When an airport inspector, an auditor, or a fuel supplier asks for training records, the difference between a binder that answers every question and a pile of loose sign-off sheets becomes obvious fast.</p>",
+    "<p>Your FBO's procedures, your airport's rules, and your quality program decide what's required. This post covers how to keep records that hold up.</p>",
+    "",
+    "<h2>Why It Matters</h2>",
+    "<p>At airports certificated under 14 CFR Part 139, section 139.321 covers fueling fire safety. It requires that at least one supervisor with each fueling agent has completed an aviation fuel training course in fire safety, that other fueling employees get on-the-job training, and that the airport gets written confirmation each year from its tenant fueling agents that the required training was done. Fuel suppliers and quality programs may have training expectations of their own. Records are how you show all of it.</p>",
+    "",
+    "<h2>What to Record</h2>",
+    "<p>For each person and each subject, a useful record answers:</p>",
+    "<ul>",
+    "  <li><strong>Who</strong> was trained.</li>",
+    "  <li><strong>What</strong> they were trained on: fire safety, fueling procedures, quality control, towing, ground power, and so on.</li>",
+    "  <li><strong>When</strong> the training happened.</li>",
+    "  <li><strong>Who trained them,</strong> and that trainer's own qualification.</li>",
+    "  <li><strong>How they showed they could do it,</strong> such as a practical check or a written test.</li>",
+    "  <li><strong>A sign-off</strong> from the trainee and the trainer or supervisor.</li>",
+    "</ul>",
+    "<p>Note which version of the procedure or course they were trained on. When a procedure changes, that's how you know who needs retraining.</p>",
+    "",
+    "<h2>Refreshers</h2>",
+    "<p>Training isn't a one-time event. Your regulations and quality program set how often some subjects must be repeated. Track when each person is due, not just when they were trained, so nobody quietly goes past a deadline. Procedure changes, new equipment, and incidents are reasons to retrain too, whatever the calendar says.</p>",
+    "",
+    "<h2>Who Signs Off</h2>",
+    "<p>Decide who can sign someone off on each task, and write it down. A sign-off should mean the trainer watched the person do the job correctly, not that the person sat through a talk. Nobody should sign off on a task they aren't qualified on themselves.</p>",
+    "",
+    "<h2>Keep It Findable</h2>",
+    "<ul>",
+    "  <li><strong>One place,</strong> whether that's a binder, a shared drive, or a training system.</li>",
+    "  <li><strong>One file per person,</strong> with everything they've been trained on.</li>",
+    "  <li><strong>A summary sheet</strong> showing who is current on what, and when each person is due.</li>",
+    "  <li><strong>Old records kept</strong> as long as your rules require, even after someone leaves.</li>",
+    "  <li><strong>A backup,</strong> if your records are digital, so a lost laptop or a deleted folder doesn't take years of training history with it.</li>",
+    "</ul>",
+    "<p>The test is simple: could someone who has never seen your system answer \"Is this person current on fueling fire safety?\" in a minute? The <a href=\"fuel-quality-audit-prep\">audit prep post</a> covers getting ready for that question.</p>",
+    "",
+    "<h2>Start on Day One</h2>",
+    "<p>The easiest records to keep are the ones started the day a new tech walks in. The <a href=\"new-line-tech-training\">new line tech checklist</a> is a good starting point, and each item on it can become a line in their training file.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Training records and fuel records have something in common: both are easier to defend when they're complete and consistent. On the fuel side, <a href=\"../avgrav\">AvGrav</a> saves each gravity reading to History with the time, the fuel, the <strong>Tank or Truck</strong>, photos, and a note, and exports a day, a week, or everything as a <strong>Spreadsheet (CSV)</strong> or <strong>Summary PDF</strong>. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If your records are kept in UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
