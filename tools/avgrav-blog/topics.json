@@ -647,7 +647,8 @@
     ],
     "avgrav": "Light: exported readings as an example of a clean record.",
     "avoid": "Specific intervals unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-21"
   },
   {
     "slug": "fuel-tank-water-after-rain",

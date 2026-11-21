@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -411,6 +411,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/hangar-fire-safety-basics</loc>
     <lastmod>2026-11-20</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/training-records-line-techs</loc>
+    <lastmod>2026-11-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
