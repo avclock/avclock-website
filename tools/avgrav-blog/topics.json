@@ -662,7 +662,8 @@
     ],
     "avgrav": "A reading after the extra sump, saved with a note about the weather.",
     "avoid": "Settling times and water limits.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-22"
   },
   {
     "slug": "hydrometer-reading-technique",
