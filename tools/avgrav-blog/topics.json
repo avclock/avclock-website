@@ -677,7 +677,8 @@
     ],
     "avgrav": "Correcting the reading to 60&deg;F as soon as it's taken.",
     "avoid": "Accuracy figures unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-23"
   },
   {
     "slug": "fuel-truck-meter-basics",

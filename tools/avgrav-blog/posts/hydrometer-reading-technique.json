@@ -1,0 +1,66 @@
+{
+  "slug": "hydrometer-reading-technique",
+  "title": "Reading a Hydrometer: Eye Level, the Meniscus, and Other Small Things",
+  "description": "The small habits behind a good hydrometer reading: eye level, where to read the scale, letting it float freely, a clean cylinder, and the temperature right away.",
+  "date": "2026-11-23",
+  "eyebrow": "FUEL QC &middot; GRAVITY",
+  "tag": "HYD",
+  "excerpt": "The correction math is exact. The reading you give it is up to you.",
+  "minutes": 4,
+  "related": [
+    "how-to-correct-api-gravity-to-60f",
+    "hydrometer-thermometer-care",
+    "fuel-sample-jar-cleanliness"
+  ],
+  "faq": [
+    [
+      "Where do you read a hydrometer, at the top or bottom of the meniscus?",
+      "For a clear liquid like jet fuel or avgas, ASTM D1298 has you read where the liquid's flat surface crosses the scale, lining up the surface on both sides of the stem. That's below the small curve where the fuel climbs the stem. Opaque liquids are read at the top of the meniscus with a correction, which doesn't apply to clean aviation fuel."
+    ],
+    [
+      "Why read a hydrometer at eye level?",
+      "Looking down or up at the scale makes the surface appear to cross it at the wrong mark. Bringing your eye level with the fuel surface removes that error."
+    ],
+    [
+      "When should you take the temperature?",
+      "At the same time as the gravity reading, in the sample itself, with a thermohydrometer or a thermometer in the cylinder. The correction to 60&deg;F needs the temperature of the fuel you read, not the air or the tank."
+    ]
+  ],
+  "body": [
+    "<p>Correcting a gravity reading to 60&deg;F is exact math. Whatever number you feed it, it corrects perfectly. That means the quality of the answer depends almost entirely on two numbers you read by eye: the hydrometer and the thermometer. A few small habits make those numbers right.</p>",
+    "<p>ASTM D1298, the standard hydrometer method, and your own procedures set the steps. This post covers the habits that matter most on the ramp. The <a href=\"how-to-correct-api-gravity-to-60f\">correction guide</a> covers the math that comes after.</p>",
+    "",
+    "<h2>Start With a Clean, Level Setup</h2>",
+    "<ul>",
+    "  <li><strong>A clean, dry cylinder and hydrometer.</strong> Residue changes how the hydrometer floats. The <a href=\"fuel-sample-jar-cleanliness\">clean containers post</a> covers why.</li>",
+    "  <li><strong>A level surface,</strong> out of the wind and direct sun, so the sample is still and its temperature steady.</li>",
+    "  <li><strong>Enough sample</strong> that the hydrometer floats without touching the bottom.</li>",
+    "</ul>",
+    "",
+    "<h2>Let It Float Freely</h2>",
+    "<p>Lower the hydrometer gently and let go. It should float on its own, not touching the cylinder wall or the bottom. A hydrometer resting against the glass reads wrong. Give air bubbles time to rise and the sample time to stop swirling before you read. If the stem above the fuel is wet from being pushed down too far, the extra weight can change the reading, so lower it carefully rather than dunking it.</p>",
+    "",
+    "<h2>Get Your Eye Level With the Surface</h2>",
+    "<p>Bend down until your eye is level with the fuel surface. Looking down at the scale, or up at it, makes the surface appear to cross it at the wrong mark. Holding the cylinder up to your eye can tilt it, so bring your eye to the cylinder instead.</p>",
+    "",
+    "<h2>Read the Flat Surface, Not the Curve</h2>",
+    "<p>Fuel climbs a little way up the stem, making a small curve called the meniscus. For a clear liquid like jet fuel or avgas, ASTM D1298 has you read where the liquid's flat surface crosses the scale, lining up the surface on both sides of the stem. That point is below the top of the curve. Opaque liquids are read differently, at the top of the meniscus with a correction, but clean aviation fuel is clear, so read the flat surface.</p>",
+    "",
+    "<h2>Take the Temperature at the Same Time</h2>",
+    "<p>The correction needs the temperature of the fuel you read, not the air and not the tank gauge. Use a thermohydrometer or a thermometer in the sample, and read it right after the gravity. If the temperature is still changing, let it settle and read both again.</p>",
+    "",
+    "<h2>Read Twice, Write It Down Once</h2>",
+    "<ul>",
+    "  <li><strong>Read the scale twice,</strong> a few seconds apart. If the two readings disagree, something is still moving.</li>",
+    "  <li><strong>Write both numbers down right away,</strong> gravity and temperature, before you do anything else.</li>",
+    "  <li><strong>Don't round in your head.</strong> Record what the scale shows, as your procedures say.</li>",
+    "</ul>",
+    "",
+    "<h2>Why Small Errors Matter</h2>",
+    "<p>A small misreading carries through into everything after it: the corrected gravity, the weight per gallon, and the weight on a ticket. The <a href=\"hydrometer-thermometer-care\">hydrometer care post</a> works through how much a small error moves the result. The habits above are how you keep that error small.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>The best time to correct a reading is right after you take it, while you can still read it again if the result looks off. In <a href=\"../avgrav\">AvGrav</a>, enter the observed gravity and temperature, and it gives the API at 60&deg;F, specific gravity, density at 15&deg;C, and pounds per gallon, colored against the typical range for the fuel you picked. It's a reference tool, not a certified instrument, and not a replacement for your QC program.</p>",
+    "<p>If your readings are logged in UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
