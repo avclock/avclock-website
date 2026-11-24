@@ -692,7 +692,8 @@
     ],
     "avgrav": "Already corrected to 60&deg;F for compensated meters.",
     "avoid": "Calibration intervals and tolerances.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-24"
   },
   {
     "slug": "aircraft-marshalling-basics",
