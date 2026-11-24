@@ -1,0 +1,69 @@
+{
+  "slug": "fuel-truck-meter-basics",
+  "title": "Fuel Truck Meters: What the Numbers Mean",
+  "description": "What the numbers on a fuel truck meter mean: the delivery register versus the totalizer, temperature-compensated versus not, calibration, and which number to write down.",
+  "date": "2026-11-24",
+  "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+  "tag": "MTR",
+  "excerpt": "Two numbers on the meter, one on the ticket. Know which is which.",
+  "minutes": 4,
+  "related": [
+    "gross-vs-net-gallons",
+    "fuel-tickets-done-right",
+    "fuel-truck-daily-check"
+  ],
+  "faq": [
+    [
+      "What is the difference between a meter's register and its totalizer?",
+      "The register shows how much went out in this delivery and is cleared to zero before the next one. The totalizer keeps a running count of everything the meter has ever delivered and isn't reset. The delivery quantity goes on the ticket; the totalizer readings tie deliveries to the truck's records."
+    ],
+    [
+      "What does a temperature-compensated meter do?",
+      "It corrects the volume to a reference temperature as it measures, so the delivered number is already a net volume. NIST Handbook 44's vehicle-tank meter code references 60&deg;F (15&deg;C) for automatic temperature compensation. Your meter's markings and paperwork tell you whether yours compensates."
+    ],
+    [
+      "How often are fuel truck meters calibrated?",
+      "As your procedures, your quality program, and any weights and measures rules that apply to you require. Ask your supervisor where the calibration records are kept and when the next one is due."
+    ]
+  ],
+  "body": [
+    "<p>Every fueling ends with a number from the meter, and that number goes on the ticket, the bill, and the crew's paperwork. Most of the time it's simple. But a fuel truck meter usually shows more than one number, and not every meter measures the same way. Knowing which number is which keeps the ticket right.</p>",
+    "<p>Your truck's manual, your procedures, and your quality program are what you follow. This post covers the basics.</p>",
+    "",
+    "<h2>Register and Totalizer</h2>",
+    "<ul>",
+    "  <li><strong>The register</strong> shows how much fuel went out in this delivery. You clear it to zero before you start, the way your procedures say.</li>",
+    "  <li><strong>The totalizer</strong> keeps a running count of everything the meter has ever delivered. It doesn't reset.</li>",
+    "</ul>",
+    "<p>The delivered quantity goes on the ticket. The totalizer readings before and after, if your procedures ask for them, tie each delivery to the truck's records and help with inventory. The <a href=\"fuel-tickets-done-right\">fuel ticket post</a> covers what else goes on the ticket.</p>",
+    "",
+    "<h2>Clear It First, Every Time</h2>",
+    "<p>Before each fueling, check that the register reads zero. NIST Handbook 44, the U.S. weights and measures handbook, has a code for vehicle-tank meters, and it doesn't allow the main indicator to be reset to zero during a delivery. That's part of why the habit matters: if you forget to clear it beforehand, you're left subtracting in your head, and that's how mistakes end up on tickets. If the register won't clear, or reads something odd before you start, stop and tell your supervisor before you fuel.</p>",
+    "",
+    "<h2>Compensated or Not</h2>",
+    "<p>Some meters correct the volume to a reference temperature as they measure. Handbook 44's vehicle-tank meter code references 60&deg;F (15&deg;C) for automatic temperature compensation. Others measure the gallons as they actually are at the fuel's temperature. Both are fine, but the numbers mean different things:</p>",
+    "<ul>",
+    "  <li><strong>A compensated meter</strong> gives net gallons, already corrected to 60&deg;F.</li>",
+    "  <li><strong>An uncompensated meter</strong> gives gross gallons at whatever temperature the fuel is.</li>",
+    "</ul>",
+    "<p>Know which kind your truck has. The meter's markings and your paperwork should tell you, and if they don't, ask.</p>",
+    "",
+    "<h2>Why It Matters</h2>",
+    "<p>An example, using AvGrav's correction math: 500 gallons of Jet A at 43.79 API, through an uncompensated meter, is 507.6 gallons at 60&deg;F on a 30&deg;F morning (about 3,412 pounds), and 492.3 gallons on a 90&deg;F afternoon (about 3,310 pounds). Same meter reading, about 100 pounds apart. If the crew wants the weight, the temperature matters. The <a href=\"gross-vs-net-gallons\">gross vs. net gallons post</a> explains why.</p>",
+    "",
+    "<h2>Calibration</h2>",
+    "<p>Meters are checked and adjusted against a known volume, and those records are part of your quality and maintenance program. Calibration intervals and tolerances come from your procedures and any weights and measures rules that apply. What line techs can do is notice: if a meter seems off, sticks, skips, or doesn't match what the tank or the aircraft gauges suggest, report it.</p>",
+    "",
+    "<h2>Writing Down the Right Number</h2>",
+    "<ul>",
+    "  <li><strong>Read the register,</strong> not the totalizer, for the delivered quantity.</li>",
+    "  <li><strong>Write the units,</strong> gallons or liters.</li>",
+    "  <li><strong>Note whether it's gross or net,</strong> if your ticket has room for it.</li>",
+    "  <li><strong>Write it at the truck,</strong> before you clear the meter for the next fueling.</li>",
+    "</ul>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> turns the meter's gallons into a weight. Enter them in <strong>Fuel Volume</strong> with a corrected gravity reading, and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong>. If your meter is temperature-compensated, check <strong>Already corrected to 60&deg;F</strong>, or set <strong>Volume already at 60&deg;F</strong> as the default in Settings, so it isn't corrected twice. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>If your tickets use UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
