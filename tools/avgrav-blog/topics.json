@@ -707,7 +707,8 @@
     ],
     "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
     "avoid": "Describing specific signals in detail; point to the official source.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-25"
   },
   {
     "slug": "crew-car-and-amenities",
