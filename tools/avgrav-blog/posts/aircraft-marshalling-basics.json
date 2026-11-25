@@ -1,0 +1,67 @@
+{
+  "slug": "aircraft-marshalling-basics",
+  "title": "Marshalling Basics: Clear Signals and When to Stop",
+  "description": "Marshalling basics for line service: training before you signal, standard signals from the official source, positioning, wing walkers, lighting at night, and the stop.",
+  "date": "2026-11-25",
+  "eyebrow": "FBO &middot; RAMP",
+  "tag": "MRSH",
+  "excerpt": "Clear, standard, and always ready to stop.",
+  "minutes": 4,
+  "related": [
+    "night-ramp-operations",
+    "towing-wing-walkers",
+    "quick-turn-service"
+  ],
+  "faq": [
+    [
+      "Where do aircraft marshalling signals come from?",
+      "In the U.S., the FAA's Aeronautical Information Manual includes standard ground hand signals between a signalman and a pilot. Learn them from that source and your FBO's training, not from memory or videos."
+    ],
+    [
+      "Who is allowed to marshal aircraft?",
+      "Whoever your FBO has trained and signed off to do it. Marshalling an aircraft without training puts the aircraft, the people around it, and you at risk."
+    ],
+    [
+      "What should a marshaller do if they lose sight of a wingtip?",
+      "Stop the aircraft. If you can't see the clearance, or you're not sure, the stop signal is always the right call."
+    ]
+  ],
+  "body": [
+    "<p>Marshalling looks simple from a distance: someone with wands guides an aircraft into its spot. Up close, it's a job where the pilot is trusting you to see what they can't, especially around wingtips and tails. Done well, it's quiet and routine. Done badly, it can end with an aircraft touching something on the ramp.</p>",
+    "<p>Your FBO's training and procedures, and the official signals, are what you follow. This post covers the basics that run through all of them.</p>",
+    "",
+    "<h2>Training Comes First</h2>",
+    "<p>Nobody should marshal an aircraft without training and sign-off under your FBO's procedures. That includes the signals, where to stand, how to work with wing walkers, and what to do when something goes wrong. Practice with a trainer before you do it for real. The <a href=\"new-line-tech-training\">new line tech checklist</a> is a good place to track it.</p>",
+    "",
+    "<h2>Use the Standard Signals</h2>",
+    "<p>In the U.S., the FAA's Aeronautical Information Manual includes standard ground hand signals between a signalman and a pilot. Learn them from that source and your training. Standard signals matter because the pilot may have never been to your airport and has no idea how your FBO usually does things. A made-up or sloppy signal means the pilot has to guess.</p>",
+    "<ul>",
+    "  <li><strong>Make each signal clearly</strong> and hold it long enough to be seen.</li>",
+    "  <li><strong>Don't improvise.</strong> If a situation isn't covered by the signals you know, stop the aircraft and sort it out.</li>",
+    "</ul>",
+    "",
+    "<h2>Know the Spot Before It Arrives</h2>",
+    "<ul>",
+    "  <li><strong>Walk the area</strong> for FOD, equipment, and anything near where the wings and tail will be.</li>",
+    "  <li><strong>Know where the aircraft needs to stop,</strong> and leave room for fuel trucks, ground power, and the crew's doors.</li>",
+    "  <li><strong>Have chocks ready</strong> before the aircraft gets there.</li>",
+    "</ul>",
+    "<p>The <a href=\"quick-turn-service\">quick turn post</a> covers being ready when the airplane arrives.</p>",
+    "",
+    "<h2>Stand Where the Pilot Can See You</h2>",
+    "<p>Stand where the pilot can see you clearly from the cockpit and where you can see the aircraft and what's around it. Stay clear of the engine and propeller danger areas and the path of the aircraft. If you lose sight of the pilot, or think they've lost sight of you, stop the aircraft.</p>",
+    "",
+    "<h2>Wing Walkers</h2>",
+    "<p>In tight spots, one marshaller can't see every wingtip and the tail at once. Use wing walkers the way your procedures say, and agree on how they'll signal you before the aircraft moves. The <a href=\"towing-wing-walkers\">towing and wing walkers post</a> covers working together.</p>",
+    "",
+    "<h2>At Night</h2>",
+    "<p>The signals don't change after dark, but the pilot has to be able to see them, so signalers commonly use lighted wands. Wear your high-visibility gear, check your wands before the aircraft arrives, and give yourself more time. The <a href=\"night-ramp-operations\">night ramp post</a> covers the rest.</p>",
+    "",
+    "<h2>When in Doubt, Stop</h2>",
+    "<p>The most important signal is the stop. Use it whenever you can't see the clearance, a person or vehicle moves into the path, a wing walker signals you, or something just doesn't look right. A stopped aircraft can always move again. A wingtip that touched something can't be undone. Then, once it's stopped, sort out the problem before you signal it forward again.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Marshalling brings the airplane in. Fueling is usually next. On the fuel side, <a href=\"../avgrav\">AvGrav</a> corrects a hydrometer or density reading to 60&deg;F and saves it with the time, the tank or truck, photos, and a note, for $0.99 with no subscription. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>To be ready when an arrival shows up, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and UTC at the airplane's departure airport, and its Premium tier adds FAA ground stops and delays that might move the arrival.</p>"
+  ]
+}
