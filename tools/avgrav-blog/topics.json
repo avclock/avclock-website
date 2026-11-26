@@ -720,7 +720,8 @@
     "facts": [],
     "avgrav": "Light: accurate numbers on the ticket as part of good service.",
     "avoid": "Statistics on customer loyalty unless verified.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-26"
   },
   {
     "slug": "fuel-density-vs-temperature",
@@ -786,6 +787,142 @@
     "facts": [],
     "avgrav": "Exporting the day's readings as a Summary PDF for the handover.",
     "avoid": "Invented scheduling rules.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-filter-change-day",
+    "title": "Filter Change Day: What Line Service Should Know",
+    "tag": "FLTR",
+    "eyebrow": "FUEL QC &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Why filters get changed, taking equipment out of service, flushing and sampling after a change per the manual, and records.",
+    "facts": [
+      "Link the filter-differential-pressure post rather than repeating it.",
+      "Verify any EI 1581/1583 reference before naming it."
+    ],
+    "avgrav": "A gravity reading after the change, saved under the truck's name.",
+    "avoid": "Change intervals and pressure limits.",
+    "status": "todo"
+  },
+  {
+    "slug": "avgas-100ll-vs-mogas",
+    "title": "Avgas, Mogas, and Why the Difference Matters at the Pump",
+    "tag": "MOGS",
+    "eyebrow": "FUEL QC &middot; GRADES",
+    "season": "any",
+    "angle": "What mogas is, why some aircraft can use it with approval and most can't, why it's never a substitute without the right paperwork, and gravity ranges.",
+    "facts": [
+      "Verify any STC or FAA reference before naming it.",
+      "Use AvGrav's typical ranges from the README."
+    ],
+    "avgrav": "Picking the right fuel so the range color is meaningful.",
+    "avoid": "Telling anyone which aircraft can use mogas.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-sampling-from-aircraft",
+    "title": "When a Pilot Sumps the Airplane After You Fuel",
+    "tag": "SUMP",
+    "eyebrow": "LINE SERVICE &middot; FUELING",
+    "season": "any",
+    "angle": "Why pilots sump after fueling, giving them time and a disposal container, what to do if they find water or the wrong color, and not taking it personally.",
+    "facts": [
+      "Verify any FAA guidance on preflight fuel sampling before citing it."
+    ],
+    "avgrav": "Light: a reading on the truck for comparison, saved with a note.",
+    "avoid": "Telling pilots how to do their preflight.",
+    "status": "todo"
+  },
+  {
+    "slug": "first-week-new-fbo-manager",
+    "title": "Your First Week Running an FBO's Line",
+    "tag": "MGR",
+    "eyebrow": "FBO &middot; BUSINESS",
+    "season": "any",
+    "angle": "Walking the ramp and fuel farm, reading the records, meeting the team, learning the airport's rules, and what to leave for week two.",
+    "facts": [],
+    "avgrav": "Exported readings as a quick way to see how QC has been going.",
+    "avoid": "Invented management advice framed as fact.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-truck-parking-overnight",
+    "title": "Parking Fuel Trucks Overnight",
+    "tag": "PARK",
+    "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+    "season": "any",
+    "angle": "Where trucks are parked per the airport's rules, distance from buildings and aircraft, bonding and securing, and checks before the first fueling of the day.",
+    "facts": [
+      "Verify any NFPA 407 parking reference before citing it."
+    ],
+    "avgrav": "Light: the first reading of the day saved under the truck's name.",
+    "avoid": "Specific distances unless verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "radio-calls-for-line-service",
+    "title": "Radio Basics for Line Service",
+    "tag": "RDIO",
+    "eyebrow": "FBO &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Unicom and ramp frequencies, short clear calls, confirming fuel orders by radio, and when to switch to a phone.",
+    "facts": [
+      "Verify any FCC or FAA reference before citing it."
+    ],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Phraseology rules beyond what's verified.",
+    "status": "todo"
+  },
+  {
+    "slug": "cold-weather-hydrometer-readings",
+    "title": "Cold Mornings and Hydrometer Readings",
+    "tag": "COLD",
+    "eyebrow": "FUEL QC &middot; SEASONAL",
+    "season": "winter",
+    "angle": "Why cold samples read higher density, letting the sample and thermometer settle, keeping the cylinder out of the wind, and correcting to 60&deg;F.",
+    "facts": [
+      "Compute every example with avgrav-math.js at 10&deg;F, 25&deg;F, and 40&deg;F."
+    ],
+    "avgrav": "Correcting cold readings to 60&deg;F.",
+    "avoid": "Repeating the winter-fueling post; link it.",
+    "status": "todo"
+  },
+  {
+    "slug": "customer-left-something-behind",
+    "title": "When a Crew Leaves Something Behind",
+    "tag": "LOST",
+    "eyebrow": "FBO &middot; SERVICE",
+    "season": "any",
+    "angle": "Lost and found basics, checking the crew car and lounge, logging items, and getting things back to the owner.",
+    "facts": [],
+    "avgrav": "Light: a short note on AvGrav for the fuel side of the line.",
+    "avoid": "Legal or liability claims.",
+    "status": "todo"
+  },
+  {
+    "slug": "fuel-farm-security",
+    "title": "Fuel Farm Security: Locks, Lights, and Logs",
+    "tag": "SECR",
+    "eyebrow": "FUEL QC &middot; FARM",
+    "season": "any",
+    "angle": "Locks and seals, lighting, access control, checking for tampering on the daily walk, and reporting anything odd.",
+    "facts": [
+      "Verify any TSA or FAA reference before citing it."
+    ],
+    "avgrav": "A note and photo saved with the day's reading.",
+    "avoid": "Security procedures that could help someone defeat them.",
+    "status": "todo"
+  },
+  {
+    "slug": "peak-day-planning",
+    "title": "Busy Days: Planning Line Service for a Big Event",
+    "tag": "PEAK",
+    "eyebrow": "FBO &middot; OPERATIONS",
+    "season": "any",
+    "angle": "Planning staff and trucks, staging fuel, parking plans, briefing the team, and keeping QC steady when it's busy.",
+    "facts": [],
+    "avgrav": "Readings saved under each truck's name, even on busy days.",
+    "avoid": "Invented traffic numbers.",
     "status": "todo"
   }
 ]
