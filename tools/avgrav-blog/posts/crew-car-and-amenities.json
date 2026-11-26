@@ -1,0 +1,72 @@
+{
+  "slug": "crew-car-and-amenities",
+  "title": "Crew Cars, Coffee, and the Small Things Crews Notice",
+  "description": "The small things crews notice at an FBO: a clean crew car, a quiet lounge, a place to plan, honest wait times, and a ticket that's right the first time.",
+  "date": "2026-11-26",
+  "eyebrow": "FBO &middot; SERVICE",
+  "tag": "CREW",
+  "excerpt": "Nobody remembers the coffee until it's cold. Then they remember.",
+  "minutes": 4,
+  "related": [
+    "quick-turn-service",
+    "small-fbo-transient-traffic",
+    "fuel-price-questions-front-desk"
+  ],
+  "faq": [
+    [
+      "What should an FBO check on a crew car?",
+      "That it's clean inside and out, has enough fuel, starts, and has clear instructions for the keys, the return, and where to park it. Check it after every use and before a crew is expected."
+    ],
+    [
+      "What do crews look for in an FBO lounge?",
+      "Somewhere clean and quiet to wait, a place to check weather and plan, working Wi-Fi and power, and restrooms that are kept up. What your FBO offers is up to management; keeping it in good shape is everyone's job."
+    ],
+    [
+      "How can line service help with the crew experience?",
+      "By getting the basics right: meeting the airplane, getting the order right, keeping the crew posted on timing, and handing over an accurate, clear ticket."
+    ]
+  ],
+  "body": [
+    "<p>Crews see a lot of FBOs. Beyond the fuel and the price, what they tend to remember is how the stop felt: whether the car was ready, whether the coffee was fresh, whether someone told them the truth about how long things would take. None of it is complicated, and all of it is easy to let slip.</p>",
+    "<p>What your FBO offers is a management decision. Keeping it in good shape, every day, is everyone's job.</p>",
+    "",
+    "<h2>The Crew Car</h2>",
+    "<p>If your FBO has a crew car, it's often the first thing a crew uses after the airplane. A few checks keep it from becoming the thing they remember for the wrong reason:</p>",
+    "<ul>",
+    "  <li><strong>Clean inside and out.</strong> No trash, no smell, no leftover items from the last crew.</li>",
+    "  <li><strong>Enough fuel,</strong> and it starts.</li>",
+    "  <li><strong>Clear instructions:</strong> where the keys are, how long they can keep it, where to return it, and who to call if something goes wrong.</li>",
+    "  <li><strong>Checked after every use,</strong> and again before a crew you know is coming.</li>",
+    "</ul>",
+    "",
+    "<h2>The Lounge</h2>",
+    "<ul>",
+    "  <li><strong>Clean and quiet.</strong> Crews often need to rest, make calls, or concentrate.</li>",
+    "  <li><strong>Fresh coffee and water,</strong> and whatever else your FBO offers, kept stocked.</li>",
+    "  <li><strong>Restrooms checked</strong> through the day, not just at opening.</li>",
+    "  <li><strong>Lights, heat, and air conditioning</strong> that work, and seating that isn't falling apart.</li>",
+    "</ul>",
+    "",
+    "<h2>A Place to Plan</h2>",
+    "<p>Crews check weather, file, and plan their next leg while they wait. A quiet spot with working Wi-Fi, power outlets, and somewhere to spread out helps. If the Wi-Fi password is posted, make sure it's the current one.</p>",
+    "",
+    "<h2>The Ramp Is Part of It Too</h2>",
+    "<p>The first look at your FBO is the ramp, from the cockpit. A clear parking spot, someone there to meet the airplane, chocks and cones ready, and equipment neatly put away all say the same thing before anyone opens a door. A ramp with hoses lying around and trucks parked anywhere says the opposite.</p>",
+    "",
+    "<h2>Answer the Phone</h2>",
+    "<p>Crews call ahead for fuel, cars, and catering. Answer the phone, or call back quickly, and write down what they asked for so the next shift knows. A crew that called ahead and finds nothing ready remembers it.</p>",
+    "",
+    "<h2>Honest Timing</h2>",
+    "<p>Crews plan around what you tell them. If fuel will take 20 minutes, say 20, not 10. If something comes up and it'll take longer, tell them right away, with a realistic new time. An honest answer that turns out right beats a hopeful one that doesn't. The <a href=\"quick-turn-service\">quick turn post</a> covers keeping crews posted.</p>",
+    "",
+    "<h2>The Ticket Is Part of the Service</h2>",
+    "<p>The last thing a crew takes away is the ticket. A clear, accurate ticket with the right grade, quantity, and weight, if they asked for it, means no phone calls later. The <a href=\"fuel-price-questions-front-desk\">fuel price post</a> covers answering price questions clearly.</p>",
+    "",
+    "<h2>Ask, and Listen</h2>",
+    "<p>The easiest way to find out what crews notice is to ask them. A quick \"Was everything okay?\" at handoff, and actually listening to the answer, tells you more than guessing. Pass what you hear on to whoever can fix it. The <a href=\"small-fbo-transient-traffic\">transient traffic post</a> covers the business side of bringing crews back.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>Getting the numbers right is part of good service. When a crew asks for the weight, <a href=\"../avgrav\">AvGrav</a> works it out from the fuel you pumped: correct a gravity reading, enter the gallons in <strong>Fuel Volume</strong>, and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong>. It's a reference tool, not a replacement for your procedures.</p>",
+    "<p>If a crew asks about the weather at their next stop, <a href=\"../\">AvClock</a>, from the same developer, shows the local time and plain-English weather at any airport.</p>"
+  ]
+}
