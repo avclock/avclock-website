@@ -1,0 +1,65 @@
+{
+  "slug": "fuel-density-vs-temperature",
+  "title": "Why Fuel Gets Heavier When It's Cold",
+  "description": "Why a gallon of fuel weighs more on a cold morning than a hot afternoon, how much it changes, and why correcting readings to 60°F makes them comparable.",
+  "date": "2026-11-27",
+  "eyebrow": "FUEL QC &middot; GRAVITY",
+  "tag": "DENS",
+  "excerpt": "Same fuel, same tank, different weight per gallon. Temperature is why.",
+  "minutes": 4,
+  "related": [
+    "gross-vs-net-gallons",
+    "how-to-correct-api-gravity-to-60f",
+    "winter-fueling-cold-fuel-fsii"
+  ],
+  "faq": [
+    [
+      "Why does cold fuel weigh more per gallon?",
+      "Fuel shrinks as it cools and expands as it warms, like most liquids. The amount of fuel doesn't change, but it takes up less room when it's cold, so each gallon holds more of it and weighs more."
+    ],
+    [
+      "Why does the hydrometer read differently at different temperatures?",
+      "A hydrometer floats higher in denser liquid. Cold fuel is denser, so the same batch shows a lower API reading on a cold morning than on a hot afternoon. That's why readings are corrected to 60&deg;F before they're compared."
+    ],
+    [
+      "Does the weight of a tank of fuel change with temperature?",
+      "No. The total weight of the fuel stays the same. What changes is its volume, so the number of gallons, and the weight of each gallon, both move with temperature."
+    ]
+  ],
+  "body": [
+    "<p>Fuel the same truck from the same tank at dawn and again in the afternoon, and the gallons won't weigh the same. Nothing is wrong with the fuel or the meter. The fuel is simply denser when it's cold. Understanding why makes a lot of other things on the line make sense: why hydrometer readings move around, why tickets correct to 60&deg;F, and why crews ask for the weight.</p>",
+    "",
+    "<h2>Fuel Shrinks When It's Cold</h2>",
+    "<p>Like most liquids, fuel expands as it warms and contracts as it cools. The fuel itself doesn't change, and neither does its total weight. What changes is how much room it takes up. When it's cold, the same fuel fits in fewer gallons, so each gallon holds more fuel and weighs more.</p>",
+    "",
+    "<h2>The Same Fuel at Five Temperatures</h2>",
+    "<p>Here's one batch of Jet A, 43.79 API at 60&deg;F, using AvGrav's correction math. The middle column is what a hydrometer would read at each temperature, and the last is the actual weight of a gallon at that temperature.</p>",
+    "<div class=\"table-wrap\"><table>",
+    "  <thead><tr><th>Fuel temp</th><th class=\"num\">Reads (API)</th><th class=\"num\">lb/gal</th></tr></thead>",
+    "  <tbody>",
+    "    <tr><td>20&deg;F</td><td class=\"num\">40.4</td><td class=\"num\">6.858</td></tr>",
+    "    <tr><td>40&deg;F</td><td class=\"num\">42.1</td><td class=\"num\">6.791</td></tr>",
+    "    <tr><td>60&deg;F</td><td class=\"num\">43.8</td><td class=\"num\">6.722</td></tr>",
+    "    <tr><td>80&deg;F</td><td class=\"num\">45.5</td><td class=\"num\">6.654</td></tr>",
+    "    <tr><td>100&deg;F</td><td class=\"num\">47.4</td><td class=\"num\">6.585</td></tr>",
+    "  </tbody>",
+    "</table></div>",
+    "<p>Same fuel, every row. Between 20&deg;F and 100&deg;F, a gallon gets about 0.27 pounds lighter. Put another way, fuel that fills exactly 1,000 gallons at 60&deg;F would fill about 980.2 gallons at 20&deg;F and about 1,020.9 gallons at 100&deg;F.</p>",
+    "",
+    "<h2>Why the Hydrometer Moves Too</h2>",
+    "<p>A hydrometer floats higher in denser liquid. Cold fuel is denser, so the hydrometer reads a lower API number on a cold morning than it does on the same fuel in the afternoon. In the table above, the same batch reads anywhere from 40.4 to 47.4. That spread is just temperature. Comparing two raw readings taken at different temperatures tells you almost nothing about whether the fuel changed.</p>",
+    "",
+    "<h2>Use the Fuel's Temperature, Not the Air's</h2>",
+    "<p>The temperature that matters is the fuel's, not the weather's. Fuel in a tank can be warmer or colder than the air around it, and a truck that sat in the sun or in a cold hangar can differ from the farm it was loaded from. That's why the temperature for a correction comes from the sample itself, taken at the same time as the hydrometer reading, with a thermometer or thermohydrometer in the fuel.</p>",
+    "",
+    "<h2>Why Everything Corrects to 60&deg;F</h2>",
+    "<p>Correcting a reading to 60&deg;F takes temperature out of the comparison. Every row in that table corrects to the same 43.79, so once corrected, you can compare a reading with the paperwork, with yesterday's reading, or with another truck, and a difference means something. The <a href=\"how-to-correct-api-gravity-to-60f\">correction guide</a> walks through how.</p>",
+    "",
+    "<h2>What It Means for Gallons and Weight</h2>",
+    "<p>The same idea is behind net gallons on a ticket and the weight crews ask for. A meter that doesn't compensate counts gallons at the fuel's actual temperature, which is why the corrected volume and the weight depend on the temperature you fueled at. The <a href=\"gross-vs-net-gallons\">gross vs. net gallons post</a> covers that side, and the <a href=\"winter-fueling-cold-fuel-fsii\">winter fueling post</a> covers what else changes when it's cold.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p><a href=\"../avgrav\">AvGrav</a> takes temperature out of the picture. Enter the reading and the temperature you took it at, and it gives the API at 60&deg;F and the pounds per gallon. Enter the gallons in <strong>Fuel Volume</strong>, and it gives <strong>Net Volume @ 60&deg;F</strong> and <strong>Total Weight</strong>. It's a reference tool, not a replacement for your QC program.</p>",
+    "<p>If you want to know how cold it is at the airport you're fueling for, <a href=\"../\">AvClock</a>, from the same developer, shows plain-English weather and the local time for any airport.</p>"
+  ]
+}
