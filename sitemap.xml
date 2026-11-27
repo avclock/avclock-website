@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://avclockapp.com/avgrav-blog/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -441,6 +441,11 @@
   <url>
     <loc>https://avclockapp.com/avgrav-blog/crew-car-and-amenities</loc>
     <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://avclockapp.com/avgrav-blog/fuel-density-vs-temperature</loc>
+    <lastmod>2026-11-27</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

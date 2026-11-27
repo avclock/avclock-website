@@ -735,7 +735,8 @@
     ],
     "avgrav": "Net Volume @ 60&deg;F and Total Weight.",
     "avoid": "Repeating the gross-vs-net post; link it.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-27"
   },
   {
     "slug": "fuel-hose-and-nozzle-care",
