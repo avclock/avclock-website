@@ -1,0 +1,75 @@
+{
+  "slug": "fuel-hose-and-nozzle-care",
+  "title": "Fuel Hoses and Nozzles: Daily Care",
+  "description": "Daily care for fueling hoses and nozzles: what to look for along the hose and at the couplings, nozzle screens and dust caps, stowing, and taking damaged gear out of service.",
+  "date": "2026-11-28",
+  "eyebrow": "LINE SERVICE &middot; EQUIPMENT",
+  "tag": "HOSE",
+  "excerpt": "The hose is the last thing the fuel touches before the airplane. Look after it.",
+  "minutes": 4,
+  "related": [
+    "fuel-truck-daily-check",
+    "self-serve-avgas-quality",
+    "bonding-static-fueling"
+  ],
+  "faq": [
+    [
+      "What standard covers aviation fueling hoses?",
+      "EI 1529, Aviation Fuelling Hose and Hose Assemblies, from the Energy Institute, is the standard for aviation fueling hoses and includes recommendations on inspection. Your equipment's manuals and your procedures turn that into what you actually check."
+    ],
+    [
+      "What should you look for when inspecting a fuel hose?",
+      "Follow your procedures. Common things to look for are cuts, cracks, blisters, soft or flattened spots, kinks, leaks, and any sign that a coupling has moved on the hose. If anything looks wrong, take the hose out of service and report it."
+    ],
+    [
+      "Why do nozzles have screens and dust caps?",
+      "The screen catches debris before it reaches the aircraft, and the dust cap keeps dirt and water out of the nozzle when it's not in use. Both only work if they're in place and in good condition."
+    ]
+  ],
+  "body": [
+    "<p>By the time fuel reaches the hose, it has been filtered, sampled, and checked. The hose and nozzle are the last things it touches before the airplane. A damaged hose can leak or fail, and a dirty nozzle can put debris right into a fuel tank. A few minutes of attention every day keeps both from happening.</p>",
+    "<p>Your truck's or dispenser's manuals and your procedures set the actual checks. This post covers what usually goes into them.</p>",
+    "",
+    "<h2>The Standard Behind the Hose</h2>",
+    "<p>Aviation fueling hoses are built to their own standard, EI 1529, Aviation Fuelling Hose and Hose Assemblies, from the Energy Institute. It includes recommendations on inspection, and industry guidance describes hoses being checked routinely: daily, monthly, and during equipment maintenance. How often, and exactly what, comes from your procedures.</p>",
+    "",
+    "<h2>Along the Hose</h2>",
+    "<p>Unroll or look along the full length as your procedures say, and look for:</p>",
+    "<ul>",
+    "  <li><strong>Cuts, cracks, and abrasion</strong> through the outer cover.</li>",
+    "  <li><strong>Blisters or bulges,</strong> and soft or flattened spots.</li>",
+    "  <li><strong>Kinks</strong> or places where the hose has been crushed or driven over.</li>",
+    "  <li><strong>Leaks or wet spots</strong> anywhere along it.</li>",
+    "</ul>",
+    "",
+    "<h2>At the Couplings</h2>",
+    "<p>The couplings at each end deserve a close look. Check for leaks, damage, and anything loose. One hose maker's guidance says that if a reference line on the hose has moved away from the coupling collar, the hose must come out of service immediately, since that can mean the coupling is slipping. Know what your hoses' markings look like when they're right, so you notice when they aren't.</p>",
+    "",
+    "<h2>The Nozzle</h2>",
+    "<ul>",
+    "  <li><strong>The screen</strong> should be in place, clean, and undamaged. It's there to catch debris before it reaches the aircraft.</li>",
+    "  <li><strong>The dust cap</strong> should be on whenever the nozzle isn't in use, to keep dirt and water out.</li>",
+    "  <li><strong>The handle and trigger</strong> should work smoothly and shut off cleanly.</li>",
+    "  <li><strong>The grade marking</strong> should be clear and match the truck or dispenser.</li>",
+    "  <li><strong>The bonding cable</strong> on the nozzle, if it has one, should be intact with a clip that grips. The <a href=\"bonding-static-fueling\">bonding post</a> covers why.</li>",
+    "</ul>",
+    "",
+    "<h2>Stowing It Properly</h2>",
+    "<ul>",
+    "  <li><strong>Reel or stow the hose</strong> the way the equipment is designed to, without twists or sharp bends.</li>",
+    "  <li><strong>Don't leave it on the ramp,</strong> where it can be driven over or become a trip hazard.</li>",
+    "  <li><strong>Don't drag the nozzle</strong> across pavement, which damages it and picks up dirt.</li>",
+    "  <li><strong>Cap the nozzle</strong> every time it's stowed.</li>",
+    "</ul>",
+    "",
+    "<h2>Make It Part of Every Fueling</h2>",
+    "<p>The daily check matters, but hoses get run over, dragged, and kinked during the day too. Glance along the hose and at the nozzle each time you pull it out and each time you put it away. It takes a few seconds, and it can catch damage that happened mid-shift before the next airplane.</p>",
+    "",
+    "<h2>When Something's Wrong</h2>",
+    "<p>If a hose or nozzle fails any check, take it out of service, tag it the way your procedures say, and report it. Don't use it \"just for one more fueling.\" Hose replacement and testing are maintenance jobs, done to your program's schedule and the maker's instructions. The <a href=\"fuel-truck-daily-check\">fuel truck daily check</a> and the <a href=\"self-serve-avgas-quality\">self-serve pump post</a> cover where hose checks fit into the rest of the day.</p>",
+    "",
+    "<h2>Where AvGrav Fits</h2>",
+    "<p>If you notice something on a hose or nozzle, the reading you take that day is a good place to note it. <a href=\"../avgrav\">AvGrav</a> saves each gravity reading to History with the time, the <strong>Tank or Truck</strong>, a note, and photos, so a photo of a worn coupling stays with that truck's record. It's a reference tool, not a replacement for your QC program or your maintenance records.</p>",
+    "<p>If your equipment logs use UTC, <a href=\"../\">AvClock</a>, from the same developer, shows UTC next to local time for any airport.</p>"
+  ]
+}
