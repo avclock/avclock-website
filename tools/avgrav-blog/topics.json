@@ -750,7 +750,8 @@
     ],
     "avgrav": "Light: notes and photos saved with a reading.",
     "avoid": "Replacement intervals and pressure ratings.",
-    "status": "todo"
+    "status": "published",
+    "published": "2026-11-28"
   },
   {
     "slug": "winter-fuel-farm-checks",
